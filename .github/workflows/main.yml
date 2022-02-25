@@ -24,6 +24,10 @@ jobs:
           # The target architecture (x86, x64) of the Python interpreter.
           architecture: x64
 
+      # Install Python dependencies
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
       # Fetch the content
       - name: Fetch Content
         run: python fetcher/fetch.py
