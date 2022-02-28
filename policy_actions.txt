@@ -4559,6 +4559,7 @@ events:UntagResource
 events:UpdateApiDestination
 events:UpdateArchive
 events:UpdateConnection
+evidently:BatchEvaluateFeature
 evidently:CreateExperiment
 evidently:CreateFeature
 evidently:CreateLaunch
@@ -4567,6 +4568,7 @@ evidently:DeleteExperiment
 evidently:DeleteFeature
 evidently:DeleteLaunch
 evidently:DeleteProject
+evidently:EvaluateFeature
 evidently:GetExperiment
 evidently:GetExperimentResults
 evidently:GetFeature
@@ -4577,6 +4579,7 @@ evidently:ListFeatures
 evidently:ListLaunches
 evidently:ListProjects
 evidently:ListTagsForResource
+evidently:PutProjectEvents
 evidently:StartExperiment
 evidently:StartLaunch
 evidently:StopExperiment

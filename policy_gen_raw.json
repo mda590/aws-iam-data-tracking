@@ -463,6 +463,7 @@
         "Amazon CloudWatch Evidently": {
             "StringPrefix": "evidently",
             "Actions": [
+                "BatchEvaluateFeature",
                 "CreateExperiment",
                 "CreateFeature",
                 "CreateLaunch",
@@ -471,6 +472,7 @@
                 "DeleteFeature",
                 "DeleteLaunch",
                 "DeleteProject",
+                "EvaluateFeature",
                 "GetExperiment",
                 "GetExperimentResults",
                 "GetFeature",
@@ -481,6 +483,7 @@
                 "ListLaunches",
                 "ListProjects",
                 "ListTagsForResource",
+                "PutProjectEvents",
                 "StartExperiment",
                 "StartLaunch",
                 "StopExperiment",
