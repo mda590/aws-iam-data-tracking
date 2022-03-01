@@ -10023,6 +10023,7 @@
                 "ListLanguageModels",
                 "ListMedicalTranscriptionJobs",
                 "ListMedicalVocabularies",
+                "ListTagsForResource",
                 "ListTranscriptionJobs",
                 "ListVocabularies",
                 "ListVocabularyFilters",
@@ -10033,6 +10034,8 @@
                 "StartStreamTranscription",
                 "StartStreamTranscriptionWebSocket",
                 "StartTranscriptionJob",
+                "TagResource",
+                "UntagResource",
                 "UpdateCallAnalyticsCategory",
                 "UpdateMedicalVocabulary",
                 "UpdateVocabulary",
@@ -10041,11 +10044,14 @@
             "ARNFormat": "arn:${Partition}:transcribe:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:transcribe:.+:.+:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
                 "transcribe:OutputBucketName",
                 "transcribe:OutputEncryptionKMSKeyId",
                 "transcribe:OutputKey"
             ],
-            "HasResource": false
+            "HasResource": true
         },
         "AWS IQ Permissions": {
             "StringPrefix": "iq-permission",
@@ -14630,6 +14636,15 @@
                 "s3-object-lambda:versionid"
             ],
             "HasResource": true
+        },
+        "AWS Sustainability": {
+            "StringPrefix": "sustainability",
+            "Actions": [
+                "GetCarbonFootprintSummary"
+            ],
+            "ARNFormat": "arn:aws:sustainability:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:sustainability:.+:.+:.+",
+            "HasResource": false
         },
         "Amazon Personalize": {
             "StringPrefix": "personalize",

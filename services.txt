@@ -141,6 +141,7 @@ AWS Snow Device Management
 AWS Snowball
 AWS Step Functions
 AWS Support
+AWS Sustainability
 AWS Systems Manager
 AWS Systems Manager GUI Connect
 AWS Systems Manager Incident Manager
