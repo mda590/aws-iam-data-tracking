@@ -5073,7 +5073,11 @@
                 "DescribeOrganization",
                 "DescribeOrganizationAccounts",
                 "DescribeReports",
+                "DescribeRisk",
+                "DescribeRiskResources",
+                "DescribeRisks",
                 "DescribeServiceMetadata",
+                "DownloadRisk",
                 "ExcludeCheckItems",
                 "GenerateReport",
                 "IncludeCheckItems",
@@ -5083,10 +5087,11 @@
                 "RefreshCheck",
                 "SetAccountAccess",
                 "SetOrganizationAccess",
-                "UpdateNotificationPreferences"
+                "UpdateNotificationPreferences",
+                "UpdateRiskStatus"
             ],
-            "ARNFormat": "arn:aws:trustedadvisor:*:<account_ID>:checks/{category}/{checkId}",
-            "ARNRegex": "arn:aws:trustedadvisor:*",
+            "ARNFormat": "arn:${Partition}:trustedadvisor:*:${Account}:checks/${Category}/${CheckId}",
+            "ARNRegex": "^arn:${Partition}:trustedadvisor:*",
             "HasResource": true
         },
         "AWS Config": {
