@@ -1184,8 +1184,8 @@
                 "UpdateFunctionConfiguration",
                 "UpdateFunctionEventInvokeConfig"
             ],
-            "ARNFormat": "arn:aws:lambda:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:lambda:.+",
+            "ARNFormat": "arn:${Partition}:lambda:${Region}:${Account}:${ResourceType}:${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:lambda:.+",
             "conditionKeys": [
                 "lambda:CodeSigningConfigArn",
                 "lambda:FunctionArn",
@@ -11703,7 +11703,9 @@
             "ARNFormat": "arn:aws:kms:${Region}:${AccountId}:${ResourceType}/${Id}",
             "ARNRegex": "^arn:aws:kms:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
                 "kms:BypassPolicyLockoutSafetyCheck",
                 "kms:CallerAccount",
                 "kms:CustomerMasterKeySpec",
