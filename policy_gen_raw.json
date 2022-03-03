@@ -5431,7 +5431,6 @@
             "ARNFormat": "arn:aws:swf:${Region}:${Account}:/domain/${DomainName}",
             "ARNRegex": "^arn:aws:swf:.+",
             "conditionKeys": [
-                " swf:workflowType.name",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
