@@ -10251,6 +10251,7 @@
                 "DescribeAccountHealth",
                 "DescribeAccountOverview",
                 "DescribeAnomaly",
+                "DescribeEventSourcesConfig",
                 "DescribeFeedback",
                 "DescribeInsight",
                 "DescribeOrganizationHealth",
@@ -10271,6 +10272,7 @@
                 "SearchInsights",
                 "SearchOrganizationInsights",
                 "StartCostEstimation",
+                "UpdateEventSourcesConfig",
                 "UpdateResourceCollection",
                 "UpdateServiceIntegration"
             ],
