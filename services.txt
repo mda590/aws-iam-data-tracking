@@ -263,6 +263,7 @@ Amazon QuickSight
 Amazon RDS
 Amazon RDS Data API
 Amazon RDS IAM Authentication
+Amazon RHEL Knowledgebase Portal
 Amazon Redshift
 Amazon Redshift Data API
 Amazon Rekognition

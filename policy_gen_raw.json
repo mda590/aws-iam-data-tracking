@@ -9801,6 +9801,15 @@
             ],
             "HasResource": true
         },
+        "Amazon RHEL Knowledgebase Portal": {
+            "StringPrefix": "rhelkb",
+            "Actions": [
+                "GetRhelURL"
+            ],
+            "ARNFormat": "arn:aws:rhelkb:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:rhelkb:.+",
+            "HasResource": false
+        },
         "Amazon Braket": {
             "StringPrefix": "braket",
             "Actions": [
