@@ -16029,7 +16029,7 @@
                 "UpdateLedger",
                 "UpdateLedgerPermissionsMode"
             ],
-            "ARNFormat": "arn:${Partition}:qldb:${region}:${account}:${resourceType}/${resourcePath}",
+            "ARNFormat": "arn:${Partition}:qldb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:${Partition}:qldb:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
