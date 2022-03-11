@@ -15561,7 +15561,9 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "imagebuilder:CreatedResourceTag/<key>",
-                "imagebuilder:CreatedResourceTagKeys"
+                "imagebuilder:CreatedResourceTagKeys",
+                "imagebuilder:Ec2MetadataHttpTokens",
+                "imagebuilder:StatusTopicArn"
             ],
             "HasResource": true
         },
