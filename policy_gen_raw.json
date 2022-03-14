@@ -15356,6 +15356,7 @@
                 "CreateCustomPlugin",
                 "CreateWorkerConfiguration",
                 "DeleteConnector",
+                "DeleteCustomPlugin",
                 "DescribeConnector",
                 "DescribeCustomPlugin",
                 "DescribeWorkerConfiguration",
