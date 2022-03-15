@@ -1297,6 +1297,7 @@
                 "ListRevisionAssets",
                 "ListTagsForResource",
                 "PublishDataSet",
+                "RevokeRevision",
                 "SendApiAsset",
                 "StartJob",
                 "TagResource",
@@ -10841,7 +10842,7 @@
                 "UpdateMonitoring",
                 "UpdateSecurity"
             ],
-            "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceName}/${UUID}",
+            "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceName}/${Uuid}",
             "ARNRegex": "^arn:aws:kafka:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
