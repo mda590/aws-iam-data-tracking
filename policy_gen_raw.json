@@ -14649,6 +14649,14 @@
             ],
             "HasResource": true
         },
+        "AWS Tax Settings": {
+            "StringPrefix": "tax",
+            "Actions": [
+                "GetExemptions",
+                "UpdateExemptions"
+            ],
+            "HasResource": false
+        },
         "Amazon S3 Object Lambda": {
             "StringPrefix": "s3-object-lambda",
             "Actions": [

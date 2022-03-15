@@ -147,6 +147,7 @@ AWS Systems Manager GUI Connect
 AWS Systems Manager Incident Manager
 AWS Systems Manager Incident Manager Contacts
 AWS Tag Editor
+AWS Tax Settings
 AWS Tiros
 AWS Transfer Family
 AWS Trusted Advisor
