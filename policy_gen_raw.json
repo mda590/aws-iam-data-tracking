@@ -7269,6 +7269,49 @@
             ],
             "HasResource": true
         },
+        "AWS Billing Conductor": {
+            "StringPrefix": "billingconductor",
+            "Actions": [
+                "AssociateAccounts",
+                "AssociatePricingRules",
+                "BatchAssociateResourcesToCustomLineItem",
+                "BatchDisassociateResourcesFromCustomLineItem",
+                "CreateBillingGroup",
+                "CreateCustomLineItem",
+                "CreatePricingPlan",
+                "CreatePricingRule",
+                "DeleteBillingGroup",
+                "DeleteCustomLineItem",
+                "DeletePricingPlan",
+                "DeletePricingRule",
+                "DisassociateAccounts",
+                "DisassociatePricingRules",
+                "ListAccountAssociations",
+                "ListBillingGroupCostReports",
+                "ListBillingGroups",
+                "ListCustomLineItems",
+                "ListPricingPlans",
+                "ListPricingPlansAssociatedWithPricingRule",
+                "ListPricingRules",
+                "ListPricingRulesAssociatedToPricingPlan",
+                "ListResourcesAssociatedToCustomLineItem",
+                "ListTagsResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateBillingGroup",
+                "UpdateCustomLineItem",
+                "UpdatePricingPlan",
+                "UpdatePricingRule"
+            ],
+            "ARNFormat": "^arn:${Partition}:billingconductor::${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:billingconductor:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS CloudTrail": {
             "StringPrefix": "cloudtrail",
             "Actions": [
