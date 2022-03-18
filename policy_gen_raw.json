@@ -5678,7 +5678,6 @@
                 "CreateCachePolicy",
                 "CreateCloudFrontOriginAccessIdentity",
                 "CreateDistribution",
-                "CreateDistributionWithTags",
                 "CreateFieldLevelEncryptionConfig",
                 "CreateFieldLevelEncryptionProfile",
                 "CreateFunction",
