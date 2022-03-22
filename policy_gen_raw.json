@@ -4679,7 +4679,10 @@
                 "GetTags",
                 "GetUsageForecast",
                 "ListCostCategoryDefinitions",
+                "ListTagsForResource",
                 "ProvideAnomalyFeedback",
+                "TagResource",
+                "UntagResource",
                 "UpdateAnomalyMonitor",
                 "UpdateAnomalySubscription",
                 "UpdateCostCategoryDefinition",
@@ -4687,9 +4690,14 @@
                 "UpdatePreferences",
                 "UpdateReport"
             ],
-            "ARNFormat": "arn:${Partition}:ce:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:ce::.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:${Partition}:ce::${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:ce::.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Amplify Admin": {
             "StringPrefix": "amplifybackend",
