@@ -78,6 +78,7 @@ AWS IAM Access Analyzer
 AWS IQ
 AWS IQ Permissions
 AWS Identity Store
+AWS Identity Synchronization Service
 AWS Import Export Disk Service
 AWS IoT
 AWS IoT 1-Click
@@ -215,6 +216,7 @@ Amazon Forecast
 Amazon Fraud Detector
 Amazon FreeRTOS
 Amazon GameLift
+Amazon GameSparks
 Amazon Glacier
 Amazon GroundTruth Labeling
 Amazon GuardDuty

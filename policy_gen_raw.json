@@ -4865,6 +4865,53 @@
             "ARNRegex": "^arn:aws:deeplens:.+:.+:.+",
             "HasResource": true
         },
+        "Amazon GameSparks": {
+            "StringPrefix": "gamesparks",
+            "Actions": [
+                "CreateGame",
+                "CreateSnapshot",
+                "CreateStage",
+                "DeleteGame",
+                "DeleteStage",
+                "DisconnectPlayer",
+                "ExportSnapshot",
+                "GetExtension",
+                "GetExtensionVersion",
+                "GetGame",
+                "GetGameConfiguration",
+                "GetGeneratedCodeJob",
+                "GetPlayerConnectionStatus",
+                "GetSnapshot",
+                "GetStage",
+                "GetStageDeployment",
+                "ImportGameConfiguration",
+                "InvokeBackend",
+                "ListExtensionVersions",
+                "ListExtensions",
+                "ListGames",
+                "ListGeneratedCodeJobs",
+                "ListSnapshots",
+                "ListStageDeployments",
+                "ListStages",
+                "ListTagsForResource",
+                "StartGeneratedCodeJob",
+                "StartStageDeployment",
+                "TagResource",
+                "UntagResource",
+                "UpdateGame",
+                "UpdateGameConfiguration",
+                "UpdateSnapshot",
+                "UpdateStage"
+            ],
+            "ARNFormat": "arn:aws:gamesparks:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:gamesparks:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon RDS Data API": {
             "StringPrefix": "rds-data",
             "Actions": [
@@ -5832,6 +5879,26 @@
                 "eks:clientId",
                 "eks:issuerUrl"
             ],
+            "HasResource": true
+        },
+        "AWS Identity Synchronization Service": {
+            "StringPrefix": "identity-sync",
+            "Actions": [
+                "CreateSyncFilter",
+                "CreateSyncProfile",
+                "CreateSyncTarget",
+                "DeleteSyncFilter",
+                "DeleteSyncProfile",
+                "DeleteSyncTarget",
+                "GetSyncProfile",
+                "GetSyncTarget",
+                "ListSyncFilters",
+                "StartSync",
+                "StopSync",
+                "UpdateSyncTarget"
+            ],
+            "ARNFormat": "^arn:${Partition}:identity-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:identity-sync:.+:.+:.+",
             "HasResource": true
         },
         "AWS Firewall Manager": {
@@ -15238,6 +15305,7 @@
                 "ListEndpoints",
                 "ListMultipartUploadParts",
                 "ListRegionalBuckets",
+                "ListSharedEndpoints",
                 "PutAccessPointPolicy",
                 "PutBucketPolicy",
                 "PutBucketTagging",
