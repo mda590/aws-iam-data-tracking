@@ -3201,10 +3201,11 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateDataCatalog",
+                "UpdateNamedQuery",
                 "UpdatePreparedStatement",
                 "UpdateWorkGroup"
             ],
-            "ARNFormat": "arn:${Partition}:athena:${Region}:${Account}:${resourceType}/${resourcePath}",
+            "ARNFormat": "arn:${Partition}:athena:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:${Partition}:athena:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -3629,7 +3630,7 @@
                 "ListSoftwareConfigurations",
                 "UpdateSoftwareConfiguration"
             ],
-            "ARNFormat": "arn:${Partition}:freertos:<region>:<account_ID>:<type>/<name>",
+            "ARNFormat": "arn:${Partition}:freertos:${Region}:${Account}:${Type}/${Name}",
             "ARNRegex": "^arn:${Partition}:freertos:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -7333,7 +7334,7 @@
                 "UpdateInput",
                 "UpdateInputRouting"
             ],
-            "ARNFormat": "arn:${Partition}:iotevents:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:iotevents:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:iotevents:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -10436,8 +10437,8 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:signer:<region>::<signer_resource_path>",
-            "ARNRegex": "^arn:aws:signer:.+",
+            "ARNFormat": "arn:${Partition}:signer:${Region}:${Account}:/${ResourceType}/${ResourceIdentifier}",
+            "ARNRegex": "^arn:${Partition}:signer:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16406,6 +16407,7 @@
                 "AcceptHandshake",
                 "AttachPolicy",
                 "CancelHandshake",
+                "CloseAccount",
                 "CreateAccount",
                 "CreateGovCloudAccount",
                 "CreateOrganization",
@@ -16455,7 +16457,7 @@
                 "UpdateOrganizationalUnit",
                 "UpdatePolicy"
             ],
-            "ARNFormat": "arn:${Partition}:organizations::<masterAccountId>:<resource>/o-<organizationId>(/<resourceType>/<resourceId>)?",
+            "ARNFormat": "arn:${Partition}:organizations::${MasterAccountId}:${Resource}/o-${OrganizationId}(/${ResourceType}/${ResourceId})?",
             "ARNRegex": "^arn:${Partition}:organizations::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
