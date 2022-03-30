@@ -2617,7 +2617,7 @@
                 "UpdateListener",
                 "WithdrawByoipCidr"
             ],
-            "ARNFormat": "arn:aws:globalaccelerator::<account>:accelerator/<AcceleratorId>",
+            "ARNFormat": "arn:aws:globalaccelerator::${Account}:accelerator/${AcceleratorId}",
             "ARNRegex": "^arn:aws:globalaccelerator::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
