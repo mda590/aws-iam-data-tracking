@@ -7209,6 +7209,7 @@
             "StringPrefix": "route53-recovery-cluster",
             "Actions": [
                 "GetRoutingControlState",
+                "ListRoutingControls",
                 "UpdateRoutingControlState",
                 "UpdateRoutingControlStates"
             ],
@@ -10368,19 +10369,19 @@
                 "UpdateConfig",
                 "UpdateMissionProfile"
             ],
-            "ARNFormat": "arn:aws:groundstation:<region>:<accountID>:<resourceType>/<resourceId>",
+            "ARNFormat": "arn:aws:groundstation:${Region}:${AccountID}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:groundstation:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
-                "groundstation:configId",
-                "groundstation:configType",
-                "groundstation:contactId",
-                "groundstation:dataflowEndpointGroupId",
-                "groundstation:groundStationId",
-                "groundstation:missionProfileId",
-                "groundstation:satelliteId"
+                "groundstation:ConfigId",
+                "groundstation:ConfigType",
+                "groundstation:ContactId",
+                "groundstation:DataflowEndpointGroupId",
+                "groundstation:GroundStationId",
+                "groundstation:MissionProfileId",
+                "groundstation:SatelliteId"
             ],
             "HasResource": true
         },
@@ -10482,8 +10483,8 @@
                 "UpdateGroup",
                 "UpdateGroupQuery"
             ],
-            "ARNFormat": "arn:aws:<serviceName>:<region>:<account>:<resourceType>/<resourceName>",
-            "ARNRegex": "^arn:aws:resource-groups:.+",
+            "ARNFormat": "arn:${Partition}:resource-groups:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:resource-groups:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",

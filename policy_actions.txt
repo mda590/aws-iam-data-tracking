@@ -9458,6 +9458,7 @@ robomaker:UpdateRobotDeployment
 robomaker:UpdateSimulationApplication
 robomaker:UpdateWorldTemplate
 route53-recovery-cluster:GetRoutingControlState
+route53-recovery-cluster:ListRoutingControls
 route53-recovery-cluster:UpdateRoutingControlState
 route53-recovery-cluster:UpdateRoutingControlStates
 route53-recovery-control-config:CreateCluster
