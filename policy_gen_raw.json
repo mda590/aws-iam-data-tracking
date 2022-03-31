@@ -109,6 +109,7 @@
                 "DescribePiiEntitiesDetectionJob",
                 "DescribeResourcePolicy",
                 "DescribeSentimentDetectionJob",
+                "DescribeTargetedSentimentDetectionJob",
                 "DescribeTopicsDetectionJob",
                 "DetectDominantLanguage",
                 "DetectEntities",
@@ -130,6 +131,7 @@
                 "ListPiiEntitiesDetectionJobs",
                 "ListSentimentDetectionJobs",
                 "ListTagsForResource",
+                "ListTargetedSentimentDetectionJobs",
                 "ListTopicsDetectionJobs",
                 "PutResourcePolicy",
                 "StartDocumentClassificationJob",
@@ -139,6 +141,7 @@
                 "StartKeyPhrasesDetectionJob",
                 "StartPiiEntitiesDetectionJob",
                 "StartSentimentDetectionJob",
+                "StartTargetedSentimentDetectionJob",
                 "StartTopicsDetectionJob",
                 "StopDominantLanguageDetectionJob",
                 "StopEntitiesDetectionJob",
@@ -146,6 +149,7 @@
                 "StopKeyPhrasesDetectionJob",
                 "StopPiiEntitiesDetectionJob",
                 "StopSentimentDetectionJob",
+                "StopTargetedSentimentDetectionJob",
                 "StopTrainingDocumentClassifier",
                 "StopTrainingEntityRecognizer",
                 "TagResource",
@@ -5251,8 +5255,8 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:<partition>:config:<region>:<account>:<resourceType>/<resourceId>",
-            "ARNRegex": "arn:<partition>:config:.+",
+            "ARNFormat": "arn:${Partition}:config:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:config:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6179,7 +6183,7 @@
                 "UntagResource",
                 "UpdateNotificationRule"
             ],
-            "ARNFormat": "arn:aws:codestar-notifications:<region>:<account-id>:<resource-type>/<resource_id>",
+            "ARNFormat": "arn:aws:codestar-notifications:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:codestar-notifications:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -10992,7 +10996,7 @@
                 "TagResource",
                 "UnTagResource"
             ],
-            "ARNFormat": "arn:aws:codeguru-reviewer:<region>:<account-id>:<resource-type>:<resource_name>",
+            "ARNFormat": "arn:aws:codeguru-reviewer:${Region}:${Account}:${ResourceType}:${ResourceName}",
             "ARNRegex": "^arn:aws:codeguru-reviewer:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -13104,7 +13108,7 @@
                 "UpdateScript",
                 "ValidateMatchmakingRuleSet"
             ],
-            "ARNFormat": "arn:aws:gamelift:<region>:<accountId>:<resourceType>/<resourceId>",
+            "ARNFormat": "arn:aws:gamelift:${Region}:${AccountId}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:gamelift:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -14637,7 +14641,7 @@
                 "UpdateConfiguration",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:${Partition}:mq:<region>:<account>:.+",
+            "ARNFormat": "arn:${Partition}:mq:${Region}:${Account}:.+",
             "ARNRegex": "^arn:${Partition}:mq:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15757,7 +15761,7 @@
                 "UpdatePublicDnsNamespace",
                 "UpdateService"
             ],
-            "ARNFormat": "arn:aws:servicediscovery:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:servicediscovery:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:servicediscovery:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
