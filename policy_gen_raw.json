@@ -4452,7 +4452,7 @@
                 "UntagResource",
                 "UpdateConfigurationSetEventDestination"
             ],
-            "ARNFormat": "arn:${Partition}:ses:${Region}:${Account}:${resourceType}/${resourceId}",
+            "ARNFormat": "arn:${Partition}:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:${Partition}:ses:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -4550,7 +4550,7 @@
                 "UpdateEmailIdentityPolicy",
                 "UpdateEmailTemplate"
             ],
-            "ARNFormat": "arn:${Partition}:ses:${Region}:${Account}:${resourceType}/${resourceId}",
+            "ARNFormat": "arn:${Partition}:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:${Partition}:ses:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
