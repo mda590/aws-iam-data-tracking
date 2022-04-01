@@ -260,6 +260,7 @@ Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)
 Amazon Personalize
 Amazon Pinpoint
 Amazon Pinpoint Email Service
+Amazon Pinpoint SMS Voice V2
 Amazon Pinpoint SMS and Voice Service
 Amazon Polly
 Amazon QLDB

@@ -5936,8 +5936,8 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:fms:<region>:<account_id>:<resource>/<resource_id>",
-            "ARNRegex": "^arn:aws:fms:.+:[0-9]+:.+/.+",
+            "ARNFormat": "arn:${Partition}:fms:${Region}:${Account}:${Resource}/${Id}",
+            "ARNRegex": "^arn:${Partition}:fms:.+:[0-9]+:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6312,7 +6312,7 @@
                 "UpdateFleetMetadata",
                 "UpdateIdentityProviderConfiguration"
             ],
-            "ARNFormat": "arn:${Partition}:worklink::${account}:${resourceType}/${resourcePath}",
+            "ARNFormat": "arn:${Partition}:worklink::${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:${Partition}:worklink:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -6346,7 +6346,7 @@
                 "UpdateHost",
                 "UseConnection"
             ],
-            "ARNFormat": "arn:aws:codestar-connections:<region>:<account-id>:<resource-type>/<resource_id>",
+            "ARNFormat": "arn:aws:codestar-connections:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:codestar-connections:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -6466,7 +6466,7 @@
                 "UntagResource",
                 "UpdateDatasetEntries"
             ],
-            "ARNFormat": "arn:aws:lookoutvision:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:lookoutvision:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:lookoutvision:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -9265,7 +9265,7 @@
                 "UntagResource",
                 "UpdateLifecyclePolicy"
             ],
-            "ARNFormat": "arn:${Partition}:dlm:<region>:<account-id>:policy/<resource_name>",
+            "ARNFormat": "arn:${Partition}:dlm:${Region}:${Account}:policy/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:dlm:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -10846,13 +10846,21 @@
                 "DescribeWorkspaceAuthentication",
                 "DisassociateLicense",
                 "ListPermissions",
+                "ListTagsForResource",
                 "ListWorkspaces",
+                "TagResource",
+                "UntagResource",
                 "UpdatePermissions",
                 "UpdateWorkspace",
                 "UpdateWorkspaceAuthentication"
             ],
             "ARNFormat": "arn:aws:grafana:${Region}:${Account}:/${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:grafana:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS App Mesh": {
@@ -11057,6 +11065,62 @@
             ],
             "ARNFormat": "arn:<partition>:memorydb:<region>:<account-id>:<resource-type>/<resource_name>",
             "ARNRegex": "^arn:.+:memorydb:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
+        "Amazon Pinpoint SMS Voice V2": {
+            "StringPrefix": "sms-voice",
+            "Actions": [
+                "AssociateOriginationIdentity",
+                "CreateConfigurationSet",
+                "CreateEventDestination",
+                "CreateOptOutList",
+                "CreatePool",
+                "DeleteConfigurationSet",
+                "DeleteDefaultMessageType",
+                "DeleteDefaultSenderId",
+                "DeleteEventDestination",
+                "DeleteKeyword",
+                "DeleteOptOutList",
+                "DeleteOptedOutNumber",
+                "DeletePool",
+                "DeleteTextMessageSpendLimitOverride",
+                "DeleteVoiceMessageSpendLimitOverride",
+                "DescribeAccountAttributes",
+                "DescribeAccountLimits",
+                "DescribeConfigurationSets",
+                "DescribeKeywords",
+                "DescribeOptOutLists",
+                "DescribeOptedOutNumbers",
+                "DescribePhoneNumbers",
+                "DescribePools",
+                "DescribeSenderIds",
+                "DescribeSpendLimits",
+                "DisassociateOriginationIdentity",
+                "ListPoolOriginationIdentities",
+                "ListTagsForResource",
+                "PutKeyword",
+                "PutOptedOutNumber",
+                "ReleasePhoneNumber",
+                "RequestPhoneNumber",
+                "SendTextMessage",
+                "SendVoiceMessage",
+                "SetDefaultMessageType",
+                "SetDefaultSenderId",
+                "SetTextMessageSpendLimitOverride",
+                "SetVoiceMessageSpendLimitOverride",
+                "TagResource",
+                "UntagResource",
+                "UpdateEventDestination",
+                "UpdatePhoneNumber",
+                "UpdatePool"
+            ],
+            "ARNFormat": "arn:${Partition}:sms-voice:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:sms-voice:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
