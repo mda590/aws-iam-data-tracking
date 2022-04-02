@@ -12777,7 +12777,7 @@
                 "UntagResource",
                 "UpdateProject"
             ],
-            "ARNFormat": "arn:aws:monitron:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:monitron:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:monitron:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -13850,7 +13850,7 @@
                 "UpdateTagsForResource",
                 "ValidateConfigurationSettings"
             ],
-            "ARNFormat": "arn:aws:elasticbeanstalk:<region>:<account_ID>:<resource_type>/<path_to_resource>",
+            "ARNFormat": "arn:aws:elasticbeanstalk:${Region}:${AccountID}:${ResourceType}/${PathToResource}",
             "ARNRegex": "^arn:aws:elasticbeanstalk:.+:.*:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15111,7 +15111,7 @@
                 "UpdateServer",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:aws:transfer:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:transfer:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:transfer:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15293,7 +15293,7 @@
                 "UpdateDataIntegration",
                 "UpdateEventIntegration"
             ],
-            "ARNFormat": "arn:aws:app-integrations:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:app-integrations:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:app-integrations:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
