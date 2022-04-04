@@ -10219,8 +10219,10 @@ securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
+securityhub:BatchGetStandardsControlAssociations
 securityhub:BatchImportFindings
 securityhub:BatchUpdateFindings
+securityhub:BatchUpdateStandardsControlAssociations
 securityhub:CreateActionTarget
 securityhub:CreateFindingAggregator
 securityhub:CreateInsight
@@ -10268,6 +10270,7 @@ securityhub:ListFindingAggregators
 securityhub:ListInvitations
 securityhub:ListMembers
 securityhub:ListOrganizationAdminAccounts
+securityhub:ListSecurityControlDefinitions
 securityhub:ListTagsForResource
 securityhub:SendFindingEvents
 securityhub:SendInsightEvents

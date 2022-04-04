@@ -9644,7 +9644,7 @@
                 "UnsubscribeFromDataset",
                 "UpdateRecords"
             ],
-            "ARNFormat": "arn:aws:cognito-sync:<region>:<account>:<resourceType>/<resourcePath>:",
+            "ARNFormat": "arn:aws:cognito-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}:",
             "ARNRegex": "^arn:aws:cognito-sync:.+",
             "HasResource": true
         },
@@ -15631,8 +15631,10 @@
                 "AcceptInvitation",
                 "BatchDisableStandards",
                 "BatchEnableStandards",
+                "BatchGetStandardsControlAssociations",
                 "BatchImportFindings",
                 "BatchUpdateFindings",
+                "BatchUpdateStandardsControlAssociations",
                 "CreateActionTarget",
                 "CreateFindingAggregator",
                 "CreateInsight",
@@ -15680,6 +15682,7 @@
                 "ListInvitations",
                 "ListMembers",
                 "ListOrganizationAdminAccounts",
+                "ListSecurityControlDefinitions",
                 "ListTagsForResource",
                 "SendFindingEvents",
                 "SendInsightEvents",
