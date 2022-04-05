@@ -4193,14 +4193,12 @@
                 "UpdateReportGroup",
                 "UpdateWebhook"
             ],
-            "ARNFormat": "arn:${Partition}:codebuild:<region>:<account_ID>:<resource_type>/<resource_id>",
+            "ARNFormat": "arn:${Partition}:codebuild:${Region}:${Account}:build/${BuildId}",
             "ARNRegex": "^arn:${Partition}:codebuild:.+:[0-9]+:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys",
-                "codebuild:RequestTag/${TagKey}",
-                "codebuild:TagKeys"
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
@@ -4264,6 +4262,8 @@
                 "AssociateQueueQuickConnects",
                 "AssociateRoutingProfileQueues",
                 "AssociateSecurityKey",
+                "BatchAssociateAnalyticsDataSet",
+                "BatchDisassociateAnalyticsDataSet",
                 "CreateAgentStatus",
                 "CreateContactFlow",
                 "CreateContactFlowModule",
@@ -6380,6 +6380,7 @@
                 "CreateUpdatedWorkspaceImage",
                 "CreateWorkspaceBundle",
                 "CreateWorkspaces",
+                "DeleteClientBranding",
                 "DeleteConnectClientAddIn",
                 "DeleteConnectionAlias",
                 "DeleteIpGroup",
@@ -6389,6 +6390,7 @@
                 "DeregisterWorkspaceDirectory",
                 "DescribeAccount",
                 "DescribeAccountModifications",
+                "DescribeClientBranding",
                 "DescribeClientProperties",
                 "DescribeConnectClientAddIns",
                 "DescribeConnectionAliasPermissions",
@@ -6404,6 +6406,7 @@
                 "DescribeWorkspacesConnectionStatus",
                 "DisassociateConnectionAlias",
                 "DisassociateIpGroups",
+                "ImportClientBranding",
                 "ImportWorkspaceImage",
                 "ListAvailableManagementCidrRanges",
                 "MigrateWorkspace",
@@ -9603,8 +9606,8 @@
                 "UpdateRelationalDatabase",
                 "UpdateRelationalDatabaseParameters"
             ],
-            "ARNFormat": "arn:aws:lightsail:<regionName>:<userAccountId>:<resourceType>/<Id>",
-            "ARNRegex": "arn:aws:lightsail:.+",
+            "ARNFormat": "arn:aws:lightsail:${Region}:${Account}:${ResourceType}/${Id}",
+            "ARNRegex": "^arn:aws:lightsail:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10033,8 +10036,8 @@
                 "StopReplicationTask",
                 "TestConnection"
             ],
-            "ARNFormat": "arn:aws:dms:<region>:<account>:<resource>",
-            "ARNRegex": "arn:aws:dms:.+",
+            "ARNFormat": "arn:aws:dms:${Region}:${Account}:${Resource}",
+            "ARNRegex": "^arn:aws:dms:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
