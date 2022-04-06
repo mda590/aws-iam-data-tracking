@@ -13585,7 +13585,7 @@
                 "UntagResource",
                 "UpdateProfilingGroup"
             ],
-            "ARNFormat": "arn:aws:codeguru-profiler:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:codeguru-profiler:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:codeguru-profiler:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
