@@ -780,7 +780,7 @@
                 "UpdateSSOConfiguration",
                 "UpdateTrust"
             ],
-            "ARNFormat": "arn:${Partition}:sso:::<relative-id>",
+            "ARNFormat": "arn:${Partition}:sso:::${RelativeId}",
             "ARNRegex": "^arn:${Partition}:sso:::.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -10210,7 +10210,8 @@
                 "aws:TagKeys",
                 "transcribe:OutputBucketName",
                 "transcribe:OutputEncryptionKMSKeyId",
-                "transcribe:OutputKey"
+                "transcribe:OutputKey",
+                "transcribe:OutputLocation"
             ],
             "HasResource": true
         },
@@ -10660,7 +10661,7 @@
                 "UntagResource",
                 "UploadLayerPart"
             ],
-            "ARNFormat": "arn:aws:ecr-public::<account_id>:<repository_or_registry>/<repository_name_or_registry_id>",
+            "ARNFormat": "arn:aws:ecr-public::${Account}:${RepositoryOrRegistry}/${RepositoryNameOrAccountId}",
             "ARNRegex": "^arn:aws:ecr-public::.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -14285,6 +14286,7 @@
                 "BatchDeleteImage",
                 "BatchGetImage",
                 "BatchGetRepositoryScanningConfiguration",
+                "BatchImportUpstreamImage",
                 "CompleteLayerUpload",
                 "CreatePullThroughCacheRule",
                 "CreateRepository",
