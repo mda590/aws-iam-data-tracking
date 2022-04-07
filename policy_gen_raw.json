@@ -954,6 +954,7 @@
                 "ListJobTemplates",
                 "ListJobs",
                 "ListManagedJobTemplates",
+                "ListMetricValues",
                 "ListMitigationActions",
                 "ListNamedShadowsForThing",
                 "ListOTAUpdates",
