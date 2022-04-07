@@ -12454,6 +12454,7 @@
                 "ModifyInstanceCreditSpecification",
                 "ModifyInstanceEventStartTime",
                 "ModifyInstanceEventWindow",
+                "ModifyInstanceMaintenanceOptions",
                 "ModifyInstanceMetadataOptions",
                 "ModifyInstancePlacement",
                 "ModifyIpam",
