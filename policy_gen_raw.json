@@ -1133,6 +1133,7 @@
                 "CreateCodeSigningConfig",
                 "CreateEventSourceMapping",
                 "CreateFunction",
+                "CreateFunctionUrlConfig",
                 "DeleteAlias",
                 "DeleteCodeSigningConfig",
                 "DeleteEventSourceMapping",
@@ -1140,6 +1141,7 @@
                 "DeleteFunctionCodeSigningConfig",
                 "DeleteFunctionConcurrency",
                 "DeleteFunctionEventInvokeConfig",
+                "DeleteFunctionUrlConfig",
                 "DeleteLayerVersion",
                 "DeleteProvisionedConcurrencyConfig",
                 "DisableReplication",
@@ -1153,16 +1155,19 @@
                 "GetFunctionConcurrency",
                 "GetFunctionConfiguration",
                 "GetFunctionEventInvokeConfig",
+                "GetFunctionUrlConfig",
                 "GetLayerVersion",
                 "GetLayerVersionPolicy",
                 "GetPolicy",
                 "GetProvisionedConcurrencyConfig",
                 "InvokeAsync",
                 "InvokeFunction",
+                "InvokeFunctionUrl",
                 "ListAliases",
                 "ListCodeSigningConfigs",
                 "ListEventSourceMappings",
                 "ListFunctionEventInvokeConfigs",
+                "ListFunctionUrlConfigs",
                 "ListFunctions",
                 "ListFunctionsByCodeSigningConfig",
                 "ListLayerVersions",
@@ -1186,13 +1191,15 @@
                 "UpdateFunctionCode",
                 "UpdateFunctionCodeSigningConfig",
                 "UpdateFunctionConfiguration",
-                "UpdateFunctionEventInvokeConfig"
+                "UpdateFunctionEventInvokeConfig",
+                "UpdateFunctionUrlConfig"
             ],
             "ARNFormat": "arn:${Partition}:lambda:${Region}:${Account}:${ResourceType}:${ResourceId}",
             "ARNRegex": "^arn:${Partition}:lambda:.+",
             "conditionKeys": [
                 "lambda:CodeSigningConfigArn",
                 "lambda:FunctionArn",
+                "lambda:FunctionUrlAuthType",
                 "lambda:Layer",
                 "lambda:Principal",
                 "lambda:SecurityGroupIds",
@@ -3448,7 +3455,7 @@
                 "Login",
                 "ViewRelease"
             ],
-            "ARNFormat": "arn:aws:sumerian:<region>:<account-id>:<sumerian_resource_path>",
+            "ARNFormat": "arn:aws:sumerian:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:sumerian:.+:.+:.+",
             "HasResource": true
         },
@@ -4240,7 +4247,7 @@
                 "UpdateDatastore",
                 "UpdatePipeline"
             ],
-            "ARNFormat": "arn:${Partition}:iotanalytics:<region>:<account_ID>:<type>/<name>",
+            "ARNFormat": "arn:${Partition}:iotanalytics:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:iotanalytics:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -13942,7 +13949,7 @@
                 "SetSubnets",
                 "SetWebAcl"
             ],
-            "ARNFormat": "arn:aws:elasticloadbalancing:<region>:<account>:<resourceType>/<resourceid>",
+            "ARNFormat": "arn:aws:elasticloadbalancing:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:elasticloadbalancing:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15620,8 +15627,8 @@
                 "UpdateActionType",
                 "UpdatePipeline"
             ],
-            "ARNFormat": "arn:aws:codepipeline:<region>:<account_ID>:<path_to_pipeline_resource>",
-            "ARNRegex": "arn:aws:codepipeline:.+",
+            "ARNFormat": "arn:aws:codepipeline:${Region}:${Account}:${PathToPipelineResource}",
+            "ARNRegex": "^arn:aws:codepipeline:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
