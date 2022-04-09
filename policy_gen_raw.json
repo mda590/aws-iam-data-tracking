@@ -8865,7 +8865,7 @@
                 "UpdateNode",
                 "VoteOnProposal"
             ],
-            "ARNFormat": "arn:aws:managedblockchain:<region>:<accountId>:<resourceType>/<resourceName>",
+            "ARNFormat": "arn:aws:managedblockchain:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:managedblockchain:.*:[0-9]*:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
