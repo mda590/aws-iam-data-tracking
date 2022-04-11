@@ -3092,7 +3092,7 @@
                 "UpdateChannel",
                 "UpdateOriginEndpoint"
             ],
-            "ARNFormat": "arn:aws:mediapackage:<region>:<account_ID>:<resource>/<identifier>",
+            "ARNFormat": "arn:aws:mediapackage:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
             "ARNRegex": "^arn:aws:mediapackage:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -10263,7 +10263,7 @@
                 "UntagResource",
                 "UpdatePackagingGroup"
             ],
-            "ARNFormat": "arn:aws:mediapackage-vod:<Region>:<Account>:<ResourceType>/<ResourceName>",
+            "ARNFormat": "arn:aws:mediapackage-vod:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
             "ARNRegex": "^arn:aws:mediapackage-vod:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -12952,21 +12952,22 @@
                 "CreateSlackChannelConfiguration",
                 "DeleteChimeWebhookConfiguration",
                 "DeleteSlackChannelConfiguration",
+                "DeleteSlackUserIdentity",
                 "DeleteSlackWorkspaceAuthorization",
                 "DescribeChimeWebhookConfigurations",
                 "DescribeSlackChannelConfigurations",
                 "DescribeSlackChannels",
+                "DescribeSlackUserIdentities",
                 "DescribeSlackWorkspaces",
+                "GetAccountPreferences",
                 "GetSlackOauthParameters",
                 "RedeemSlackOauthCode",
+                "UpdateAccountPreferences",
                 "UpdateChimeWebhookConfiguration",
                 "UpdateSlackChannelConfiguration"
             ],
-            "ARNFormat": "arn:${Partition}:chatbot::<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:chatbot::${Account}:chat-configuration/${ConfigurationType}/${ChatbotConfigurationName}",
             "ARNRegex": "^arn:${Partition}:chatbot:.+",
-            "conditionKeys": [
-                "aws:CalledVia"
-            ],
             "HasResource": true
         },
         "Amazon Macie": {
