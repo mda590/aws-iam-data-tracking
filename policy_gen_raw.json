@@ -3629,7 +3629,7 @@
                 "UpdateUserProfile",
                 "UpdateVolume"
             ],
-            "ARNFormat": "arn:aws:<serviceName>:<region>:<account>:<resourceType>/<resourceName>",
+            "ARNFormat": "arn:aws:${ServiceName}:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:opsworks:.+",
             "HasResource": true
         },
