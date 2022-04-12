@@ -49,6 +49,7 @@ AWS Control Tower
 AWS Cost Explorer Service
 AWS Cost and Usage Report
 AWS Data Exchange
+AWS Data Pipeline
 AWS DataSync
 AWS Database Migration Service
 AWS DeepComposer
@@ -308,7 +309,6 @@ Apache Kafka APIs for Amazon MSK clusters
 Application Discovery
 Application Discovery Arsenal
 CloudWatch Application Insights
-Data Pipeline
 Database Query Metadata Service
 Elastic Load Balancing
 Elastic Load Balancing V2

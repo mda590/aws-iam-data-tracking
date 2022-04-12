@@ -8041,20 +8041,24 @@
                 "AssociateCustomDomain",
                 "CreateAutoScalingConfiguration",
                 "CreateConnection",
+                "CreateObservabilityConfiguration",
                 "CreateService",
                 "CreateVpcConnector",
                 "DeleteAutoScalingConfiguration",
                 "DeleteConnection",
+                "DeleteObservabilityConfiguration",
                 "DeleteService",
                 "DeleteVpcConnector",
                 "DescribeAutoScalingConfiguration",
                 "DescribeCustomDomains",
+                "DescribeObservabilityConfiguration",
                 "DescribeOperation",
                 "DescribeService",
                 "DescribeVpcConnector",
                 "DisassociateCustomDomain",
                 "ListAutoScalingConfigurations",
                 "ListConnections",
+                "ListObservabilityConfigurations",
                 "ListOperations",
                 "ListServices",
                 "ListTagsForResource",
@@ -8066,11 +8070,12 @@
                 "UntagResource",
                 "UpdateService"
             ],
-            "ARNFormat": "arn:aws:apprunner:${Region}:${AccountID}:${ResourceType}/${PathToResource}",
+            "ARNFormat": "arn:aws:apprunner:${Region}:${Account}:${ResourceType}/${PathToResource}",
             "ARNRegex": "^arn:aws:apprunner:.+",
             "conditionKeys": [
                 "apprunner:AutoScalingConfigurationArn",
                 "apprunner:ConnectionArn",
+                "apprunner:ObservabilityConfigurationArn",
                 "apprunner:VpcConnectorArn",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10849,7 +10854,7 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:elemental-activations:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:elemental-activations:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:elemental-activations:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -12707,7 +12712,7 @@
             "ARNRegex": "^arn:aws:serviceextract:.+:.+:.+",
             "HasResource": false
         },
-        "Data Pipeline": {
+        "AWS Data Pipeline": {
             "StringPrefix": "datapipeline",
             "Actions": [
                 "ActivatePipeline",
@@ -12733,6 +12738,8 @@
                 "ValidatePipelineDefinition"
             ],
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:TagKeys",
                 "datapipeline:PipelineCreator",
                 "datapipeline:Tag",
                 "datapipeline:workerGroup"
@@ -15053,7 +15060,7 @@
                 "UntagResource",
                 "UpdateQuote"
             ],
-            "ARNFormat": "arn:aws:elemental-appliances-software:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:elemental-appliances-software:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:elemental-appliances-software:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15568,7 +15575,7 @@
                 "UpdatePlacement",
                 "UpdateProject"
             ],
-            "ARNFormat": "arn:aws:iot1click:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:iot1click:${Region}:${Account}:${Type}/${Name}",
             "ARNRegex": "^arn:aws:iot1click:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
