@@ -49,6 +49,7 @@ AWS Control Tower
 AWS Cost Explorer Service
 AWS Cost and Usage Report
 AWS Data Exchange
+AWS DataSync
 AWS Database Migration Service
 AWS DeepComposer
 AWS DeepLens
@@ -158,7 +159,6 @@ AWS WAF Regional
 AWS WAF V2
 AWS Well-Architected Tool
 AWS X-Ray
-AWSDataSync
 Alexa for Business
 Amazon API Gateway
 Amazon API Gateway Management

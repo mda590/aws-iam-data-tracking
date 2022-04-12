@@ -4941,7 +4941,7 @@
                 "ExecuteStatement",
                 "RollbackTransaction"
             ],
-            "ARNFormat": "arn:aws:rds:<region>:<accountID>:<relative-id>",
+            "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:rds:.+",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
@@ -11593,7 +11593,7 @@
                 "UpdateDomainAssociation",
                 "UpdateWebHook"
             ],
-            "ARNFormat": "arn:aws:amplify:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:amplify:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:amplify:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -16445,13 +16445,14 @@
             "ARNRegex": "^arn:aws:neptune-db:.+",
             "HasResource": true
         },
-        "AWSDataSync": {
+        "AWS DataSync": {
             "StringPrefix": "datasync",
             "Actions": [
                 "CancelTaskExecution",
                 "CreateAgent",
                 "CreateLocationEfs",
                 "CreateLocationFsxLustre",
+                "CreateLocationFsxOpenZfs",
                 "CreateLocationFsxWindows",
                 "CreateLocationHdfs",
                 "CreateLocationNfs",
@@ -16465,6 +16466,7 @@
                 "DescribeAgent",
                 "DescribeLocationEfs",
                 "DescribeLocationFsxLustre",
+                "DescribeLocationFsxOpenZfs",
                 "DescribeLocationFsxWindows",
                 "DescribeLocationHdfs",
                 "DescribeLocationNfs",
