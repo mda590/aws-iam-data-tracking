@@ -14099,7 +14099,7 @@
                 "UpdateMetricSet"
             ],
             "ARNFormat": "arn:${Partition}:lookoutmetrics:${Region}:${AccountId}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:lookoutmetrics:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:lookoutmetrics:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
