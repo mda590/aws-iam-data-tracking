@@ -112,6 +112,7 @@ AWS Marketplace Private Marketplace
 AWS Marketplace Procurement Systems Integration
 AWS Microservice Extractor for .NET
 AWS Migration Hub
+AWS Migration Hub Orchestrator
 AWS Migration Hub Refactor Spaces
 AWS Migration Hub Strategy Recommendations.
 AWS Mobile Hub

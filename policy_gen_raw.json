@@ -13048,6 +13048,42 @@
             ],
             "HasResource": true
         },
+        "AWS Migration Hub Orchestrator": {
+            "StringPrefix": "migrationhub-orchestrator",
+            "Actions": [
+                "CreateWorkflow",
+                "CreateWorkflowStep",
+                "CreateWorkflowStepGroup",
+                "DeleteWorkflow",
+                "DeleteWorkflowStep",
+                "DeleteWorkflowStepGroup",
+                "GetMessage",
+                "GetTemplate",
+                "GetTemplateStep",
+                "GetTemplateStepGroup",
+                "GetWorkflow",
+                "GetWorkflowStep",
+                "GetWorkflowStepGroup",
+                "ListPlugins",
+                "ListTemplateStepGroups",
+                "ListTemplateSteps",
+                "ListTemplates",
+                "ListWorkflowStepGroups",
+                "ListWorkflowSteps",
+                "ListWorkflows",
+                "RegisterPlugin",
+                "RetryWorkflowStep",
+                "SendMessage",
+                "StartWorkflow",
+                "StopWorkflow",
+                "UpdateWorkflow",
+                "UpdateWorkflowStep",
+                "UpdateWorkflowStepGroup"
+            ],
+            "ARNFormat": "arn:${Partition}:migrationhub-orchestrator:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:migrationhub-orchestrator:.+:.+:.+",
+            "HasResource": true
+        },
         "AWS Health APIs and Notifications": {
             "StringPrefix": "health",
             "Actions": [
