@@ -3076,6 +3076,7 @@ devicefarm:UpdateTestGridProject
 devicefarm:UpdateUpload
 devicefarm:UpdateVPCEConfiguration
 devops-guru:AddNotificationChannel
+devops-guru:DeleteInsight
 devops-guru:DescribeAccountHealth
 devops-guru:DescribeAccountOverview
 devops-guru:DescribeAnomaly

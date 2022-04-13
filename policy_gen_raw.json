@@ -10416,6 +10416,7 @@
             "StringPrefix": "devops-guru",
             "Actions": [
                 "AddNotificationChannel",
+                "DeleteInsight",
                 "DescribeAccountHealth",
                 "DescribeAccountOverview",
                 "DescribeAnomaly",
