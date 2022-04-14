@@ -7802,7 +7802,7 @@
                 "UpdateRegistry",
                 "UpdateSchema"
             ],
-            "ARNFormat": "arn:aws:schemas:<region>:<account>:<resourceType>/<resourceName>",
+            "ARNFormat": "arn:aws:schemas:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:schemas:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
