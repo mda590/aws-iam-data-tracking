@@ -7396,7 +7396,7 @@
                 "ListPricingRules",
                 "ListPricingRulesAssociatedToPricingPlan",
                 "ListResourcesAssociatedToCustomLineItem",
-                "ListTagsResource",
+                "ListTagsForResource",
                 "TagResource",
                 "UntagResource",
                 "UpdateBillingGroup",
@@ -10358,7 +10358,7 @@
                 "UpdateUpload",
                 "UpdateVPCEConfiguration"
             ],
-            "ARNFormat": "arn:aws:devicefarm:<region>:<account-id>:<resource-type>:<resource-id>",
+            "ARNFormat": "arn:aws:devicefarm:${Region}:${Account}:${ResourceType}:${ResourceId}",
             "ARNRegex": "^arn:aws:devicefarm:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
