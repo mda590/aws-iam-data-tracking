@@ -9040,7 +9040,6 @@ rds:CopyDBClusterSnapshot
 rds:CopyDBParameterGroup
 rds:CopyDBSnapshot
 rds:CopyOptionGroup
-rds:CreateCustomAvailabilityZone
 rds:CreateCustomDBEngineVersion
 rds:CreateDBCluster
 rds:CreateDBClusterEndpoint
@@ -9058,7 +9057,6 @@ rds:CreateEventSubscription
 rds:CreateGlobalCluster
 rds:CreateOptionGroup
 rds:CrossRegionCommunication
-rds:DeleteCustomAvailabilityZone
 rds:DeleteCustomDBEngineVersion
 rds:DeleteDBCluster
 rds:DeleteDBClusterEndpoint
@@ -9074,12 +9072,10 @@ rds:DeleteDBSnapshot
 rds:DeleteDBSubnetGroup
 rds:DeleteEventSubscription
 rds:DeleteGlobalCluster
-rds:DeleteInstallationMedia
 rds:DeleteOptionGroup
 rds:DeregisterDBProxyTargets
 rds:DescribeAccountAttributes
 rds:DescribeCertificates
-rds:DescribeCustomAvailabilityZones
 rds:DescribeDBClusterBacktracks
 rds:DescribeDBClusterEndpoints
 rds:DescribeDBClusterParameterGroups
@@ -9108,7 +9104,6 @@ rds:DescribeEventSubscriptions
 rds:DescribeEvents
 rds:DescribeExportTasks
 rds:DescribeGlobalClusters
-rds:DescribeInstallationMedia
 rds:DescribeOptionGroupOptions
 rds:DescribeOptionGroups
 rds:DescribeOrderableDBInstanceOptions
@@ -9123,7 +9118,6 @@ rds:DownloadCompleteDBLogFile
 rds:DownloadDBLogFilePortion
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
-rds:ImportInstallationMedia
 rds:ListTagsForResource
 rds:ModifyCertificates
 rds:ModifyCurrentDBClusterCapacity
