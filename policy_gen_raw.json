@@ -13076,6 +13076,11 @@
             ],
             "ARNFormat": "arn:${Partition}:migrationhub-orchestrator:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:migrationhub-orchestrator:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Health APIs and Notifications": {
