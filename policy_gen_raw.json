@@ -3111,9 +3111,10 @@
                 "Restore",
                 "Select",
                 "TagResource",
-                "UntagResource"
+                "UntagResource",
+                "UpdatePartitioner"
             ],
-            "ARNFormat": "arn:${Partition}:cassandra:${region}:${account}:/${resourceType}/${resourcePath}/",
+            "ARNFormat": "arn:${Partition}:cassandra:${Region}:${Account}:/${ResourceType}/${ResourcePath}/",
             "ARNRegex": "^arn:${Partition}:cassandra:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
