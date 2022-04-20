@@ -6900,6 +6900,7 @@ kms:GenerateDataKey
 kms:GenerateDataKeyPair
 kms:GenerateDataKeyPairWithoutPlaintext
 kms:GenerateDataKeyWithoutPlaintext
+kms:GenerateMac
 kms:GenerateRandom
 kms:GetKeyPolicy
 kms:GetKeyRotationStatus
@@ -6928,6 +6929,7 @@ kms:UpdateCustomKeyStore
 kms:UpdateKeyDescription
 kms:UpdatePrimaryRegion
 kms:Verify
+kms:VerifyMac
 lakeformation:AddLFTagsToResource
 lakeformation:BatchGrantPermissions
 lakeformation:BatchRevokePermissions
@@ -7993,6 +7995,7 @@ migrationhub-orchestrator:GetWorkflow
 migrationhub-orchestrator:GetWorkflowStep
 migrationhub-orchestrator:GetWorkflowStepGroup
 migrationhub-orchestrator:ListPlugins
+migrationhub-orchestrator:ListTagsForResource
 migrationhub-orchestrator:ListTemplateStepGroups
 migrationhub-orchestrator:ListTemplateSteps
 migrationhub-orchestrator:ListTemplates
@@ -8004,6 +8007,8 @@ migrationhub-orchestrator:RetryWorkflowStep
 migrationhub-orchestrator:SendMessage
 migrationhub-orchestrator:StartWorkflow
 migrationhub-orchestrator:StopWorkflow
+migrationhub-orchestrator:TagResource
+migrationhub-orchestrator:UntagResource
 migrationhub-orchestrator:UpdateWorkflow
 migrationhub-orchestrator:UpdateWorkflowStep
 migrationhub-orchestrator:UpdateWorkflowStepGroup
@@ -8801,7 +8806,6 @@ proton:UpdateEnvironmentTemplate
 proton:UpdateEnvironmentTemplateMajorVersion
 proton:UpdateEnvironmentTemplateMinorVersion
 proton:UpdateEnvironmentTemplateVersion
-proton:UpdateRepository
 proton:UpdateService
 proton:UpdateServiceInstance
 proton:UpdateServicePipeline
