@@ -93,6 +93,7 @@ AWS IoT Fleet Hub for Device Management
 AWS IoT FleetWise
 AWS IoT Greengrass
 AWS IoT Greengrass V2
+AWS IoT Jobs DataPlane
 AWS IoT RoboRunner
 AWS IoT SiteWise
 AWS IoT Things Graph

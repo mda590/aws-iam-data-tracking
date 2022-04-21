@@ -6364,6 +6364,10 @@ iotfleetwise:UpdateFleet
 iotfleetwise:UpdateModelManifest
 iotfleetwise:UpdateSignalCatalog
 iotfleetwise:UpdateVehicle
+iotjobsdata:DescribeJobExecution
+iotjobsdata:GetPendingJobExecutions
+iotjobsdata:StartNextPendingJobExecution
+iotjobsdata:UpdateJobExecution
 iotroborunner:CreateAction
 iotroborunner:CreateActionTemplate
 iotroborunner:CreateActionTemplateDependency

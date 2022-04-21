@@ -3709,8 +3709,8 @@
                 "UpdateApplication",
                 "UpdateDeploymentGroup"
             ],
-            "ARNFormat": "arn:aws:codedeploy:region:account:resource-type:resource-specifier",
-            "ARNRegex": "^arn:aws:codedeploy:.+",
+            "ARNFormat": "arn:${Partition}:codedeploy:${Region}:${Account}:${ResourceType}:${ResourceSpecifier}",
+            "ARNRegex": "^arn:${Partition}:codedeploy:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5111,6 +5111,21 @@
             "ARNFormat": "arn:${Partition}:sso-directory:${Region}:${Account}:<relative-id>",
             "ARNRegex": "^arn:${Partition}:sso-directory:${Region}:.+",
             "HasResource": false
+        },
+        "AWS IoT Jobs DataPlane": {
+            "StringPrefix": "iotjobsdata",
+            "Actions": [
+                "DescribeJobExecution",
+                "GetPendingJobExecutions",
+                "StartNextPendingJobExecution",
+                "UpdateJobExecution"
+            ],
+            "ARNFormat": "arn:aws:iot:${Region}:${Account}:${Type}/${Name}",
+            "ARNRegex": "^arn:aws:iot:.+:[0-9]+:.+",
+            "conditionKeys": [
+                "iot:JobId"
+            ],
+            "HasResource": true
         },
         "Amazon AppFlow": {
             "StringPrefix": "appflow",
@@ -11803,8 +11818,8 @@
                 "UpdateMultiplexProgram",
                 "UpdateReservation"
             ],
-            "ARNFormat": "arn:${Partition}:medialive:${Region}:${Account}:${ResourceType}:${ResourcePath}",
-            "ARNRegex": "^arn:${Partition}:medialive:.+",
+            "ARNFormat": "arn:${Partition}:medialive:${Region}:${Account}:${ResourceType}:${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:medialive:${Region}:${Account}:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
