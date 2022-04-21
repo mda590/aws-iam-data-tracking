@@ -6099,7 +6099,6 @@ iot:GetIndexingConfiguration
 iot:GetJobDocument
 iot:GetLoggingOptions
 iot:GetOTAUpdate
-iot:GetPendingJobExecutions
 iot:GetPercentiles
 iot:GetPolicy
 iot:GetPolicyVersion
@@ -6190,7 +6189,6 @@ iot:SetV2LoggingLevel
 iot:SetV2LoggingOptions
 iot:StartAuditMitigationActionsTask
 iot:StartDetectMitigationActionsTask
-iot:StartNextPendingJobExecution
 iot:StartOnDemandAuditTask
 iot:StartThingRegistrationTask
 iot:StopThingRegistrationTask
@@ -6214,7 +6212,6 @@ iot:UpdateEventConfigurations
 iot:UpdateFleetMetric
 iot:UpdateIndexingConfiguration
 iot:UpdateJob
-iot:UpdateJobExecution
 iot:UpdateMitigationAction
 iot:UpdateProvisioningTemplate
 iot:UpdateRoleAlias
