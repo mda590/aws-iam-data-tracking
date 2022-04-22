@@ -14144,6 +14144,7 @@
                 "DescribeAnomalyDetectionExecutions",
                 "DescribeAnomalyDetector",
                 "DescribeMetricSet",
+                "DetectMetricSetConfig",
                 "GetAnomalyGroup",
                 "GetDataQualityMetrics",
                 "GetFeedback",
