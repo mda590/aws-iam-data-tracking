@@ -11722,7 +11722,7 @@
             "ARNRegex": "^arn:aws:execute-api:.+",
             "HasResource": true
         },
-        "AWS Migration Hub Strategy Recommendations.": {
+        "AWS Migration Hub Strategy Recommendations": {
             "StringPrefix": "migrationhub-strategy",
             "Actions": [
                 "GetAntiPattern",
@@ -11753,7 +11753,7 @@
                 "UpdateServerConfig"
             ],
             "ARNFormat": "arn:${Partition}:iam::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:${ServiceName}:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:${ServiceName}:.+:.+:.+",
             "HasResource": false
         },
         "AWS Elemental MediaLive": {
@@ -14112,6 +14112,7 @@
                 "ListInferenceExecutions",
                 "ListInferenceSchedulers",
                 "ListModels",
+                "ListSensorStatistics",
                 "ListTagsForResource",
                 "StartDataIngestionJob",
                 "StartInferenceScheduler",

@@ -115,7 +115,7 @@ AWS Microservice Extractor for .NET
 AWS Migration Hub
 AWS Migration Hub Orchestrator
 AWS Migration Hub Refactor Spaces
-AWS Migration Hub Strategy Recommendations.
+AWS Migration Hub Strategy Recommendations
 AWS Mobile Hub
 AWS Network Firewall
 AWS OpsWorks
