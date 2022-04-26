@@ -1498,8 +1498,8 @@
                 "UpdatePublishingDestination",
                 "UpdateThreatIntelSet"
             ],
-            "ARNFormat": "arn:aws:guardduty:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:guardduty:.+",
+            "ARNFormat": "arn:${Partition}:guardduty:${Region}:${Account}:.+",
+            "ARNRegex": "^arn:${Partition}:guardduty:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4369,6 +4369,7 @@
                 "ReleasePhoneNumber",
                 "ResumeContactRecording",
                 "SearchAvailablePhoneNumbers",
+                "SearchUsers",
                 "SearchVocabularies",
                 "StartChatContact",
                 "StartContactRecording",
@@ -4423,6 +4424,7 @@
                 "aws:TagKeys",
                 "connect:AttributeType",
                 "connect:InstanceId",
+                "connect:SearchTag/${TagKey}",
                 "connect:StorageResourceType"
             ],
             "HasResource": true
@@ -15058,6 +15060,8 @@
                 "PutEvents",
                 "PutItems",
                 "PutUsers",
+                "StartRecommender",
+                "StopRecommender",
                 "StopSolutionVersionCreation",
                 "UpdateCampaign",
                 "UpdateRecommender"
@@ -15978,7 +15982,7 @@
             ],
             "HasResource": false
         },
-        "Amazon Glacier": {
+        "Amazon S3 Glacier": {
             "StringPrefix": "glacier",
             "Actions": [
                 "AbortMultipartUpload",
@@ -16015,9 +16019,11 @@
                 "UploadArchive",
                 "UploadMultipartPart"
             ],
-            "ARNFormat": "arn:aws:glacier:<region>:<accountID>:<relative-id>",
-            "ARNRegex": "^arn:aws:glacier:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:glacier:${Region}:${Account}:vault/${VaultName}",
+            "ARNRegex": "^arn:${Partition}:glacier:.+:.+:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:TagKeys",
                 "glacier:ArchiveAgeInDays",
                 "glacier:ResourceTag/"
             ],

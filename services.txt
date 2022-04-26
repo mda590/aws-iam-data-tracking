@@ -220,7 +220,6 @@ Amazon Fraud Detector
 Amazon FreeRTOS
 Amazon GameLift
 Amazon GameSparks
-Amazon Glacier
 Amazon GroundTruth Labeling
 Amazon GuardDuty
 Amazon HealthLake
@@ -283,6 +282,7 @@ Amazon Route 53 Recovery Controls
 Amazon Route 53 Recovery Readiness
 Amazon Route 53 Resolver
 Amazon S3
+Amazon S3 Glacier
 Amazon S3 Object Lambda
 Amazon S3 on Outposts
 Amazon SES
