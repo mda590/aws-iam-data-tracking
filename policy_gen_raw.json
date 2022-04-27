@@ -2398,9 +2398,6 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:SourceIp",
-                "aws:SourceVpc",
-                "aws:SourceVpce",
                 "aws:TagKeys",
                 "sagemaker:AcceleratorTypes",
                 "sagemaker:AppNetworkAccessType",
