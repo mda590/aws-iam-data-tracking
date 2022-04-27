@@ -227,6 +227,7 @@ Amazon Honeycode
 Amazon Inspector
 Amazon Inspector2
 Amazon Interactive Video Service
+Amazon Interactive Video Service Chat
 Amazon Kendra
 Amazon Keyspaces (for Apache Cassandra)
 Amazon Kinesis
