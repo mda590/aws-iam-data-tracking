@@ -4373,6 +4373,7 @@
                 "ListUseCases",
                 "ListUserHierarchyGroups",
                 "ListUsers",
+                "PutUserStatus",
                 "ReleasePhoneNumber",
                 "ResumeContactRecording",
                 "SearchAvailablePhoneNumbers",
