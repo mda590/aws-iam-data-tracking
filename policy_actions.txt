@@ -8577,6 +8577,7 @@ outposts:GetOutpostInstanceTypes
 outposts:GetPrivateConnectivityConfig
 outposts:GetSite
 outposts:GetSiteAddress
+outposts:ListAssets
 outposts:ListCatalogItems
 outposts:ListOrders
 outposts:ListOutposts

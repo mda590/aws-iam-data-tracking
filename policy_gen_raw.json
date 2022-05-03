@@ -13172,6 +13172,7 @@
                 "GetPrivateConnectivityConfig",
                 "GetSite",
                 "GetSiteAddress",
+                "ListAssets",
                 "ListCatalogItems",
                 "ListOrders",
                 "ListOutposts",
