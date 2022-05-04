@@ -5006,6 +5006,7 @@
                 "PutUserWorkspaceSettings",
                 "TagResource",
                 "UntagResource",
+                "UpdateAccountExportSettings",
                 "UpdateChart",
                 "UpdateConnection",
                 "UpdateFileFolder",
