@@ -14512,8 +14512,8 @@
                 "UpdateParameterGroup",
                 "UpdateSubnetGroup"
             ],
-            "ARNFormat": "arn:aws:dax:${Region}:${Account}:cache/${ClusterName}",
-            "ARNRegex": "^arn:aws:dax:.+:[0-9]+:cache/[a-zA-Z0-9_.-]+",
+            "ARNFormat": "arn:${Partition}:dax:${Region}:${Account}:cache/${ClusterName}",
+            "ARNRegex": "^arn:${Partition}:dax:.+:[0-9]+:cache/[a-zA-Z0-9_.-]+",
             "conditionKeys": [
                 "dax:EnclosingOperation"
             ],
