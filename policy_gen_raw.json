@@ -1006,6 +1006,7 @@
                 "RemoveThingFromThingGroup",
                 "ReplaceTopicRule",
                 "RetainPublish",
+                "RotateTunnelAccessToken",
                 "SearchIndex",
                 "SetDefaultAuthorizer",
                 "SetDefaultPolicyVersion",
@@ -1056,6 +1057,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "iot:ClientMode",
                 "iot:Delete",
                 "iot:DomainName",
                 "iot:ThingGroupArn",
@@ -8321,8 +8323,8 @@
                 "UntagCertificateAuthority",
                 "UpdateCertificateAuthority"
             ],
-            "ARNFormat": "arn:aws:acm-pca:<region>:<account_ID>:<arn_type>/<resource_id>",
-            "ARNRegex": "^arn:aws:acm-pca:.+:[0-9]+:.+",
+            "ARNFormat": "arn:${Partition}:acm-pca:${Region}:${Account}:${ARNType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:acm-pca:.+:[0-9]+:.+",
             "conditionKeys": [
                 "acm-pca:TemplateArn",
                 "aws:RequestTag/${TagKey}",
