@@ -13688,7 +13688,7 @@
                 "UpdateRepositoryName",
                 "UploadArchive"
             ],
-            "ARNFormat": "arn:aws:codecommit:<region>:<account_ID>:<repository_name>",
+            "ARNFormat": "arn:aws:codecommit:${Region}:${Account}:${RepositoryName}",
             "ARNRegex": "^arn:aws:codecommit:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
