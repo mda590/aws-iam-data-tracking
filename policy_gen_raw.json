@@ -9001,8 +9001,8 @@
                 "UpdateWebACL",
                 "UpdateXssMatchSet"
             ],
-            "ARNFormat": "arn:aws:waf::<account_ID>:<resource>/<resource_id>",
-            "ARNRegex": "^arn:aws:waf::[0-9]+:.+/.+",
+            "ARNFormat": "arn:${Partition}:waf::${Account}:${ResourceId}/${Id}",
+            "ARNRegex": "^arn:${Partition}:waf::[0-9]+:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9304,8 +9304,8 @@
                 "UpdateRuleGroup",
                 "UpdateWebACL"
             ],
-            "ARNFormat": "arn:aws:wafv2:${Region}:${Account}:${Scope}/${ResourceType}/${ResourceName}/${ResourceId}",
-            "ARNRegex": "^arn:aws:wafv2:.+:.+:.+/.+/.+/.+",
+            "ARNFormat": "arn:${Partition}:wafv2:${Region}:${Account}:${Scope}/${ResourceType}/${ResourceName}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:wafv2:.+:.+:.+/.+/.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14338,8 +14338,8 @@
                 "UpdateWebACL",
                 "UpdateXssMatchSet"
             ],
-            "ARNFormat": "arn:aws:waf-regional:<region>:<account_ID>:<resource>/<resource_id>",
-            "ARNRegex": "^arn:aws:waf-regional:.+:[0-9]+:.+/.+",
+            "ARNFormat": "arn:${Partition}:waf-regional:${Region}:${Account}:${ResourceId}/${Id}",
+            "ARNRegex": "^arn:${Partition}:waf-regional:.+:[0-9]+:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
