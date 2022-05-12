@@ -6327,53 +6327,6 @@
             ],
             "HasResource": true
         },
-        "Amazon WorkLink": {
-            "StringPrefix": "worklink",
-            "Actions": [
-                "AssociateDomain",
-                "AssociateWebsiteAuthorizationProvider",
-                "AssociateWebsiteCertificateAuthority",
-                "CreateFleet",
-                "DeleteFleet",
-                "DescribeAuditStreamConfiguration",
-                "DescribeCompanyNetworkConfiguration",
-                "DescribeDevice",
-                "DescribeDevicePolicyConfiguration",
-                "DescribeDomain",
-                "DescribeFleetMetadata",
-                "DescribeIdentityProviderConfiguration",
-                "DescribeWebsiteCertificateAuthority",
-                "DisassociateDomain",
-                "DisassociateWebsiteAuthorizationProvider",
-                "DisassociateWebsiteCertificateAuthority",
-                "ListDevices",
-                "ListDomains",
-                "ListFleets",
-                "ListTagsForResource",
-                "ListWebsiteAuthorizationProviders",
-                "ListWebsiteCertificateAuthorities",
-                "RestoreDomainAccess",
-                "RevokeDomainAccess",
-                "SearchEntity",
-                "SignOutUser",
-                "TagResource",
-                "UntagResource",
-                "UpdateAuditStreamConfiguration",
-                "UpdateCompanyNetworkConfiguration",
-                "UpdateDevicePolicyConfiguration",
-                "UpdateDomainMetadata",
-                "UpdateFleetMetadata",
-                "UpdateIdentityProviderConfiguration"
-            ],
-            "ARNFormat": "arn:${Partition}:worklink::${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:${Partition}:worklink:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
-            "HasResource": true
-        },
         "AWS CodeStar Connections": {
             "StringPrefix": "codestar-connections",
             "Actions": [
