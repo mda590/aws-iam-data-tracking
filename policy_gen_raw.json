@@ -14936,8 +14936,8 @@
                 "UntagResource",
                 "UpdateEnvironment"
             ],
-            "ARNFormat": "arn:aws:<serviceName>:<region>:<account>:<resourceType>/<resourceName>",
-            "ARNRegex": "^arn:aws:airflow:.+",
+            "ARNFormat": "arn:aws:airflow:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:airflow:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
