@@ -301,6 +301,7 @@ Amazon Timestream
 Amazon Transcribe
 Amazon Translate
 Amazon WorkDocs
+Amazon WorkLink
 Amazon WorkMail
 Amazon WorkMail Message Flow
 Amazon WorkSpaces
