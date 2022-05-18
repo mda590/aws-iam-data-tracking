@@ -7363,6 +7363,7 @@
             "StringPrefix": "iotevents",
             "Actions": [
                 "BatchAcknowledgeAlarm",
+                "BatchDeleteDetector",
                 "BatchDisableAlarm",
                 "BatchEnableAlarm",
                 "BatchPutMessage",
@@ -8866,7 +8867,7 @@
                 "UpdateComposition",
                 "UpdateModel"
             ],
-            "ARNFormat": "arn:aws:deepcomposer:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:deepcomposer:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:deepcomposer:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -9228,6 +9229,7 @@
                 "UpdateGroup",
                 "UpdateIAMPolicyAssignment",
                 "UpdateIpRestriction",
+                "UpdatePublicSharingSettings",
                 "UpdateTemplate",
                 "UpdateTemplateAlias",
                 "UpdateTemplatePermissions",
