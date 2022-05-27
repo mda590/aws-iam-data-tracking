@@ -10,6 +10,7 @@ AWS AppConfig
 AWS AppSync
 AWS Application Auto Scaling
 AWS Application Cost Profiler Service
+AWS Application Discovery Service
 AWS Application Migration Service
 AWS Artifact
 AWS Audit Manager
@@ -309,7 +310,6 @@ Amazon WorkSpaces Application Manager
 Amazon WorkSpaces Web
 AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
-Application Discovery
 Application Discovery Arsenal
 CloudWatch Application Insights
 Database Query Metadata Service

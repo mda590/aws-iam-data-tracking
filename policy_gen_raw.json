@@ -8005,8 +8005,8 @@
                 "UntagResource",
                 "UpdateIdentityPool"
             ],
-            "ARNFormat": "arn:aws:cognito-identity:<region>:<account>:<resourceType>/<resourcePath>",
-            "ARNRegex": "^arn:aws:cognito-identity:.+",
+            "ARNFormat": "arn:${Partition}:cognito-identity:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:cognito-identity:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13551,7 +13551,7 @@
             "ARNRegex": "^arn:aws:rds-db:.+",
             "HasResource": true
         },
-        "Application Discovery": {
+        "AWS Application Discovery Service": {
             "StringPrefix": "discovery",
             "Actions": [
                 "AssociateConfigurationItemsToApplication",
@@ -13570,6 +13570,7 @@
                 "DisassociateConfigurationItemsFromApplication",
                 "ExportConfigurations",
                 "GetDiscoverySummary",
+                "GetNetworkConnectionGraph",
                 "ListConfigurations",
                 "ListServerNeighbors",
                 "StartContinuousExport",
