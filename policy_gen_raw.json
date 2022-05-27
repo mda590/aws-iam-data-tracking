@@ -1580,8 +1580,6 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:SourceAccount",
-                "aws:SourceArn",
                 "aws:TagKeys",
                 "events:EventBusArn",
                 "events:ManagedBy",
