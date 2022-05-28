@@ -201,6 +201,7 @@ Amazon EC2
 Amazon EC2 Auto Scaling
 Amazon EC2 Image Builder
 Amazon EC2 Instance Connect
+Amazon EMR Serverless
 Amazon EMR on EKS (EMR Containers)
 Amazon ElastiCache
 Amazon Elastic Block Store

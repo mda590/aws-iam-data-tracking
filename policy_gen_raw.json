@@ -9757,6 +9757,33 @@
             "ARNRegex": "^arn:aws:cloudsearch:.+:.+:.+",
             "HasResource": true
         },
+        "Amazon EMR Serverless": {
+            "StringPrefix": "emr-serverless",
+            "Actions": [
+                "CancelJobRun",
+                "CreateApplication",
+                "DeleteApplication",
+                "GetApplication",
+                "GetJobRun",
+                "ListApplications",
+                "ListJobRuns",
+                "ListTagsForResource",
+                "StartApplication",
+                "StartJobRun",
+                "StopApplication",
+                "TagResource",
+                "UntagResource",
+                "UpdateApplication"
+            ],
+            "ARNFormat": "arn:${Partition}:emr-serverless:${Region}:${Account}:/${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:emr-serverless:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Elastic Transcoder": {
             "StringPrefix": "elastictranscoder",
             "Actions": [
