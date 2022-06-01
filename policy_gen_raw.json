@@ -14634,6 +14634,7 @@
                 "DeleteGateway",
                 "DeleteHypervisor",
                 "DisassociateGatewayFromServer",
+                "GetGateway",
                 "ImportHypervisorConfiguration",
                 "ListGateways",
                 "ListHypervisors",
@@ -14645,6 +14646,7 @@
                 "TestHypervisorConfiguration",
                 "UntagResource",
                 "UpdateGatewayInformation",
+                "UpdateGatewaySoftwareNow",
                 "UpdateHypervisor"
             ],
             "ARNFormat": "arn:${Partition}:aws:backup-gateway:${Region}:${Account}:${ResourceType}/${ResourcePath}",
