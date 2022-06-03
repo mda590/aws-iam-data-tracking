@@ -12504,6 +12504,7 @@
                 "GetGroupsForCapacityReservation",
                 "GetHostReservationPurchasePreview",
                 "GetInstanceTypesFromInstanceRequirements",
+                "GetInstanceUefiData",
                 "GetIpamAddressHistory",
                 "GetIpamPoolAllocations",
                 "GetIpamPoolCidrs",
@@ -12657,8 +12658,8 @@
                 "UpdateSecurityGroupRuleDescriptionsIngress",
                 "WithdrawByoipCidr"
             ],
-            "ARNFormat": "arn:aws:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:ec2:.+",
+            "ARNFormat": "arn:${Partition}:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:ec2:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
