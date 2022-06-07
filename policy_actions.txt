@@ -2599,6 +2599,7 @@ connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
 connect:GetContactAttributes
 connect:GetCurrentMetricData
+connect:GetCurrentUserData
 connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData

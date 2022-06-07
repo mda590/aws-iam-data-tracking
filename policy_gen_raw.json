@@ -1051,8 +1051,8 @@
                 "UpdateTopicRuleDestination",
                 "ValidateSecurityProfileBehaviors"
             ],
-            "ARNFormat": "arn:aws:iot:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iot:.+:[0-9]+:.+",
+            "ARNFormat": "arn:${Partition}:iot:${Region}:${Account}:${Type}/${Name}",
+            "ARNRegex": "^arn:${Partition}:iot:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4354,6 +4354,7 @@
                 "DisassociateSecurityKey",
                 "GetContactAttributes",
                 "GetCurrentMetricData",
+                "GetCurrentUserData",
                 "GetFederationToken",
                 "GetFederationTokens",
                 "GetMetricData",
