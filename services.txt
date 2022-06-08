@@ -103,6 +103,7 @@ AWS Key Management Service
 AWS Lake Formation
 AWS Lambda
 AWS License Manager
+AWS Mainframe Modernization Service
 AWS Marketplace
 AWS Marketplace Catalog
 AWS Marketplace Commerce Analytics Service

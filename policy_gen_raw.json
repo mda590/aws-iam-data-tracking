@@ -13191,6 +13191,51 @@
             ],
             "HasResource": true
         },
+        "AWS Mainframe Modernization Service": {
+            "StringPrefix": "m2",
+            "Actions": [
+                "CancelBatchJobExecution",
+                "CreateApplication",
+                "CreateDataSetImportTask",
+                "CreateDeployment",
+                "CreateEnvironment",
+                "DeleteApplication",
+                "DeleteApplicationFromEnvironment",
+                "DeleteEnvironment",
+                "GetApplication",
+                "GetApplicationVersion",
+                "GetBatchJobExecution",
+                "GetDataSetDetails",
+                "GetDataSetImportTask",
+                "GetDeployment",
+                "GetEnvironment",
+                "ListApplicationVersions",
+                "ListApplications",
+                "ListBatchJobDefinitions",
+                "ListBatchJobExecutions",
+                "ListDataSetImportHistory",
+                "ListDataSets",
+                "ListDeployments",
+                "ListEngineVersions",
+                "ListEnvironments",
+                "ListTagsForResource",
+                "StartApplication",
+                "StartBatchJob",
+                "StopApplication",
+                "TagResource",
+                "UntagResource",
+                "UpdateApplication",
+                "UpdateEnvironment"
+            ],
+            "ARNFormat": "arn:${Partition}:m2:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:m2:${Region}:${Account}:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Health APIs and Notifications": {
             "StringPrefix": "health",
             "Actions": [
