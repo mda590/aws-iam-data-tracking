@@ -1289,7 +1289,7 @@
                 "VerifyClientRoleForMgn"
             ],
             "ARNFormat": "arn:aws:mgn:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:mgn:.+",
+            "ARNRegex": "^arn:${Partition}:mgn:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
