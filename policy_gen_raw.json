@@ -6960,7 +6960,7 @@
                 "DisassociateWirelessGatewayFromThing",
                 "GetDestination",
                 "GetDeviceProfile",
-                "GetEventConfigurationsByResourceTypes",
+                "GetEventConfigurationByResourceTypes",
                 "GetFuotaTask",
                 "GetLogLevelsByResourceTypes",
                 "GetMulticastGroup",
@@ -7007,7 +7007,7 @@
                 "TestWirelessDevice",
                 "UntagResource",
                 "UpdateDestination",
-                "UpdateEventConfigurationsByResourceTypes",
+                "UpdateEventConfigurationByResourceTypes",
                 "UpdateFuotaTask",
                 "UpdateLogLevelsByResourceTypes",
                 "UpdateMulticastGroup",
@@ -7017,8 +7017,8 @@
                 "UpdateWirelessDevice",
                 "UpdateWirelessGateway"
             ],
-            "ARNFormat": "arn:aws:iotwireless:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:iotwireless:.+",
+            "ARNFormat": "arn:${Partition}:iotwireless:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:iotwireless:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
