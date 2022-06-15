@@ -129,6 +129,7 @@ AWS Performance Insights
 AWS Price List
 AWS Proton
 AWS Purchase Orders Console
+AWS Recycle Bin
 AWS Resilience Hub Service
 AWS Resource Access Manager
 AWS Resource Groups
@@ -323,5 +324,4 @@ High-volume outbound communications
 Identity And Access Management
 Launch Wizard
 Network Manager
-Recycle Bin
 Service Quotas

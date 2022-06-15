@@ -13041,7 +13041,7 @@
             "ARNRegex": "^arn:${Partition}:workmailmessageflow:.+:.+:.+",
             "HasResource": true
         },
-        "Recycle Bin": {
+        "AWS Recycle Bin": {
             "StringPrefix": "rbin",
             "Actions": [
                 "CreateRule",
@@ -13058,7 +13058,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "rbin:Attribute/ResourceType",
+                "rbin:Request/ResourceType"
             ],
             "HasResource": true
         },
@@ -14322,6 +14324,7 @@
                 "PutFeedback",
                 "TagResource",
                 "UntagResource",
+                "UpdateAlert",
                 "UpdateAnomalyDetector",
                 "UpdateMetricSet"
             ],
