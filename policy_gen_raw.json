@@ -11158,7 +11158,7 @@
         "Amazon MemoryDB": {
             "StringPrefix": "memorydb",
             "Actions": [
-                "BatchUpdateClusters",
+                "BatchUpdateCluster",
                 "CopySnapshot",
                 "CreateAcl",
                 "CreateCluster",
@@ -11183,7 +11183,7 @@
                 "DescribeSubnetGroups",
                 "DescribeUsers",
                 "FailoverShard",
-                "ListNodeTypeUpdates",
+                "ListAllowedNodeTypeUpdates",
                 "ListTags",
                 "ResetParameterGroup",
                 "TagResource",
@@ -11194,7 +11194,7 @@
                 "UpdateSubnetGroup",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:<partition>:memorydb:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:memorydb:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:.+:memorydb:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
