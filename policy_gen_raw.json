@@ -9652,6 +9652,7 @@
                 "GetLoadBalancer",
                 "GetLoadBalancerMetricData",
                 "GetLoadBalancerTlsCertificates",
+                "GetLoadBalancerTlsPolicies",
                 "GetLoadBalancers",
                 "GetOperation",
                 "GetOperations",
@@ -9703,8 +9704,8 @@
                 "UpdateRelationalDatabase",
                 "UpdateRelationalDatabaseParameters"
             ],
-            "ARNFormat": "arn:aws:lightsail:${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:lightsail:.+",
+            "ARNFormat": "arn:${Partition}:lightsail:${Region}:${Account}:${ResourceType}/${Id}",
+            "ARNRegex": "^arn:${Partition}:lightsail:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14812,6 +14813,7 @@
                 "ListAssociatedAttributeGroups",
                 "ListAssociatedResources",
                 "ListAttributeGroups",
+                "ListAttributeGroupsForApplication",
                 "ListBudgetsForResource",
                 "ListConstraintsForPortfolio",
                 "ListLaunchPaths",
@@ -14852,8 +14854,8 @@
                 "UpdateServiceAction",
                 "UpdateTagOption"
             ],
-            "ARNFormat": "arn:aws:(catalog|servicecatalog):${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:(catalog|servicecatalog):.+",
+            "ARNFormat": "arn:${Partition}:(catalog|servicecatalog):${Region}:${Account}:${ResourceType}/${Id}",
+            "ARNRegex": "^arn:${Partition}:(catalog|servicecatalog):.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",

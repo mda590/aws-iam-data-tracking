@@ -7398,6 +7398,7 @@ lightsail:GetKeyPairs
 lightsail:GetLoadBalancer
 lightsail:GetLoadBalancerMetricData
 lightsail:GetLoadBalancerTlsCertificates
+lightsail:GetLoadBalancerTlsPolicies
 lightsail:GetLoadBalancers
 lightsail:GetOperation
 lightsail:GetOperations
@@ -10561,6 +10562,7 @@ servicecatalog:ListApplications
 servicecatalog:ListAssociatedAttributeGroups
 servicecatalog:ListAssociatedResources
 servicecatalog:ListAttributeGroups
+servicecatalog:ListAttributeGroupsForApplication
 servicecatalog:ListBudgetsForResource
 servicecatalog:ListConstraintsForPortfolio
 servicecatalog:ListLaunchPaths
