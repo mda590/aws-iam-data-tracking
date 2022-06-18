@@ -14585,8 +14585,8 @@
                 "UntagResource",
                 "UploadLayerPart"
             ],
-            "ARNFormat": "arn:aws:ecr:${Region}:${Account}:repository/${RepositoryName}",
-            "ARNRegex": "^arn:aws:ecr:.+",
+            "ARNFormat": "arn:${Partition}:ecr:${Region}:${Account}:repository/${RepositoryName}",
+            "ARNRegex": "^arn:${Partition}:ecr:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16103,8 +16103,8 @@
                 "UpdatePublicDnsNamespace",
                 "UpdateService"
             ],
-            "ARNFormat": "arn:aws:servicediscovery:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:servicediscovery:.+",
+            "ARNFormat": "arn:${Partition}:servicediscovery:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:servicediscovery:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
