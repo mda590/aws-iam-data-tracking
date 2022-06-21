@@ -9416,7 +9416,7 @@
                 "UpdateWorkloadShare",
                 "UpgradeLensReview"
             ],
-            "ARNFormat": "arn:aws:wellarchitected:${Region}:${Account}:${ResourceName}/${ResourceId}",
+            "ARNFormat": "arn:${Partition}:wellarchitected:${Region}:${Account}:${ResourceName}/${ResourceId}",
             "ARNRegex": "^arn:${Partition}:wellarchitected:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
