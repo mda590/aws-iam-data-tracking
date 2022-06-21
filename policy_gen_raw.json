@@ -2079,11 +2079,10 @@
                 "UpdateJobPriority",
                 "UpdateJobStatus"
             ],
-            "ARNFormat": "arn:aws:s3:::${BucketName}/${KeyName}",
-            "ARNRegex": "^arn:aws:s3:::.+",
+            "ARNFormat": "arn:${Partition}:s3:::${BucketName}/${KeyName}",
+            "ARNRegex": "^arn:${Partition}:s3:::.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
-                "aws:RequestedRegion",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "s3:AccessPointNetworkOrigin",
