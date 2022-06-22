@@ -8654,6 +8654,7 @@ outposts:CreateSite
 outposts:DeleteOutpost
 outposts:DeleteSite
 outposts:GetCatalogItem
+outposts:GetConnection
 outposts:GetOrder
 outposts:GetOutpost
 outposts:GetOutpostInstanceTypes
@@ -8666,6 +8667,7 @@ outposts:ListOrders
 outposts:ListOutposts
 outposts:ListSites
 outposts:ListTagsForResource
+outposts:StartConnection
 outposts:TagResource
 outposts:UntagResource
 outposts:UpdateOutpost
