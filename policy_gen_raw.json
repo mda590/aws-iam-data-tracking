@@ -4880,10 +4880,11 @@
                 "ListTagsForResource",
                 "PutResourcePolicy",
                 "TagResource",
-                "UntagResource"
+                "UntagResource",
+                "UpdateRoute"
             ],
-            "ARNFormat": "arn:aws:refactor-spaces:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:refactor-spaces:.+",
+            "ARNFormat": "arn:${Partition}:refactor-spaces:${Region}:${Account}:${ResourceType}/${RelativeId}",
+            "ARNRegex": "^arn:${Partition}:refactor-spaces:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5592,22 +5593,6 @@
                 "swf:workflowType.version"
             ],
             "HasResource": true
-        },
-        "Amazon Macie Classic": {
-            "StringPrefix": "macie",
-            "Actions": [
-                "AssociateMemberAccount",
-                "AssociateS3Resources",
-                "DisassociateMemberAccount",
-                "DisassociateS3Resources",
-                "ListMemberAccounts",
-                "ListS3Resources",
-                "UpdateS3Resources"
-            ],
-            "conditionKeys": [
-                "aws:SourceArn"
-            ],
-            "HasResource": false
         },
         "AWS AppSync": {
             "StringPrefix": "appsync",

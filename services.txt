@@ -249,7 +249,6 @@ Amazon Lookout for Vision
 Amazon MQ
 Amazon Machine Learning
 Amazon Macie
-Amazon Macie Classic
 Amazon Managed Blockchain
 Amazon Managed Grafana
 Amazon Managed Service for Prometheus
