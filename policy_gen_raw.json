@@ -5721,6 +5721,11 @@
             ],
             "ARNFormat": "arn:${Partition}:ssm-incidents::${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:${Partition}:ssm-incidents::.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS X-Ray": {
