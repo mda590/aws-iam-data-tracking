@@ -6576,7 +6576,6 @@
                 "CreateAppInstanceUser",
                 "CreateAttendee",
                 "CreateBot",
-                "CreateBotMembership",
                 "CreateCDRBucket",
                 "CreateChannel",
                 "CreateChannelBan",
@@ -6764,6 +6763,7 @@
                 "RestorePhoneNumber",
                 "RetrieveDataExports",
                 "SearchAvailablePhoneNumbers",
+                "SearchChannels",
                 "SendChannelMessage",
                 "StartDataExport",
                 "StartMeetingTranscription",
@@ -6807,8 +6807,8 @@
                 "UpdateVoiceConnectorGroup",
                 "ValidateAccountResource"
             ],
-            "ARNFormat": "arn:aws:chime::${AccountId}:${ResourceType}/${ResourceID}",
-            "ARNRegex": "^arn:aws:chime:.+",
+            "ARNFormat": "arn:${Partition}:chime::${AccountId}:${ResourceType}/${ResourceID}",
+            "ARNRegex": "^arn:${Partition}:chime:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
