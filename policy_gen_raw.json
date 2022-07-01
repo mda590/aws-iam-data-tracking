@@ -9410,6 +9410,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateAnswer",
+                "UpdateGlobalSettings",
                 "UpdateLensReview",
                 "UpdateShareInvitation",
                 "UpdateWorkload",
