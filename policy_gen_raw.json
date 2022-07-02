@@ -8098,8 +8098,8 @@
                 "UpdateEnvironment",
                 "ValidateConfiguration"
             ],
-            "ARNFormat": "arn:aws:appconfig:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:appconfig:.+",
+            "ARNFormat": "arn:${Partition}:appconfig:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:${Partition}:appconfig:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
