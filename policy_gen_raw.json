@@ -6104,6 +6104,7 @@
                 "DescribeEventTopics",
                 "DescribeLDAPSSettings",
                 "DescribeRegions",
+                "DescribeSettings",
                 "DescribeSharedDirectories",
                 "DescribeSnapshots",
                 "DescribeTrusts",
@@ -6139,6 +6140,7 @@
                 "UpdateConditionalForwarder",
                 "UpdateNumberOfDomainControllers",
                 "UpdateRadius",
+                "UpdateSettings",
                 "UpdateTrust",
                 "VerifyTrust"
             ],
