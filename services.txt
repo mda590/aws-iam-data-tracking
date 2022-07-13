@@ -121,6 +121,7 @@ AWS Migration Hub Refactor Spaces
 AWS Migration Hub Strategy Recommendations
 AWS Mobile Hub
 AWS Network Firewall
+AWS Network Manager
 AWS OpsWorks
 AWS OpsWorks Configuration Management
 AWS Organizations
@@ -325,5 +326,4 @@ Elemental Support Content
 High-volume outbound communications
 Identity And Access Management
 Launch Wizard
-Network Manager
 Service Quotas

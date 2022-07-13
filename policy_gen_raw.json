@@ -7888,7 +7888,7 @@
             ],
             "HasResource": true
         },
-        "Network Manager": {
+        "AWS Network Manager": {
             "StringPrefix": "networkmanager",
             "Actions": [
                 "AcceptAttachment",
@@ -7905,6 +7905,8 @@
                 "CreateLink",
                 "CreateSite",
                 "CreateSiteToSiteVpnAttachment",
+                "CreateTransitGatewayPeering",
+                "CreateTransitGatewayRouteTableAttachment",
                 "CreateVpcAttachment",
                 "DeleteAttachment",
                 "DeleteConnectPeer",
@@ -7914,6 +7916,7 @@
                 "DeleteDevice",
                 "DeleteGlobalNetwork",
                 "DeleteLink",
+                "DeletePeering",
                 "DeleteResourcePolicy",
                 "DeleteSite",
                 "DeregisterTransitGateway",
@@ -7928,6 +7931,7 @@
                 "GetConnectPeerAssociations",
                 "GetConnections",
                 "GetCoreNetwork",
+                "GetCoreNetworkChangeEvents",
                 "GetCoreNetworkChangeSet",
                 "GetCoreNetworkPolicy",
                 "GetCustomerGatewayAssociations",
@@ -7944,13 +7948,16 @@
                 "GetSiteToSiteVpnAttachment",
                 "GetSites",
                 "GetTransitGatewayConnectPeerAssociations",
+                "GetTransitGatewayPeering",
                 "GetTransitGatewayRegistrations",
+                "GetTransitGatewayRouteTableAttachment",
                 "GetVpcAttachment",
                 "ListAttachments",
                 "ListConnectPeers",
                 "ListCoreNetworkPolicyVersions",
                 "ListCoreNetworks",
                 "ListOrganizationServiceAccessStatus",
+                "ListPeerings",
                 "ListTagsForResource",
                 "PutCoreNetworkPolicy",
                 "PutResourcePolicy",
@@ -7980,6 +7987,7 @@
                 "networkmanager:subnetArns",
                 "networkmanager:tgwArn",
                 "networkmanager:tgwConnectPeerArn",
+                "networkmanager:tgwRtbArn",
                 "networkmanager:vpcArn",
                 "networkmanager:vpnConnectionArn"
             ],
