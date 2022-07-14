@@ -6576,6 +6576,7 @@
                 "BatchDeletePhoneNumber",
                 "BatchSuspendUser",
                 "BatchUnsuspendUser",
+                "BatchUpdateAttendeeCapabilitiesExcept",
                 "BatchUpdatePhoneNumber",
                 "BatchUpdateUser",
                 "ChannelFlowCallback",
@@ -6796,6 +6797,7 @@
                 "UpdateAppInstance",
                 "UpdateAppInstanceUser",
                 "UpdateAppInstanceUserEndpoint",
+                "UpdateAttendeeCapabilities",
                 "UpdateBot",
                 "UpdateCDRSettings",
                 "UpdateChannel",
@@ -6819,7 +6821,7 @@
                 "UpdateVoiceConnectorGroup",
                 "ValidateAccountResource"
             ],
-            "ARNFormat": "arn:aws:chime::${AccountId}:${ResourceType}/${ResourceID}",
+            "ARNFormat": "arn:aws:chime:${Region}:${Account}:${ResourceType}/${ResourceID}",
             "ARNRegex": "^arn:aws:chime:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -16392,9 +16394,10 @@
                 "StopStreamProcessor",
                 "TagResource",
                 "UntagResource",
-                "UpdateDatasetEntries"
+                "UpdateDatasetEntries",
+                "UpdateStreamProcessor"
             ],
-            "ARNFormat": "arn:aws:rekognition:${Region}:${AccountID}:${RelativeId}",
+            "ARNFormat": "arn:aws:rekognition:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:rekognition:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",

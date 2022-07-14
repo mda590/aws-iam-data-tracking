@@ -1158,6 +1158,7 @@ chime:BatchCreateRoomMembership
 chime:BatchDeletePhoneNumber
 chime:BatchSuspendUser
 chime:BatchUnsuspendUser
+chime:BatchUpdateAttendeeCapabilitiesExcept
 chime:BatchUpdatePhoneNumber
 chime:BatchUpdateUser
 chime:ChannelFlowCallback
@@ -1378,6 +1379,7 @@ chime:UpdateAccountSettings
 chime:UpdateAppInstance
 chime:UpdateAppInstanceUser
 chime:UpdateAppInstanceUserEndpoint
+chime:UpdateAttendeeCapabilities
 chime:UpdateBot
 chime:UpdateCDRSettings
 chime:UpdateChannel
@@ -9587,6 +9589,7 @@ rekognition:StopStreamProcessor
 rekognition:TagResource
 rekognition:UntagResource
 rekognition:UpdateDatasetEntries
+rekognition:UpdateStreamProcessor
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:CreateApp
 resiliencehub:CreateRecommendationTemplate
