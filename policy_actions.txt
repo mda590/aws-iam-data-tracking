@@ -8877,9 +8877,11 @@ profile:UntagResource
 profile:UpdateDomain
 profile:UpdateProfile
 proton:AcceptEnvironmentAccountConnection
+proton:CancelComponentDeployment
 proton:CancelEnvironmentDeployment
 proton:CancelServiceInstanceDeployment
 proton:CancelServicePipelineDeployment
+proton:CreateComponent
 proton:CreateEnvironment
 proton:CreateEnvironmentAccountConnection
 proton:CreateEnvironmentTemplate
@@ -8894,6 +8896,7 @@ proton:CreateServiceTemplateMinorVersion
 proton:CreateServiceTemplateVersion
 proton:CreateTemplateSyncConfig
 proton:DeleteAccountRoles
+proton:DeleteComponent
 proton:DeleteEnvironment
 proton:DeleteEnvironmentAccountConnection
 proton:DeleteEnvironmentTemplate
@@ -8909,6 +8912,7 @@ proton:DeleteServiceTemplateVersion
 proton:DeleteTemplateSyncConfig
 proton:GetAccountRoles
 proton:GetAccountSettings
+proton:GetComponent
 proton:GetEnvironment
 proton:GetEnvironmentAccountConnection
 proton:GetEnvironmentTemplate
@@ -8925,6 +8929,9 @@ proton:GetServiceTemplateMinorVersion
 proton:GetServiceTemplateVersion
 proton:GetTemplateSyncConfig
 proton:GetTemplateSyncStatus
+proton:ListComponentOutputs
+proton:ListComponentProvisionedResources
+proton:ListComponents
 proton:ListEnvironmentAccountConnections
 proton:ListEnvironmentOutputs
 proton:ListEnvironmentProvisionedResources
@@ -8952,6 +8959,7 @@ proton:TagResource
 proton:UntagResource
 proton:UpdateAccountRoles
 proton:UpdateAccountSettings
+proton:UpdateComponent
 proton:UpdateEnvironment
 proton:UpdateEnvironmentAccountConnection
 proton:UpdateEnvironmentTemplate
