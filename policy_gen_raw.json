@@ -4136,6 +4136,34 @@
             ],
             "HasResource": true
         },
+        "AWS SimScape": {
+            "StringPrefix": "simscape",
+            "Actions": [
+                "DeleteAgent",
+                "DeleteSimulation",
+                "DescribeAgent",
+                "DescribeSimulation",
+                "ListAgents",
+                "ListSimulations",
+                "ListTagsForResource",
+                "StartAgent",
+                "StartClock",
+                "StartSimulation",
+                "StopAgent",
+                "StopClock",
+                "StopSimulation",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:simscape:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:simscape:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Route 53 Recovery Readiness": {
             "StringPrefix": "route53-recovery-readiness",
             "Actions": [
@@ -10235,6 +10263,7 @@
                 "UntagResource",
                 "UpdateFirewallDeleteProtection",
                 "UpdateFirewallDescription",
+                "UpdateFirewallEncryptionConfiguration",
                 "UpdateFirewallPolicy",
                 "UpdateFirewallPolicyChangeProtection",
                 "UpdateLoggingConfiguration",
@@ -10553,8 +10582,10 @@
                 "GetCostEstimation",
                 "GetResourceCollection",
                 "ListAnomaliesForInsight",
+                "ListAnomalousLogGroups",
                 "ListEvents",
                 "ListInsights",
+                "ListMonitoredResources",
                 "ListNotificationChannels",
                 "ListOrganizationInsights",
                 "ListRecommendations",
