@@ -9893,7 +9893,7 @@
                 "UpdatePipelineNotifications",
                 "UpdatePipelineStatus"
             ],
-            "ARNFormat": "arn:aws:elastictranscoder:<region>:<account>:<resourceType>/<resourceId>",
+            "ARNFormat": "arn:aws:elastictranscoder:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:elastictranscoder:.+",
             "HasResource": true
         },
