@@ -114,6 +114,7 @@ AWS Marketplace Management Portal
 AWS Marketplace Metering Service
 AWS Marketplace Private Marketplace
 AWS Marketplace Procurement Systems Integration
+AWS Marketplace Vendor Insights
 AWS Microservice Extractor for .NET
 AWS Migration Hub
 AWS Migration Hub Orchestrator

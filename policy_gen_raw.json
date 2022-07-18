@@ -1375,7 +1375,7 @@
                 "UpdateEvaluation",
                 "UpdateMLModel"
             ],
-            "ARNFormat": "arn:aws:machinelearning:<region>:<account_ID>:<resource_type>/<relative_ID>",
+            "ARNFormat": "arn:aws:machinelearning:${Region}:${Account}:${ResourceType}/${RelativeID}",
             "ARNRegex": "^arn:aws:machinelearning:.+",
             "HasResource": true
         },
@@ -13990,6 +13990,32 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
+            "HasResource": true
+        },
+        "AWS Marketplace Vendor Insights": {
+            "StringPrefix": "vendor-insights",
+            "Actions": [
+                "ActivateSecurityProfile",
+                "AssociateDataSource",
+                "CreateDataSource",
+                "CreateSecurityProfile",
+                "DeactivateSecurityProfile",
+                "DeleteDataSource",
+                "DisassociateDataSource",
+                "GetDataSource",
+                "GetEntitledSecurityProfileSnapshot",
+                "GetProfileAccessTerms",
+                "GetSecurityProfile",
+                "GetSecurityProfileSnapshot",
+                "ListDataSources",
+                "ListEntitledSecurityProfileSnapshots",
+                "ListEntitledSecurityProfiles",
+                "ListSecurityProfileSnapshots",
+                "ListSecurityProfiles",
+                "UpdateSecurityProfile"
+            ],
+            "ARNFormat": "arn:aws:vendor-insights:::${ResourceType}:${ResourceId}",
+            "ARNRegex": "^arn:aws:vendor-insights:.+",
             "HasResource": true
         },
         "Amazon SNS": {
