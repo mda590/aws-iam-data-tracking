@@ -696,6 +696,7 @@
                 "ssm:Overwrite",
                 "ssm:Recursive",
                 "ssm:SessionDocumentAccessCheck",
+                "ssm:SourceInstanceARN",
                 "ssm:SyncType",
                 "ssm:resourceTag/${TagKey}",
                 "ssm:resourceTag/tag-key"
@@ -707,6 +708,7 @@
             "Actions": [
                 "AssociateDirectory",
                 "AssociateProfile",
+                "AttachCustomerManagedPolicyReferenceToPermissionSet",
                 "AttachManagedPolicyToPermissionSet",
                 "CreateAccountAssignment",
                 "CreateApplicationInstance",
@@ -723,6 +725,7 @@
                 "DeleteInstanceAccessControlAttributeConfiguration",
                 "DeleteManagedApplicationInstance",
                 "DeletePermissionSet",
+                "DeletePermissionsBoundaryFromPermissionSet",
                 "DeletePermissionsPolicy",
                 "DeleteProfile",
                 "DescribeAccountAssignmentCreationStatus",
@@ -732,6 +735,7 @@
                 "DescribePermissionSetProvisioningStatus",
                 "DescribePermissionsPolicies",
                 "DescribeRegisteredRegions",
+                "DetachCustomerManagedPolicyReferenceFromPermissionSet",
                 "DetachManagedPolicyFromPermissionSet",
                 "DisassociateDirectory",
                 "DisassociateProfile",
@@ -741,6 +745,7 @@
                 "GetManagedApplicationInstance",
                 "GetMfaDeviceManagementForDirectory",
                 "GetPermissionSet",
+                "GetPermissionsBoundaryForPermissionSet",
                 "GetPermissionsPolicy",
                 "GetProfile",
                 "GetSSOStatus",
@@ -756,6 +761,7 @@
                 "ListApplicationInstances",
                 "ListApplicationTemplates",
                 "ListApplications",
+                "ListCustomerManagedPolicyReferencesInPermissionSet",
                 "ListDirectoryAssociations",
                 "ListInstances",
                 "ListManagedPoliciesInPermissionSet",
@@ -768,6 +774,7 @@
                 "ProvisionPermissionSet",
                 "PutInlinePolicyToPermissionSet",
                 "PutMfaDeviceManagementForDirectory",
+                "PutPermissionsBoundaryToPermissionSet",
                 "PutPermissionsPolicy",
                 "SearchGroups",
                 "SearchUsers",
@@ -4137,34 +4144,6 @@
             ],
             "ARNFormat": "arn:aws:workmail:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:workmail:.+:.+:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
-            "HasResource": true
-        },
-        "AWS SimScape": {
-            "StringPrefix": "simscape",
-            "Actions": [
-                "DeleteAgent",
-                "DeleteSimulation",
-                "DescribeAgent",
-                "DescribeSimulation",
-                "ListAgents",
-                "ListSimulations",
-                "ListTagsForResource",
-                "StartAgent",
-                "StartClock",
-                "StartSimulation",
-                "StopAgent",
-                "StopClock",
-                "StopSimulation",
-                "TagResource",
-                "UntagResource"
-            ],
-            "ARNFormat": "arn:aws:simscape:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:simscape:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8507,6 +8486,9 @@
                 "GetMessages",
                 "SendReply"
             ],
+            "conditionKeys": [
+                "ssm:SourceInstanceARN"
+            ],
             "HasResource": false
         },
         "AWS IoT Greengrass V2": {
@@ -10241,6 +10223,9 @@
                 "OpenControlChannel",
                 "OpenDataChannel"
             ],
+            "conditionKeys": [
+                "ssm:SourceInstanceARN"
+            ],
             "HasResource": false
         },
         "AWS Network Firewall": {
@@ -10402,7 +10387,7 @@
             "Actions": [
                 "ApproveAccessGrant"
             ],
-            "ARNFormat": "arn:aws:iq-permission::<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:iq-permission:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:iq-permission::.+",
             "HasResource": false
         },
@@ -10724,7 +10709,7 @@
             "Actions": [
                 "CreateProject"
             ],
-            "ARNFormat": "arn:aws:iq::<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:iq:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:iq::.+",
             "HasResource": false
         },
