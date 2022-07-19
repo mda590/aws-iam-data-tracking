@@ -11202,6 +11202,7 @@ sqlworkbench:PutTab
 sqlworkbench:PutUserWorkspaceSettings
 sqlworkbench:TagResource
 sqlworkbench:UntagResource
+sqlworkbench:UpdateAccountConnectionSettings
 sqlworkbench:UpdateAccountExportSettings
 sqlworkbench:UpdateAccountGeneralSettings
 sqlworkbench:UpdateChart
