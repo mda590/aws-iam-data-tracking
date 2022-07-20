@@ -1213,6 +1213,9 @@
             "ARNFormat": "arn:aws:lambda:${Region}:${Account}:${ResourceType}:${ResourceId}",
             "ARNRegex": "^arn:aws:lambda:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
                 "lambda:CodeSigningConfigArn",
                 "lambda:FunctionArn",
                 "lambda:FunctionUrlAuthType",
@@ -5972,7 +5975,7 @@
             ],
             "HasResource": true
         },
-        "AWS Identity Synchronization Service": {
+        "AWS Identity Sync": {
             "StringPrefix": "identity-sync",
             "Actions": [
                 "CreateSyncFilter",
@@ -5988,7 +5991,7 @@
                 "StopSync",
                 "UpdateSyncTarget"
             ],
-            "ARNFormat": "^arn:aws:identity-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNFormat": "arn:aws:identity-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:identity-sync:.+:.+:.+",
             "HasResource": true
         },
@@ -13801,7 +13804,7 @@
                 "PutSnapshotBlock",
                 "StartSnapshot"
             ],
-            "ARNFormat": "arn:aws:ebs:<region>:<account>:<resourceType>/<resourcePath>",
+            "ARNFormat": "arn:aws:ebs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:ebs:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",

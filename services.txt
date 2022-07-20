@@ -81,7 +81,7 @@ AWS IAM Access Analyzer
 AWS IQ
 AWS IQ Permissions
 AWS Identity Store
-AWS Identity Synchronization Service
+AWS Identity Sync
 AWS Identity and Access Management Roles Anywhere
 AWS Import Export Disk Service
 AWS IoT
