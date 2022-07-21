@@ -13120,7 +13120,7 @@
                 "UpdateTerminationProtection",
                 "ValidateTemplate"
             ],
-            "ARNFormat": "arn:aws:cloudformation:${Region}:${AccountId}:${ResourceType}/${Id}",
+            "ARNFormat": "arn:aws:cloudformation:${Region}:${Account}:${ResourceType}/${Id}",
             "ARNRegex": "^arn:aws:cloudformation:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
