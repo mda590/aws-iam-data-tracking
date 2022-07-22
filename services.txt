@@ -152,6 +152,7 @@ AWS Signer
 AWS Snow Device Management
 AWS Snowball
 AWS Step Functions
+AWS Storage Gateway
 AWS Support
 AWS Sustainability
 AWS Systems Manager
@@ -302,7 +303,6 @@ Amazon Session Manager Message Gateway Service
 Amazon Simple Email Service v2
 Amazon Simple Workflow Service
 Amazon SimpleDB
-Amazon Storage Gateway
 Amazon Sumerian
 Amazon Textract
 Amazon Timestream

@@ -687,6 +687,7 @@ athena:GetPreparedStatement
 athena:GetQueryExecution
 athena:GetQueryResults
 athena:GetQueryResultsStream
+athena:GetQueryRuntimeStatistics
 athena:GetTableMetadata
 athena:GetWorkGroup
 athena:ListDataCatalogs
@@ -1819,6 +1820,7 @@ codeartifact:DeletePackageVersions
 codeartifact:DeleteRepository
 codeartifact:DeleteRepositoryPermissionsPolicy
 codeartifact:DescribeDomain
+codeartifact:DescribePackage
 codeartifact:DescribePackageVersion
 codeartifact:DescribeRepository
 codeartifact:DisassociateExternalConnection
@@ -1840,6 +1842,7 @@ codeartifact:ListTagsForResource
 codeartifact:PublishPackageVersion
 codeartifact:PutDomainPermissionsPolicy
 codeartifact:PutPackageMetadata
+codeartifact:PutPackageOriginConfiguration
 codeartifact:PutRepositoryPermissionsPolicy
 codeartifact:ReadFromRepository
 codeartifact:TagResource

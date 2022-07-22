@@ -3252,6 +3252,7 @@
                 "GetQueryExecution",
                 "GetQueryResults",
                 "GetQueryResultsStream",
+                "GetQueryRuntimeStatistics",
                 "GetTableMetadata",
                 "GetWorkGroup",
                 "ListDataCatalogs",
@@ -7126,7 +7127,7 @@
             ],
             "HasResource": false
         },
-        "Amazon Storage Gateway": {
+        "AWS Storage Gateway": {
             "StringPrefix": "storagegateway",
             "Actions": [
                 "ActivateGateway",
@@ -16756,7 +16757,7 @@
                 "UpdateUserProfile",
                 "VerifyServiceRole"
             ],
-            "ARNFormat": "arn:aws:codestar:<region>:<account_ID>:<resource_type>/<resource_id>",
+            "ARNFormat": "arn:aws:codestar:${Region}:${Account}:project/${ResourceId}",
             "ARNRegex": "^arn:aws:codestar:.+:[0-9]+:project/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -16780,6 +16781,7 @@
                 "DeleteRepository",
                 "DeleteRepositoryPermissionsPolicy",
                 "DescribeDomain",
+                "DescribePackage",
                 "DescribePackageVersion",
                 "DescribeRepository",
                 "DisassociateExternalConnection",
@@ -16801,6 +16803,7 @@
                 "PublishPackageVersion",
                 "PutDomainPermissionsPolicy",
                 "PutPackageMetadata",
+                "PutPackageOriginConfiguration",
                 "PutRepositoryPermissionsPolicy",
                 "ReadFromRepository",
                 "TagResource",
