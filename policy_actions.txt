@@ -9308,6 +9308,7 @@ rds:DownloadDBLogFilePortion
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
 rds:ListTagsForResource
+rds:ModifyActivityStream
 rds:ModifyCertificates
 rds:ModifyCurrentDBClusterCapacity
 rds:ModifyCustomDBEngineVersion
@@ -9356,6 +9357,7 @@ rds:StopActivityStream
 rds:StopDBCluster
 rds:StopDBInstance
 rds:StopDBInstanceAutomatedBackupsReplication
+rds:SwitchoverReadReplica
 redshift-data:BatchExecuteStatement
 redshift-data:CancelStatement
 redshift-data:DescribeStatement

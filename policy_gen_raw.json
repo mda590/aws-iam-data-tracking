@@ -5469,6 +5469,7 @@
                 "FailoverDBCluster",
                 "FailoverGlobalCluster",
                 "ListTagsForResource",
+                "ModifyActivityStream",
                 "ModifyCertificates",
                 "ModifyCurrentDBClusterCapacity",
                 "ModifyCustomDBEngineVersion",
@@ -5516,7 +5517,8 @@
                 "StopActivityStream",
                 "StopDBCluster",
                 "StopDBInstance",
-                "StopDBInstanceAutomatedBackupsReplication"
+                "StopDBInstanceAutomatedBackupsReplication",
+                "SwitchoverReadReplica"
             ],
             "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:rds:.+",
