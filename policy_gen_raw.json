@@ -14002,32 +14002,6 @@
             ],
             "HasResource": true
         },
-        "AWS Marketplace Vendor Insights": {
-            "StringPrefix": "vendor-insights",
-            "Actions": [
-                "ActivateSecurityProfile",
-                "AssociateDataSource",
-                "CreateDataSource",
-                "CreateSecurityProfile",
-                "DeactivateSecurityProfile",
-                "DeleteDataSource",
-                "DisassociateDataSource",
-                "GetDataSource",
-                "GetEntitledSecurityProfileSnapshot",
-                "GetProfileAccessTerms",
-                "GetSecurityProfile",
-                "GetSecurityProfileSnapshot",
-                "ListDataSources",
-                "ListEntitledSecurityProfileSnapshots",
-                "ListEntitledSecurityProfiles",
-                "ListSecurityProfileSnapshots",
-                "ListSecurityProfiles",
-                "UpdateSecurityProfile"
-            ],
-            "ARNFormat": "arn:aws:vendor-insights:::${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:vendor-insights:.+",
-            "HasResource": true
-        },
         "Amazon SNS": {
             "StringPrefix": "sns",
             "Actions": [
