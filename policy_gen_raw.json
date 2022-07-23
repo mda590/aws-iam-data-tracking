@@ -16901,10 +16901,43 @@
         "Amazon Neptune": {
             "StringPrefix": "neptune-db",
             "Actions": [
-                "connect"
+                "CancelLoaderJob",
+                "CancelMLDataProcessingJob",
+                "CancelMLModelTrainingJob",
+                "CancelMLModelTransformJob",
+                "CancelQuery",
+                "CreateMLEndpoint",
+                "DeleteDataViaQuery",
+                "DeleteMLEndpoint",
+                "DeleteStatistics",
+                "GetEngineStatus",
+                "GetLoaderJobStatus",
+                "GetMLDataProcessingJobStatus",
+                "GetMLEndpointStatus",
+                "GetMLModelTrainingJobStatus",
+                "GetMLModelTransformJobStatus",
+                "GetQueryStatus",
+                "GetStatisticsStatus",
+                "GetStreamRecords",
+                "ListLoaderJobs",
+                "ListMLDataProcessingJobs",
+                "ListMLEndpoints",
+                "ListMLModelTrainingJobs",
+                "ListMLModelTransformJobs",
+                "ManageStatistics",
+                "ReadDataViaQuery",
+                "ResetDatabase",
+                "StartLoaderJob",
+                "StartMLDataProcessingJob",
+                "StartMLModelTrainingJob",
+                "StartMLModelTransformJob",
+                "WriteDataViaQuery"
             ],
-            "ARNFormat": "arn:aws:neptune-db:<region>:<accountID>:<relative-id>",
+            "ARNFormat": "arn:aws:neptune-db:${Region}:${AccountId}:${Id}/*",
             "ARNRegex": "^arn:aws:neptune-db:.+",
+            "conditionKeys": [
+                "neptune-db:QueryLanguage"
+            ],
             "HasResource": true
         },
         "AWS DataSync": {
@@ -17124,8 +17157,10 @@
                 "DisableRegion",
                 "EnableRegion",
                 "GetAlternateContact",
+                "GetContactInformation",
                 "ListRegions",
-                "PutAlternateContact"
+                "PutAlternateContact",
+                "PutContactInformation"
             ],
             "ARNFormat": "arn:aws:account::${Account}:account",
             "ARNRegex": "^arn:aws:account::.+:account",
