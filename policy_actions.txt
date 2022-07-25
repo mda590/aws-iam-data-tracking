@@ -3010,6 +3010,8 @@ deepracer:TestRewardFunction
 deepracer:UntagResource
 deepracer:UpdateCar
 detective:AcceptInvitation
+detective:BatchGetGraphMemberDatasources
+detective:BatchGetMembershipDatasources
 detective:CreateGraph
 detective:CreateMembers
 detective:DeleteGraph
@@ -3023,6 +3025,7 @@ detective:GetGraphIngestState
 detective:GetMembers
 detective:GetPricingInformation
 detective:GetUsageInformation
+detective:ListDatasourcePackages
 detective:ListGraphs
 detective:ListInvitations
 detective:ListMembers
@@ -3033,6 +3036,7 @@ detective:SearchGraph
 detective:StartMonitoringMember
 detective:TagResource
 detective:UntagResource
+detective:UpdateDatasourcePackages
 detective:UpdateOrganizationConfiguration
 devicefarm:CreateDevicePool
 devicefarm:CreateInstanceProfile

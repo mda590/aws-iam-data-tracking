@@ -15497,6 +15497,8 @@
             "StringPrefix": "detective",
             "Actions": [
                 "AcceptInvitation",
+                "BatchGetGraphMemberDatasources",
+                "BatchGetMembershipDatasources",
                 "CreateGraph",
                 "CreateMembers",
                 "DeleteGraph",
@@ -15510,6 +15512,7 @@
                 "GetMembers",
                 "GetPricingInformation",
                 "GetUsageInformation",
+                "ListDatasourcePackages",
                 "ListGraphs",
                 "ListInvitations",
                 "ListMembers",
@@ -15520,9 +15523,10 @@
                 "StartMonitoringMember",
                 "TagResource",
                 "UntagResource",
+                "UpdateDatasourcePackages",
                 "UpdateOrganizationConfiguration"
             ],
-            "ARNFormat": "arn:aws:detective:${Region}:${AccountId}:graph:${GraphId}",
+            "ARNFormat": "arn:aws:detective:${Region}:${Account}:graph:${GraphId}",
             "ARNRegex": "^arn:aws:detective:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
