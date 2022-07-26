@@ -703,7 +703,7 @@
             ],
             "HasResource": true
         },
-        "AWS SSO": {
+        "AWS IAM Identity Center (successor to AWS Single Sign-On)": {
             "StringPrefix": "sso",
             "Actions": [
                 "AssociateDirectory",
@@ -1483,6 +1483,7 @@
                 "DeleteMembers",
                 "DeletePublishingDestination",
                 "DeleteThreatIntelSet",
+                "DescribeMalwareScans",
                 "DescribeOrganizationConfiguration",
                 "DescribePublishingDestination",
                 "DisableOrganizationAdminAccount",
@@ -1495,6 +1496,7 @@
                 "GetFindingsStatistics",
                 "GetIPSet",
                 "GetInvitationsCount",
+                "GetMalwareScanSettings",
                 "GetMasterAccount",
                 "GetMemberDetectors",
                 "GetMembers",
@@ -1520,6 +1522,7 @@
                 "UpdateFilter",
                 "UpdateFindingsFeedback",
                 "UpdateIPSet",
+                "UpdateMalwareScanSettings",
                 "UpdateMemberDetectors",
                 "UpdateOrganizationConfiguration",
                 "UpdatePublishingDestination",
@@ -13252,6 +13255,9 @@
                 "GetMacieSession",
                 "GetMasterAccount",
                 "GetMember",
+                "GetRevealConfiguration",
+                "GetSensitiveDataOccurrences",
+                "GetSensitiveDataOccurrencesAvailability",
                 "GetUsageStatistics",
                 "GetUsageTotals",
                 "ListClassificationJobs",
@@ -13273,9 +13279,10 @@
                 "UpdateFindingsFilter",
                 "UpdateMacieSession",
                 "UpdateMemberSession",
-                "UpdateOrganizationConfiguration"
+                "UpdateOrganizationConfiguration",
+                "UpdateRevealConfiguration"
             ],
-            "ARNFormat": "arn:aws:macie2:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:macie2:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:macie2:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -14001,6 +14008,32 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
+            "HasResource": true
+        },
+        "AWS Marketplace Vendor Insights": {
+            "StringPrefix": "vendor-insights",
+            "Actions": [
+                "ActivateSecurityProfile",
+                "AssociateDataSource",
+                "CreateDataSource",
+                "CreateSecurityProfile",
+                "DeactivateSecurityProfile",
+                "DeleteDataSource",
+                "DisassociateDataSource",
+                "GetDataSource",
+                "GetEntitledSecurityProfileSnapshot",
+                "GetProfileAccessTerms",
+                "GetSecurityProfile",
+                "GetSecurityProfileSnapshot",
+                "ListDataSources",
+                "ListEntitledSecurityProfileSnapshots",
+                "ListEntitledSecurityProfiles",
+                "ListSecurityProfileSnapshots",
+                "ListSecurityProfiles",
+                "UpdateSecurityProfile"
+            ],
+            "ARNFormat": "arn:aws:vendor-insights:::${ResourceType}:${ResourceId}",
+            "ARNRegex": "^arn:aws:vendor-insights:.+",
             "HasResource": true
         },
         "Amazon SNS": {
