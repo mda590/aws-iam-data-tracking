@@ -14283,6 +14283,9 @@
                 "UpdateComponentConfiguration",
                 "UpdateLogPattern"
             ],
+            "conditionKeys": [
+                "aws:TagKeys"
+            ],
             "HasResource": false
         },
         "Elastic Load Balancing V2": {
