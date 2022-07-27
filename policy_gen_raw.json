@@ -5654,6 +5654,7 @@
                 "DeleteResolver",
                 "DeleteType",
                 "DisassociateApi",
+                "EvaluateMappingTemplate",
                 "FlushApiCache",
                 "GetApiAssociation",
                 "GetApiCache",
@@ -5688,7 +5689,7 @@
                 "UpdateResolver",
                 "UpdateType"
             ],
-            "ARNFormat": "arn:aws:appsync:${Region}:${AccountId}>:${ResourceType}/${ResourcePath}",
+            "ARNFormat": "arn:aws:appsync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:appsync:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
