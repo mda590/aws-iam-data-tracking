@@ -14296,7 +14296,7 @@
             ],
             "HasResource": true
         },
-        "CloudWatch Application Insights": {
+        "Amazon CloudWatch Application Insights": {
             "StringPrefix": "applicationinsights",
             "Actions": [
                 "CreateApplication",
@@ -14328,6 +14328,8 @@
                 "UpdateLogPattern"
             ],
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
             "HasResource": false

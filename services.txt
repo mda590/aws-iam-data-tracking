@@ -183,6 +183,7 @@ Amazon Cloud Directory
 Amazon CloudFront
 Amazon CloudSearch
 Amazon CloudWatch
+Amazon CloudWatch Application Insights
 Amazon CloudWatch Evidently
 Amazon CloudWatch Logs
 Amazon CloudWatch Synthetics
@@ -318,7 +319,6 @@ Amazon WorkSpaces Web
 AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
-CloudWatch Application Insights
 Database Query Metadata Service
 Elastic Load Balancing
 Elastic Load Balancing V2
