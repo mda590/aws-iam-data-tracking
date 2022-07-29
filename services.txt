@@ -267,7 +267,7 @@ Amazon Mobile Analytics
 Amazon Monitron
 Amazon Neptune
 Amazon Nimble Studio
-Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)
+Amazon OpenSearch Service
 Amazon Personalize
 Amazon Pinpoint
 Amazon Pinpoint Email Service

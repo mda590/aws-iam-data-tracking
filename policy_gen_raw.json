@@ -7641,7 +7641,7 @@
             ],
             "HasResource": true
         },
-        "Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)": {
+        "Amazon OpenSearch Service": {
             "StringPrefix": "es",
             "Actions": [
                 "AcceptInboundConnection",
