@@ -6524,6 +6524,7 @@ iotsitewise:BatchPutAssetPropertyValue
 iotsitewise:CreateAccessPolicy
 iotsitewise:CreateAsset
 iotsitewise:CreateAssetModel
+iotsitewise:CreateBulkImportJob
 iotsitewise:CreateDashboard
 iotsitewise:CreateGateway
 iotsitewise:CreatePortal
@@ -6540,6 +6541,7 @@ iotsitewise:DescribeAccessPolicy
 iotsitewise:DescribeAsset
 iotsitewise:DescribeAssetModel
 iotsitewise:DescribeAssetProperty
+iotsitewise:DescribeBulkImportJob
 iotsitewise:DescribeDashboard
 iotsitewise:DescribeDefaultEncryptionConfiguration
 iotsitewise:DescribeGateway
@@ -6560,6 +6562,7 @@ iotsitewise:ListAssetModels
 iotsitewise:ListAssetRelationships
 iotsitewise:ListAssets
 iotsitewise:ListAssociatedAssets
+iotsitewise:ListBulkImportJobs
 iotsitewise:ListDashboards
 iotsitewise:ListGateways
 iotsitewise:ListPortals

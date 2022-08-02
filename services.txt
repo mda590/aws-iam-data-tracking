@@ -79,6 +79,7 @@ AWS Ground Station
 AWS Health APIs and Notifications
 AWS IAM Access Analyzer
 AWS IAM Identity Center (successor to AWS Single Sign-On)
+AWS IAM Identity Center (successor to AWS Single Sign-On) directory
 AWS IQ
 AWS IQ Permissions
 AWS Identity Store
@@ -139,7 +140,6 @@ AWS Resource Access Manager
 AWS Resource Groups
 AWS RoboMaker
 AWS SQL Workbench
-AWS SSO Directory
 AWS Savings Plans
 AWS Secrets Manager
 AWS Security Hub

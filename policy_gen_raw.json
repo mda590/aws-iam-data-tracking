@@ -5129,7 +5129,7 @@
             ],
             "HasResource": true
         },
-        "AWS SSO Directory": {
+        "AWS IAM Identity Center (successor to AWS Single Sign-On) directory": {
             "StringPrefix": "sso-directory",
             "Actions": [
                 "AddMemberToGroup",
@@ -5185,7 +5185,7 @@
                 "UpdateUserName",
                 "VerifyEmail"
             ],
-            "ARNFormat": "arn:${Partition}:sso-directory:${Region}:${Account}:<relative-id>",
+            "ARNFormat": "arn:${Partition}:sso-directory:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:${Partition}:sso-directory:${Region}:.+",
             "HasResource": false
         },
@@ -6197,6 +6197,7 @@
                 "CreateAccessPolicy",
                 "CreateAsset",
                 "CreateAssetModel",
+                "CreateBulkImportJob",
                 "CreateDashboard",
                 "CreateGateway",
                 "CreatePortal",
@@ -6213,6 +6214,7 @@
                 "DescribeAsset",
                 "DescribeAssetModel",
                 "DescribeAssetProperty",
+                "DescribeBulkImportJob",
                 "DescribeDashboard",
                 "DescribeDefaultEncryptionConfiguration",
                 "DescribeGateway",
@@ -6233,6 +6235,7 @@
                 "ListAssetRelationships",
                 "ListAssets",
                 "ListAssociatedAssets",
+                "ListBulkImportJobs",
                 "ListDashboards",
                 "ListGateways",
                 "ListPortals",
