@@ -17184,7 +17184,7 @@
                 "UpdateApplication",
                 "UpdateApplicationMaintenanceConfiguration"
             ],
-            "ARNFormat": "arn:aws:kinesisanalytics:<region>:<account_ID>:application/<applicationname>",
+            "ARNFormat": "arn:aws:kinesisanalytics:${Region}:${Account}:application/${ApplicationName}",
             "ARNRegex": "^arn:aws:kinesisanalytics:.+:[0-9]+:application/[a-zA-Z0-9_.-]+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
