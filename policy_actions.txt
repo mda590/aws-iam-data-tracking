@@ -7313,6 +7313,16 @@ lex:UpdateIntent
 lex:UpdateResourcePolicy
 lex:UpdateSlot
 lex:UpdateSlotType
+license-manager-user-subscriptions:AssociateUser
+license-manager-user-subscriptions:DeregisterIdentityProvider
+license-manager-user-subscriptions:DisassociateUser
+license-manager-user-subscriptions:ListIdentityProviders
+license-manager-user-subscriptions:ListInstances
+license-manager-user-subscriptions:ListProductSubscriptions
+license-manager-user-subscriptions:ListUserAssociations
+license-manager-user-subscriptions:RegisterIdentityProvider
+license-manager-user-subscriptions:StartProductSubscription
+license-manager-user-subscriptions:StopProductSubscription
 license-manager:AcceptGrant
 license-manager:CheckInLicense
 license-manager:CheckoutBorrowLicense
@@ -12640,6 +12650,7 @@ workspaces:CreateIpGroup
 workspaces:CreateTags
 workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
+workspaces:CreateWorkspaceImage
 workspaces:CreateWorkspaces
 workspaces:DeleteClientBranding
 workspaces:DeleteConnectClientAddIn
@@ -12673,6 +12684,7 @@ workspaces:ListAvailableManagementCidrRanges
 workspaces:MigrateWorkspace
 workspaces:ModifyAccount
 workspaces:ModifyClientProperties
+workspaces:ModifySamlProperties
 workspaces:ModifySelfservicePermissions
 workspaces:ModifyWorkspaceAccessProperties
 workspaces:ModifyWorkspaceCreationProperties
@@ -12685,6 +12697,7 @@ workspaces:RestoreWorkspace
 workspaces:RevokeIpRules
 workspaces:StartWorkspaces
 workspaces:StopWorkspaces
+workspaces:Stream
 workspaces:TerminateWorkspaces
 workspaces:UpdateConnectClientAddIn
 workspaces:UpdateConnectionAliasPermission

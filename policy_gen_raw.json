@@ -6491,6 +6491,7 @@
                 "CreateTags",
                 "CreateUpdatedWorkspaceImage",
                 "CreateWorkspaceBundle",
+                "CreateWorkspaceImage",
                 "CreateWorkspaces",
                 "DeleteClientBranding",
                 "DeleteConnectClientAddIn",
@@ -6524,6 +6525,7 @@
                 "MigrateWorkspace",
                 "ModifyAccount",
                 "ModifyClientProperties",
+                "ModifySamlProperties",
                 "ModifySelfservicePermissions",
                 "ModifyWorkspaceAccessProperties",
                 "ModifyWorkspaceCreationProperties",
@@ -6536,6 +6538,7 @@
                 "RevokeIpRules",
                 "StartWorkspaces",
                 "StopWorkspaces",
+                "Stream",
                 "TerminateWorkspaces",
                 "UpdateConnectClientAddIn",
                 "UpdateConnectionAliasPermission",
@@ -6543,12 +6546,13 @@
                 "UpdateWorkspaceBundle",
                 "UpdateWorkspaceImagePermission"
             ],
-            "ARNFormat": "arn:aws:workspaces:*:*",
-            "ARNRegex": "^arn:aws:workspaces:(.*)",
+            "ARNFormat": "arn:aws:workspaces:${Region}:${Account}:*",
+            "ARNRegex": "^arn:aws:workspaces:.*:.*:.*",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "workspaces:userId"
             ],
             "HasResource": true
         },
@@ -17048,6 +17052,22 @@
             ],
             "HasResource": true
         },
+        "AWS License Manager User Subscriptions": {
+            "StringPrefix": "license-manager-user-subscriptions",
+            "Actions": [
+                "AssociateUser",
+                "DeregisterIdentityProvider",
+                "DisassociateUser",
+                "ListIdentityProviders",
+                "ListInstances",
+                "ListProductSubscriptions",
+                "ListUserAssociations",
+                "RegisterIdentityProvider",
+                "StartProductSubscription",
+                "StopProductSubscription"
+            ],
+            "HasResource": false
+        },
         "AWS Organizations": {
             "StringPrefix": "organizations",
             "Actions": [
@@ -17194,7 +17214,7 @@
                 "UntagResource",
                 "UpdateApplication"
             ],
-            "ARNFormat": "arn:aws:kinesisanalytics:<region>:<account_ID>:application/<applicationname>",
+            "ARNFormat": "arn:aws:kinesisanalytics:${Region}:${Account}:application/${ApplicationName}",
             "ARNRegex": "^arn:aws:kinesisanalytics:.+:[0-9]+:application/[a-zA-Z0-9_.-]+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",

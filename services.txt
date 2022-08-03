@@ -106,6 +106,7 @@ AWS Key Management Service
 AWS Lake Formation
 AWS Lambda
 AWS License Manager
+AWS License Manager User Subscriptions
 AWS Mainframe Modernization Service
 AWS Marketplace
 AWS Marketplace Catalog
