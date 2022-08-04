@@ -1222,6 +1222,7 @@
                 "lambda:Layer",
                 "lambda:Principal",
                 "lambda:SecurityGroupIds",
+                "lambda:SourceFunctionArn",
                 "lambda:SubnetIds",
                 "lambda:VpcIds"
             ],
