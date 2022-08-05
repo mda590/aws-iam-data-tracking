@@ -4841,13 +4841,21 @@
         "Amazon CloudWatch Synthetics": {
             "StringPrefix": "synthetics",
             "Actions": [
+                "AssociateResource",
                 "CreateCanary",
+                "CreateGroup",
                 "DeleteCanary",
+                "DeleteGroup",
                 "DescribeCanaries",
                 "DescribeCanariesLastRun",
                 "DescribeRuntimeVersions",
+                "DisassociateResource",
                 "GetCanary",
                 "GetCanaryRuns",
+                "GetGroup",
+                "ListAssociatedGroups",
+                "ListGroupResources",
+                "ListGroups",
                 "ListTagsForResource",
                 "StartCanary",
                 "StopCanary",
@@ -8536,6 +8544,7 @@
                 "CreateDeployment",
                 "DeleteComponent",
                 "DeleteCoreDevice",
+                "DeleteDeployment",
                 "DescribeComponent",
                 "DisassociateServiceRoleFromAccount",
                 "GetComponent",
@@ -8560,15 +8569,9 @@
             "ARNFormat": "arn:aws:greengrass:${Region}:${Account}:${ResourceType}:${ResourcePath}",
             "ARNRegex": "^arn:aws:greengrass:.+",
             "conditionKeys": [
-                "aws:CurrentTime",
-                "aws:EpochTime",
-                "aws:MultiFactorAuthAge",
-                "aws:MultiFactorAuthPresent",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:SecureTransport",
-                "aws:TagKeys",
-                "aws:UserAgent"
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
@@ -10329,7 +10332,6 @@
                 "DeactivateContactChannel",
                 "DeleteContact",
                 "DeleteContactChannel",
-                "DeleteContactPolicy",
                 "DescribeEngagement",
                 "DescribePage",
                 "GetContact",
@@ -10349,11 +10351,15 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateContact",
-                "UpdateContactChannel",
-                "UpdateContactPolicy"
+                "UpdateContactChannel"
             ],
             "ARNFormat": "arn:aws:ssm-contacts:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:ssm-contacts:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon Transcribe": {

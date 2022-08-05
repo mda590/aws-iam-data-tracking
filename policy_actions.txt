@@ -5496,6 +5496,7 @@ greengrass:DeleteComponent
 greengrass:DeleteConnectorDefinition
 greengrass:DeleteCoreDefinition
 greengrass:DeleteCoreDevice
+greengrass:DeleteDeployment
 greengrass:DeleteDeviceDefinition
 greengrass:DeleteFunctionDefinition
 greengrass:DeleteGroup
@@ -11328,7 +11329,6 @@ ssm-contacts:CreateContactChannel
 ssm-contacts:DeactivateContactChannel
 ssm-contacts:DeleteContact
 ssm-contacts:DeleteContactChannel
-ssm-contacts:DeleteContactPolicy
 ssm-contacts:DescribeEngagement
 ssm-contacts:DescribePage
 ssm-contacts:GetContact
@@ -11349,7 +11349,6 @@ ssm-contacts:TagResource
 ssm-contacts:UntagResource
 ssm-contacts:UpdateContact
 ssm-contacts:UpdateContactChannel
-ssm-contacts:UpdateContactPolicy
 ssm-guiconnect:CancelConnection
 ssm-guiconnect:GetConnection
 ssm-guiconnect:StartConnection
@@ -11871,13 +11870,21 @@ swf:UndeprecateActivityType
 swf:UndeprecateDomain
 swf:UndeprecateWorkflowType
 swf:UntagResource
+synthetics:AssociateResource
 synthetics:CreateCanary
+synthetics:CreateGroup
 synthetics:DeleteCanary
+synthetics:DeleteGroup
 synthetics:DescribeCanaries
 synthetics:DescribeCanariesLastRun
 synthetics:DescribeRuntimeVersions
+synthetics:DisassociateResource
 synthetics:GetCanary
 synthetics:GetCanaryRuns
+synthetics:GetGroup
+synthetics:ListAssociatedGroups
+synthetics:ListGroupResources
+synthetics:ListGroups
 synthetics:ListTagsForResource
 synthetics:StartCanary
 synthetics:StopCanary
