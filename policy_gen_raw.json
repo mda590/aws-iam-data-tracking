@@ -2575,13 +2575,16 @@
             "Actions": [
                 "CreateAlertManagerAlerts",
                 "CreateAlertManagerDefinition",
+                "CreateLoggingConfiguration",
                 "CreateRuleGroupsNamespace",
                 "CreateWorkspace",
                 "DeleteAlertManagerDefinition",
                 "DeleteAlertManagerSilence",
+                "DeleteLoggingConfiguration",
                 "DeleteRuleGroupsNamespace",
                 "DeleteWorkspace",
                 "DescribeAlertManagerDefinition",
+                "DescribeLoggingConfiguration",
                 "DescribeRuleGroupsNamespace",
                 "DescribeWorkspace",
                 "GetAlertManagerSilence",
@@ -2605,9 +2608,10 @@
                 "RemoteWrite",
                 "TagResource",
                 "UntagResource",
+                "UpdateLoggingConfiguration",
                 "UpdateWorkspaceAlias"
             ],
-            "ARNFormat": "arn:aws:aps:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:aps:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:aps:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
