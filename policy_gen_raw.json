@@ -1140,6 +1140,35 @@
             ],
             "HasResource": true
         },
+        "AWS service providing managed private networks": {
+            "StringPrefix": "private-networks",
+            "Actions": [
+                "AcknowledgeOrderReceipt",
+                "ActivateDeviceIdentifier",
+                "ActivateNetworkSite",
+                "ConfigureAccessPoint",
+                "CreateNetwork",
+                "CreateNetworkSite",
+                "DeactivateDeviceIdentifier",
+                "DeleteNetwork",
+                "DeleteNetworkSite",
+                "GetDeviceIdentifier",
+                "GetNetwork",
+                "GetNetworkResource",
+                "GetNetworkSite",
+                "GetOrder",
+                "ListDeviceIdentifiers",
+                "ListNetworkResources",
+                "ListNetworkSites",
+                "ListNetworks",
+                "ListOrders",
+                "UpdateNetworkSite",
+                "UpdateNetworkSitePlan"
+            ],
+            "ARNFormat": "arn:aws:private-networks:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:aws:private-networks:.+",
+            "HasResource": true
+        },
         "AWS Lambda": {
             "StringPrefix": "lambda",
             "Actions": [
@@ -5256,12 +5285,14 @@
         "AWS Trusted Advisor": {
             "StringPrefix": "trustedadvisor",
             "Actions": [
+                "DeleteNotificationConfigurationForDelegatedAdmin",
                 "DescribeAccount",
                 "DescribeAccountAccess",
                 "DescribeCheckItems",
                 "DescribeCheckRefreshStatuses",
                 "DescribeCheckSummaries",
                 "DescribeChecks",
+                "DescribeNotificationConfigurations",
                 "DescribeNotificationPreferences",
                 "DescribeOrganization",
                 "DescribeOrganizationAccounts",
@@ -5280,11 +5311,12 @@
                 "RefreshCheck",
                 "SetAccountAccess",
                 "SetOrganizationAccess",
+                "UpdateNotificationConfigurations",
                 "UpdateNotificationPreferences",
                 "UpdateRiskStatus"
             ],
-            "ARNFormat": "arn:aws:trustedadvisor:*:${Account}:checks/${Category}/${CheckId}",
-            "ARNRegex": "^arn:aws:trustedadvisor:*",
+            "ARNFormat": "arn:aws:trustedadvisor:${Region}:${Account}:checks/${Category}/${CheckId}",
+            "ARNRegex": "^arn:aws:trustedadvisor:.*",
             "HasResource": true
         },
         "AWS Config": {
@@ -9425,6 +9457,46 @@
                 "AuthenticatePackager"
             ],
             "HasResource": false
+        },
+        "Amazon Connect Cases": {
+            "StringPrefix": "cases",
+            "Actions": [
+                "BatchGetField",
+                "BatchPutFieldOptions",
+                "CreateCase",
+                "CreateDomain",
+                "CreateField",
+                "CreateLayout",
+                "CreateRelatedItem",
+                "CreateTemplate",
+                "GetCase",
+                "GetCaseEventConfiguration",
+                "GetDomain",
+                "GetLayout",
+                "GetTemplate",
+                "ListCasesForContact",
+                "ListFieldOptions",
+                "ListFields",
+                "ListTagsForResource",
+                "ListTemplates",
+                "PutCaseEventConfiguration",
+                "SearchCases",
+                "SearchRelatedItems",
+                "TagResource",
+                "UntagResource",
+                "UpdateCase",
+                "UpdateField",
+                "UpdateLayout",
+                "UpdateTemplate"
+            ],
+            "ARNFormat": "arn:aws:cases:${Region}:${Account}:domain/${DomainId}",
+            "ARNRegex": "^arn:aws:cases:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon Data Lifecycle Manager": {
             "StringPrefix": "dlm",
@@ -14146,6 +14218,7 @@
                 "AdminUpdateUserAttributes",
                 "AdminUserGlobalSignOut",
                 "AssociateSoftwareToken",
+                "AssociateWebACL",
                 "ChangePassword",
                 "ConfirmDevice",
                 "ConfirmForgotPassword",
@@ -14172,6 +14245,7 @@
                 "DescribeUserPool",
                 "DescribeUserPoolClient",
                 "DescribeUserPoolDomain",
+                "DisassociateWebACL",
                 "ForgetDevice",
                 "ForgotPassword",
                 "GetCSVHeader",
@@ -14183,12 +14257,14 @@
                 "GetUser",
                 "GetUserAttributeVerificationCode",
                 "GetUserPoolMfaConfig",
+                "GetWebACLForResource",
                 "GlobalSignOut",
                 "InitiateAuth",
                 "ListDevices",
                 "ListGroups",
                 "ListIdentityProviders",
                 "ListResourceServers",
+                "ListResourcesForWebACL",
                 "ListTagsForResource",
                 "ListUserImportJobs",
                 "ListUserPoolClients",

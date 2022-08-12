@@ -170,6 +170,7 @@ AWS WAF Regional
 AWS WAF V2
 AWS Well-Architected Tool
 AWS X-Ray
+AWS service providing managed private networks
 Alexa for Business
 Amazon API Gateway
 Amazon API Gateway Management
@@ -197,6 +198,7 @@ Amazon Cognito User Pools
 Amazon Comprehend
 Amazon Comprehend Medical
 Amazon Connect
+Amazon Connect Cases
 Amazon Connect Customer Profiles
 Amazon Connect Voice ID
 Amazon Connect Wisdom
