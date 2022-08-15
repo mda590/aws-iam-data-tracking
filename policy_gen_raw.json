@@ -14509,7 +14509,7 @@
                 "SetLoadBalancerPoliciesForBackendServer",
                 "SetLoadBalancerPoliciesOfListener"
             ],
-            "ARNFormat": "arn:aws:elasticloadbalancing:<region>:<account>:<resourceType>/<resourceid>",
+            "ARNFormat": "arn:aws:elasticloadbalancing:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:elasticloadbalancing:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
