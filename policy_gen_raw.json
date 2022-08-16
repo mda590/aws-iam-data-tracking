@@ -8868,6 +8868,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "redshift:ConsumerArn",
                 "redshift:ConsumerIdentifier",
                 "redshift:DbName",
                 "redshift:DbUser",
