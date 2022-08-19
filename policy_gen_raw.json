@@ -11501,6 +11501,7 @@
                 "GetMetricStream",
                 "GetMetricWidgetImage",
                 "ListDashboards",
+                "ListManagedInsightRules",
                 "ListMetricStreams",
                 "ListMetrics",
                 "ListTagsForResource",
@@ -11508,6 +11509,7 @@
                 "PutCompositeAlarm",
                 "PutDashboard",
                 "PutInsightRule",
+                "PutManagedInsightRules",
                 "PutMetricAlarm",
                 "PutMetricData",
                 "PutMetricStream",
@@ -11525,7 +11527,8 @@
                 "aws:TagKeys",
                 "cloudwatch:AlarmActions",
                 "cloudwatch:namespace",
-                "cloudwatch:requestInsightRuleLogGroups"
+                "cloudwatch:requestInsightRuleLogGroups",
+                "cloudwatch:requestManagedResourceARNs"
             ],
             "HasResource": true
         },
