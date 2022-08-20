@@ -2704,6 +2704,7 @@ connect:PutUserStatus
 connect:ReleasePhoneNumber
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
+connect:SearchSecurityProfiles
 connect:SearchUsers
 connect:SearchVocabularies
 connect:StartChatContact
@@ -3509,6 +3510,7 @@ dynamodb:DescribeContributorInsights
 dynamodb:DescribeExport
 dynamodb:DescribeGlobalTable
 dynamodb:DescribeGlobalTableSettings
+dynamodb:DescribeImport
 dynamodb:DescribeKinesisStreamingDestination
 dynamodb:DescribeLimits
 dynamodb:DescribeReservedCapacity
@@ -3523,10 +3525,12 @@ dynamodb:ExportTableToPointInTime
 dynamodb:GetItem
 dynamodb:GetRecords
 dynamodb:GetShardIterator
+dynamodb:ImportTable
 dynamodb:ListBackups
 dynamodb:ListContributorInsights
 dynamodb:ListExports
 dynamodb:ListGlobalTables
+dynamodb:ListImports
 dynamodb:ListStreams
 dynamodb:ListTables
 dynamodb:ListTagsOfResource
