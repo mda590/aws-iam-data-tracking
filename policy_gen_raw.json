@@ -1715,6 +1715,7 @@
                 "StartBotRecommendation",
                 "StartConversation",
                 "StartImport",
+                "StopBotRecommendation",
                 "TagResource",
                 "UntagResource",
                 "UpdateBot",

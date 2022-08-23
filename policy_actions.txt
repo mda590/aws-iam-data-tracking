@@ -7341,6 +7341,7 @@ lex:StartConversation
 lex:StartImport
 lex:StartImport
 lex:StartMigration
+lex:StopBotRecommendation
 lex:TagResource
 lex:TagResource
 lex:UntagResource
