@@ -9962,7 +9962,7 @@
                 "search",
                 "suggest"
             ],
-            "ARNFormat": "arn:aws:cloudsearch:<region>:<account>:<resourceType>/<resourceName>",
+            "ARNFormat": "arn:aws:cloudsearch:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:cloudsearch:.+:.+:.+",
             "HasResource": true
         },
