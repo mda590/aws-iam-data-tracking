@@ -2782,7 +2782,7 @@
                 "UnshareApplication",
                 "UpdateApplication"
             ],
-            "ARNFormat": "arn:aws:serverlessrepo:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:serverlessrepo:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:serverlessrepo:.+:.+:.+",
             "conditionKeys": [
                 "serverlessrepo:applicationType"
@@ -14673,6 +14673,7 @@
                 "GetParallelData",
                 "GetTerminology",
                 "ImportTerminology",
+                "ListLanguages",
                 "ListParallelData",
                 "ListTerminologies",
                 "ListTextTranslationJobs",
@@ -14681,9 +14682,9 @@
                 "TranslateText",
                 "UpdateParallelData"
             ],
-            "ARNFormat": "arn:${Partition}:translate:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:translate:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:translate:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:translate:.+:.+:.+",
+            "HasResource": true
         },
         "AWS WAF Regional": {
             "StringPrefix": "waf-regional",

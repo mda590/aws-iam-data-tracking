@@ -12148,6 +12148,7 @@ translate:DescribeTextTranslationJob
 translate:GetParallelData
 translate:GetTerminology
 translate:ImportTerminology
+translate:ListLanguages
 translate:ListParallelData
 translate:ListTerminologies
 translate:ListTextTranslationJobs
