@@ -15396,13 +15396,17 @@
                 "DescribeManagedAccount",
                 "DescribeManagedOrganizationalUnit",
                 "DescribeSingleSignOn",
+                "DisableControl",
                 "DisableGuardrail",
+                "EnableControl",
                 "EnableGuardrail",
                 "GetAvailableUpdates",
+                "GetControlOperation",
                 "GetGuardrailComplianceStatus",
                 "GetHomeRegion",
                 "GetLandingZoneStatus",
                 "ListDirectoryGroups",
+                "ListEnabledControls",
                 "ListEnabledGuardrails",
                 "ListGuardrailViolations",
                 "ListGuardrails",
@@ -15416,8 +15420,8 @@
                 "SetupLandingZone",
                 "UpdateAccountFactoryConfig"
             ],
-            "ARNFormat": "arn:aws:controltower:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:controltower:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:controltower:.+:.+:.+",
             "HasResource": false
         },
         "Amazon Nimble Studio": {
