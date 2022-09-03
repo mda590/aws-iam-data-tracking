@@ -2704,6 +2704,8 @@ connect:PutUserStatus
 connect:ReleasePhoneNumber
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
+connect:SearchQueues
+connect:SearchRoutingProfiles
 connect:SearchSecurityProfiles
 connect:SearchUsers
 connect:SearchVocabularies
@@ -8988,12 +8990,15 @@ personalize:ListRecommenders
 personalize:ListSchemas
 personalize:ListSolutionVersions
 personalize:ListSolutions
+personalize:ListTagsForResource
 personalize:PutEvents
 personalize:PutItems
 personalize:PutUsers
 personalize:StartRecommender
 personalize:StopRecommender
 personalize:StopSolutionVersionCreation
+personalize:TagResource
+personalize:UntagResource
 personalize:UpdateCampaign
 personalize:UpdateRecommender
 pi:DescribeDimensionKeys
