@@ -10447,6 +10447,13 @@
             ],
             "HasResource": true
         },
+        "AWS Billing ": {
+            "StringPrefix": "billing",
+            "Actions": [
+                "ListBillingViews"
+            ],
+            "HasResource": false
+        },
         "AWS Artifact": {
             "StringPrefix": "artifact",
             "Actions": [

@@ -1023,6 +1023,7 @@ batch:UntagResource
 batch:UpdateComputeEnvironment
 batch:UpdateJobQueue
 batch:UpdateSchedulingPolicy
+billing:ListBillingViews
 billingconductor:AssociateAccounts
 billingconductor:AssociatePricingRules
 billingconductor:BatchAssociateResourcesToCustomLineItem
