@@ -10380,8 +10380,12 @@ sagemaker-groundtruth-synthetic:CreateProject
 sagemaker-groundtruth-synthetic:DeleteProject
 sagemaker-groundtruth-synthetic:GetBatch
 sagemaker-groundtruth-synthetic:GetProject
+sagemaker-groundtruth-synthetic:ListBatchDataTransfers
 sagemaker-groundtruth-synthetic:ListBatchSummaries
+sagemaker-groundtruth-synthetic:ListProjectDataTransfers
 sagemaker-groundtruth-synthetic:ListProjectSummaries
+sagemaker-groundtruth-synthetic:StartBatchDataTransfer
+sagemaker-groundtruth-synthetic:StartProjectDataTransfer
 sagemaker-groundtruth-synthetic:UpdateBatch
 sagemaker:AddAssociation
 sagemaker:AddTags
@@ -12075,6 +12079,7 @@ timestream:UpdateScheduledQuery
 timestream:UpdateTable
 timestream:WriteRecords
 tiros:CreateQuery
+tiros:ExtendQuery
 tiros:GetQueryAnswer
 tiros:GetQueryExplanation
 transcribe:CreateCallAnalyticsCategory
