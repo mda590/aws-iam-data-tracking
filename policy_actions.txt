@@ -11353,6 +11353,7 @@ sns:DeleteEndpoint
 sns:DeletePlatformApplication
 sns:DeleteSMSSandboxPhoneNumber
 sns:DeleteTopic
+sns:GetDataProtectionPolicy
 sns:GetEndpointAttributes
 sns:GetPlatformApplicationAttributes
 sns:GetSMSAttributes
@@ -11370,6 +11371,7 @@ sns:ListTagsForResource
 sns:ListTopics
 sns:OptInPhoneNumber
 sns:Publish
+sns:PutDataProtectionPolicy
 sns:RemovePermission
 sns:SetEndpointAttributes
 sns:SetPlatformApplicationAttributes
