@@ -1228,6 +1228,8 @@ chime:CreateChannelFlow
 chime:CreateChannelMembership
 chime:CreateChannelModerator
 chime:CreateMediaCapturePipeline
+chime:CreateMediaConcatenationPipeline
+chime:CreateMediaLiveConnectorPipeline
 chime:CreateMeeting
 chime:CreateMeetingDialOut
 chime:CreateMeetingWithAttendees
@@ -1261,6 +1263,7 @@ chime:DeleteDomain
 chime:DeleteEventsConfiguration
 chime:DeleteGroups
 chime:DeleteMediaCapturePipeline
+chime:DeleteMediaPipeline
 chime:DeleteMeeting
 chime:DeletePhoneNumber
 chime:DeleteProxySession
@@ -1310,6 +1313,7 @@ chime:GetDomain
 chime:GetEventsConfiguration
 chime:GetGlobalSettings
 chime:GetMediaCapturePipeline
+chime:GetMediaPipeline
 chime:GetMeeting
 chime:GetMeetingDetail
 chime:GetMessagingSessionEndpoint
@@ -1365,6 +1369,7 @@ chime:ListDirectories
 chime:ListDomains
 chime:ListGroups
 chime:ListMediaCapturePipelines
+chime:ListMediaPipelines
 chime:ListMeetingEvents
 chime:ListMeetingTags
 chime:ListMeetings
@@ -1376,6 +1381,7 @@ chime:ListRoomMemberships
 chime:ListRooms
 chime:ListSipMediaApplications
 chime:ListSipRules
+chime:ListSubChannels
 chime:ListSupportedPhoneNumberCountries
 chime:ListTagsForResource
 chime:ListUsers
@@ -12138,6 +12144,7 @@ transfer:DeleteAccess
 transfer:DeleteAgreement
 transfer:DeleteCertificate
 transfer:DeleteConnector
+transfer:DeleteHostKey
 transfer:DeleteProfile
 transfer:DeleteServer
 transfer:DeleteSshPublicKey
@@ -12148,18 +12155,21 @@ transfer:DescribeAgreement
 transfer:DescribeCertificate
 transfer:DescribeConnector
 transfer:DescribeExecution
+transfer:DescribeHostKey
 transfer:DescribeProfile
 transfer:DescribeSecurityPolicy
 transfer:DescribeServer
 transfer:DescribeUser
 transfer:DescribeWorkflow
 transfer:ImportCertificate
+transfer:ImportHostKey
 transfer:ImportSshPublicKey
 transfer:ListAccesses
 transfer:ListAgreements
 transfer:ListCertificates
 transfer:ListConnectors
 transfer:ListExecutions
+transfer:ListHostKeys
 transfer:ListProfiles
 transfer:ListSecurityPolicies
 transfer:ListServers
@@ -12167,6 +12177,7 @@ transfer:ListTagsForResource
 transfer:ListUsers
 transfer:ListWorkflows
 transfer:SendWorkflowStepState
+transfer:StartFileTransfer
 transfer:StartServer
 transfer:StopServer
 transfer:TagResource
@@ -12176,6 +12187,7 @@ transfer:UpdateAccess
 transfer:UpdateAgreement
 transfer:UpdateCertificate
 transfer:UpdateConnector
+transfer:UpdateHostKey
 transfer:UpdateProfile
 transfer:UpdateServer
 transfer:UpdateUser
