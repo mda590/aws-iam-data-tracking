@@ -17214,9 +17214,10 @@
                 "StartMLDataProcessingJob",
                 "StartMLModelTrainingJob",
                 "StartMLModelTransformJob",
-                "WriteDataViaQuery"
+                "WriteDataViaQuery",
+                "connect"
             ],
-            "ARNFormat": "arn:aws:neptune-db:${Region}:${AccountId}:${Id}/*",
+            "ARNFormat": "arn:aws:neptune-db:${Region}:${Account}:${Id}/*",
             "ARNRegex": "^arn:aws:neptune-db:.+",
             "conditionKeys": [
                 "neptune-db:QueryLanguage"
