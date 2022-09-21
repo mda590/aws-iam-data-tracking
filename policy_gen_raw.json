@@ -3094,6 +3094,11 @@
             ],
             "ARNFormat": "arn:aws:route53:::${Resource}/{$Id}",
             "ARNRegex": "^arn:aws:route53:::.+",
+            "conditionKeys": [
+                "route53:ChangeResourceRecordSetsActions",
+                "route53:ChangeResourceRecordSetsNormalizedRecordNames",
+                "route53:ChangeResourceRecordSetsRecordTypes"
+            ],
             "HasResource": true
         },
         "Amazon SimpleDB": {
