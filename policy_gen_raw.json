@@ -89,6 +89,7 @@
                 "BatchDetectKeyPhrases",
                 "BatchDetectSentiment",
                 "BatchDetectSyntax",
+                "BatchDetectTargetedSentiment",
                 "ClassifyDocument",
                 "ContainsPiiEntities",
                 "CreateDocumentClassifier",
@@ -117,6 +118,7 @@
                 "DetectPiiEntities",
                 "DetectSentiment",
                 "DetectSyntax",
+                "DetectTargetedSentiment",
                 "ImportModel",
                 "ListDocumentClassificationJobs",
                 "ListDocumentClassifierSummaries",
@@ -156,7 +158,7 @@
                 "UntagResource",
                 "UpdateEndpoint"
             ],
-            "ARNFormat": "arn:aws:comprehend:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:comprehend:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:comprehend:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
