@@ -10934,6 +10934,17 @@
             "ARNRegex": "^arn:aws:honeycode:.+:.+:.+",
             "HasResource": true
         },
+        "AWS Support Plans": {
+            "StringPrefix": "supportplans",
+            "Actions": [
+                "GetSupportPlan",
+                "GetSupportPlanUpdateStatus",
+                "StartSupportPlanUpdate"
+            ],
+            "ARNFormat": "^arn:${Partition}:supportplans::${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:supportplans::.+:.+",
+            "HasResource": false
+        },
         "AWS IQ": {
             "StringPrefix": "iq",
             "Actions": [
