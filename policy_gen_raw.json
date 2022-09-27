@@ -12139,6 +12139,7 @@
                 "GetApplicationComponentStrategies",
                 "GetAssessment",
                 "GetImportFileTask",
+                "GetLatestAssessmentId",
                 "GetMessage",
                 "GetPortfolioPreferences",
                 "GetPortfolioSummary",
@@ -12159,9 +12160,10 @@
                 "StartRecommendationReportGeneration",
                 "StopAssessment",
                 "UpdateApplicationComponentConfig",
+                "UpdateCollectorConfiguration",
                 "UpdateServerConfig"
             ],
-            "ARNFormat": "arn:${Partition}:iam::${Account}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:${Partition}:iam:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:${ServiceName}:.+:.+:.+",
             "HasResource": false
         },
