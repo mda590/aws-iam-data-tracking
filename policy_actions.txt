@@ -4031,6 +4031,7 @@ ec2:ModifyIpamPool
 ec2:ModifyIpamResourceCidr
 ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
+ec2:ModifyLocalGatewayRoute
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyPrivateDnsNameOptions
@@ -6086,6 +6087,7 @@ inspector2:DisableDelegatedAdminAccount
 inspector2:DisassociateMember
 inspector2:Enable
 inspector2:EnableDelegatedAdminAccount
+inspector2:GetConfiguration
 inspector2:GetDelegatedAdminAccount
 inspector2:GetFindingsReportStatus
 inspector2:GetMember
@@ -6101,6 +6103,7 @@ inspector2:ListTagsForResource
 inspector2:ListUsageTotals
 inspector2:TagResource
 inspector2:UntagResource
+inspector2:UpdateConfiguration
 inspector2:UpdateFilter
 inspector2:UpdateOrganizationConfiguration
 inspector:AddAttributesToFindings

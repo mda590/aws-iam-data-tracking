@@ -5222,6 +5222,7 @@
                 "DisassociateMember",
                 "Enable",
                 "EnableDelegatedAdminAccount",
+                "GetConfiguration",
                 "GetDelegatedAdminAccount",
                 "GetFindingsReportStatus",
                 "GetMember",
@@ -5237,6 +5238,7 @@
                 "ListUsageTotals",
                 "TagResource",
                 "UntagResource",
+                "UpdateConfiguration",
                 "UpdateFilter",
                 "UpdateOrganizationConfiguration"
             ],
@@ -12949,6 +12951,7 @@
                 "ModifyIpamResourceCidr",
                 "ModifyIpamScope",
                 "ModifyLaunchTemplate",
+                "ModifyLocalGatewayRoute",
                 "ModifyManagedPrefixList",
                 "ModifyNetworkInterfaceAttribute",
                 "ModifyPrivateDnsNameOptions",
