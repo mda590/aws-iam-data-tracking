@@ -3136,17 +3136,14 @@
                 "SetSourceIdentity",
                 "TagSession"
             ],
-            "ARNFormat": "arn:aws:iam::${Namespace}:${RelativeId}",
+            "ARNFormat": "arn:aws:iam::${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:iam::.+",
             "conditionKeys": [
                 "accounts.google.com:aud",
                 "accounts.google.com:oaud",
                 "accounts.google.com:sub",
-                "aws:FederatedProvider",
-                "aws:PrincipalTag/${TagKey}",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:SourceIdentity",
                 "aws:TagKeys",
                 "cognito-identity.amazonaws.com:amr",
                 "cognito-identity.amazonaws.com:aud",
