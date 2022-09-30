@@ -10047,6 +10047,7 @@
                 "CreateApplication",
                 "DeleteApplication",
                 "GetApplication",
+                "GetDashboardForJobRun",
                 "GetJobRun",
                 "ListApplications",
                 "ListJobRuns",
