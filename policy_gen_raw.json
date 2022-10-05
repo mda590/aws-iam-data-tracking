@@ -1492,7 +1492,7 @@
                 "UpdateSettings",
                 "ValidateAssessmentReportIntegrity"
             ],
-            "ARNFormat": "arn:aws:auditmanager::${ResourceType}:${ResourceName}",
+            "ARNFormat": "arn:aws:auditmanager:::${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:auditmanager::.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -16651,6 +16651,7 @@
             "Actions": [
                 "CreateQuery",
                 "ExtendQuery",
+                "GetExtensionAccounts",
                 "GetQueryAnswer",
                 "GetQueryExplanation"
             ],

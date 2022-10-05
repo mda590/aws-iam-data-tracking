@@ -12142,6 +12142,7 @@ timestream:UpdateTable
 timestream:WriteRecords
 tiros:CreateQuery
 tiros:ExtendQuery
+tiros:GetExtensionAccounts
 tiros:GetQueryAnswer
 tiros:GetQueryExplanation
 transcribe:CreateCallAnalyticsCategory
