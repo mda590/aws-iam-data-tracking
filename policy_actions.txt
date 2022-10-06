@@ -917,6 +917,7 @@ backup-gateway:DeleteGateway
 backup-gateway:DeleteHypervisor
 backup-gateway:DisassociateGatewayFromServer
 backup-gateway:GetGateway
+backup-gateway:GetVirtualMachine
 backup-gateway:ImportHypervisorConfiguration
 backup-gateway:ListGateways
 backup-gateway:ListHypervisors
