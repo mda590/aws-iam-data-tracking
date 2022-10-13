@@ -11728,7 +11728,7 @@
                 "TerminateInstanceInAutoScalingGroup",
                 "UpdateAutoScalingGroup"
             ],
-            "ARNFormat": "arn:aws:autoscaling:<region>:<account>:<relative-id>",
+            "ARNFormat": "arn:aws:autoscaling:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:autoscaling:.+:.+:.+",
             "conditionKeys": [
                 "autoscaling:ImageId",
