@@ -10364,8 +10364,8 @@
                 "SendMetrics",
                 "SupportedVersion"
             ],
-            "ARNFormat": "arn:aws:iot-device-tester:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:iot-device-tester:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:iot-device-tester:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:.+:iot-device-tester:.+:.+:.+",
             "HasResource": false
         },
         "AWS Database Migration Service": {
@@ -12513,8 +12513,8 @@
             "Actions": [
                 "GetCodeGuruFreeTrialSummary"
             ],
-            "ARNFormat": "arn:aws:codeguru:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:codeguru:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:codeguru:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:codeguru:.+:.+:.+",
             "HasResource": false
         },
         "Amazon EC2": {
@@ -14800,15 +14800,23 @@
                 "ImportTerminology",
                 "ListLanguages",
                 "ListParallelData",
+                "ListTagsForResource",
                 "ListTerminologies",
                 "ListTextTranslationJobs",
                 "StartTextTranslationJob",
                 "StopTextTranslationJob",
+                "TagResource",
                 "TranslateText",
+                "UntagResource",
                 "UpdateParallelData"
             ],
             "ARNFormat": "arn:aws:translate:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:translate:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS WAF Regional": {
