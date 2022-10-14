@@ -7718,6 +7718,7 @@ lookoutequipment:DescribeModel
 lookoutequipment:Describelabel
 lookoutequipment:ListDataIngestionJobs
 lookoutequipment:ListDatasets
+lookoutequipment:ListInferenceEvents
 lookoutequipment:ListInferenceExecutions
 lookoutequipment:ListInferenceSchedulers
 lookoutequipment:ListLabelGroups

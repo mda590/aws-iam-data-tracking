@@ -14713,6 +14713,7 @@
                 "Describelabel",
                 "ListDataIngestionJobs",
                 "ListDatasets",
+                "ListInferenceEvents",
                 "ListInferenceExecutions",
                 "ListInferenceSchedulers",
                 "ListLabelGroups",
@@ -14729,7 +14730,7 @@
                 "UpdateLabelGroup"
             ],
             "ARNFormat": "arn:aws:lookoutequipment:${Region}:${Account}:${ResourceType}/${ResourceName}/${ResourceId}",
-            "ARNRegex": "^arn:aws:lookoutequipment:.+",
+            "ARNRegex": "^arn:aws:lookoutequipment:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
