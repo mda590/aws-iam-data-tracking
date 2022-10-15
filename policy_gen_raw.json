@@ -6058,8 +6058,8 @@
                 "UpdateResponseHeadersPolicy",
                 "UpdateStreamingDistribution"
             ],
-            "ARNFormat": "arn:aws:cloudfront::${AccountId}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:cloudfront::[0-9]+:.+",
+            "ARNFormat": "arn:aws:cloudfront:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:cloudfront:.+:[0-9]+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
