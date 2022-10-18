@@ -1643,10 +1643,12 @@ cloudfront:CreateFunction
 cloudfront:CreateInvalidation
 cloudfront:CreateKeyGroup
 cloudfront:CreateMonitoringSubscription
+cloudfront:CreateOriginAccessControl
 cloudfront:CreateOriginRequestPolicy
 cloudfront:CreatePublicKey
 cloudfront:CreateRealtimeLogConfig
 cloudfront:CreateResponseHeadersPolicy
+cloudfront:CreateSavingsPlan
 cloudfront:CreateStreamingDistribution
 cloudfront:CreateStreamingDistributionWithTags
 cloudfront:DeleteCachePolicy
@@ -1657,6 +1659,7 @@ cloudfront:DeleteFieldLevelEncryptionProfile
 cloudfront:DeleteFunction
 cloudfront:DeleteKeyGroup
 cloudfront:DeleteMonitoringSubscription
+cloudfront:DeleteOriginAccessControl
 cloudfront:DeleteOriginRequestPolicy
 cloudfront:DeletePublicKey
 cloudfront:DeleteRealtimeLogConfig
@@ -1678,6 +1681,8 @@ cloudfront:GetInvalidation
 cloudfront:GetKeyGroup
 cloudfront:GetKeyGroupConfig
 cloudfront:GetMonitoringSubscription
+cloudfront:GetOriginAccessControl
+cloudfront:GetOriginAccessControlConfig
 cloudfront:GetOriginRequestPolicy
 cloudfront:GetOriginRequestPolicyConfig
 cloudfront:GetPublicKey
@@ -1685,6 +1690,7 @@ cloudfront:GetPublicKeyConfig
 cloudfront:GetRealtimeLogConfig
 cloudfront:GetResponseHeadersPolicy
 cloudfront:GetResponseHeadersPolicyConfig
+cloudfront:GetSavingsPlan
 cloudfront:GetStreamingDistribution
 cloudfront:GetStreamingDistributionConfig
 cloudfront:ListCachePolicies
@@ -1703,12 +1709,16 @@ cloudfront:ListFieldLevelEncryptionProfiles
 cloudfront:ListFunctions
 cloudfront:ListInvalidations
 cloudfront:ListKeyGroups
+cloudfront:ListOriginAccessControls
 cloudfront:ListOriginRequestPolicies
 cloudfront:ListPublicKeys
+cloudfront:ListRateCards
 cloudfront:ListRealtimeLogConfigs
 cloudfront:ListResponseHeadersPolicies
+cloudfront:ListSavingsPlans
 cloudfront:ListStreamingDistributions
 cloudfront:ListTagsForResource
+cloudfront:ListUsages
 cloudfront:PublishFunction
 cloudfront:TagResource
 cloudfront:TestFunction
@@ -1720,10 +1730,12 @@ cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
 cloudfront:UpdateFunction
 cloudfront:UpdateKeyGroup
+cloudfront:UpdateOriginAccessControl
 cloudfront:UpdateOriginRequestPolicy
 cloudfront:UpdatePublicKey
 cloudfront:UpdateRealtimeLogConfig
 cloudfront:UpdateResponseHeadersPolicy
+cloudfront:UpdateSavingsPlan
 cloudfront:UpdateStreamingDistribution
 cloudhsm:AddTagsToResource
 cloudhsm:CopyBackupToRegion
@@ -12626,6 +12638,7 @@ wisdom:UpdateContent
 wisdom:UpdateKnowledgeBaseTemplateUri
 workdocs:AbortDocumentVersionUpload
 workdocs:ActivateUser
+workdocs:AddNotificationPermissions
 workdocs:AddResourcePermissions
 workdocs:AddUserToGroup
 workdocs:CheckAlias
@@ -12644,6 +12657,7 @@ workdocs:DeleteFolder
 workdocs:DeleteFolderContents
 workdocs:DeleteInstance
 workdocs:DeleteLabels
+workdocs:DeleteNotificationPermissions
 workdocs:DeleteNotificationSubscription
 workdocs:DeleteUser
 workdocs:DeregisterDirectory
@@ -12654,6 +12668,7 @@ workdocs:DescribeDocumentVersions
 workdocs:DescribeFolderContents
 workdocs:DescribeGroups
 workdocs:DescribeInstances
+workdocs:DescribeNotificationPermissions
 workdocs:DescribeNotificationSubscriptions
 workdocs:DescribeResourcePermissions
 workdocs:DescribeRootFolders
