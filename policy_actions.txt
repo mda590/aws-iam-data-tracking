@@ -3494,6 +3494,7 @@ ds:DescribeSettings
 ds:DescribeSharedDirectories
 ds:DescribeSnapshots
 ds:DescribeTrusts
+ds:DescribeUpdateDirectory
 ds:DisableClientAuthentication
 ds:DisableLDAPS
 ds:DisableRadius
@@ -3524,6 +3525,7 @@ ds:StartSchemaExtension
 ds:UnauthorizeApplication
 ds:UnshareDirectory
 ds:UpdateConditionalForwarder
+ds:UpdateDirectorySetup
 ds:UpdateNumberOfDomainControllers
 ds:UpdateRadius
 ds:UpdateSettings

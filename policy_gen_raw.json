@@ -6288,6 +6288,7 @@
                 "DescribeSharedDirectories",
                 "DescribeSnapshots",
                 "DescribeTrusts",
+                "DescribeUpdateDirectory",
                 "DisableClientAuthentication",
                 "DisableLDAPS",
                 "DisableRadius",
@@ -6318,6 +6319,7 @@
                 "UnauthorizeApplication",
                 "UnshareDirectory",
                 "UpdateConditionalForwarder",
+                "UpdateDirectorySetup",
                 "UpdateNumberOfDomainControllers",
                 "UpdateRadius",
                 "UpdateSettings",
@@ -15711,8 +15713,8 @@
             "Actions": [
                 "GetCarbonFootprintSummary"
             ],
-            "ARNFormat": "arn:aws:sustainability:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:sustainability:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:sustainability:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:sustainability:.+:.+:.+",
             "HasResource": false
         },
         "Amazon Personalize": {
