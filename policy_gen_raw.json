@@ -349,6 +349,7 @@
                 "ImportCatalogToGlue",
                 "ListBlueprints",
                 "ListCrawlers",
+                "ListCrawls",
                 "ListCustomEntityTypes",
                 "ListDevEndpoints",
                 "ListJobs",
@@ -407,9 +408,10 @@
                 "UpdateTrigger",
                 "UpdateUserDefinedFunction",
                 "UpdateWorkflow",
+                "UseGlueStudio",
                 "UseMLTransforms"
             ],
-            "ARNFormat": "arn:aws:glue:${Region}:${AccountID}:${ResourceType}/${ResourcePath}",
+            "ARNFormat": "arn:aws:glue:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:glue:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -4691,6 +4693,7 @@
                 "GetContactList",
                 "GetCustomVerificationEmailTemplate",
                 "GetDedicatedIp",
+                "GetDedicatedIpPool",
                 "GetDedicatedIps",
                 "GetDeliverabilityDashboardOptions",
                 "GetDeliverabilityTestReport",
