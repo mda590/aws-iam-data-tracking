@@ -5345,6 +5345,7 @@ glacier:SetVaultNotifications
 glacier:UploadArchive
 glacier:UploadMultipartPart
 globalaccelerator:AddCustomRoutingEndpoints
+globalaccelerator:AddEndpoints
 globalaccelerator:AdvertiseByoipCidr
 globalaccelerator:AllowCustomRoutingTraffic
 globalaccelerator:CreateAccelerator
@@ -5381,6 +5382,7 @@ globalaccelerator:ListListeners
 globalaccelerator:ListTagsForResource
 globalaccelerator:ProvisionByoipCidr
 globalaccelerator:RemoveCustomRoutingEndpoints
+globalaccelerator:RemoveEndpoints
 globalaccelerator:TagResource
 globalaccelerator:UntagResource
 globalaccelerator:UpdateAccelerator
