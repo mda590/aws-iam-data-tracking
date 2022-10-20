@@ -4451,6 +4451,7 @@
                 "CreateRoutingProfile",
                 "CreateSecurityProfile",
                 "CreateTaskTemplate",
+                "CreateTrafficDistributionGroup",
                 "CreateUseCase",
                 "CreateUser",
                 "CreateUserHierarchyGroup",
@@ -4463,6 +4464,7 @@
                 "DeleteQuickConnect",
                 "DeleteSecurityProfile",
                 "DeleteTaskTemplate",
+                "DeleteTrafficDistributionGroup",
                 "DeleteUseCase",
                 "DeleteUser",
                 "DeleteUserHierarchyGroup",
@@ -4480,6 +4482,7 @@
                 "DescribeQuickConnect",
                 "DescribeRoutingProfile",
                 "DescribeSecurityProfile",
+                "DescribeTrafficDistributionGroup",
                 "DescribeUser",
                 "DescribeUserHierarchyGroup",
                 "DescribeUserHierarchyStructure",
@@ -4501,6 +4504,7 @@
                 "GetFederationTokens",
                 "GetMetricData",
                 "GetTaskTemplate",
+                "GetTrafficDistribution",
                 "ListAgentStatuses",
                 "ListApprovedOrigins",
                 "ListBots",
@@ -4529,11 +4533,13 @@
                 "ListSecurityProfiles",
                 "ListTagsForResource",
                 "ListTaskTemplates",
+                "ListTrafficDistributionGroups",
                 "ListUseCases",
                 "ListUserHierarchyGroups",
                 "ListUsers",
                 "PutUserStatus",
                 "ReleasePhoneNumber",
+                "ReplicateInstance",
                 "ResumeContactRecording",
                 "SearchAvailablePhoneNumbers",
                 "SearchQueues",
@@ -4579,6 +4585,7 @@
                 "UpdateRoutingProfileQueues",
                 "UpdateSecurityProfile",
                 "UpdateTaskTemplate",
+                "UpdateTrafficDistribution",
                 "UpdateUserHierarchy",
                 "UpdateUserHierarchyGroupName",
                 "UpdateUserHierarchyStructure",
@@ -5118,7 +5125,7 @@
                 "UpdateSnapshot",
                 "UpdateStage"
             ],
-            "ARNFormat": "arn:aws:gamesparks:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:gamesparks:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:gamesparks:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -6632,6 +6639,22 @@
                 "codestar-connections:RepositoryName"
             ],
             "HasResource": true
+        },
+        "AWS Support App for Slack": {
+            "StringPrefix": "supportapp",
+            "Actions": [
+                "CreateSlackChannelConfiguration",
+                "DeleteAccountAlias",
+                "DeleteSlackChannelConfiguration",
+                "DeleteSlackWorkspaceConfiguration",
+                "GetAccountAlias",
+                "ListSlackChannelConfigurations",
+                "ListSlackWorkspaceConfigurations",
+                "PutAccountAlias",
+                "RegisterSlackWorkspaceForOrganization",
+                "UpdateSlackChannelConfiguration"
+            ],
+            "HasResource": false
         },
         "Amazon WorkSpaces": {
             "StringPrefix": "workspaces",
