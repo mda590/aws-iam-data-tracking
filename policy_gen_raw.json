@@ -3807,6 +3807,17 @@
             ],
             "HasResource": true
         },
+        "AWS Identity Store Auth": {
+            "StringPrefix": "identitystore-auth",
+            "Actions": [
+                "BatchDeleteSession",
+                "BatchGetSession",
+                "ListSessions"
+            ],
+            "ARNFormat": "arn:${Partition}:identitystore-auth:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:${Partition}:identitystore-auth:${Region}:.+",
+            "HasResource": false
+        },
         "AWS CodeDeploy": {
             "StringPrefix": "codedeploy",
             "Actions": [
@@ -6468,6 +6479,18 @@
                 "codestar-notifications:NotificationsForResource"
             ],
             "HasResource": true
+        },
+        "AWS App2Container": {
+            "StringPrefix": "a2c",
+            "Actions": [
+                "GetContainerizationJobDetails",
+                "GetDeploymentJobDetails",
+                "StartContainerizationJob",
+                "StartDeploymentJob"
+            ],
+            "ARNFormat": "arn:${Partition}:a2c:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:a2c:.+:.+:.+",
+            "HasResource": false
         },
         "Amazon Fraud Detector": {
             "StringPrefix": "frauddetector",

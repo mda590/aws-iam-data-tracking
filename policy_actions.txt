@@ -1,3 +1,7 @@
+a2c:GetContainerizationJobDetails
+a2c:GetDeploymentJobDetails
+a2c:StartContainerizationJob
+a2c:StartDeploymentJob
 a4b:ApproveSkill
 a4b:AssociateContactWithAddressBook
 a4b:AssociateDeviceWithNetworkProfile
@@ -6040,6 +6044,9 @@ identity-sync:ListSyncFilters
 identity-sync:StartSync
 identity-sync:StopSync
 identity-sync:UpdateSyncTarget
+identitystore-auth:BatchDeleteSession
+identitystore-auth:BatchGetSession
+identitystore-auth:ListSessions
 identitystore:CreateGroup
 identitystore:CreateGroupMembership
 identitystore:CreateUser

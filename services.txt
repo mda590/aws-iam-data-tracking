@@ -6,6 +6,7 @@ AWS Amplify UI Builder
 AWS App Mesh
 AWS App Mesh Preview
 AWS App Runner
+AWS App2Container
 AWS AppConfig
 AWS AppSync
 AWS Application Auto Scaling
@@ -84,6 +85,7 @@ AWS IAM Identity Center (successor to AWS Single Sign-On) directory
 AWS IQ
 AWS IQ Permissions
 AWS Identity Store
+AWS Identity Store Auth
 AWS Identity Sync
 AWS Identity and Access Management Roles Anywhere
 AWS Import Export Disk Service
