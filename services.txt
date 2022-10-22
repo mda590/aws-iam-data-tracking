@@ -6,7 +6,6 @@ AWS Amplify UI Builder
 AWS App Mesh
 AWS App Mesh Preview
 AWS App Runner
-AWS App2Container
 AWS AppConfig
 AWS AppSync
 AWS Application Auto Scaling

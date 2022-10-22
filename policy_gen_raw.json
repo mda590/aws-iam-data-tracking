@@ -6480,18 +6480,6 @@
             ],
             "HasResource": true
         },
-        "AWS App2Container": {
-            "StringPrefix": "a2c",
-            "Actions": [
-                "GetContainerizationJobDetails",
-                "GetDeploymentJobDetails",
-                "StartContainerizationJob",
-                "StartDeploymentJob"
-            ],
-            "ARNFormat": "arn:${Partition}:a2c:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:a2c:.+:.+:.+",
-            "HasResource": false
-        },
         "Amazon Fraud Detector": {
             "StringPrefix": "frauddetector",
             "Actions": [
@@ -13784,7 +13772,7 @@
             ],
             "ARNFormat": "arn:aws:outposts:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:outposts:.+:.+:.+",
-            "HasResource": false
+            "HasResource": true
         },
         "Amazon GameLift": {
             "StringPrefix": "gamelift",
