@@ -9178,13 +9178,13 @@
             ],
             "HasResource": true
         },
-        "Elemental Support Content": {
+        "AWS Elemental Support Content": {
             "StringPrefix": "elemental-support-content",
             "Actions": [
                 "Query"
             ],
-            "ARNFormat": "arn:aws:elemental-support-content:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:elemental-support-content:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:elemental-support-content:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:elemental-support-content:.+:.+:.+",
             "HasResource": false
         },
         "Amazon Managed Blockchain": {
