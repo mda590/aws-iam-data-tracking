@@ -71,6 +71,7 @@ AWS Elemental MediaPackage
 AWS Elemental MediaPackage VOD
 AWS Elemental MediaStore
 AWS Elemental MediaTailor
+AWS Elemental Support Cases
 AWS Elemental Support Content
 AWS Fault Injection Simulator
 AWS Firewall Manager
@@ -330,7 +331,6 @@ Application Discovery Arsenal
 Database Query Metadata Service
 Elastic Load Balancing
 Elastic Load Balancing V2
-Elemental Support Cases
 High-volume outbound communications
 Identity And Access Management
 Launch Wizard

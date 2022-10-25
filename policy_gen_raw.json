@@ -2384,6 +2384,7 @@
                 "ListHyperParameterTuningJobs",
                 "ListImageVersions",
                 "ListImages",
+                "ListInferenceRecommendationsJobSteps",
                 "ListInferenceRecommendationsJobs",
                 "ListLabelingJobs",
                 "ListLabelingJobsForWorkteam",
@@ -3652,7 +3653,7 @@
             "ARNRegex": "^arn:aws:identitystore:.+",
             "HasResource": true
         },
-        "Elemental Support Cases": {
+        "AWS Elemental Support Cases": {
             "StringPrefix": "elemental-support-cases",
             "Actions": [
                 "CheckCasePermission",
@@ -3661,8 +3662,8 @@
                 "GetCases",
                 "UpdateCase"
             ],
-            "ARNFormat": "arn:aws:elemental-support-cases:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:elemental-support-cases:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:elemental-support-cases:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:elemental-support-cases:.+:.+:.+",
             "HasResource": false
         },
         "Amazon Route 53 Domains": {
@@ -7588,6 +7589,11 @@
                 "batch:AWSLogsGroup",
                 "batch:AWSLogsRegion",
                 "batch:AWSLogsStreamPrefix",
+                "batch:EKSImage",
+                "batch:EKSPrivileged",
+                "batch:EKSRunAsGroup",
+                "batch:EKSRunAsUser",
+                "batch:EKSServiceAccountName",
                 "batch:Image",
                 "batch:LogDriver",
                 "batch:Privileged",
@@ -15889,7 +15895,7 @@
                 "UntagResource",
                 "UpdateQuote"
             ],
-            "ARNFormat": "arn:aws:elemental-appliances-software:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:elemental-appliances-software:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:elemental-appliances-software:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -16738,9 +16744,9 @@
             "Actions": [
                 "CreateQuery",
                 "ExtendQuery",
-                "GetExtensionAccounts",
                 "GetQueryAnswer",
-                "GetQueryExplanation"
+                "GetQueryExplanation",
+                "GetQueryExtensionAccounts"
             ],
             "ARNFormat": "arn:${Partition}:tiros:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:tiros::.+",
