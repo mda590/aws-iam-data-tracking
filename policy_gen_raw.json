@@ -77,6 +77,7 @@
         "aws:TagKeys",
         "aws:TokenIssueTime",
         "aws:UserAgent",
+        "aws:ViaAWSService",
         "aws:userid",
         "aws:username"
     ],
@@ -6480,6 +6481,18 @@
                 "codestar-notifications:NotificationsForResource"
             ],
             "HasResource": true
+        },
+        "AWS App2Container": {
+            "StringPrefix": "a2c",
+            "Actions": [
+                "GetContainerizationJobDetails",
+                "GetDeploymentJobDetails",
+                "StartContainerizationJob",
+                "StartDeploymentJob"
+            ],
+            "ARNFormat": "arn:${Partition}:a2c:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:a2c:.+:.+:.+",
+            "HasResource": false
         },
         "Amazon Fraud Detector": {
             "StringPrefix": "frauddetector",
