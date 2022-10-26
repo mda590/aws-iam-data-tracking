@@ -12537,6 +12537,7 @@
             "Actions": [
                 "CreateProject",
                 "DeleteProject",
+                "GetAccountDetails",
                 "GetBatch",
                 "GetProject",
                 "ListBatchDataTransfers",
