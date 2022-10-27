@@ -5974,19 +5974,26 @@
         "AWS CloudWatch RUM": {
             "StringPrefix": "rum",
             "Actions": [
+                "BatchCreateRumMetricDefinitions",
+                "BatchDeleteRumMetricDefinitions",
+                "BatchGetRumMetricDefinitions",
                 "CreateAppMonitor",
                 "DeleteAppMonitor",
+                "DeleteRumMetricsDestination",
                 "GetAppMonitor",
                 "GetAppMonitorData",
                 "ListAppMonitors",
+                "ListRumMetricsDestinations",
                 "ListTagsForResource",
                 "PutRumEvents",
+                "PutRumMetricsDestination",
                 "TagResource",
                 "UntagResource",
-                "UpdateAppMonitor"
+                "UpdateAppMonitor",
+                "UpdateRumMetricDefinition"
             ],
             "ARNFormat": "arn:aws:rum:${Region}:${Account}:appmonitor/${Name}",
-            "ARNRegex": "^arn:aws:rum:${Region}:${Account}:appmonitor/.+?",
+            "ARNRegex": "^arn:aws:rum:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
