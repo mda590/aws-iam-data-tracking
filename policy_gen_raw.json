@@ -11533,7 +11533,8 @@
                 "UpdateConfiguration",
                 "UpdateConnectivity",
                 "UpdateMonitoring",
-                "UpdateSecurity"
+                "UpdateSecurity",
+                "UpdateStorage"
             ],
             "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceName}/${Uuid}",
             "ARNRegex": "^arn:aws:kafka:.+",
