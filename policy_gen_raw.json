@@ -2587,8 +2587,8 @@
                 "ListStatements",
                 "ListTables"
             ],
-            "ARNFormat": "arn:aws:redshift:<region>:<accountID>:<relative-id>",
-            "ARNRegex": "^arn:aws:redshift:.+:.+:.+",
+            "ARNFormat": "arn:aws:redshift-serverless:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:(redshift|redshift-serverless):.+:.+:.+",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "redshift-data:statement-owner-iam-userid"
@@ -8612,7 +8612,7 @@
                 "UpdateRoom",
                 "UpdateSkillGroup"
             ],
-            "ARNFormat": "arn:aws:a4b:<region>:<account-id>:<resource-type>/<resource_id>",
+            "ARNFormat": "arn:aws:a4b:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:a4b:.+:.+:.+",
             "conditionKeys": [
                 "a4b:amazonId",
