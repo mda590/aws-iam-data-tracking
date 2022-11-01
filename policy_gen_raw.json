@@ -6674,17 +6674,20 @@
             ],
             "HasResource": true
         },
-        "AWS Support App for Slack": {
+        "AWS Support App in Slack": {
             "StringPrefix": "supportapp",
             "Actions": [
                 "CreateSlackChannelConfiguration",
                 "DeleteAccountAlias",
                 "DeleteSlackChannelConfiguration",
                 "DeleteSlackWorkspaceConfiguration",
+                "DescribeSlackChannels",
                 "GetAccountAlias",
+                "GetSlackOauthParameters",
                 "ListSlackChannelConfigurations",
                 "ListSlackWorkspaceConfigurations",
                 "PutAccountAlias",
+                "RedeemSlackOauthCode",
                 "RegisterSlackWorkspaceForOrganization",
                 "UpdateSlackChannelConfiguration"
             ],

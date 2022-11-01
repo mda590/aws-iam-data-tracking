@@ -160,7 +160,7 @@ AWS Snowball
 AWS Step Functions
 AWS Storage Gateway
 AWS Support
-AWS Support App for Slack
+AWS Support App in Slack
 AWS Support Plans
 AWS Sustainability
 AWS Systems Manager
