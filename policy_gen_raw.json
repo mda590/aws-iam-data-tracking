@@ -426,54 +426,6 @@
             ],
             "HasResource": true
         },
-        "AWS IoT Things Graph": {
-            "StringPrefix": "iotthingsgraph",
-            "Actions": [
-                "AssociateEntityToThing",
-                "CreateFlowTemplate",
-                "CreateSystemInstance",
-                "CreateSystemTemplate",
-                "DeleteFlowTemplate",
-                "DeleteNamespace",
-                "DeleteSystemInstance",
-                "DeleteSystemTemplate",
-                "DeploySystemInstance",
-                "DeprecateFlowTemplate",
-                "DeprecateSystemTemplate",
-                "DescribeNamespace",
-                "DissociateEntityFromThing",
-                "GetEntities",
-                "GetFlowTemplate",
-                "GetFlowTemplateRevisions",
-                "GetNamespaceDeletionStatus",
-                "GetSystemInstance",
-                "GetSystemTemplate",
-                "GetSystemTemplateRevisions",
-                "GetUploadStatus",
-                "ListFlowExecutionMessages",
-                "ListTagsForResource",
-                "SearchEntities",
-                "SearchFlowExecutions",
-                "SearchFlowTemplates",
-                "SearchSystemInstances",
-                "SearchSystemTemplates",
-                "SearchThings",
-                "TagResource",
-                "UndeploySystemInstance",
-                "UntagResource",
-                "UpdateFlowTemplate",
-                "UpdateSystemTemplate",
-                "UploadEntityDefinitions"
-            ],
-            "ARNFormat": "arn:aws:iotthingsgraph:${Region}:${AccountId}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iotthingsgraph:.+:.+:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
-            "HasResource": true
-        },
         "Amazon CloudWatch Evidently": {
             "StringPrefix": "evidently",
             "Actions": [
@@ -8634,7 +8586,7 @@
             ],
             "HasResource": true
         },
-        "AWS Certificate Manager Private Certificate Authority": {
+        "AWS Private Certificate Authority": {
             "StringPrefix": "acm-pca",
             "Actions": [
                 "CreateCertificateAuthority",

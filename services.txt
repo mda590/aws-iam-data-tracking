@@ -26,7 +26,6 @@ AWS Billing Console
 AWS Budget Service
 AWS BugBust
 AWS Certificate Manager
-AWS Certificate Manager Private Certificate Authority
 AWS Chatbot
 AWS Cloud Control API
 AWS Cloud Map
@@ -105,7 +104,6 @@ AWS IoT Greengrass V2
 AWS IoT Jobs DataPlane
 AWS IoT RoboRunner
 AWS IoT SiteWise
-AWS IoT Things Graph
 AWS IoT TwinMaker
 AWS Key Management Service
 AWS Lake Formation
@@ -138,6 +136,7 @@ AWS Outposts
 AWS Panorama
 AWS Performance Insights
 AWS Price List
+AWS Private Certificate Authority
 AWS Proton
 AWS Purchase Orders Console
 AWS Recycle Bin
