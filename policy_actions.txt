@@ -11048,6 +11048,7 @@ servicequotas:PutServiceQuotaIncreaseRequestIntoTemplate
 servicequotas:RequestServiceQuotaIncrease
 servicequotas:TagResource
 servicequotas:UntagResource
+ses:BatchGetMetricData
 ses:CloneReceiptRuleSet
 ses:CreateConfigurationSet
 ses:CreateConfigurationSet
@@ -11163,6 +11164,7 @@ ses:ListIdentityPolicies
 ses:ListImportJobs
 ses:ListReceiptFilters
 ses:ListReceiptRuleSets
+ses:ListRecommendations
 ses:ListSuppressedDestinations
 ses:ListTagsForResource
 ses:ListTagsForResource
@@ -11174,6 +11176,7 @@ ses:PutAccountDetails
 ses:PutAccountSendingAttributes
 ses:PutAccountSendingAttributes
 ses:PutAccountSuppressionAttributes
+ses:PutAccountVdmAttributes
 ses:PutConfigurationSetDeliveryOptions
 ses:PutConfigurationSetDeliveryOptions
 ses:PutConfigurationSetDeliveryOptions
@@ -11184,6 +11187,7 @@ ses:PutConfigurationSetSendingOptions
 ses:PutConfigurationSetSuppressionOptions
 ses:PutConfigurationSetTrackingOptions
 ses:PutConfigurationSetTrackingOptions
+ses:PutConfigurationSetVdmOptions
 ses:PutDedicatedIpInPool
 ses:PutDedicatedIpInPool
 ses:PutDedicatedIpWarmupAttributes
