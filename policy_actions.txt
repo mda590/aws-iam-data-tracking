@@ -9745,6 +9745,7 @@ redshift:EnableSnapshotCopy
 redshift:ExecuteQuery
 redshift:FetchResults
 redshift:GetClusterCredentials
+redshift:GetClusterCredentialsWithIAM
 redshift:GetReservedNodeExchangeConfigurationOptions
 redshift:GetReservedNodeExchangeOfferings
 redshift:JoinGroup
