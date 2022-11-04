@@ -17482,7 +17482,7 @@
                 "UpdateOrganizationalUnit",
                 "UpdatePolicy"
             ],
-            "ARNFormat": "arn:aws:organizations::${MasterAccountId}:${Resource}/o-${OrganizationId}(/${ResourceType}/${ResourceId})?",
+            "ARNFormat": "arn:aws:organizations::${Account}:${Resource}/o-${OrganizationId}(/${ResourceType}/${ResourceId})?",
             "ARNRegex": "^arn:aws:organizations::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
