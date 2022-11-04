@@ -9264,6 +9264,7 @@ qldb:PartiQLDropIndex
 qldb:PartiQLDropTable
 qldb:PartiQLHistoryFunction
 qldb:PartiQLInsert
+qldb:PartiQLRedact
 qldb:PartiQLSelect
 qldb:PartiQLUndropTable
 qldb:PartiQLUpdate

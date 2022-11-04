@@ -9849,7 +9849,7 @@
                 "UntagResource",
                 "UpdateChannel"
             ],
-            "ARNFormat": "arn:aws:ivs:${Region}:${AccountId}:${ArnType}/${ResourceId}",
+            "ARNFormat": "arn:aws:ivs:${Region}:${Account}:${ArnType}/${ResourceId}",
             "ARNRegex": "^arn:aws:ivs:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -12467,7 +12467,7 @@
                 "Verify",
                 "VerifyMac"
             ],
-            "ARNFormat": "arn:aws:kms:${Region}:${AccountId}:${ResourceType}/${Id}",
+            "ARNFormat": "arn:aws:kms:${Region}:${Account}:${ResourceType}/${Id}",
             "ARNRegex": "^arn:aws:kms:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -17123,6 +17123,7 @@
                 "PartiQLDropTable",
                 "PartiQLHistoryFunction",
                 "PartiQLInsert",
+                "PartiQLRedact",
                 "PartiQLSelect",
                 "PartiQLUndropTable",
                 "PartiQLUpdate",
