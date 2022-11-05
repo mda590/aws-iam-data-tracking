@@ -8031,14 +8031,18 @@
             "StringPrefix": "emr-containers",
             "Actions": [
                 "CancelJobRun",
+                "CreateJobTemplate",
                 "CreateManagedEndpoint",
                 "CreateVirtualCluster",
+                "DeleteJobTemplate",
                 "DeleteManagedEndpoint",
                 "DeleteVirtualCluster",
                 "DescribeJobRun",
+                "DescribeJobTemplate",
                 "DescribeManagedEndpoint",
                 "DescribeVirtualCluster",
                 "ListJobRuns",
+                "ListJobTemplates",
                 "ListManagedEndpoints",
                 "ListTagsForResource",
                 "ListVirtualClusters",
@@ -8046,13 +8050,14 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:emr-containers:${region}:${account}:/${resourceType}/${resourcePath}",
+            "ARNFormat": "arn:aws:emr-containers:${Region}:${Account}:/${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:emr-containers:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
-                "emr-containers:ExecutionRoleArn"
+                "emr-containers:ExecutionRoleArn",
+                "emr-containers:JobTemplateArn"
             ],
             "HasResource": true
         },
