@@ -142,6 +142,7 @@ AWS Purchase Orders Console
 AWS Recycle Bin
 AWS Resilience Hub Service
 AWS Resource Access Manager
+AWS Resource Explorer
 AWS Resource Groups
 AWS RoboMaker
 AWS SQL Workbench

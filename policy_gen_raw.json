@@ -16419,6 +16419,38 @@
             ],
             "HasResource": true
         },
+        "AWS Resource Explorer": {
+            "StringPrefix": "resource-explorer-2",
+            "Actions": [
+                "AssociateDefaultView",
+                "BatchGetView",
+                "CreateIndex",
+                "CreateView",
+                "DeleteIndex",
+                "DeleteView",
+                "DisassociateDefaultView",
+                "GetDefaultView",
+                "GetIndex",
+                "GetView",
+                "ListIndexes",
+                "ListSupportedResourceTypes",
+                "ListTagsForResource",
+                "ListViews",
+                "Search",
+                "TagResource",
+                "UntagResource",
+                "UpdateIndexType",
+                "UpdateView"
+            ],
+            "ARNFormat": "arn:aws:resource-explorer-2:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
+            "ARNRegex": "^arn:aws:resource-explorer-2:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS IoT 1-Click": {
             "StringPrefix": "iot1click",
             "Actions": [
