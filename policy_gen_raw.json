@@ -7689,6 +7689,7 @@
                 "ListAccountAssociations",
                 "ListBillingGroupCostReports",
                 "ListBillingGroups",
+                "ListCustomLineItemVersions",
                 "ListCustomLineItems",
                 "ListPricingPlans",
                 "ListPricingPlansAssociatedWithPricingRule",
@@ -7703,7 +7704,7 @@
                 "UpdatePricingPlan",
                 "UpdatePricingRule"
             ],
-            "ARNFormat": "^arn:aws:billingconductor::${Account}:${ResourceType}",
+            "ARNFormat": "arn:aws:billingconductor::${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:billingconductor:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -11819,6 +11820,7 @@
                 "autoscaling:ResourceTag/${TagKey}",
                 "autoscaling:SpotPrice",
                 "autoscaling:TargetGroupARNs",
+                "autoscaling:TrafficSourceIdentifiers",
                 "autoscaling:VPCZoneIdentifiers",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
