@@ -5455,12 +5455,15 @@
                 "GetComplianceSummaryByResourceType",
                 "GetConformancePackComplianceDetails",
                 "GetConformancePackComplianceSummary",
+                "GetCustomRulePolicy",
                 "GetDiscoveredResourceCounts",
                 "GetOrganizationConfigRuleDetailedStatus",
                 "GetOrganizationConformancePackDetailedStatus",
+                "GetOrganizationCustomRulePolicy",
                 "GetResourceConfigHistory",
                 "GetStoredQuery",
                 "ListAggregateDiscoveredResources",
+                "ListConformancePackComplianceScores",
                 "ListDiscoveredResources",
                 "ListStoredQueries",
                 "ListTagsForResource",
@@ -8715,6 +8718,31 @@
             ],
             "HasResource": true
         },
+        "Amazon EventBridge Scheduler": {
+            "StringPrefix": "scheduler",
+            "Actions": [
+                "CreateSchedule",
+                "CreateScheduleGroup",
+                "DeleteSchedule",
+                "DeleteScheduleGroup",
+                "GetSchedule",
+                "GetScheduleGroup",
+                "ListScheduleGroups",
+                "ListSchedules",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateSchedule"
+            ],
+            "ARNFormat": "arn:aws:scheduler:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:scheduler:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Message Delivery Service": {
             "StringPrefix": "ec2messages",
             "Actions": [
@@ -10039,9 +10067,23 @@
         "AWS Backup storage": {
             "StringPrefix": "backup-storage",
             "Actions": [
-                "MountCapsule"
+                "CommitBackupJob",
+                "DeleteObjects",
+                "DescribeBackupJob",
+                "GetBaseBackup",
+                "GetChunk",
+                "GetIncrementalBaseBackup",
+                "GetObjectMetadata",
+                "ListChunks",
+                "ListObjects",
+                "MountCapsule",
+                "NotifyObjectComplete",
+                "PutChunk",
+                "PutObject",
+                "StartObject",
+                "UpdateObjectComplete"
             ],
-            "ARNFormat": "arn:aws:backup-storage:<region>:<account-id>:<resource-type>:<resource_name>",
+            "ARNFormat": "arn:${Partition}:backup-storage:${Region}:${Account}:${ResourceType}:${ResourceName}",
             "ARNRegex": "^^arn:aws:backup-storage:.+:.+:.+",
             "HasResource": false
         },
@@ -12392,6 +12434,7 @@
                 "GetMapSprites",
                 "GetMapStyleDescriptor",
                 "GetMapTile",
+                "GetPlace",
                 "ListDevicePositions",
                 "ListGeofenceCollections",
                 "ListGeofences",
@@ -12413,12 +12456,14 @@
                 "UpdateRouteCalculator",
                 "UpdateTracker"
             ],
-            "ARNFormat": "arn:aws:geo:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:geo:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:geo:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "geo:DeviceIds",
+                "geo:GeofenceIds"
             ],
             "HasResource": true
         },
@@ -13310,14 +13355,17 @@
                 "SetTaskStatus",
                 "ValidatePipelineDefinition"
             ],
+            "ARNFormat": "arn:aws:datapipeline:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:datapipeline:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "datapipeline:PipelineCreator",
                 "datapipeline:Tag",
                 "datapipeline:workerGroup"
             ],
-            "HasResource": false
+            "HasResource": true
         },
         "AWS Server Migration Service": {
             "StringPrefix": "sms",
