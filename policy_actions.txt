@@ -895,6 +895,7 @@ aws-marketplace:ListBuilds
 aws-marketplace:ListChangeSets
 aws-marketplace:ListEntities
 aws-marketplace:ListPrivateMarketplaceRequests
+aws-marketplace:ListTagsForResource
 aws-marketplace:ListTasks
 aws-marketplace:MeterUsage
 aws-marketplace:PutProcurementSystemConfiguration
@@ -905,7 +906,9 @@ aws-marketplace:SearchAgreements
 aws-marketplace:StartBuild
 aws-marketplace:StartChangeSet
 aws-marketplace:Subscribe
+aws-marketplace:TagResource
 aws-marketplace:Unsubscribe
+aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
 aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
@@ -12214,6 +12217,10 @@ tag:StartReportCreation
 tag:TagResources
 tag:UntagResources
 tax:GetExemptions
+tax:GetTaxInterview
+tax:GetTaxRegistration
+tax:PutTaxInterview
+tax:PutTaxRegistration
 tax:UpdateExemptions
 textract:AnalyzeDocument
 textract:AnalyzeExpense

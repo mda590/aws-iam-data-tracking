@@ -3357,13 +3357,19 @@
                 "DescribeTask",
                 "ListChangeSets",
                 "ListEntities",
+                "ListTagsForResource",
                 "ListTasks",
                 "StartChangeSet",
+                "TagResource",
+                "UntagResource",
                 "UpdateTask"
             ],
             "ARNFormat": "arn:aws:aws-marketplace:${Region}:${Account}:${Catalog}/${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:aws-marketplace:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
                 "catalog:ChangeType"
             ],
             "HasResource": true
@@ -15762,6 +15768,10 @@
             "StringPrefix": "tax",
             "Actions": [
                 "GetExemptions",
+                "GetTaxInterview",
+                "GetTaxRegistration",
+                "PutTaxInterview",
+                "PutTaxRegistration",
                 "UpdateExemptions"
             ],
             "HasResource": false
