@@ -5904,6 +5904,7 @@
                 "CreateGroup",
                 "CreateSamplingRule",
                 "DeleteGroup",
+                "DeleteResourcePolicy",
                 "DeleteSamplingRule",
                 "GetDistinctTraceGraphs",
                 "GetEncryptionConfig",
@@ -5920,8 +5921,10 @@
                 "GetTimeSeriesServiceStatistics",
                 "GetTraceGraph",
                 "GetTraceSummaries",
+                "ListResourcePolicies",
                 "ListTagsForResource",
                 "PutEncryptionConfig",
+                "PutResourcePolicy",
                 "PutTelemetryRecords",
                 "PutTraceSegments",
                 "TagResource",
@@ -17027,6 +17030,39 @@
             ],
             "ARNRegex": "^arn:aws:launchwizard:.+:.+:.+",
             "HasResource": false
+        },
+        "AWS Systems Manager for SAP": {
+            "StringPrefix": "ssm-sap",
+            "Actions": [
+                "BackupDatabase",
+                "DeleteResourcePermission",
+                "DeregisterApplication",
+                "GetApplication",
+                "GetComponent",
+                "GetDatabase",
+                "GetOperation",
+                "GetResourcePermission",
+                "ListApplications",
+                "ListComponents",
+                "ListDatabases",
+                "ListOperations",
+                "ListTagsForResource",
+                "PutResourcePermission",
+                "RegisterApplication",
+                "RestoreDatabase",
+                "TagResource",
+                "UntagResource",
+                "UpdateApplicationSettings",
+                "UpdateHANABackupSettings"
+            ],
+            "ARNFormat": "arn:aws:ssm-sap:${Region}:${Account}:${ApplicationType}/${ApplicationId}",
+            "ARNRegex": "^arn:aws:ssm-sap:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Elemental MediaConvert": {
             "StringPrefix": "mediaconvert",
