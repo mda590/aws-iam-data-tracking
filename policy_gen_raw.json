@@ -11989,8 +11989,10 @@
                 "DeleteEntity",
                 "DeleteScene",
                 "DeleteWorkspace",
+                "ExecuteQuery",
                 "GetComponentType",
                 "GetEntity",
+                "GetPricingPlan",
                 "GetPropertyValue",
                 "GetPropertyValueHistory",
                 "GetScene",
@@ -12004,6 +12006,7 @@
                 "UntagResource",
                 "UpdateComponentType",
                 "UpdateEntity",
+                "UpdatePricingPlan",
                 "UpdateScene",
                 "UpdateWorkspace"
             ],
