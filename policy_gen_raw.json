@@ -1812,6 +1812,8 @@
                 "GetEnvironmentTemplateVersion",
                 "GetRepository",
                 "GetRepositorySyncStatus",
+                "GetResourceTemplateVersionStatusCounts",
+                "GetResourcesSummary",
                 "GetService",
                 "GetServiceInstance",
                 "GetServiceTemplate",
@@ -3659,6 +3661,16 @@
                 "UpdateTagsForDomain",
                 "ViewBilling"
             ],
+            "HasResource": false
+        },
+        "AWS Wickr": {
+            "StringPrefix": "wickr",
+            "Actions": [
+                "CreateAdminSession",
+                "ListNetworks"
+            ],
+            "ARNFormat": "arn:${Partition}:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:wickr:.+:.+:.+",
             "HasResource": false
         },
         "AWS OpsWorks": {
@@ -7066,6 +7078,7 @@
                 "BatchApplyUpdateAction",
                 "BatchStopUpdateAction",
                 "CompleteMigration",
+                "Connect",
                 "CopySnapshot",
                 "CreateCacheCluster",
                 "CreateCacheParameterGroup",
@@ -7146,7 +7159,8 @@
                 "elasticache:NumNodeGroups",
                 "elasticache:ReplicasPerNodeGroup",
                 "elasticache:SnapshotRetentionLimit",
-                "elasticache:TransitEncryptionEnabled"
+                "elasticache:TransitEncryptionEnabled",
+                "elasticache:UserAuthenticationMode"
             ],
             "HasResource": true
         },
@@ -15280,6 +15294,7 @@
                 "GetLogRecord",
                 "GetQueryResults",
                 "ListLogDeliveries",
+                "ListTagsForResource",
                 "ListTagsLogGroup",
                 "PutDestination",
                 "PutDestinationPolicy",
@@ -15292,14 +15307,18 @@
                 "StartQuery",
                 "StopQuery",
                 "TagLogGroup",
+                "TagResource",
                 "TestMetricFilter",
                 "UntagLogGroup",
+                "UntagResource",
                 "UpdateLogDelivery"
             ],
-            "ARNFormat": "arn:aws:logs:.+:.+:.+",
+            "ARNFormat": "arn:aws:logs:${Region}:${Account}:.+",
             "ARNRegex": "^arn:aws:logs:.+",
             "conditionKeys": [
-                "aws:ResourceTag/${TagKey}"
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
