@@ -9114,6 +9114,7 @@
                 "DeleteComment",
                 "DeleteCustomMetadata",
                 "DeleteDocument",
+                "DeleteDocumentVersion",
                 "DeleteFolder",
                 "DeleteFolderContents",
                 "DeleteInstance",
@@ -9147,6 +9148,7 @@
                 "RegisterDirectory",
                 "RemoveAllResourcePermissions",
                 "RemoveResourcePermission",
+                "RestoreDocumentVersions",
                 "UpdateDocument",
                 "UpdateDocumentVersion",
                 "UpdateFolder",
@@ -14184,19 +14186,24 @@
             "StringPrefix": "ivschat",
             "Actions": [
                 "CreateChatToken",
+                "CreateLoggingConfiguration",
                 "CreateRoom",
+                "DeleteLoggingConfiguration",
                 "DeleteMessage",
                 "DeleteRoom",
                 "DisconnectUser",
+                "GetLoggingConfiguration",
                 "GetRoom",
+                "ListLoggingConfigurations",
                 "ListRooms",
                 "ListTagsForResource",
                 "SendEvent",
                 "TagResource",
                 "UntagResource",
+                "UpdateLoggingConfiguration",
                 "UpdateRoom"
             ],
-            "ARNFormat": "arn:aws:ivschat:${Region}:${AccountId}:${ResourceType}/${ResourceId}",
+            "ARNFormat": "arn:aws:ivschat:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:ivschat:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -15479,6 +15486,7 @@
                 "GetApplication",
                 "GetAssociatedResource",
                 "GetAttributeGroup",
+                "GetConfiguration",
                 "GetProvisionedProductOutputs",
                 "ImportAsProvisionedProduct",
                 "ListAcceptedPortfolioShares",
@@ -15506,6 +15514,7 @@
                 "ListTagOptions",
                 "ListTagsForResource",
                 "ProvisionProduct",
+                "PutConfiguration",
                 "RejectPortfolioShare",
                 "ScanProvisionedProducts",
                 "SearchProducts",
@@ -15533,6 +15542,8 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "servicecatalog:Resource",
+                "servicecatalog:ResourceType",
                 "servicecatalog:accountLevel",
                 "servicecatalog:roleLevel",
                 "servicecatalog:userLevel"
@@ -16828,8 +16839,13 @@
                 "TagQueue",
                 "UntagQueue"
             ],
-            "ARNFormat": "arn:aws:sqs:${Region}:${AccountID}:${QueueName}",
+            "ARNFormat": "arn:aws:sqs:${Region}:${Account}:${QueueName}",
             "ARNRegex": "^arn:aws:sqs:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Cloud Map": {
