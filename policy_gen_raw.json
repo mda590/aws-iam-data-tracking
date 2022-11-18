@@ -14647,7 +14647,7 @@
                 "ListResources",
                 "ListTags"
             ],
-            "ARNFormat": "arn:aws:resource-explorer:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:${Partition}:resource-explorer:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:resource-explorer:.+",
             "HasResource": false
         },
