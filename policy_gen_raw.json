@@ -3663,16 +3663,6 @@
             ],
             "HasResource": false
         },
-        "AWS Wickr": {
-            "StringPrefix": "wickr",
-            "Actions": [
-                "CreateAdminSession",
-                "ListNetworks"
-            ],
-            "ARNFormat": "arn:${Partition}:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:${Partition}:wickr:.+:.+:.+",
-            "HasResource": false
-        },
         "AWS OpsWorks": {
             "StringPrefix": "opsworks",
             "Actions": [
@@ -4458,6 +4448,7 @@
                 "DescribeContact",
                 "DescribeContactFlow",
                 "DescribeContactFlowModule",
+                "DescribeForecastingPlanningSchedulingIntegration",
                 "DescribeHoursOfOperation",
                 "DescribeInstance",
                 "DescribeInstanceAttribute",
@@ -4482,6 +4473,7 @@
                 "DisassociateQueueQuickConnects",
                 "DisassociateRoutingProfileQueues",
                 "DisassociateSecurityKey",
+                "DismissUserContact",
                 "GetContactAttributes",
                 "GetCurrentMetricData",
                 "GetCurrentUserData",
@@ -4522,6 +4514,7 @@
                 "ListUseCases",
                 "ListUserHierarchyGroups",
                 "ListUsers",
+                "MonitorContact",
                 "PutUserStatus",
                 "ReleasePhoneNumber",
                 "ReplicateInstance",
@@ -4535,11 +4528,13 @@
                 "StartChatContact",
                 "StartContactRecording",
                 "StartContactStreaming",
+                "StartForecastingPlanningSchedulingIntegration",
                 "StartOutboundVoiceContact",
                 "StartTaskContact",
                 "StopContact",
                 "StopContactRecording",
                 "StopContactStreaming",
+                "StopForecastingPlanningSchedulingIntegration",
                 "SuspendContactRecording",
                 "TagResource",
                 "TransferContact",
@@ -4588,6 +4583,7 @@
                 "aws:TagKeys",
                 "connect:AttributeType",
                 "connect:InstanceId",
+                "connect:MonitorCapabilities",
                 "connect:SearchTag/${TagKey}",
                 "connect:StorageResourceType"
             ],
@@ -5367,10 +5363,11 @@
                 "UnRegisterConnector",
                 "UntagResource",
                 "UpdateConnectorProfile",
+                "UpdateConnectorRegistration",
                 "UpdateFlow",
                 "UseConnectorProfile"
             ],
-            "ARNFormat": "arn:aws:appflow:{Region}:{AccountId}:{ResourceType}/{ResourceName}",
+            "ARNFormat": "arn:aws:appflow:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:appflow:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -9481,6 +9478,7 @@
                 "CreateUser",
                 "CreateVPCConnection",
                 "DeleteAccountCustomization",
+                "DeleteAccountSubscription",
                 "DeleteAnalysis",
                 "DeleteCustomPermissions",
                 "DeleteDashboard",
@@ -9566,6 +9564,8 @@
                 "ScopeDownPolicy",
                 "SearchAnalyses",
                 "SearchDashboards",
+                "SearchDataSets",
+                "SearchDataSources",
                 "SearchDirectoryGroups",
                 "SearchFolders",
                 "SearchGroups",

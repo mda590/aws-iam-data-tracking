@@ -177,7 +177,6 @@ AWS WAF
 AWS WAF Regional
 AWS WAF V2
 AWS Well-Architected Tool
-AWS Wickr
 AWS X-Ray
 AWS service providing managed private networks
 Alexa for Business
