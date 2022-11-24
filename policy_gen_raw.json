@@ -13597,12 +13597,14 @@
                 "GetRule",
                 "ListRules",
                 "ListTagsForResource",
+                "LockRule",
                 "TagResource",
+                "UnlockRule",
                 "UntagResource",
                 "UpdateRule"
             ],
             "ARNFormat": "arn:aws:rbin:${Region}:${Account}:rule/${ResourceName}",
-            "ARNRegex": "^arn:.+:rbin:.+:.+:.+",
+            "ARNRegex": "^arn:aws:rbin:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
