@@ -13147,6 +13147,7 @@ xray:GetServiceGraph
 xray:GetTimeSeriesServiceStatistics
 xray:GetTraceGraph
 xray:GetTraceSummaries
+xray:Link
 xray:ListResourcePolicies
 xray:ListTagsForResource
 xray:PutEncryptionConfig
