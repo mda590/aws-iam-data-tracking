@@ -5930,7 +5930,6 @@
                 "GetTimeSeriesServiceStatistics",
                 "GetTraceGraph",
                 "GetTraceSummaries",
-                "Link",
                 "ListResourcePolicies",
                 "ListTagsForResource",
                 "PutEncryptionConfig",
