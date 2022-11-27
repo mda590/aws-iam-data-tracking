@@ -3685,6 +3685,16 @@
             ],
             "HasResource": false
         },
+        "AWS Wickr": {
+            "StringPrefix": "wickr",
+            "Actions": [
+                "CreateAdminSession",
+                "ListNetworks"
+            ],
+            "ARNFormat": "arn:${Partition}:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:wickr:.+:.+:.+",
+            "HasResource": false
+        },
         "AWS OpsWorks": {
             "StringPrefix": "opsworks",
             "Actions": [
@@ -10784,6 +10794,8 @@
                 "ListVocabularies",
                 "ListVocabularyFilters",
                 "StartCallAnalyticsJob",
+                "StartCallAnalyticsStreamTranscription",
+                "StartCallAnalyticsStreamTranscriptionWebSocket",
                 "StartMedicalStreamTranscription",
                 "StartMedicalStreamTranscriptionWebSocket",
                 "StartMedicalTranscriptionJob",
@@ -10797,7 +10809,7 @@
                 "UpdateVocabulary",
                 "UpdateVocabularyFilter"
             ],
-            "ARNFormat": "arn:aws:transcribe:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:transcribe:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:transcribe:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
