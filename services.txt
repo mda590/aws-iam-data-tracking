@@ -196,6 +196,7 @@ Amazon CloudWatch
 Amazon CloudWatch Application Insights
 Amazon CloudWatch Evidently
 Amazon CloudWatch Logs
+Amazon CloudWatch Observability Access Manager
 Amazon CloudWatch Synthetics
 Amazon CodeGuru
 Amazon CodeGuru Profiler
