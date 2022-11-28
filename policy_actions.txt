@@ -6287,6 +6287,16 @@ inspector:StopAssessmentRun
 inspector:SubscribeToEvent
 inspector:UnsubscribeFromEvent
 inspector:UpdateAssessmentTarget
+internetmonitor:CreateMonitor
+internetmonitor:DeleteMonitor
+internetmonitor:GetHealthEvent
+internetmonitor:GetMonitor
+internetmonitor:ListHealthEvents
+internetmonitor:ListMonitors
+internetmonitor:ListTagsForResource
+internetmonitor:TagResource
+internetmonitor:UntagResource
+internetmonitor:UpdateMonitor
 iot-device-tester:CheckVersion
 iot-device-tester:DownloadTestSuite
 iot-device-tester:LatestIdt
@@ -6915,8 +6925,10 @@ iotwireless:GetNetworkAnalyzerConfiguration
 iotwireless:GetPartnerAccount
 iotwireless:GetPosition
 iotwireless:GetPositionConfiguration
+iotwireless:GetPositionEstimate
 iotwireless:GetResourceEventConfiguration
 iotwireless:GetResourceLogLevel
+iotwireless:GetResourcePosition
 iotwireless:GetServiceEndpoint
 iotwireless:GetServiceProfile
 iotwireless:GetWirelessDevice
@@ -6965,6 +6977,7 @@ iotwireless:UpdateNetworkAnalyzerConfiguration
 iotwireless:UpdatePartnerAccount
 iotwireless:UpdatePosition
 iotwireless:UpdateResourceEventConfiguration
+iotwireless:UpdateResourcePosition
 iotwireless:UpdateWirelessDevice
 iotwireless:UpdateWirelessGateway
 iq-permission:ApproveAccessGrant
@@ -9627,6 +9640,7 @@ rds:CopyDBClusterSnapshot
 rds:CopyDBParameterGroup
 rds:CopyDBSnapshot
 rds:CopyOptionGroup
+rds:CreateBlueGreenDeployment
 rds:CreateCustomDBEngineVersion
 rds:CreateDBCluster
 rds:CreateDBClusterEndpoint
@@ -9644,6 +9658,7 @@ rds:CreateEventSubscription
 rds:CreateGlobalCluster
 rds:CreateOptionGroup
 rds:CrossRegionCommunication
+rds:DeleteBlueGreenDeployment
 rds:DeleteCustomDBEngineVersion
 rds:DeleteDBCluster
 rds:DeleteDBClusterEndpoint
@@ -9662,6 +9677,7 @@ rds:DeleteGlobalCluster
 rds:DeleteOptionGroup
 rds:DeregisterDBProxyTargets
 rds:DescribeAccountAttributes
+rds:DescribeBlueGreenDeployments
 rds:DescribeCertificates
 rds:DescribeDBClusterBacktracks
 rds:DescribeDBClusterEndpoints
@@ -9755,6 +9771,7 @@ rds:StopActivityStream
 rds:StopDBCluster
 rds:StopDBInstance
 rds:StopDBInstanceAutomatedBackupsReplication
+rds:SwitchoverBlueGreenDeployment
 rds:SwitchoverReadReplica
 redshift-data:BatchExecuteStatement
 redshift-data:CancelStatement

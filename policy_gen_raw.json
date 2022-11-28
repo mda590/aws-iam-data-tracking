@@ -2714,6 +2714,29 @@
             ],
             "HasResource": true
         },
+        "Amazon CloudWatch Internet Monitor": {
+            "StringPrefix": "internetmonitor",
+            "Actions": [
+                "CreateMonitor",
+                "DeleteMonitor",
+                "GetHealthEvent",
+                "GetMonitor",
+                "ListHealthEvents",
+                "ListMonitors",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateMonitor"
+            ],
+            "ARNFormat": "arn:aws:internetmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:internetmonitor:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Connect Customer Profiles": {
             "StringPrefix": "profile",
             "Actions": [
@@ -5563,6 +5586,7 @@
                 "CopyDBParameterGroup",
                 "CopyDBSnapshot",
                 "CopyOptionGroup",
+                "CreateBlueGreenDeployment",
                 "CreateCustomDBEngineVersion",
                 "CreateDBCluster",
                 "CreateDBClusterEndpoint",
@@ -5580,6 +5604,7 @@
                 "CreateGlobalCluster",
                 "CreateOptionGroup",
                 "CrossRegionCommunication",
+                "DeleteBlueGreenDeployment",
                 "DeleteCustomDBEngineVersion",
                 "DeleteDBCluster",
                 "DeleteDBClusterEndpoint",
@@ -5598,6 +5623,7 @@
                 "DeleteOptionGroup",
                 "DeregisterDBProxyTargets",
                 "DescribeAccountAttributes",
+                "DescribeBlueGreenDeployments",
                 "DescribeCertificates",
                 "DescribeDBClusterBacktracks",
                 "DescribeDBClusterEndpoints",
@@ -5691,6 +5717,7 @@
                 "StopDBCluster",
                 "StopDBInstance",
                 "StopDBInstanceAutomatedBackupsReplication",
+                "SwitchoverBlueGreenDeployment",
                 "SwitchoverReadReplica"
             ],
             "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
@@ -7244,8 +7271,10 @@
                 "GetPartnerAccount",
                 "GetPosition",
                 "GetPositionConfiguration",
+                "GetPositionEstimate",
                 "GetResourceEventConfiguration",
                 "GetResourceLogLevel",
+                "GetResourcePosition",
                 "GetServiceEndpoint",
                 "GetServiceProfile",
                 "GetWirelessDevice",
@@ -7294,6 +7323,7 @@
                 "UpdatePartnerAccount",
                 "UpdatePosition",
                 "UpdateResourceEventConfiguration",
+                "UpdateResourcePosition",
                 "UpdateWirelessDevice",
                 "UpdateWirelessGateway"
             ],

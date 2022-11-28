@@ -196,6 +196,7 @@ Amazon CloudSearch
 Amazon CloudWatch
 Amazon CloudWatch Application Insights
 Amazon CloudWatch Evidently
+Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
 Amazon CloudWatch Observability Access Manager
 Amazon CloudWatch Synthetics
