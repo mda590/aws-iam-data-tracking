@@ -17762,7 +17762,8 @@
                 "ListUserAssociations",
                 "RegisterIdentityProvider",
                 "StartProductSubscription",
-                "StopProductSubscription"
+                "StopProductSubscription",
+                "UpdateIdentityProviderSettings"
             ],
             "HasResource": false
         },
