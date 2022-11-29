@@ -11162,6 +11162,53 @@
             "ARNRegex": "^arn:aws:purchase-orders:.+:.+:.+",
             "HasResource": false
         },
+        "Amazon OpenSearch Serverless": {
+            "StringPrefix": "aoss",
+            "Actions": [
+                "BatchGetCollection",
+                "BatchGetVpcEndpoint",
+                "CreateAccessPolicy",
+                "CreateCollection",
+                "CreateSecurityConfig",
+                "CreateSecurityPolicy",
+                "CreateVpcEndpoint",
+                "DeleteAccessPolicy",
+                "DeleteCollection",
+                "DeleteSecurityConfig",
+                "DeleteSecurityPolicy",
+                "DeleteVpcEndpoint",
+                "GetAccessPolicy",
+                "GetAccountSettings",
+                "GetPoliciesStats",
+                "GetSecurityConfig",
+                "GetSecurityPolicy",
+                "ListAccessPolicies",
+                "ListCollections",
+                "ListSecurityConfigs",
+                "ListSecurityPolicies",
+                "ListTagsForResource",
+                "ListVpcEndpoints",
+                "TagResource",
+                "UntagResource",
+                "UpdateAccessPolicy",
+                "UpdateAccountSettings",
+                "UpdateCollection",
+                "UpdateSecurityConfig",
+                "UpdateSecurityPolicy",
+                "UpdateVpcEndpoint"
+            ],
+            "ARNFormat": "arn:aws:aoss:${Region}:${Account}:${Resource}",
+            "ARNRegex": "^arn:aws:aoss:.+",
+            "conditionKeys": [
+                "aoss:CollectionId",
+                "aoss:collection",
+                "aoss:index",
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Resource Groups": {
             "StringPrefix": "resource-groups",
             "Actions": [
