@@ -10344,6 +10344,43 @@
             "ARNRegex": "^arn:aws:elastictranscoder:.+",
             "HasResource": true
         },
+        "Amazon Security Lake": {
+            "StringPrefix": "securitylake",
+            "Actions": [
+                "CreateAwsLogSource",
+                "CreateCustomLogSource",
+                "CreateDatalake",
+                "CreateDatalakeAutoEnable",
+                "CreateDatalakeDelegatedAdmin",
+                "CreateDatalakeExceptionsSubscription",
+                "CreateSubscriber",
+                "CreateSubscriptionNotificationConfiguration",
+                "DeleteAwsLogSource",
+                "DeleteCustomLogSource",
+                "DeleteDatalake",
+                "DeleteDatalakeAutoEnable",
+                "DeleteDatalakeDelegatedAdmin",
+                "DeleteDatalakeExceptionsSubscription",
+                "DeleteSubscriber",
+                "DeleteSubscriptionNotificationConfiguration",
+                "GetDatalake",
+                "GetDatalakeAutoEnable",
+                "GetDatalakeExceptionsExpiry",
+                "GetDatalakeExceptionsSubscription",
+                "GetDatalakeStatus",
+                "GetSubscriber",
+                "GetSubscriptionNotificationConfiguration",
+                "ListDatalakeExceptions",
+                "ListLogSources",
+                "ListSubscribers",
+                "UpdateDatalake",
+                "UpdateDatalakeExceptionsExpiry",
+                "UpdateDatalakeExceptionsSubscription",
+                "UpdateSubscriber",
+                "UpdateSubscriptionNotificationConfiguration"
+            ],
+            "HasResource": false
+        },
         "AWS IoT FleetWise": {
             "StringPrefix": "iotfleetwise",
             "Actions": [
