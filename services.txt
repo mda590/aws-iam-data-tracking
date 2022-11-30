@@ -217,6 +217,7 @@ Amazon Connect Wisdom
 Amazon Data Lifecycle Manager
 Amazon Detective
 Amazon DevOps Guru
+Amazon DocumentDB Elastic Clusters
 Amazon DynamoDB
 Amazon DynamoDB Accelerator (DAX)
 Amazon EC2
