@@ -155,6 +155,7 @@ AWS Serverless Application Repository
 AWS Service Catalog
 AWS Shield
 AWS Signer
+AWS SimSpace Weaver
 AWS Snow Device Management
 AWS Snowball
 AWS Step Functions

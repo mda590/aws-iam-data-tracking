@@ -11988,6 +11988,34 @@
             "ARNRegex": "^arn:aws:sms-voice:.+:.+:.+",
             "HasResource": false
         },
+        "AWS SimSpace Weaver": {
+            "StringPrefix": "simspaceweaver",
+            "Actions": [
+                "DeleteApp",
+                "DeleteSimulation",
+                "DescribeApp",
+                "DescribeSimulation",
+                "ListApps",
+                "ListSimulations",
+                "ListTagsForResource",
+                "StartApp",
+                "StartClock",
+                "StartSimulation",
+                "StopApp",
+                "StopClock",
+                "StopSimulation",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:simspaceweaver:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:simspaceweaver:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon CloudWatch": {
             "StringPrefix": "cloudwatch",
             "Actions": [
