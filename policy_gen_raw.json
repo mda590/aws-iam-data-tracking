@@ -9587,6 +9587,29 @@
             ],
             "HasResource": true
         },
+        "Amazon EventBridge Pipes": {
+            "StringPrefix": "pipes",
+            "Actions": [
+                "CreatePipe",
+                "DeletePipe",
+                "DescribePipe",
+                "ListPipes",
+                "ListTagsForResource",
+                "StartPipe",
+                "StopPipe",
+                "TagResource",
+                "UntagResource",
+                "UpdatePipe"
+            ],
+            "ARNFormat": "arn:aws:pipes:${Region}:${Account}:pipe/${PipeName}",
+            "ARNRegex": "^arn:aws:pipes:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon AppStream 2.0": {
             "StringPrefix": "appstream",
             "Actions": [

@@ -237,6 +237,7 @@ Amazon Elastic Kubernetes Service
 Amazon Elastic MapReduce
 Amazon Elastic Transcoder
 Amazon EventBridge
+Amazon EventBridge Pipes
 Amazon EventBridge Scheduler
 Amazon EventBridge Schemas
 Amazon FSx
