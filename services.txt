@@ -331,6 +331,8 @@ Amazon Textract
 Amazon Timestream
 Amazon Transcribe
 Amazon Translate
+Amazon VPC Lattice
+Amazon VPC Lattice Services
 Amazon WorkDocs
 Amazon WorkLink
 Amazon WorkMail
