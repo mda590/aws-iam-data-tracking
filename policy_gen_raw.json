@@ -1657,6 +1657,9 @@
         "Amazon Lex V2": {
             "StringPrefix": "lex",
             "Actions": [
+                "BatchCreateCustomVocabularyItem",
+                "BatchDeleteCustomVocabularyItem",
+                "BatchUpdateCustomVocabularyItem",
                 "BuildBotLocale",
                 "CreateBot",
                 "CreateBotAlias",
@@ -1708,6 +1711,7 @@
                 "ListBots",
                 "ListBuiltInIntents",
                 "ListBuiltInSlotTypes",
+                "ListCustomVocabularyItems",
                 "ListExports",
                 "ListImports",
                 "ListIntents",
@@ -8860,12 +8864,14 @@
                 "DeleteStateMachine",
                 "DescribeActivity",
                 "DescribeExecution",
+                "DescribeMapRun",
                 "DescribeStateMachine",
                 "DescribeStateMachineForExecution",
                 "GetActivityTask",
                 "GetExecutionHistory",
                 "ListActivities",
                 "ListExecutions",
+                "ListMapRuns",
                 "ListStateMachines",
                 "ListTagsForResource",
                 "SendTaskFailure",
@@ -8876,9 +8882,10 @@
                 "StopExecution",
                 "TagResource",
                 "UntagResource",
+                "UpdateMapRun",
                 "UpdateStateMachine"
             ],
-            "ARNFormat": "arn:aws:<serviceName>:<region>:<account>:<resourceType>:<resourceName>",
+            "ARNFormat": "arn:aws:states:${Region}:${Account}:${ResourceType}:${ResourceName}",
             "ARNRegex": "^arn:aws:states:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -13138,7 +13145,7 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:<partition>:cloudhsm:<region>:<accountID>:<relative-id>",
+            "ARNFormat": "arn:aws:cloudhsm:${Region}:${Account}:${ResourceName}",
             "ARNRegex": "^arn:<partition>:cloudhsm:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
