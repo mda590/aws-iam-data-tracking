@@ -15668,6 +15668,7 @@
                 "ListClusters",
                 "ListContainerInstances",
                 "ListServices",
+                "ListServicesByNamespace",
                 "ListTagsForResource",
                 "ListTaskDefinitionFamilies",
                 "ListTaskDefinitions",
@@ -15709,6 +15710,8 @@
                 "ecs:container-instances",
                 "ecs:container-name",
                 "ecs:enable-execute-command",
+                "ecs:enable-service-connect",
+                "ecs:namespace",
                 "ecs:service",
                 "ecs:task",
                 "ecs:task-definition"
@@ -16909,11 +16912,14 @@
                 "GetDocumentAnalysis",
                 "GetDocumentTextDetection",
                 "GetExpenseAnalysis",
+                "GetLendingAnalysis",
+                "GetLendingAnalysisSummary",
                 "StartDocumentAnalysis",
                 "StartDocumentTextDetection",
-                "StartExpenseAnalysis"
+                "StartExpenseAnalysis",
+                "StartLendingAnalysis"
             ],
-            "ARNFormat": "arn:${Partition}:textract:${Region}:${AccountID}:${RelativeId}",
+            "ARNFormat": "arn:${Partition}:textract:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:${Partition}:textract:.+",
             "HasResource": false
         },

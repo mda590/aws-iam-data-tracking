@@ -4419,6 +4419,7 @@ ecs:ListAttributes
 ecs:ListClusters
 ecs:ListContainerInstances
 ecs:ListServices
+ecs:ListServicesByNamespace
 ecs:ListTagsForResource
 ecs:ListTaskDefinitionFamilies
 ecs:ListTaskDefinitions
@@ -12686,9 +12687,12 @@ textract:DetectDocumentText
 textract:GetDocumentAnalysis
 textract:GetDocumentTextDetection
 textract:GetExpenseAnalysis
+textract:GetLendingAnalysis
+textract:GetLendingAnalysisSummary
 textract:StartDocumentAnalysis
 textract:StartDocumentTextDetection
 textract:StartExpenseAnalysis
+textract:StartLendingAnalysis
 timestream:CancelQuery
 timestream:CreateDatabase
 timestream:CreateScheduledQuery
