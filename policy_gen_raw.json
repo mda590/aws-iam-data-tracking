@@ -16126,7 +16126,6 @@
                 "CreateExtendedSourceServer",
                 "CreateRecoveryInstanceForDrs",
                 "CreateReplicationConfigurationTemplate",
-                "CreateSessionForDrs",
                 "CreateSourceServerForDrs",
                 "DeleteJob",
                 "DeleteRecoveryInstance",
