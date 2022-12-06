@@ -204,6 +204,7 @@ Amazon CloudWatch Synthetics
 Amazon CodeGuru
 Amazon CodeGuru Profiler
 Amazon CodeGuru Reviewer
+Amazon CodeWhisperer
 Amazon Cognito Identity
 Amazon Cognito Sync
 Amazon Cognito User Pools

@@ -5016,8 +5016,10 @@
                 "GetUsageForecast",
                 "ListCostAllocationTags",
                 "ListCostCategoryDefinitions",
+                "ListSavingsPlansPurchaseRecommendationGeneration",
                 "ListTagsForResource",
                 "ProvideAnomalyFeedback",
+                "StartSavingsPlansPurchaseRecommendationGeneration",
                 "TagResource",
                 "UntagResource",
                 "UpdateAnomalyMonitor",
@@ -5028,7 +5030,7 @@
                 "UpdatePreferences",
                 "UpdateReport"
             ],
-            "ARNFormat": "arn:aws:ce::${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:ce::${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:ce::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -6743,7 +6745,7 @@
                 "UpdateVariable"
             ],
             "ARNFormat": "arn:aws:frauddetector:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:.+:frauddetector:.+:.+:.+",
+            "ARNRegex": "^arn:aws:frauddetector:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6872,6 +6874,7 @@
                 "CreateConnectClientAddIn",
                 "CreateConnectionAlias",
                 "CreateIpGroup",
+                "CreateStandbyWorkspaces",
                 "CreateTags",
                 "CreateUpdatedWorkspaceImage",
                 "CreateWorkspaceBundle",
@@ -6908,6 +6911,7 @@
                 "ListAvailableManagementCidrRanges",
                 "MigrateWorkspace",
                 "ModifyAccount",
+                "ModifyCertificateBasedAuthProperties",
                 "ModifyClientProperties",
                 "ModifySamlProperties",
                 "ModifySelfservicePermissions",
@@ -8296,7 +8300,7 @@
                 "UpdateBudgetAction",
                 "ViewBudget"
             ],
-            "ARNFormat": "arn:aws:budgets::<account_ID>:budget/<budgetname>",
+            "ARNFormat": "arn:aws:budgets::${Account}:budget/${BudgetName}",
             "ARNRegex": "^arn:aws:budgets::.+:.+",
             "HasResource": true
         },
@@ -11567,30 +11571,39 @@
             "StringPrefix": "amplifyuibuilder",
             "Actions": [
                 "CreateComponent",
+                "CreateForm",
                 "CreateTheme",
                 "DeleteComponent",
+                "DeleteForm",
                 "DeleteTheme",
-                "ExchangeCodeForToken",
                 "ExportComponents",
+                "ExportForms",
                 "ExportThemes",
                 "GetComponent",
+                "GetForm",
+                "GetMetadata",
                 "GetTheme",
                 "ListComponents",
-                "ListTagsForResource",
+                "ListForms",
                 "ListThemes",
-                "RefreshToken",
-                "TagResource",
-                "UntagResource",
+                "PutMetadataFlag",
+                "ResetMetadataFlag",
                 "UpdateComponent",
+                "UpdateForm",
                 "UpdateTheme"
             ],
-            "ARNFormat": "arn:aws:amplifyuibuilder:${Region}:${AccountId}>:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:amplifyuibuilder:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:amplifyuibuilder:.+:.+:.+",
             "conditionKeys": [
-                "amplifyuibuilder:AppId",
-                "amplifyuibuilder:ComponentsId",
-                "amplifyuibuilder:EnvironmentName",
-                "amplifyuibuilder:ThemesId",
+                "amplifyuibuilder:ComponentResourceAppId",
+                "amplifyuibuilder:ComponentResourceEnvironmentName",
+                "amplifyuibuilder:ComponentResourceId",
+                "amplifyuibuilder:FormResourceAppId",
+                "amplifyuibuilder:FormResourceEnvironmentName",
+                "amplifyuibuilder:FormResourceId",
+                "amplifyuibuilder:ThemeResourceAppId",
+                "amplifyuibuilder:ThemeResourceEnvironmentName",
+                "amplifyuibuilder:ThemeResourceId",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
@@ -11881,6 +11894,18 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
+            "HasResource": true
+        },
+        "Amazon CodeWhisperer": {
+            "StringPrefix": "codewhisperer",
+            "Actions": [
+                "CreateProfile",
+                "GenerateRecommendations",
+                "ListProfiles",
+                "UpdateProfile"
+            ],
+            "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:codewhisperer:.+:[0-9]+:.+",
             "HasResource": true
         },
         "AWS Elemental Appliances and Software Activation Service": {
@@ -13886,7 +13911,7 @@
             "Actions": [
                 "GetConfig"
             ],
-            "ARNFormat": "arn:aws:serviceextract:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:${Partition}:serviceextract:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:serviceextract:.+:.+:.+",
             "HasResource": false
         },
