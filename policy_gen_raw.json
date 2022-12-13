@@ -3515,6 +3515,15 @@
             ],
             "HasResource": false
         },
+        "AWS Marketplace Seller Reporting": {
+            "StringPrefix": "aws-marketplace",
+            "Actions": [
+                "GetSellerDashboard"
+            ],
+            "ARNFormat": "arn:aws:aws-marketplace::${Account}:${Catalog}/${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:aws-marketplace:.+",
+            "HasResource": true
+        },
         "AWS Marketplace Entitlement Service": {
             "StringPrefix": "aws-marketplace",
             "Actions": [
@@ -5859,6 +5868,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "rds:BackupTarget",
+                "rds:CopyOptionGroup",
                 "rds:DatabaseClass",
                 "rds:DatabaseEngine",
                 "rds:DatabaseName",
