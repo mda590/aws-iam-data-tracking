@@ -3730,6 +3730,30 @@
             ],
             "HasResource": false
         },
+        "Amazon CodeCatalyst": {
+            "StringPrefix": "codecatalyst",
+            "Actions": [
+                "AcceptConnection",
+                "AssociateIamRoleToConnection",
+                "DeleteConnection",
+                "DisassociateIamRoleFromConnection",
+                "GetBillingAuthorization",
+                "GetConnection",
+                "GetPendingConnection",
+                "ListConnections",
+                "ListIamRolesForConnection",
+                "PutBillingAuthorization",
+                "RejectConnection"
+            ],
+            "ARNFormat": "arn:aws:codecatalyst:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:aws:codecatalyst:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Cost and Usage Report": {
             "StringPrefix": "cur",
             "Actions": [

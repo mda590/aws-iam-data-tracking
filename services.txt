@@ -203,6 +203,7 @@ Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
 Amazon CloudWatch Observability Access Manager
 Amazon CloudWatch Synthetics
+Amazon CodeCatalyst
 Amazon CodeGuru
 Amazon CodeGuru Profiler
 Amazon CodeGuru Reviewer
