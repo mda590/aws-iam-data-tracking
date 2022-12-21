@@ -3786,6 +3786,7 @@
             "StringPrefix": "route53domains",
             "Actions": [
                 "AcceptDomainTransferFromAnotherAwsAccount",
+                "AssociateDelegationSignerToDomain",
                 "CancelDomainTransferToAnotherAwsAccount",
                 "CheckDomainAvailability",
                 "CheckDomainTransferability",
@@ -3793,6 +3794,7 @@
                 "DeleteTagsForDomain",
                 "DisableDomainAutoRenew",
                 "DisableDomainTransferLock",
+                "DisassociateDelegationSignerFromDomain",
                 "EnableDomainAutoRenew",
                 "EnableDomainTransferLock",
                 "GetContactReachabilityStatus",
@@ -3803,10 +3805,12 @@
                 "ListOperations",
                 "ListPrices",
                 "ListTagsForDomain",
+                "PushDomain",
                 "RegisterDomain",
                 "RejectDomainTransferFromAnotherAwsAccount",
                 "RenewDomain",
                 "ResendContactReachabilityEmail",
+                "ResendOperationAuthorization",
                 "RetrieveDomainAuthCode",
                 "TransferDomain",
                 "TransferDomainToAnotherAwsAccount",
@@ -16419,6 +16423,7 @@
                 "GetLaunchProfileMember",
                 "GetStreamingImage",
                 "GetStreamingSession",
+                "GetStreamingSessionBackup",
                 "GetStreamingSessionStream",
                 "GetStudio",
                 "GetStudioComponent",
@@ -16428,6 +16433,7 @@
                 "ListLaunchProfileMembers",
                 "ListLaunchProfiles",
                 "ListStreamingImages",
+                "ListStreamingSessionBackups",
                 "ListStreamingSessions",
                 "ListStudioComponents",
                 "ListStudioMembers",
@@ -17819,6 +17825,16 @@
                 "aws:TagKeys"
             ],
             "HasResource": true
+        },
+        "AWS License Manager Linux Subscriptions Manager": {
+            "StringPrefix": "license-manager-linux-subscriptions",
+            "Actions": [
+                "GetServiceSettings",
+                "ListLinuxSubscriptionInstances",
+                "ListLinuxSubscriptions",
+                "UpdateServiceSettings"
+            ],
+            "HasResource": false
         },
         "Launch Wizard": {
             "StringPrefix": "launchwizard",
