@@ -757,6 +757,7 @@
                 "ListProfiles",
                 "ListTagsForResource",
                 "ProvisionPermissionSet",
+                "PutApplicationAssignmentConfiguration",
                 "PutInlinePolicyToPermissionSet",
                 "PutMfaDeviceManagementForDirectory",
                 "PutPermissionsBoundaryToPermissionSet",
