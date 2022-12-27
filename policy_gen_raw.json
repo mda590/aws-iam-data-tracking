@@ -13247,7 +13247,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:cloudhsm:${Region}:${Account}:${ResourceName}",
-            "ARNRegex": "^arn:<partition>:cloudhsm:.+",
+            "ARNRegex": "^arn:aws:cloudhsm:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
