@@ -12214,6 +12214,8 @@
                 "DescribeEvents",
                 "DescribeParameterGroups",
                 "DescribeParameters",
+                "DescribeReservedNodes",
+                "DescribeReservedNodesOfferings",
                 "DescribeServiceUpdates",
                 "DescribeSnapshots",
                 "DescribeSubnetGroups",
@@ -12221,6 +12223,7 @@
                 "FailoverShard",
                 "ListAllowedNodeTypeUpdates",
                 "ListTags",
+                "PurchaseReservedNodesOffering",
                 "ResetParameterGroup",
                 "TagResource",
                 "UntagResource",
@@ -12230,8 +12233,8 @@
                 "UpdateSubnetGroup",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:aws:memorydb:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:.+:memorydb:.+:.+:.+",
+            "ARNFormat": "arn:aws:memorydb:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:memorydb:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
