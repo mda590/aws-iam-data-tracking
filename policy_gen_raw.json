@@ -7400,8 +7400,8 @@
                 "StartMigration",
                 "TestFailover"
             ],
-            "ARNFormat": "arn:aws:elasticache:${Region}:${AccountId}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:.+:elasticache:.+:.+:.+",
+            "ARNFormat": "arn:aws:elasticache:${Region}:${Account}:${ResourceType}:${ResourceName}",
+            "ARNRegex": "^arn:aws:elasticache:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
