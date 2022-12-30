@@ -3763,7 +3763,7 @@
                 "ModifyReportDefinition",
                 "PutReportDefinition"
             ],
-            "ARNFormat": "arn:aws:cur:<region>:<account_ID>:definition/<reportname>",
+            "ARNFormat": "arn:aws:cur:${Region}:${Account}:definition/${ResourceName}",
             "ARNRegex": "^arn:aws:cur:.+:.+:.+",
             "HasResource": true
         },
@@ -4749,6 +4749,7 @@
                 "UpdateHoursOfOperation",
                 "UpdateInstanceAttribute",
                 "UpdateInstanceStorageConfig",
+                "UpdateParticipantRoleConfig",
                 "UpdatePhoneNumber",
                 "UpdateQueueHoursOfOperation",
                 "UpdateQueueMaxContacts",
