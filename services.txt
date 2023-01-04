@@ -62,6 +62,7 @@ AWS Direct Connect
 AWS Directory Service
 AWS Elastic Beanstalk
 AWS Elastic Disaster Recovery
+AWS Elastic Load Balancing
 AWS Elemental Appliances and Software
 AWS Elemental Appliances and Software Activation Service
 AWS Elemental MediaConnect
@@ -349,7 +350,6 @@ AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
 Database Query Metadata Service
-Elastic Load Balancing
 Elastic Load Balancing V2
 High-volume outbound communications
 Identity And Access Management
