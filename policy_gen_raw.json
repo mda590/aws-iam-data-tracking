@@ -10556,6 +10556,10 @@
             ],
             "ARNFormat": "arn:aws:arc-zonal-shift:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:arc-zonal-shift:.+:.+:.+",
+            "conditionKeys": [
+                "aws:ResourceTag/${TagKey}",
+                "elasticloadbalancing:ResourceTag/${TagKey}"
+            ],
             "HasResource": true
         },
         "Amazon Elastic Transcoder": {
