@@ -3762,8 +3762,13 @@
             "Actions": [
                 "DeleteReportDefinition",
                 "DescribeReportDefinitions",
+                "GetClassicReport",
+                "GetClassicReportPreferences",
+                "GetUsageReport",
                 "ModifyReportDefinition",
-                "PutReportDefinition"
+                "PutClassicReportPreferences",
+                "PutReportDefinition",
+                "ValidateReportDestination"
             ],
             "ARNFormat": "arn:aws:cur:${Region}:${Account}:definition/${ResourceName}",
             "ARNRegex": "^arn:aws:cur:.+:.+:.+",
@@ -10149,6 +10154,15 @@
             "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
             "HasResource": false
         },
+        "AWS Free Tier": {
+            "StringPrefix": "freetierservice",
+            "Actions": [
+                "GetFreeTierAlertPreference",
+                "GetFreeTierUsage",
+                "PutFreeTierAlertPreference"
+            ],
+            "HasResource": false
+        },
         "Amazon Kendra": {
             "StringPrefix": "kendra",
             "Actions": [
@@ -10586,6 +10600,16 @@
             "ARNFormat": "arn:aws:elastictranscoder:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:elastictranscoder:.+",
             "HasResource": true
+        },
+        "AWS Invoicing Service": {
+            "StringPrefix": "invoicing",
+            "Actions": [
+                "GetInvoiceEmailDeliveryPreferences",
+                "GetInvoicePDF",
+                "ListInvoiceSummaries",
+                "PutInvoiceEmailDeliveryPreferences"
+            ],
+            "HasResource": false
         },
         "Amazon Security Lake": {
             "StringPrefix": "securitylake",
@@ -11152,7 +11176,19 @@
         "AWS Billing ": {
             "StringPrefix": "billing",
             "Actions": [
-                "ListBillingViews"
+                "GetBillingData",
+                "GetBillingDetails",
+                "GetBillingNotifications",
+                "GetBillingPreferences",
+                "GetContractInformation",
+                "GetCredits",
+                "GetIAMAccessPreference",
+                "GetSellerOfRecord",
+                "ListBillingViews",
+                "PutContractInformation",
+                "RedeemCredits",
+                "UpdateBillingPreferences",
+                "UpdateIAMAccessPreference"
             ],
             "HasResource": false
         },
@@ -11522,11 +11558,18 @@
         "AWS Purchase Orders Console": {
             "StringPrefix": "purchase-orders",
             "Actions": [
+                "AddPurchaseOrder",
+                "DeletePurchaseOrder",
+                "GetPurchaseOrder",
+                "ListPurchaseOrderInvoices",
+                "ListPurchaseOrders",
                 "ModifyPurchaseOrders",
+                "UpdatePurchaseOrder",
+                "UpdatePurchaseOrderStatus",
                 "ViewPurchaseOrders"
             ],
-            "ARNFormat": "arn:aws:purchase-orders:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:purchase-orders:.+:.+:.+",
+            "ARNFormat": "arn:${Partition}:purchase-orders::${Account}:${ResourceType}:${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:purchase-orders::.+:.+:.+",
             "HasResource": false
         },
         "Amazon OpenSearch Serverless": {
@@ -12694,6 +12737,19 @@
                 "secretsmanager:resource/AllowRotationLambdaArn"
             ],
             "HasResource": true
+        },
+        "AWS Payments": {
+            "StringPrefix": "payments",
+            "Actions": [
+                "CreatePaymentInstrument",
+                "DeletePaymentInstrument",
+                "GetPaymentInstrument",
+                "GetPaymentStatus",
+                "ListPaymentPreferences",
+                "MakePayment",
+                "UpdatePaymentPreferences"
+            ],
+            "HasResource": false
         },
         "AWS Application Auto Scaling": {
             "StringPrefix": "application-autoscaling",
@@ -16517,9 +16573,15 @@
         "AWS Tax Settings": {
             "StringPrefix": "tax",
             "Actions": [
+                "BatchPutTaxRegistration",
+                "DeleteTaxRegistration",
                 "GetExemptions",
+                "GetTaxInheritance",
                 "GetTaxInterview",
                 "GetTaxRegistration",
+                "GetTaxRegistrationDocument",
+                "ListTaxRegistrations",
+                "PutTaxInheritance",
                 "PutTaxInterview",
                 "PutTaxRegistration",
                 "UpdateExemptions"
@@ -18610,13 +18672,17 @@
         "AWS Account Management": {
             "StringPrefix": "account",
             "Actions": [
+                "CloseAccount",
                 "DeleteAlternateContact",
                 "DisableRegion",
                 "EnableRegion",
+                "GetAccountInformation",
                 "GetAlternateContact",
+                "GetChallengeQuestions",
                 "GetContactInformation",
                 "ListRegions",
                 "PutAlternateContact",
+                "PutChallengeQuestions",
                 "PutContactInformation"
             ],
             "ARNFormat": "arn:aws:account::${Account}:account",

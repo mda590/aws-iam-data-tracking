@@ -76,6 +76,7 @@ AWS Elemental Support Cases
 AWS Elemental Support Content
 AWS Fault Injection Simulator
 AWS Firewall Manager
+AWS Free Tier
 AWS Global Accelerator
 AWS Glue
 AWS Glue DataBrew
@@ -91,6 +92,7 @@ AWS Identity Store Auth
 AWS Identity Sync
 AWS Identity and Access Management Roles Anywhere
 AWS Import Export Disk Service
+AWS Invoicing Service
 AWS IoT
 AWS IoT 1-Click
 AWS IoT Analytics
@@ -137,6 +139,7 @@ AWS OpsWorks Configuration Management
 AWS Organizations
 AWS Outposts
 AWS Panorama
+AWS Payments
 AWS Performance Insights
 AWS Price List
 AWS Private Certificate Authority
