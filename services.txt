@@ -47,6 +47,7 @@ AWS CodeStar Notifications
 AWS Compute Optimizer
 AWS Config
 AWS Connector Service
+AWS Consolidated Billing
 AWS Control Tower
 AWS Cost Explorer Service
 AWS Cost and Usage Report

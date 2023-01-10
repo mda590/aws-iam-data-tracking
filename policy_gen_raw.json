@@ -1254,6 +1254,15 @@
             ],
             "HasResource": true
         },
+        "AWS Free Tier": {
+            "StringPrefix": "freetier",
+            "Actions": [
+                "GetFreeTierAlertPreference",
+                "GetFreeTierUsage",
+                "PutFreeTierAlertPreference"
+            ],
+            "HasResource": false
+        },
         "AWS Application Migration Service": {
             "StringPrefix": "mgn",
             "Actions": [
@@ -10154,15 +10163,6 @@
             "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
             "HasResource": false
         },
-        "AWS Free Tier": {
-            "StringPrefix": "freetierservice",
-            "Actions": [
-                "GetFreeTierAlertPreference",
-                "GetFreeTierUsage",
-                "PutFreeTierAlertPreference"
-            ],
-            "HasResource": false
-        },
         "Amazon Kendra": {
             "StringPrefix": "kendra",
             "Actions": [
@@ -10600,6 +10600,16 @@
             "ARNFormat": "arn:aws:elastictranscoder:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:elastictranscoder:.+",
             "HasResource": true
+        },
+        "AWS Consolidated Billing": {
+            "StringPrefix": "consolidatedbilling",
+            "Actions": [
+                "GetAccountBillingRole",
+                "ListLinkedAccounts"
+            ],
+            "ARNFormat": "arn:${Partition}:consolidatedbilling::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:consolidatedbilling::.+:.+",
+            "HasResource": false
         },
         "AWS Invoicing Service": {
             "StringPrefix": "invoicing",
