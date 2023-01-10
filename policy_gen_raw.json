@@ -10053,7 +10053,7 @@
                 "UpdateLayout",
                 "UpdateTemplate"
             ],
-            "ARNFormat": "arn:aws:cases:${Region}:${Account}:",
+            "ARNFormat": "arn:aws:cases:${Region}:${Account}:domain/${DomainId}",
             "ARNRegex": "^arn:aws:cases:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -17076,6 +17076,28 @@
                 "PutMemberInfo"
             ],
             "HasResource": false
+        },
+        "Amazon Kendra Intelligent Ranking": {
+            "StringPrefix": "kendra-ranking",
+            "Actions": [
+                "CreateRescoreExecutionPlan",
+                "DeleteRescoreExecutionPlan",
+                "DescribeRescoreExecutionPlan",
+                "ListRescoreExecutionPlans",
+                "ListTagsForResource",
+                "Rescore",
+                "TagResource",
+                "UntagResource",
+                "UpdateRescoreExecutionPlan"
+            ],
+            "ARNFormat": "arn:aws:kendra-ranking:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:kendra-ranking:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon AppIntegrations": {
             "StringPrefix": "app-integrations",
