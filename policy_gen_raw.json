@@ -11105,6 +11105,7 @@
                 "UpdateDataProvider",
                 "UpdateInstanceProfile",
                 "UpdateMigrationProject",
+                "UpdateSubscriptionsToEventBridge",
                 "UploadFileMetadataList"
             ],
             "ARNFormat": "arn:aws:dms:${Region}:${Account}:${Resource}",
@@ -17956,7 +17957,7 @@
             ],
             "HasResource": false
         },
-        "Launch Wizard": {
+        "AWS Launch Wizard": {
             "StringPrefix": "launchwizard",
             "Actions": [
                 "DeleteApp",

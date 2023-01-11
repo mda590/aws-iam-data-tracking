@@ -112,6 +112,7 @@ AWS IoT TwinMaker
 AWS Key Management Service
 AWS Lake Formation
 AWS Lambda
+AWS Launch Wizard
 AWS License Manager
 AWS License Manager Linux Subscriptions Manager
 AWS License Manager User Subscriptions
@@ -358,5 +359,4 @@ Database Query Metadata Service
 Elastic Load Balancing V2
 High-volume outbound communications
 Identity And Access Management
-Launch Wizard
 Service Quotas
