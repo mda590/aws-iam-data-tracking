@@ -27,6 +27,7 @@ AWS Budget Service
 AWS BugBust
 AWS Certificate Manager
 AWS Chatbot
+AWS Clean Rooms
 AWS Cloud Control API
 AWS Cloud Map
 AWS Cloud9
