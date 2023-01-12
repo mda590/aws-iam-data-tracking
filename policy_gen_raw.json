@@ -6060,6 +6060,7 @@
                 "DeleteResolver",
                 "DeleteType",
                 "DisassociateApi",
+                "EvaluateCode",
                 "EvaluateMappingTemplate",
                 "FlushApiCache",
                 "GetApiAssociation",
