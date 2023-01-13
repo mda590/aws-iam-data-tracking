@@ -4879,6 +4879,7 @@ elasticmapreduce:DescribeStudio
 elasticmapreduce:DetachEditor
 elasticmapreduce:GetAutoTerminationPolicy
 elasticmapreduce:GetBlockPublicAccessConfiguration
+elasticmapreduce:GetClusterSessionCredentials
 elasticmapreduce:GetManagedScalingPolicy
 elasticmapreduce:GetOnClusterAppUIPresignedURL
 elasticmapreduce:GetPersistentAppUIPresignedURL
@@ -6266,6 +6267,7 @@ iam:DeactivateMFADevice
 iam:DeleteAccessKey
 iam:DeleteAccountAlias
 iam:DeleteAccountPasswordPolicy
+iam:DeleteCloudFrontPublicKey
 iam:DeleteGroup
 iam:DeleteGroupPolicy
 iam:DeleteInstanceProfile
@@ -6295,8 +6297,11 @@ iam:GenerateOrganizationsAccessReport
 iam:GenerateServiceLastAccessedDetails
 iam:GetAccessKeyLastUsed
 iam:GetAccountAuthorizationDetails
+iam:GetAccountEmailAddress
+iam:GetAccountName
 iam:GetAccountPasswordPolicy
 iam:GetAccountSummary
+iam:GetCloudFrontPublicKey
 iam:GetContextKeysForCustomPolicy
 iam:GetContextKeysForPrincipalPolicy
 iam:GetCredentialReport
@@ -6323,6 +6328,7 @@ iam:ListAccountAliases
 iam:ListAttachedGroupPolicies
 iam:ListAttachedRolePolicies
 iam:ListAttachedUserPolicies
+iam:ListCloudFrontPublicKeys
 iam:ListEntitiesForPolicy
 iam:ListGroupPolicies
 iam:ListGroups
@@ -6344,6 +6350,7 @@ iam:ListRoles
 iam:ListSAMLProviderTags
 iam:ListSAMLProviders
 iam:ListSSHPublicKeys
+iam:ListSTSRegionalEndpointsStatus
 iam:ListServerCertificateTags
 iam:ListServerCertificates
 iam:ListServiceSpecificCredentials
@@ -6364,6 +6371,7 @@ iam:RemoveUserFromGroup
 iam:ResetServiceSpecificCredential
 iam:ResyncMFADevice
 iam:SetDefaultPolicyVersion
+iam:SetSTSRegionalEndpointStatus
 iam:SetSecurityTokenServicePreferences
 iam:SimulateCustomPolicy
 iam:SimulatePrincipalPolicy
@@ -6384,8 +6392,11 @@ iam:UntagSAMLProvider
 iam:UntagServerCertificate
 iam:UntagUser
 iam:UpdateAccessKey
+iam:UpdateAccountEmailAddress
+iam:UpdateAccountName
 iam:UpdateAccountPasswordPolicy
 iam:UpdateAssumeRolePolicy
+iam:UpdateCloudFrontPublicKey
 iam:UpdateGroup
 iam:UpdateLoginProfile
 iam:UpdateOpenIDConnectProviderThumbprint
@@ -6397,6 +6408,7 @@ iam:UpdateServerCertificate
 iam:UpdateServiceSpecificCredential
 iam:UpdateSigningCertificate
 iam:UpdateUser
+iam:UploadCloudFrontPublicKey
 iam:UploadSSHPublicKey
 iam:UploadServerCertificate
 iam:UploadSigningCertificate
