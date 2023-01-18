@@ -5374,6 +5374,7 @@
             "Actions": [
                 "AssociateConnectionWithChart",
                 "AssociateConnectionWithTab",
+                "AssociateNotebookWithTab",
                 "AssociateQueryWithTab",
                 "BatchDeleteFolder",
                 "BatchGetNotebookCell",
