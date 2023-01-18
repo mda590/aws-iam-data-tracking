@@ -2765,10 +2765,12 @@ config:GetOrganizationConfigRuleDetailedStatus
 config:GetOrganizationConformancePackDetailedStatus
 config:GetOrganizationCustomRulePolicy
 config:GetResourceConfigHistory
+config:GetResourceEvaluationSummary
 config:GetStoredQuery
 config:ListAggregateDiscoveredResources
 config:ListConformancePackComplianceScores
 config:ListDiscoveredResources
+config:ListResourceEvaluations
 config:ListStoredQueries
 config:ListTagsForResource
 config:PutAggregationAuthorization
@@ -2791,6 +2793,7 @@ config:SelectResourceConfig
 config:StartConfigRulesEvaluation
 config:StartConfigurationRecorder
 config:StartRemediationExecution
+config:StartResourceEvaluation
 config:StopConfigurationRecorder
 config:TagResource
 config:UntagResource
