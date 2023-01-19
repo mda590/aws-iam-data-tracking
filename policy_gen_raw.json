@@ -3580,6 +3580,7 @@
                 "GetAgreementTerms",
                 "ListAgreementApprovalRequests",
                 "ListAgreementRequests",
+                "ListEntitlementDetails",
                 "RejectAgreementApprovalRequest",
                 "SearchAgreements",
                 "Subscribe",
