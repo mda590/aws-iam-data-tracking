@@ -3559,6 +3559,13 @@
             "ARNRegex": "^arn:aws:aws-marketplace:.+",
             "HasResource": true
         },
+        "AWS Marketplace Discovery": {
+            "StringPrefix": "aws-marketplace",
+            "Actions": [
+                "ListPrivateListings"
+            ],
+            "HasResource": false
+        },
         "AWS Marketplace Entitlement Service": {
             "StringPrefix": "aws-marketplace",
             "Actions": [

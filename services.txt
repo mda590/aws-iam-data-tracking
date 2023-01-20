@@ -122,6 +122,7 @@ AWS Mainframe Modernization Service
 AWS Marketplace
 AWS Marketplace Catalog
 AWS Marketplace Commerce Analytics Service
+AWS Marketplace Discovery
 AWS Marketplace Entitlement Service
 AWS Marketplace Image Building Service
 AWS Marketplace Management Portal
