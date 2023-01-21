@@ -7234,6 +7234,7 @@
                 "GetRetentionSettings",
                 "GetRoom",
                 "GetSipMediaApplication",
+                "GetSipMediaApplicationAlexaSkillConfiguration",
                 "GetSipMediaApplicationLoggingConfiguration",
                 "GetSipRule",
                 "GetTelephonyLimits",
@@ -7262,6 +7263,7 @@
                 "ListAppInstances",
                 "ListAttendeeTags",
                 "ListAttendees",
+                "ListAvailableVoiceConnectorRegions",
                 "ListBots",
                 "ListCDRBucket",
                 "ListCallingRegions",
@@ -7304,6 +7306,7 @@
                 "PutChannelMembershipPreferences",
                 "PutEventsConfiguration",
                 "PutRetentionSettings",
+                "PutSipMediaApplicationAlexaSkillConfiguration",
                 "PutSipMediaApplicationLoggingConfiguration",
                 "PutVoiceConnectorEmergencyCallingConfiguration",
                 "PutVoiceConnectorLoggingConfiguration",
@@ -7367,7 +7370,8 @@
                 "UpdateUserSettings",
                 "UpdateVoiceConnector",
                 "UpdateVoiceConnectorGroup",
-                "ValidateAccountResource"
+                "ValidateAccountResource",
+                "ValidateE911Address"
             ],
             "ARNFormat": "arn:aws:chime:${Region}:${Account}:${ResourceType}/${ResourceID}",
             "ARNRegex": "^arn:aws:chime:.+",
