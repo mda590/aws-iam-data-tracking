@@ -8137,6 +8137,7 @@
                 "DescribeBackup",
                 "DescribeContinuousBackups",
                 "DescribeContributorInsights",
+                "DescribeEndpoints",
                 "DescribeExport",
                 "DescribeGlobalTable",
                 "DescribeGlobalTableSettings",
@@ -8182,6 +8183,7 @@
                 "UpdateContributorInsights",
                 "UpdateGlobalTable",
                 "UpdateGlobalTableSettings",
+                "UpdateGlobalTableVersion",
                 "UpdateItem",
                 "UpdateTable",
                 "UpdateTableReplicaAutoScaling",
@@ -8190,6 +8192,7 @@
             "ARNFormat": "arn:aws:dynamodb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:dynamodb:.+:.+",
             "conditionKeys": [
+                "aws:TagKeys",
                 "dynamodb:Attributes",
                 "dynamodb:EnclosingOperation",
                 "dynamodb:FullTableScan",
