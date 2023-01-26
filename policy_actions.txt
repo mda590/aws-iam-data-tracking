@@ -6808,6 +6808,7 @@ iot:ListPrincipalPolicies
 iot:ListPrincipalThings
 iot:ListProvisioningTemplateVersions
 iot:ListProvisioningTemplates
+iot:ListRelatedResourcesForAuditFinding
 iot:ListRetainedMessages
 iot:ListRoleAliases
 iot:ListScheduledAudits

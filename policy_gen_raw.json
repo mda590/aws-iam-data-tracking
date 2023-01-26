@@ -971,6 +971,7 @@
                 "ListPrincipalThings",
                 "ListProvisioningTemplateVersions",
                 "ListProvisioningTemplates",
+                "ListRelatedResourcesForAuditFinding",
                 "ListRetainedMessages",
                 "ListRoleAliases",
                 "ListScheduledAudits",
