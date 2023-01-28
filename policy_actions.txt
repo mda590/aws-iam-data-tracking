@@ -1802,8 +1802,10 @@ cloudformation:UpdateStackSet
 cloudformation:UpdateTerminationProtection
 cloudformation:ValidateTemplate
 cloudfront:AssociateAlias
+cloudfront:CopyDistribution
 cloudfront:CreateCachePolicy
 cloudfront:CreateCloudFrontOriginAccessIdentity
+cloudfront:CreateContinuousDeploymentPolicy
 cloudfront:CreateDistribution
 cloudfront:CreateFieldLevelEncryptionConfig
 cloudfront:CreateFieldLevelEncryptionProfile
@@ -1821,6 +1823,7 @@ cloudfront:CreateStreamingDistribution
 cloudfront:CreateStreamingDistributionWithTags
 cloudfront:DeleteCachePolicy
 cloudfront:DeleteCloudFrontOriginAccessIdentity
+cloudfront:DeleteContinuousDeploymentPolicy
 cloudfront:DeleteDistribution
 cloudfront:DeleteFieldLevelEncryptionConfig
 cloudfront:DeleteFieldLevelEncryptionProfile
@@ -1838,6 +1841,8 @@ cloudfront:GetCachePolicy
 cloudfront:GetCachePolicyConfig
 cloudfront:GetCloudFrontOriginAccessIdentity
 cloudfront:GetCloudFrontOriginAccessIdentityConfig
+cloudfront:GetContinuousDeploymentPolicy
+cloudfront:GetContinuousDeploymentPolicyConfig
 cloudfront:GetDistribution
 cloudfront:GetDistributionConfig
 cloudfront:GetFieldLevelEncryption
@@ -1864,6 +1869,7 @@ cloudfront:GetStreamingDistributionConfig
 cloudfront:ListCachePolicies
 cloudfront:ListCloudFrontOriginAccessIdentities
 cloudfront:ListConflictingAliases
+cloudfront:ListContinuousDeploymentPolicies
 cloudfront:ListDistributions
 cloudfront:ListDistributionsByCachePolicyId
 cloudfront:ListDistributionsByKeyGroup
@@ -1893,7 +1899,9 @@ cloudfront:TestFunction
 cloudfront:UntagResource
 cloudfront:UpdateCachePolicy
 cloudfront:UpdateCloudFrontOriginAccessIdentity
+cloudfront:UpdateContinuousDeploymentPolicy
 cloudfront:UpdateDistribution
+cloudfront:UpdateDistributionWithStagingConfig
 cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
 cloudfront:UpdateFunction
@@ -2068,6 +2076,7 @@ codeartifact:CreateDomain
 codeartifact:CreateRepository
 codeartifact:DeleteDomain
 codeartifact:DeleteDomainPermissionsPolicy
+codeartifact:DeletePackage
 codeartifact:DeletePackageVersions
 codeartifact:DeleteRepository
 codeartifact:DeleteRepositoryPermissionsPolicy
