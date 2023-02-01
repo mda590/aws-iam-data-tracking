@@ -9600,11 +9600,9 @@
                 "StopRxNormInferenceJob",
                 "StopSNOMEDCTInferenceJob"
             ],
-            "ARNFormat": "arn:${Partition}:comprehendmedical:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:${Partition}:comprehendmedical:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:comprehendmedical:.+:.+:.+",
             "conditionKeys": [
-                "aws:SourceArn",
-                "aws:SourceVpc",
                 "aws:TagKeys"
             ],
             "HasResource": false
