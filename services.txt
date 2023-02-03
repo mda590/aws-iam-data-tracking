@@ -35,6 +35,7 @@ AWS CloudFormation
 AWS CloudHSM
 AWS CloudShell
 AWS CloudTrail
+AWS CloudTrail Data
 AWS CloudWatch RUM
 AWS CodeArtifact
 AWS CodeBuild

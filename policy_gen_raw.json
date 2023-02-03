@@ -3073,6 +3073,20 @@
             "ARNRegex": "^arn:aws:clouddirectory:.+:[0-9]+:(directory|schema)/.+",
             "HasResource": true
         },
+        "AWS CloudTrail Data": {
+            "StringPrefix": "cloudtrail-data",
+            "Actions": [
+                "PutAuditEvents"
+            ],
+            "ARNFormat": "arn:aws:cloudtrail:${Region}:${Account}:${Resource}",
+            "ARNRegex": "^arn:aws:cloudtrail:.+:[0-9]+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Elemental MediaTailor": {
             "StringPrefix": "mediatailor",
             "Actions": [
@@ -13060,6 +13074,8 @@
                 "DeleteStream",
                 "DescribeEdgeConfiguration",
                 "DescribeImageGenerationConfiguration",
+                "DescribeMappedResourceConfiguration",
+                "DescribeMediaStorageConfiguration",
                 "DescribeNotificationConfiguration",
                 "DescribeSignalingChannel",
                 "DescribeStream",
@@ -13072,6 +13088,7 @@
                 "GetMedia",
                 "GetMediaForFragmentList",
                 "GetSignalingChannelEndpoint",
+                "JoinStorageSession",
                 "ListFragments",
                 "ListSignalingChannels",
                 "ListStreams",
@@ -13086,6 +13103,7 @@
                 "UntagStream",
                 "UpdateDataRetention",
                 "UpdateImageGenerationConfiguration",
+                "UpdateMediaStorageConfiguration",
                 "UpdateNotificationConfiguration",
                 "UpdateSignalingChannel",
                 "UpdateStream"
