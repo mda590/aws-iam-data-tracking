@@ -9344,15 +9344,9 @@
             "ARNFormat": "arn:aws:greengrass:${Region}:${Account}:/greengrass/${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:greengrass:.+:[0-9]+:.+",
             "conditionKeys": [
-                "aws:CurrentTime",
-                "aws:EpochTime",
-                "aws:MultiFactorAuthAge",
-                "aws:MultiFactorAuthPresent",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:SecureTransport",
-                "aws:TagKeys",
-                "aws:UserAgent"
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
