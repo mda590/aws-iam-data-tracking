@@ -15752,7 +15752,7 @@
             ],
             "HasResource": true
         },
-        "Elastic Load Balancing V2": {
+        "AWS Elastic Load Balancing V2": {
             "StringPrefix": "elasticloadbalancing",
             "Actions": [
                 "AddListenerCertificates",
@@ -15797,6 +15797,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "elasticloadbalancing:CreateAction",
                 "elasticloadbalancing:ResourceTag/${TagKey}"
             ],
             "HasResource": true
