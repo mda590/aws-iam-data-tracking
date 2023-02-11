@@ -10786,6 +10786,8 @@
             "StringPrefix": "iotfleetwise",
             "Actions": [
                 "AssociateVehicleFleet",
+                "BatchCreateVehicle",
+                "BatchUpdateVehicle",
                 "CreateCampaign",
                 "CreateDecoderManifest",
                 "CreateFleet",
@@ -12725,6 +12727,7 @@
                 "PutWarmPool",
                 "RecordLifecycleActionHeartbeat",
                 "ResumeProcesses",
+                "RollbackInstanceRefresh",
                 "SetDesiredCapacity",
                 "SetInstanceHealth",
                 "SetInstanceProtection",
@@ -15752,7 +15755,7 @@
             ],
             "HasResource": true
         },
-        "AWS Elastic Load Balancing V2": {
+        "Elastic Load Balancing V2": {
             "StringPrefix": "elasticloadbalancing",
             "Actions": [
                 "AddListenerCertificates",
@@ -15797,7 +15800,6 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
-                "elasticloadbalancing:CreateAction",
                 "elasticloadbalancing:ResourceTag/${TagKey}"
             ],
             "HasResource": true
