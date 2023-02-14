@@ -18900,6 +18900,7 @@
                 "GetAlternateContact",
                 "GetChallengeQuestions",
                 "GetContactInformation",
+                "GetRegionOptStatus",
                 "ListRegions",
                 "PutAlternateContact",
                 "PutChallengeQuestions",
