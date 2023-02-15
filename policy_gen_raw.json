@@ -3090,6 +3090,7 @@
         "AWS Elemental MediaTailor": {
             "StringPrefix": "mediatailor",
             "Actions": [
+                "ConfigureLogsForChannel",
                 "ConfigureLogsForPlaybackConfiguration",
                 "CreateChannel",
                 "CreateLiveSource",
@@ -3130,6 +3131,7 @@
                 "UntagResource",
                 "UpdateChannel",
                 "UpdateLiveSource",
+                "UpdateProgram",
                 "UpdateSourceLocation",
                 "UpdateVodSource"
             ],
@@ -11590,11 +11592,14 @@
                 "CancelContact",
                 "CreateConfig",
                 "CreateDataflowEndpointGroup",
+                "CreateEphemeris",
                 "CreateMissionProfile",
                 "DeleteConfig",
                 "DeleteDataflowEndpointGroup",
+                "DeleteEphemeris",
                 "DeleteMissionProfile",
                 "DescribeContact",
+                "DescribeEphemeris",
                 "GetConfig",
                 "GetDataflowEndpointGroup",
                 "GetMinuteUsage",
@@ -11603,6 +11608,7 @@
                 "ListConfigs",
                 "ListContacts",
                 "ListDataflowEndpointGroups",
+                "ListEphemerides",
                 "ListGroundStations",
                 "ListMissionProfiles",
                 "ListSatellites",
@@ -11611,9 +11617,10 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateConfig",
+                "UpdateEphemeris",
                 "UpdateMissionProfile"
             ],
-            "ARNFormat": "arn:aws:groundstation:${Region}:${AccountID}:${ResourceType}/${ResourceId}",
+            "ARNFormat": "arn:aws:groundstation:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:groundstation:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -11623,6 +11630,7 @@
                 "groundstation:ConfigType",
                 "groundstation:ContactId",
                 "groundstation:DataflowEndpointGroupId",
+                "groundstation:EphemerisId",
                 "groundstation:GroundStationId",
                 "groundstation:MissionProfileId",
                 "groundstation:SatelliteId"
