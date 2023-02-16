@@ -4765,7 +4765,7 @@
                 "ListRealtimeContactAnalysisSegments",
                 "ListRoutingProfileQueues",
                 "ListRoutingProfiles",
-                "ListRule",
+                "ListRules",
                 "ListSecurityKeys",
                 "ListSecurityProfilePermissions",
                 "ListSecurityProfiles",
