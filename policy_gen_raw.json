@@ -1684,6 +1684,15 @@
             ],
             "HasResource": true
         },
+        "Amazon FinSpace API": {
+            "StringPrefix": "finspace-api",
+            "Actions": [
+                "GetProgrammaticAccessCredentials"
+            ],
+            "ARNFormat": "arn:aws:finspace-api:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:finspace-api:.+",
+            "HasResource": true
+        },
         "Amazon Lex V2": {
             "StringPrefix": "lex",
             "Actions": [

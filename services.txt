@@ -256,6 +256,7 @@ Amazon EventBridge Scheduler
 Amazon EventBridge Schemas
 Amazon FSx
 Amazon FinSpace
+Amazon FinSpace API
 Amazon Forecast
 Amazon Fraud Detector
 Amazon FreeRTOS
