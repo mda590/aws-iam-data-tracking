@@ -2013,6 +2013,29 @@
             ],
             "HasResource": true
         },
+        "AWS Supply Chain": {
+            "StringPrefix": "scn",
+            "Actions": [
+                "AssignAdminPermissionsToUser",
+                "CreateInstance",
+                "CreateSSOApplication",
+                "DeleteInstance",
+                "DeleteSSOApplication",
+                "DescribeInstance",
+                "ListAdminUsers",
+                "ListInstances",
+                "RemoveAdminPermissionsForUser",
+                "UpdateInstance"
+            ],
+            "ARNFormat": "arn:aws:scn:${Region}:${Account}:instance/",
+            "ARNRegex": "^arn:aws:scn:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Elemental MediaConnect": {
             "StringPrefix": "mediaconnect",
             "Actions": [
