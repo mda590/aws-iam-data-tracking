@@ -194,6 +194,7 @@ AWS Well-Architected Tool
 AWS Wickr
 AWS X-Ray
 AWS service providing managed private networks
+AWS service to enable 5G automation
 Alexa for Business
 Amazon API Gateway
 Amazon API Gateway Management
