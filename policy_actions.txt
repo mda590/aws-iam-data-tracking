@@ -1236,6 +1236,7 @@ cases:CreateField
 cases:CreateLayout
 cases:CreateRelatedItem
 cases:CreateTemplate
+cases:DeleteDomain
 cases:GetCase
 cases:GetCaseEventConfiguration
 cases:GetDomain

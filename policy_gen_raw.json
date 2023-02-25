@@ -10224,6 +10224,7 @@
                 "CreateLayout",
                 "CreateRelatedItem",
                 "CreateTemplate",
+                "DeleteDomain",
                 "GetCase",
                 "GetCaseEventConfiguration",
                 "GetDomain",
