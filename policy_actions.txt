@@ -13128,6 +13128,7 @@ tnb:ListSolFunctionPackages
 tnb:ListSolNetworkInstances
 tnb:ListSolNetworkOperations
 tnb:ListSolNetworkPackages
+tnb:ListTagsForResource
 tnb:PutSolFunctionPackageContent
 tnb:PutSolNetworkPackageContent
 tnb:TagResource

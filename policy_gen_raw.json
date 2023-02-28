@@ -11968,7 +11968,7 @@
             "ARNRegex": "^arn:aws:iq:.+",
             "HasResource": true
         },
-        "AWS service to enable 5G automation": {
+        "AWS Telco Network Builder": {
             "StringPrefix": "tnb",
             "Actions": [
                 "CancelSolNetworkOperation",
@@ -11993,6 +11993,7 @@
                 "ListSolNetworkInstances",
                 "ListSolNetworkOperations",
                 "ListSolNetworkPackages",
+                "ListTagsForResource",
                 "PutSolFunctionPackageContent",
                 "PutSolNetworkPackageContent",
                 "TagResource",

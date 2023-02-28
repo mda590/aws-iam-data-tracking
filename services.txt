@@ -184,6 +184,7 @@ AWS Systems Manager Incident Manager Contacts
 AWS Systems Manager for SAP
 AWS Tag Editor
 AWS Tax Settings
+AWS Telco Network Builder
 AWS Tiros
 AWS Transfer Family
 AWS Trusted Advisor
@@ -194,7 +195,6 @@ AWS Well-Architected Tool
 AWS Wickr
 AWS X-Ray
 AWS service providing managed private networks
-AWS service to enable 5G automation
 Alexa for Business
 Amazon API Gateway
 Amazon API Gateway Management
