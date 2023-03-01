@@ -2462,6 +2462,7 @@
                 "DisableSagemakerServicecatalogPortfolio",
                 "DisassociateTrialComponent",
                 "EnableSagemakerServicecatalogPortfolio",
+                "GetDeployments",
                 "GetDeviceFleetReport",
                 "GetDeviceRegistration",
                 "GetLineageGroupPolicy",
