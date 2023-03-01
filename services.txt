@@ -219,6 +219,7 @@ Amazon CodeCatalyst
 Amazon CodeGuru
 Amazon CodeGuru Profiler
 Amazon CodeGuru Reviewer
+Amazon CodeGuru Security
 Amazon CodeWhisperer
 Amazon Cognito Identity
 Amazon Cognito Sync
