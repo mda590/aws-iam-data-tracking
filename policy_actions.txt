@@ -9779,7 +9779,9 @@ polly:StartSpeechSynthesisTask
 polly:SynthesizeSpeech
 pricing:DescribeServices
 pricing:GetAttributeValues
+pricing:GetPriceListFileUrl
 pricing:GetProducts
+pricing:ListPriceLists
 private-networks:AcknowledgeOrderReceipt
 private-networks:ActivateDeviceIdentifier
 private-networks:ActivateNetworkSite
