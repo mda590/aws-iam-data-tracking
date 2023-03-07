@@ -11446,6 +11446,7 @@ sagemaker:InvokeEndpoint
 sagemaker:InvokeEndpointAsync
 sagemaker:ListActions
 sagemaker:ListAlgorithms
+sagemaker:ListAliases
 sagemaker:ListAppImageConfigs
 sagemaker:ListApps
 sagemaker:ListArtifacts
@@ -11566,6 +11567,7 @@ sagemaker:UpdateFeatureGroup
 sagemaker:UpdateFeatureMetadata
 sagemaker:UpdateHub
 sagemaker:UpdateImage
+sagemaker:UpdateImageVersion
 sagemaker:UpdateInferenceExperiment
 sagemaker:UpdateModelCard
 sagemaker:UpdateModelPackage
