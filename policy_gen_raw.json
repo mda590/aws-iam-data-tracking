@@ -3983,11 +3983,21 @@
             "StringPrefix": "wickr",
             "Actions": [
                 "CreateAdminSession",
-                "ListNetworks"
+                "CreateNetwork",
+                "ListNetworks",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateNetworkDetails"
             ],
-            "ARNFormat": "arn:${Partition}:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:${Partition}:wickr:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:wickr:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS OpsWorks": {
             "StringPrefix": "opsworks",
@@ -5775,6 +5785,7 @@
                 "DescribeAccountAccess",
                 "DescribeCheckItems",
                 "DescribeCheckRefreshStatuses",
+                "DescribeCheckStatusHistoryChanges",
                 "DescribeCheckSummaries",
                 "DescribeChecks",
                 "DescribeNotificationConfigurations",

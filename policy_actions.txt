@@ -13323,6 +13323,7 @@ trustedadvisor:DescribeAccount
 trustedadvisor:DescribeAccountAccess
 trustedadvisor:DescribeCheckItems
 trustedadvisor:DescribeCheckRefreshStatuses
+trustedadvisor:DescribeCheckStatusHistoryChanges
 trustedadvisor:DescribeCheckSummaries
 trustedadvisor:DescribeChecks
 trustedadvisor:DescribeNotificationConfigurations
@@ -13697,7 +13698,12 @@ wellarchitected:UpdateWorkload
 wellarchitected:UpdateWorkloadShare
 wellarchitected:UpgradeLensReview
 wickr:CreateAdminSession
+wickr:CreateNetwork
 wickr:ListNetworks
+wickr:ListTagsForResource
+wickr:TagResource
+wickr:UntagResource
+wickr:UpdateNetworkDetails
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
