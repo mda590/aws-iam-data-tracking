@@ -18815,6 +18815,7 @@
                 "DeleteMLEndpoint",
                 "DeleteStatistics",
                 "GetEngineStatus",
+                "GetGraphSummary",
                 "GetLoaderJobStatus",
                 "GetMLDataProcessingJobStatus",
                 "GetMLEndpointStatus",
