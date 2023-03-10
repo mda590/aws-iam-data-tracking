@@ -2682,6 +2682,7 @@
                 "DescribeTransaction",
                 "ExtendTransaction",
                 "GetDataAccess",
+                "GetDataCellsFilter",
                 "GetDataLakeSettings",
                 "GetEffectivePermissionsForPath",
                 "GetLFTag",
@@ -2706,6 +2707,7 @@
                 "SearchTablesByLFTags",
                 "StartQueryPlanning",
                 "StartTransaction",
+                "UpdateDataCellsFilter",
                 "UpdateLFTag",
                 "UpdateResource",
                 "UpdateTableObjects",
@@ -11776,8 +11778,11 @@
                 "UpdateResourceCollection",
                 "UpdateServiceIntegration"
             ],
-            "ARNFormat": "arn:aws:devops-guru:${Region}:${Account}:",
-            "ARNRegex": "^arn:aws:devops-guru:.+:.+:",
+            "ARNFormat": "arn:aws:devops-guru:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:devops-guru:.+:.+:.+/.+",
+            "conditionKeys": [
+                "devops-guru:ServiceNames"
+            ],
             "HasResource": true
         },
         "AWS Signer": {
