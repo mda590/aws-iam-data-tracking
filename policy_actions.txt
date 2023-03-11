@@ -8103,6 +8103,7 @@ lightsail:CreateDiskSnapshot
 lightsail:CreateDistribution
 lightsail:CreateDomain
 lightsail:CreateDomainEntry
+lightsail:CreateGUISessionAccessDetails
 lightsail:CreateInstanceSnapshot
 lightsail:CreateInstances
 lightsail:CreateInstancesFromSnapshot
@@ -8160,6 +8161,7 @@ lightsail:GetContainerServiceDeployments
 lightsail:GetContainerServiceMetricData
 lightsail:GetContainerServicePowers
 lightsail:GetContainerServices
+lightsail:GetCostEstimate
 lightsail:GetDisk
 lightsail:GetDiskSnapshot
 lightsail:GetDiskSnapshots
@@ -8218,8 +8220,10 @@ lightsail:ResetDistributionCache
 lightsail:SendContactMethodVerification
 lightsail:SetIpAddressType
 lightsail:SetResourceAccessForBucket
+lightsail:StartGUISession
 lightsail:StartInstance
 lightsail:StartRelationalDatabase
+lightsail:StopGUISession
 lightsail:StopInstance
 lightsail:StopRelationalDatabase
 lightsail:TagResource
