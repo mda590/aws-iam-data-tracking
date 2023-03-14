@@ -4832,6 +4832,7 @@
                 "GetFederationToken",
                 "GetFederationTokens",
                 "GetMetricData",
+                "GetMetricDataV2",
                 "GetTaskTemplate",
                 "GetTrafficDistribution",
                 "ListAgentStatuses",
