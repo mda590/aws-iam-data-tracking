@@ -5578,6 +5578,7 @@
             "Actions": [
                 "AssociateMember",
                 "BatchGetAccountStatus",
+                "BatchGetCodeSnippet",
                 "BatchGetFreeTrialInfo",
                 "CancelFindingsReport",
                 "CreateFilter",
