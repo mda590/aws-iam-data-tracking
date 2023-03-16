@@ -2789,37 +2789,6 @@
             ],
             "HasResource": true
         },
-        "AWS Mobile Hub": {
-            "StringPrefix": "mobilehub",
-            "Actions": [
-                "CreateProject",
-                "CreateServiceRole",
-                "DeleteProject",
-                "DeleteProjectSnapshot",
-                "DeployToStage",
-                "DescribeBundle",
-                "ExportBundle",
-                "ExportProject",
-                "GenerateProjectParameters",
-                "GetProject",
-                "GetProjectSnapshot",
-                "ImportProject",
-                "InstallBundle",
-                "ListAvailableConnectors",
-                "ListAvailableFeatures",
-                "ListAvailableRegions",
-                "ListBundles",
-                "ListProjectSnapshots",
-                "ListProjects",
-                "SynchronizeProject",
-                "UpdateProject",
-                "ValidateProject",
-                "VerifyServiceRole"
-            ],
-            "ARNFormat": "arn:aws:mobilehub:<region>:<aws_account_ID>:project/<project_ID>",
-            "ARNRegex": "^arn:aws:mobilehub:.+:[0-9]+:.+",
-            "HasResource": true
-        },
         "AWS Global Accelerator": {
             "StringPrefix": "globalaccelerator",
             "Actions": [
@@ -8919,6 +8888,7 @@
             "StringPrefix": "apprunner",
             "Actions": [
                 "AssociateCustomDomain",
+                "AssociateWebAcl",
                 "CreateAutoScalingConfiguration",
                 "CreateConnection",
                 "CreateObservabilityConfiguration",
@@ -8938,7 +8908,10 @@
                 "DescribeService",
                 "DescribeVpcConnector",
                 "DescribeVpcIngressConnection",
+                "DescribeWebAclForService",
                 "DisassociateCustomDomain",
+                "DisassociateWebAcl",
+                "ListAssociatedServicesForWebAcl",
                 "ListAutoScalingConfigurations",
                 "ListConnections",
                 "ListObservabilityConfigurations",
