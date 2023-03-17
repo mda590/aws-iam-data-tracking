@@ -137,6 +137,7 @@ AWS Migration Hub
 AWS Migration Hub Orchestrator
 AWS Migration Hub Refactor Spaces
 AWS Migration Hub Strategy Recommendations
+AWS Mobile Hub
 AWS Network Firewall
 AWS Network Manager
 AWS OpsWorks
