@@ -8936,6 +8936,10 @@ mgn:GetVcenterClientCommandsForMgn
 mgn:InitializeService
 mgn:IssueClientCertificateForMgn
 mgn:ListApplications
+mgn:ListExportErrors
+mgn:ListExports
+mgn:ListImportErrors
+mgn:ListImports
 mgn:ListSourceServerActions
 mgn:ListTagsForResource
 mgn:ListTemplateActions
@@ -8961,6 +8965,8 @@ mgn:SendVcenterClientCommandResultForMgn
 mgn:SendVcenterClientLogsForMgn
 mgn:SendVcenterClientMetricsForMgn
 mgn:StartCutover
+mgn:StartExport
+mgn:StartImport
 mgn:StartReplication
 mgn:StartTest
 mgn:TagResource
