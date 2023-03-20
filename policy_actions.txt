@@ -5013,6 +5013,7 @@ elasticmapreduce:RemoveManagedScalingPolicy
 elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
 elasticmapreduce:SetTerminationProtection
+elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
 elasticmapreduce:StartNotebookExecution
 elasticmapreduce:StopEditor
@@ -5173,6 +5174,7 @@ es:ListElasticsearchInstanceTypes
 es:ListElasticsearchVersions
 es:ListInstanceTypeDetails
 es:ListPackagesForDomain
+es:ListScheduledActions
 es:ListTags
 es:ListVersions
 es:ListVpcEndpointAccess
@@ -5189,6 +5191,7 @@ es:StartServiceSoftwareUpdate
 es:UpdateDomainConfig
 es:UpdateElasticsearchDomainConfig
 es:UpdatePackage
+es:UpdateScheduledAction
 es:UpdateVpcEndpoint
 es:UpgradeDomain
 es:UpgradeElasticsearchDomain
@@ -12462,6 +12465,7 @@ sqlworkbench:GetNotebook
 sqlworkbench:GetNotebookVersion
 sqlworkbench:GetQueryExecutionHistory
 sqlworkbench:GetSavedQuery
+sqlworkbench:GetSchemaInference
 sqlworkbench:GetUserInfo
 sqlworkbench:GetUserWorkspaceSettings
 sqlworkbench:ImportNotebook
