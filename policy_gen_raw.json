@@ -1168,6 +1168,7 @@
                 "ListOrders",
                 "ListTagsForResource",
                 "Ping",
+                "StartNetworkResourceUpdate",
                 "TagResource",
                 "UntagResource",
                 "UpdateNetworkSite",
