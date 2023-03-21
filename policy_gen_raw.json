@@ -8822,8 +8822,8 @@
                 "StartSpeechSynthesisTask",
                 "SynthesizeSpeech"
             ],
-            "ARNFormat": "arn:aws:polly:<region>:<accountID>:lexicon/<relative-id>",
-            "ARNRegex": "^arn:aws:polly::.+",
+            "ARNFormat": "arn:aws:polly:${Region}:${Account}:lexicon/${RelativeId}",
+            "ARNRegex": "^arn:aws:polly:${Region}:.+",
             "HasResource": true
         },
         "AWS Clean Rooms": {
@@ -8856,7 +8856,10 @@
                 "ListMemberships",
                 "ListProtectedQueries",
                 "ListSchemas",
+                "ListTagsForResource",
                 "StartProtectedQuery",
+                "TagResource",
+                "UntagResource",
                 "UpdateCollaboration",
                 "UpdateConfiguredTable",
                 "UpdateConfiguredTableAnalysisRule",
@@ -8866,6 +8869,11 @@
             ],
             "ARNFormat": "arn:aws:cleanrooms:${Region}:${Account}:${ResourceType}/${PathToResource}",
             "ARNRegex": "^arn:aws:cleanrooms:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS AppConfig": {
@@ -13151,11 +13159,23 @@
                 "DescribeScalingActivities",
                 "DescribeScalingPolicies",
                 "DescribeScheduledActions",
+                "ListTagsForResource",
                 "PutScalingPolicy",
                 "PutScheduledAction",
-                "RegisterScalableTarget"
+                "RegisterScalableTarget",
+                "TagResource",
+                "UntagResource"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:application-autoscaling:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:aws:application-autoscaling:.+:.+:.+",
+            "conditionKeys": [
+                "application-autoscaling:scalable-dimension",
+                "application-autoscaling:service-namespace",
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon FSx": {
             "StringPrefix": "fsx",

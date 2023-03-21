@@ -430,9 +430,12 @@ application-autoscaling:DescribeScalableTargets
 application-autoscaling:DescribeScalingActivities
 application-autoscaling:DescribeScalingPolicies
 application-autoscaling:DescribeScheduledActions
+application-autoscaling:ListTagsForResource
 application-autoscaling:PutScalingPolicy
 application-autoscaling:PutScheduledAction
 application-autoscaling:RegisterScalableTarget
+application-autoscaling:TagResource
+application-autoscaling:UntagResource
 application-cost-profiler:DeleteReportDefinition
 application-cost-profiler:GetReportDefinition
 application-cost-profiler:ImportApplicationUsage
@@ -1643,7 +1646,10 @@ cleanrooms:ListMembers
 cleanrooms:ListMemberships
 cleanrooms:ListProtectedQueries
 cleanrooms:ListSchemas
+cleanrooms:ListTagsForResource
 cleanrooms:StartProtectedQuery
+cleanrooms:TagResource
+cleanrooms:UntagResource
 cleanrooms:UpdateCollaboration
 cleanrooms:UpdateConfiguredTable
 cleanrooms:UpdateConfiguredTableAnalysisRule
