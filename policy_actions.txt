@@ -1375,6 +1375,7 @@ chime:CreateAccount
 chime:CreateApiKey
 chime:CreateAppInstance
 chime:CreateAppInstanceAdmin
+chime:CreateAppInstanceBot
 chime:CreateAppInstanceUser
 chime:CreateAttendee
 chime:CreateBot
@@ -1386,6 +1387,8 @@ chime:CreateChannelMembership
 chime:CreateChannelModerator
 chime:CreateMediaCapturePipeline
 chime:CreateMediaConcatenationPipeline
+chime:CreateMediaInsightsPipeline
+chime:CreateMediaInsightsPipelineConfiguration
 chime:CreateMediaLiveConnectorPipeline
 chime:CreateMeeting
 chime:CreateMeetingDialOut
@@ -1400,11 +1403,14 @@ chime:CreateSipRule
 chime:CreateUser
 chime:CreateVoiceConnector
 chime:CreateVoiceConnectorGroup
+chime:CreateVoiceProfile
+chime:CreateVoiceProfileDomain
 chime:DeleteAccount
 chime:DeleteAccountOpenIdConfig
 chime:DeleteApiKey
 chime:DeleteAppInstance
 chime:DeleteAppInstanceAdmin
+chime:DeleteAppInstanceBot
 chime:DeleteAppInstanceStreamingConfigurations
 chime:DeleteAppInstanceUser
 chime:DeleteAttendee
@@ -1420,8 +1426,10 @@ chime:DeleteDomain
 chime:DeleteEventsConfiguration
 chime:DeleteGroups
 chime:DeleteMediaCapturePipeline
+chime:DeleteMediaInsightsPipelineConfiguration
 chime:DeleteMediaPipeline
 chime:DeleteMeeting
+chime:DeleteMessagingStreamingConfigurations
 chime:DeletePhoneNumber
 chime:DeleteProxySession
 chime:DeleteRoom
@@ -1436,9 +1444,12 @@ chime:DeleteVoiceConnectorProxy
 chime:DeleteVoiceConnectorStreamingConfiguration
 chime:DeleteVoiceConnectorTermination
 chime:DeleteVoiceConnectorTerminationCredentials
+chime:DeleteVoiceProfile
+chime:DeleteVoiceProfileDomain
 chime:DeregisterAppInstanceUserEndpoint
 chime:DescribeAppInstance
 chime:DescribeAppInstanceAdmin
+chime:DescribeAppInstanceBot
 chime:DescribeAppInstanceUser
 chime:DescribeAppInstanceUserEndpoint
 chime:DescribeChannel
@@ -1470,10 +1481,12 @@ chime:GetDomain
 chime:GetEventsConfiguration
 chime:GetGlobalSettings
 chime:GetMediaCapturePipeline
+chime:GetMediaInsightsPipelineConfiguration
 chime:GetMediaPipeline
 chime:GetMeeting
 chime:GetMeetingDetail
 chime:GetMessagingSessionEndpoint
+chime:GetMessagingStreamingConfigurations
 chime:GetPhoneNumber
 chime:GetPhoneNumberOrder
 chime:GetPhoneNumberSettings
@@ -1484,6 +1497,7 @@ chime:GetSipMediaApplication
 chime:GetSipMediaApplicationAlexaSkillConfiguration
 chime:GetSipMediaApplicationLoggingConfiguration
 chime:GetSipRule
+chime:GetSpeakerSearchTask
 chime:GetTelephonyLimits
 chime:GetUser
 chime:GetUserActivityReportData
@@ -1498,6 +1512,9 @@ chime:GetVoiceConnectorProxy
 chime:GetVoiceConnectorStreamingConfiguration
 chime:GetVoiceConnectorTermination
 chime:GetVoiceConnectorTerminationHealth
+chime:GetVoiceProfile
+chime:GetVoiceProfileDomain
+chime:GetVoiceToneAnalysisTask
 chime:InviteDelegate
 chime:InviteUsers
 chime:InviteUsersFromProvider
@@ -1505,6 +1522,7 @@ chime:ListAccountUsageReportData
 chime:ListAccounts
 chime:ListApiKeys
 chime:ListAppInstanceAdmins
+chime:ListAppInstanceBots
 chime:ListAppInstanceUserEndpoints
 chime:ListAppInstanceUsers
 chime:ListAppInstances
@@ -1528,6 +1546,7 @@ chime:ListDirectories
 chime:ListDomains
 chime:ListGroups
 chime:ListMediaCapturePipelines
+chime:ListMediaInsightsPipelineConfigurations
 chime:ListMediaPipelines
 chime:ListMeetingEvents
 chime:ListMeetingTags
@@ -1547,11 +1566,16 @@ chime:ListUsers
 chime:ListVoiceConnectorGroups
 chime:ListVoiceConnectorTerminationCredentials
 chime:ListVoiceConnectors
+chime:ListVoiceProfileDomains
+chime:ListVoiceProfiles
 chime:LogoutUser
 chime:PutAppInstanceRetentionSettings
 chime:PutAppInstanceStreamingConfigurations
+chime:PutAppInstanceUserExpirationSettings
+chime:PutChannelExpirationSettings
 chime:PutChannelMembershipPreferences
 chime:PutEventsConfiguration
+chime:PutMessagingStreamingConfigurations
 chime:PutRetentionSettings
 chime:PutSipMediaApplicationAlexaSkillConfiguration
 chime:PutSipMediaApplicationLoggingConfiguration
@@ -1578,7 +1602,11 @@ chime:SearchChannels
 chime:SendChannelMessage
 chime:StartDataExport
 chime:StartMeetingTranscription
+chime:StartSpeakerSearchTask
+chime:StartVoiceToneAnalysisTask
 chime:StopMeetingTranscription
+chime:StopSpeakerSearchTask
+chime:StopVoiceToneAnalysisTask
 chime:SubmitSupportRequest
 chime:SuspendUsers
 chime:TagAttendee
@@ -1593,6 +1621,7 @@ chime:UpdateAccountOpenIdConfig
 chime:UpdateAccountResource
 chime:UpdateAccountSettings
 chime:UpdateAppInstance
+chime:UpdateAppInstanceBot
 chime:UpdateAppInstanceUser
 chime:UpdateAppInstanceUserEndpoint
 chime:UpdateAttendeeCapabilities
@@ -1603,6 +1632,8 @@ chime:UpdateChannelFlow
 chime:UpdateChannelMessage
 chime:UpdateChannelReadMarker
 chime:UpdateGlobalSettings
+chime:UpdateMediaInsightsPipelineConfiguration
+chime:UpdateMediaInsightsPipelineStatus
 chime:UpdatePhoneNumber
 chime:UpdatePhoneNumberSettings
 chime:UpdateProxySession
@@ -1617,6 +1648,8 @@ chime:UpdateUserLicenses
 chime:UpdateUserSettings
 chime:UpdateVoiceConnector
 chime:UpdateVoiceConnectorGroup
+chime:UpdateVoiceProfile
+chime:UpdateVoiceProfileDomain
 chime:ValidateAccountResource
 chime:ValidateE911Address
 cleanrooms:BatchGetSchema
