@@ -7654,7 +7654,7 @@
             ],
             "HasResource": true
         },
-        "AWS IoT Core for LoRaWAN": {
+        "AWS IoT Wireless": {
             "StringPrefix": "iotwireless",
             "Actions": [
                 "AssociateAwsAccountWithPartnerAccount",
@@ -7683,6 +7683,7 @@
                 "DeleteQueuedMessages",
                 "DeleteServiceProfile",
                 "DeleteWirelessDevice",
+                "DeleteWirelessDeviceImportTask",
                 "DeleteWirelessGateway",
                 "DeleteWirelessGatewayTask",
                 "DeleteWirelessGatewayTaskDefinition",
@@ -7711,6 +7712,7 @@
                 "GetServiceEndpoint",
                 "GetServiceProfile",
                 "GetWirelessDevice",
+                "GetWirelessDeviceImportTask",
                 "GetWirelessDeviceStatistics",
                 "GetWirelessGateway",
                 "GetWirelessGatewayCertificate",
@@ -7720,6 +7722,7 @@
                 "GetWirelessGatewayTaskDefinition",
                 "ListDestinations",
                 "ListDeviceProfiles",
+                "ListDevicesForWirelessDeviceImportTask",
                 "ListEventConfigurations",
                 "ListFuotaTasks",
                 "ListMulticastGroups",
@@ -7730,6 +7733,7 @@
                 "ListQueuedMessages",
                 "ListServiceProfiles",
                 "ListTagsForResource",
+                "ListWirelessDeviceImportTasks",
                 "ListWirelessDevices",
                 "ListWirelessGatewayTaskDefinitions",
                 "ListWirelessGateways",
@@ -7744,6 +7748,8 @@
                 "StartFuotaTask",
                 "StartMulticastGroupSession",
                 "StartNetworkAnalyzerStream",
+                "StartSingleWirelessDeviceImportTask",
+                "StartWirelessDeviceImportTask",
                 "TagResource",
                 "TestWirelessDevice",
                 "UntagResource",
@@ -7758,6 +7764,7 @@
                 "UpdateResourceEventConfiguration",
                 "UpdateResourcePosition",
                 "UpdateWirelessDevice",
+                "UpdateWirelessDeviceImportTask",
                 "UpdateWirelessGateway"
             ],
             "ARNFormat": "arn:aws:iotwireless:${Region}:${Account}:${ResourceType}/${ResourceId}",

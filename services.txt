@@ -101,7 +101,6 @@ AWS IoT
 AWS IoT 1-Click
 AWS IoT Analytics
 AWS IoT Core Device Advisor
-AWS IoT Core for LoRaWAN
 AWS IoT Device Tester
 AWS IoT Events
 AWS IoT Fleet Hub for Device Management
@@ -112,6 +111,7 @@ AWS IoT Jobs DataPlane
 AWS IoT RoboRunner
 AWS IoT SiteWise
 AWS IoT TwinMaker
+AWS IoT Wireless
 AWS Key Management Service
 AWS Lake Formation
 AWS Lambda
