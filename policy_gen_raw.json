@@ -10100,6 +10100,19 @@
             ],
             "HasResource": true
         },
+        "Amazon DataZone": {
+            "StringPrefix": "datazone",
+            "Actions": [
+                "GetProject",
+                "GetProjectConfiguration",
+                "GetProjectCredentials",
+                "ListProjects",
+                "ListUserProjects"
+            ],
+            "ARNFormat": "arn:${Partition}:datazone:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:datazone:.+:.+:.+",
+            "HasResource": false
+        },
         "Amazon QuickSight": {
             "StringPrefix": "quicksight",
             "Actions": [
@@ -15910,6 +15923,48 @@
             "ARNFormat": "arn:${Partition}:resource-explorer:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:resource-explorer:.+",
             "HasResource": false
+        },
+        "Amazon DataZone Control": {
+            "StringPrefix": "datazonecontrol",
+            "Actions": [
+                "CreateAccountAssociationInvitation",
+                "CreateDataSource",
+                "CreateEnvironment",
+                "DeleteDataSource",
+                "DeleteEnvironment",
+                "DissociateAccount",
+                "GetAssociatedDomain",
+                "GetDataSourceByEnvironment",
+                "GetDomain",
+                "GetEnvironment",
+                "GetMetadataCollector",
+                "GetUserPortalLoginAuthCode",
+                "ListAccountAssociationInvitations",
+                "ListAllAssociatedAccountsForEnvironment",
+                "ListAssociatedEnvironments",
+                "ListDataSources",
+                "ListDataSourcesByEnvironment",
+                "ListDomains",
+                "ListEnvironment",
+                "ListMetadataCollectorRuns",
+                "ListMetadataCollectors",
+                "ListProjects",
+                "ListTagsForResource",
+                "ReviewAccountAssociationInvitation",
+                "TagResource",
+                "UntagResource",
+                "UpdateAccountAssociationDescription",
+                "UpdateDataSource",
+                "UpdateEnvironment"
+            ],
+            "ARNFormat": "arn:aws:datazonecontrol:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:datazonecontrol:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Elastic Beanstalk": {
             "StringPrefix": "elasticbeanstalk",
