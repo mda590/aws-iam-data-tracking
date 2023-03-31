@@ -456,6 +456,7 @@ applicationinsights:DescribeLogPattern
 applicationinsights:DescribeObservation
 applicationinsights:DescribeProblem
 applicationinsights:DescribeProblemObservations
+applicationinsights:Link
 applicationinsights:ListApplications
 applicationinsights:ListComponents
 applicationinsights:ListConfigurationHistory

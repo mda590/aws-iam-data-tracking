@@ -16086,6 +16086,7 @@
                 "DescribeObservation",
                 "DescribeProblem",
                 "DescribeProblemObservations",
+                "Link",
                 "ListApplications",
                 "ListComponents",
                 "ListConfigurationHistory",
