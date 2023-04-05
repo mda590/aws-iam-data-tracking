@@ -12887,6 +12887,7 @@ ssm:UpdateAssociationStatus
 ssm:UpdateDocument
 ssm:UpdateDocumentDefaultVersion
 ssm:UpdateDocumentMetadata
+ssm:UpdateInstanceAssociationStatus
 ssm:UpdateInstanceInformation
 ssm:UpdateMaintenanceWindow
 ssm:UpdateMaintenanceWindowTarget

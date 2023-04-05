@@ -678,6 +678,7 @@
                 "UpdateDocument",
                 "UpdateDocumentDefaultVersion",
                 "UpdateDocumentMetadata",
+                "UpdateInstanceAssociationStatus",
                 "UpdateInstanceInformation",
                 "UpdateMaintenanceWindow",
                 "UpdateMaintenanceWindowTarget",
