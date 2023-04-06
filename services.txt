@@ -348,7 +348,6 @@ Amazon Session Manager Message Gateway Service
 Amazon Simple Email Service v2
 Amazon Simple Workflow Service
 Amazon SimpleDB
-Amazon Sumerian
 Amazon Textract
 Amazon Timestream
 Amazon Transcribe

@@ -3865,16 +3865,6 @@
             ],
             "HasResource": true
         },
-        "Amazon Sumerian": {
-            "StringPrefix": "sumerian",
-            "Actions": [
-                "Login",
-                "ViewRelease"
-            ],
-            "ARNFormat": "arn:aws:sumerian:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:sumerian:.+:.+:.+",
-            "HasResource": true
-        },
         "AWS Auto Scaling": {
             "StringPrefix": "autoscaling-plans",
             "Actions": [
@@ -3899,8 +3889,11 @@
                 "GetPendingConnection",
                 "ListConnections",
                 "ListIamRolesForConnection",
+                "ListTagsForResource",
                 "PutBillingAuthorization",
-                "RejectConnection"
+                "RejectConnection",
+                "TagResource",
+                "UntagResource"
             ],
             "ARNFormat": "arn:aws:codecatalyst:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:aws:codecatalyst:.+",
