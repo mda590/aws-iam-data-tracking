@@ -10200,6 +10200,7 @@ quicksight:CreateIAMPolicyAssignment
 quicksight:CreateIngestion
 quicksight:CreateNamespace
 quicksight:CreateReader
+quicksight:CreateRefreshSchedule
 quicksight:CreateTemplate
 quicksight:CreateTemplateAlias
 quicksight:CreateTheme
@@ -10212,6 +10213,7 @@ quicksight:DeleteAnalysis
 quicksight:DeleteCustomPermissions
 quicksight:DeleteDashboard
 quicksight:DeleteDataSet
+quicksight:DeleteDataSetRefreshProperties
 quicksight:DeleteDataSource
 quicksight:DeleteEmailCustomizationTemplate
 quicksight:DeleteFolder
@@ -10220,6 +10222,7 @@ quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteNamespace
+quicksight:DeleteRefreshSchedule
 quicksight:DeleteTemplate
 quicksight:DeleteTemplateAlias
 quicksight:DeleteTheme
@@ -10237,6 +10240,7 @@ quicksight:DescribeDashboard
 quicksight:DescribeDashboardPermissions
 quicksight:DescribeDataSet
 quicksight:DescribeDataSetPermissions
+quicksight:DescribeDataSetRefreshProperties
 quicksight:DescribeDataSource
 quicksight:DescribeDataSourcePermissions
 quicksight:DescribeEmailCustomizationTemplate
@@ -10249,6 +10253,7 @@ quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeNamespace
+quicksight:DescribeRefreshSchedule
 quicksight:DescribeTemplate
 quicksight:DescribeTemplateAlias
 quicksight:DescribeTemplatePermissions
@@ -10277,6 +10282,7 @@ quicksight:ListIAMPolicyAssignments
 quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIngestions
 quicksight:ListNamespaces
+quicksight:ListRefreshSchedules
 quicksight:ListTagsForResource
 quicksight:ListTemplateAliases
 quicksight:ListTemplateVersions
@@ -10288,6 +10294,7 @@ quicksight:ListUserGroups
 quicksight:ListUsers
 quicksight:PassDataSet
 quicksight:PassDataSource
+quicksight:PutDataSetRefreshProperties
 quicksight:RegisterUser
 quicksight:RestoreAnalysis
 quicksight:ScopeDownPolicy
@@ -10322,6 +10329,7 @@ quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIpRestriction
 quicksight:UpdatePublicSharingSettings
+quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
