@@ -1002,9 +1002,11 @@ aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
 aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
+aws-portal:GetConsoleActionSetEnforced
 aws-portal:ModifyAccount
 aws-portal:ModifyBilling
 aws-portal:ModifyPaymentMethods
+aws-portal:UpdateConsoleActionSetEnforced
 aws-portal:ViewAccount
 aws-portal:ViewBilling
 aws-portal:ViewPaymentMethods
@@ -10139,10 +10141,12 @@ proton:UpdateServiceTemplateVersion
 proton:UpdateTemplateSyncConfig
 purchase-orders:AddPurchaseOrder
 purchase-orders:DeletePurchaseOrder
+purchase-orders:GetConsoleActionSetEnforced
 purchase-orders:GetPurchaseOrder
 purchase-orders:ListPurchaseOrderInvoices
 purchase-orders:ListPurchaseOrders
 purchase-orders:ModifyPurchaseOrders
+purchase-orders:UpdateConsoleActionSetEnforced
 purchase-orders:UpdatePurchaseOrder
 purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
@@ -10741,6 +10745,7 @@ rekognition:CompareFaces
 rekognition:CopyProjectVersion
 rekognition:CreateCollection
 rekognition:CreateDataset
+rekognition:CreateFaceLivenessSession
 rekognition:CreateProject
 rekognition:CreateProjectVersion
 rekognition:CreateStreamProcessor
@@ -10767,6 +10772,7 @@ rekognition:GetCelebrityInfo
 rekognition:GetCelebrityRecognition
 rekognition:GetContentModeration
 rekognition:GetFaceDetection
+rekognition:GetFaceLivenessSessionResults
 rekognition:GetFaceSearch
 rekognition:GetLabelDetection
 rekognition:GetPersonTracking
@@ -10787,6 +10793,7 @@ rekognition:SearchFacesByImage
 rekognition:StartCelebrityRecognition
 rekognition:StartContentModeration
 rekognition:StartFaceDetection
+rekognition:StartFaceLivenessSession
 rekognition:StartFaceSearch
 rekognition:StartLabelDetection
 rekognition:StartPersonTracking
@@ -11272,7 +11279,9 @@ s3-outposts:GetLifecycleConfiguration
 s3-outposts:GetObject
 s3-outposts:GetObjectTagging
 s3-outposts:GetObjectVersion
+s3-outposts:GetObjectVersionForReplication
 s3-outposts:GetObjectVersionTagging
+s3-outposts:GetReplicationConfiguration
 s3-outposts:ListAccessPoints
 s3-outposts:ListBucket
 s3-outposts:ListBucketMultipartUploads
@@ -11291,6 +11300,10 @@ s3-outposts:PutObject
 s3-outposts:PutObjectAcl
 s3-outposts:PutObjectTagging
 s3-outposts:PutObjectVersionTagging
+s3-outposts:PutReplicationConfiguration
+s3-outposts:ReplicateDelete
+s3-outposts:ReplicateObject
+s3-outposts:ReplicateTags
 s3:AbortMultipartUpload
 s3:BypassGovernanceRetention
 s3:CreateAccessPoint
