@@ -278,9 +278,9 @@ Amazon Interactive Video Service Chat
 Amazon Kendra
 Amazon Kendra Intelligent Ranking
 Amazon Keyspaces (for Apache Cassandra)
-Amazon Kinesis
 Amazon Kinesis Analytics
 Amazon Kinesis Analytics V2
+Amazon Kinesis Data Streams
 Amazon Kinesis Firehose
 Amazon Kinesis Video Streams
 Amazon Lex
