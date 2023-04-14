@@ -8479,6 +8479,7 @@
                 "DescribeDomainAutoTunes",
                 "DescribeDomainChangeProgress",
                 "DescribeDomainConfig",
+                "DescribeDomainHealth",
                 "DescribeDomains",
                 "DescribeDryRunProgress",
                 "DescribeElasticsearchDomain",
