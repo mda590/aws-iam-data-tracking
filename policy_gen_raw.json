@@ -12607,12 +12607,21 @@
             "StringPrefix": "codewhisperer",
             "Actions": [
                 "CreateProfile",
+                "DeleteProfile",
                 "GenerateRecommendations",
                 "ListProfiles",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:codewhisperer:.+:[0-9]+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Elemental Appliances and Software Activation Service": {
