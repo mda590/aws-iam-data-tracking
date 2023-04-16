@@ -3829,15 +3829,18 @@ drs:BatchCreateVolumeSnapshotGroupForDrs
 drs:BatchDeleteSnapshotRequestForDrs
 drs:CreateConvertedSnapshotForDrs
 drs:CreateExtendedSourceServer
+drs:CreateLaunchConfigurationTemplate
 drs:CreateRecoveryInstanceForDrs
 drs:CreateReplicationConfigurationTemplate
 drs:CreateSourceServerForDrs
 drs:DeleteJob
+drs:DeleteLaunchConfigurationTemplate
 drs:DeleteRecoveryInstance
 drs:DeleteReplicationConfigurationTemplate
 drs:DeleteSourceServer
 drs:DescribeJobLogItems
 drs:DescribeJobs
+drs:DescribeLaunchConfigurationTemplates
 drs:DescribeRecoveryInstances
 drs:DescribeRecoverySnapshots
 drs:DescribeReplicationConfigurationTemplates
@@ -3896,6 +3899,7 @@ drs:UpdateFailbackClientDeviceMappingForDrs
 drs:UpdateFailbackClientLastSeenForDrs
 drs:UpdateFailbackReplicationConfiguration
 drs:UpdateLaunchConfiguration
+drs:UpdateLaunchConfigurationTemplate
 drs:UpdateReplicationCertificateForDrs
 drs:UpdateReplicationConfiguration
 drs:UpdateReplicationConfigurationTemplate
