@@ -2017,13 +2017,17 @@
             ],
             "HasResource": true
         },
-        "AWS Resource Access Manager": {
+        "AWS Resource Access Manager (RAM)": {
             "StringPrefix": "ram",
             "Actions": [
                 "AcceptResourceShareInvitation",
                 "AssociateResourceShare",
                 "AssociateResourceSharePermission",
+                "CreatePermission",
+                "CreatePermissionVersion",
                 "CreateResourceShare",
+                "DeletePermission",
+                "DeletePermissionVersion",
                 "DeleteResourceShare",
                 "DisassociateResourceShare",
                 "DisassociateResourceSharePermission",
@@ -2034,19 +2038,24 @@
                 "GetResourceShareInvitations",
                 "GetResourceShares",
                 "ListPendingInvitationResources",
+                "ListPermissionAssociations",
                 "ListPermissionVersions",
                 "ListPermissions",
                 "ListPrincipals",
+                "ListReplacePermissionAssociationsWork",
                 "ListResourceSharePermissions",
                 "ListResourceTypes",
                 "ListResources",
+                "PromotePermissionCreatedFromPolicy",
                 "PromoteResourceShareCreatedFromPolicy",
                 "RejectResourceShareInvitation",
+                "ReplacePermissionAssociations",
+                "SetDefaultPermissionVersion",
                 "TagResource",
                 "UntagResource",
                 "UpdateResourceShare"
             ],
-            "ARNFormat": "arn:aws:ram:${Region}:${AccountId}:resource-share/${ResourceUUID}",
+            "ARNFormat": "arn:aws:ram:${Region}:${Account}:resource-share/${ResourceUUID}",
             "ARNRegex": "^arn:aws:ram:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
@@ -2060,6 +2069,7 @@
                 "ram:RequestedResourceType",
                 "ram:ResourceArn",
                 "ram:ResourceShareName",
+                "ram:ResourceTag/${TagKey}",
                 "ram:ShareOwnerAccountId"
             ],
             "HasResource": true
