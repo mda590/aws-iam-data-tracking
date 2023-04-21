@@ -49,6 +49,7 @@ AWS CodeStar Notifications
 AWS Compute Optimizer
 AWS Config
 AWS Connector Service
+AWS Console Mobile App
 AWS Consolidated Billing
 AWS Control Tower
 AWS Cost Explorer Service
@@ -188,6 +189,8 @@ AWS Telco Network Builder
 AWS Tiros
 AWS Transfer Family
 AWS Trusted Advisor
+AWS User Notifications
+AWS User Notifications Contacts
 AWS WAF
 AWS WAF Regional
 AWS WAF V2

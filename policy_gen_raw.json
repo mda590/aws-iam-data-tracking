@@ -6446,6 +6446,29 @@
             ],
             "HasResource": true
         },
+        "AWS User Notifications Contacts": {
+            "StringPrefix": "notifications-contacts",
+            "Actions": [
+                "ActivateEmailContact",
+                "CreateEmailContact",
+                "DeleteEmailContact",
+                "GetEmailContact",
+                "ListEmailContacts",
+                "ListTagsForResource",
+                "SendActivationCode",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:notifications-contacts::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:notifications-contacts::.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "notifications-contacts:EmailContactResourceArn"
+            ],
+            "HasResource": true
+        },
         "AWS CloudWatch RUM": {
             "StringPrefix": "rum",
             "Actions": [
@@ -8017,6 +8040,19 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
+        "AWS Console Mobile App": {
+            "StringPrefix": "consoleapp",
+            "Actions": [
+                "GetDeviceIdentity",
+                "ListDeviceIdentities"
+            ],
+            "ARNFormat": "arn:aws:consoleapp:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:consoleapp:.+:.+:.+",
+            "conditionKeys": [
+                "consoleapp:DeviceIdentityArn"
             ],
             "HasResource": true
         },
@@ -13182,6 +13218,45 @@
                 "UpdateLongTermPricing"
             ],
             "HasResource": false
+        },
+        "AWS User Notifications": {
+            "StringPrefix": "notifications",
+            "Actions": [
+                "AssociateChannel",
+                "CreateEventRule",
+                "CreateNotificationConfiguration",
+                "DeleteEventRule",
+                "DeleteNotificationConfiguration",
+                "DeregisterNotificationHub",
+                "DisassociateChannel",
+                "GetEventRule",
+                "GetNotificationConfiguration",
+                "GetNotificationEvent",
+                "ListChannels",
+                "ListEventRules",
+                "ListNotificationConfigurations",
+                "ListNotificationEvents",
+                "ListNotificationHubs",
+                "ListTagsForResource",
+                "RegisterNotificationHub",
+                "TagResource",
+                "UntagResource",
+                "UpdateEventRule",
+                "UpdateNotificationConfiguration"
+            ],
+            "ARNFormat": "arn:aws:notifications::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:notifications:.*:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "notifications:ChannelArn",
+                "notifications:ChannelNotificationConfigurationArn",
+                "notifications:EventRuleArn",
+                "notifications:NotificationConfigurationArn",
+                "notifications:NotificationEventArn"
+            ],
+            "HasResource": true
         },
         "AWS Shield": {
             "StringPrefix": "shield",
