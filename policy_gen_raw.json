@@ -4831,6 +4831,7 @@
                 "CreateHoursOfOperation",
                 "CreateInstance",
                 "CreateIntegrationAssociation",
+                "CreateParticipant",
                 "CreateQueue",
                 "CreateQuickConnect",
                 "CreateRoutingProfile",
