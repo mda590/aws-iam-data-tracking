@@ -6468,8 +6468,7 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys",
-                "notifications-contacts:EmailContactResourceArn"
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
@@ -13253,12 +13252,7 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys",
-                "notifications:ChannelArn",
-                "notifications:ChannelNotificationConfigurationArn",
-                "notifications:EventRuleArn",
-                "notifications:NotificationConfigurationArn",
-                "notifications:NotificationEventArn"
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
