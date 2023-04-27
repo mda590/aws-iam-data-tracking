@@ -310,6 +310,7 @@ Amazon Monitron
 Amazon Neptune
 Amazon Nimble Studio
 Amazon Omics
+Amazon OpenSearch Ingestion
 Amazon OpenSearch Serverless
 Amazon OpenSearch Service
 Amazon Personalize

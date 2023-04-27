@@ -3764,6 +3764,34 @@
             ],
             "HasResource": false
         },
+        "Amazon OpenSearch Ingestion": {
+            "StringPrefix": "osis",
+            "Actions": [
+                "CreatePipeline",
+                "DeletePipeline",
+                "GetPipeline",
+                "GetPipelineBlueprint",
+                "GetPipelineChangeProgress",
+                "Ingest",
+                "ListPipelineBlueprints",
+                "ListPipelines",
+                "ListTagsForResource",
+                "StartPipeline",
+                "StopPipeline",
+                "TagResource",
+                "UntagResource",
+                "UpdatePipeline",
+                "ValidatePipeline"
+            ],
+            "ARNFormat": "arn:aws:osis:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:osis:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Pinpoint": {
             "StringPrefix": "mobiletargeting",
             "Actions": [
@@ -6713,6 +6741,7 @@
                 "DisassociateAdminAccount",
                 "DisassociateThirdPartyFirewall",
                 "GetAdminAccount",
+                "GetAdminScope",
                 "GetAppsList",
                 "GetComplianceDetail",
                 "GetNotificationChannel",
@@ -6722,6 +6751,8 @@
                 "GetResourceSet",
                 "GetThirdPartyFirewallAssociationStatus",
                 "GetViolationDetails",
+                "ListAdminAccountsForOrganization",
+                "ListAdminsManagingAccount",
                 "ListAppsLists",
                 "ListComplianceStatus",
                 "ListDiscoveredResources",
@@ -6732,6 +6763,7 @@
                 "ListResourceSets",
                 "ListTagsForResource",
                 "ListThirdPartyFirewallFirewallPolicies",
+                "PutAdminAccount",
                 "PutAppsList",
                 "PutNotificationChannel",
                 "PutPolicy",
