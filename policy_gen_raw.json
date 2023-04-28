@@ -8576,6 +8576,7 @@
                 "DescribeDomainChangeProgress",
                 "DescribeDomainConfig",
                 "DescribeDomainHealth",
+                "DescribeDomainNodes",
                 "DescribeDomains",
                 "DescribeDryRunProgress",
                 "DescribeElasticsearchDomain",

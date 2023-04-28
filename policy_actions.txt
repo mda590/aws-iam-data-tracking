@@ -5247,6 +5247,7 @@ es:DescribeDomainAutoTunes
 es:DescribeDomainChangeProgress
 es:DescribeDomainConfig
 es:DescribeDomainHealth
+es:DescribeDomainNodes
 es:DescribeDomains
 es:DescribeDryRunProgress
 es:DescribeElasticsearchDomain
