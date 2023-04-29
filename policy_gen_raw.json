@@ -12145,6 +12145,7 @@
         "Amazon OpenSearch Serverless": {
             "StringPrefix": "aoss",
             "Actions": [
+                "APIAccessAll",
                 "BatchGetCollection",
                 "BatchGetVpcEndpoint",
                 "CreateAccessPolicy",
@@ -12152,6 +12153,7 @@
                 "CreateSecurityConfig",
                 "CreateSecurityPolicy",
                 "CreateVpcEndpoint",
+                "DashboardsAccessAll",
                 "DeleteAccessPolicy",
                 "DeleteCollection",
                 "DeleteSecurityConfig",

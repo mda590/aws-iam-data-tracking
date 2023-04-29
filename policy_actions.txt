@@ -285,6 +285,7 @@ amplifyuibuilder:ResetMetadataFlag
 amplifyuibuilder:UpdateComponent
 amplifyuibuilder:UpdateForm
 amplifyuibuilder:UpdateTheme
+aoss:APIAccessAll
 aoss:BatchGetCollection
 aoss:BatchGetVpcEndpoint
 aoss:CreateAccessPolicy
@@ -292,6 +293,7 @@ aoss:CreateCollection
 aoss:CreateSecurityConfig
 aoss:CreateSecurityPolicy
 aoss:CreateVpcEndpoint
+aoss:DashboardsAccessAll
 aoss:DeleteAccessPolicy
 aoss:DeleteCollection
 aoss:DeleteSecurityConfig
