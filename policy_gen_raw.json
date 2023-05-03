@@ -10466,6 +10466,7 @@
             "Actions": [
                 "AssociateWebACL",
                 "CheckCapacity",
+                "CreateAPIKey",
                 "CreateIPSet",
                 "CreateRegexPatternSet",
                 "CreateRuleGroup",
@@ -10481,6 +10482,7 @@
                 "DisassociateFirewallManager",
                 "DisassociateWebACL",
                 "GenerateMobileSdkReleaseUrl",
+                "GetDecryptedAPIKey",
                 "GetIPSet",
                 "GetLoggingConfiguration",
                 "GetManagedRuleSet",
@@ -10492,6 +10494,7 @@
                 "GetSampledRequests",
                 "GetWebACL",
                 "GetWebACLForResource",
+                "ListAPIKeys",
                 "ListAvailableManagedRuleGroupVersions",
                 "ListAvailableManagedRuleGroups",
                 "ListIPSets",
