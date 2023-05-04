@@ -2155,7 +2155,8 @@
                 "UpdateFlowEntitlement",
                 "UpdateFlowMediaStream",
                 "UpdateFlowOutput",
-                "UpdateFlowSource"
+                "UpdateFlowSource",
+                "UpdateGatewayInstance"
             ],
             "ARNFormat": "arn:aws:mediaconnect:${Region}:${Account}:${Namespace}:${RelativeId}:${RelativeName}",
             "ARNRegex": "^arn:aws:mediaconnect:.+",
