@@ -233,6 +233,7 @@
                 "aws:TagKeys",
                 "elasticfilesystem:AccessPointArn",
                 "elasticfilesystem:AccessedViaMountTarget",
+                "elasticfilesystem:CreateAction",
                 "elasticfilesystem:Encrypted"
             ],
             "HasResource": true
@@ -6387,6 +6388,7 @@
             "ARNFormat": "arn:aws:appsync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:appsync:.+",
             "conditionKeys": [
+                "appsync:Visibility",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
