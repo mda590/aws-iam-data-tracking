@@ -10411,6 +10411,7 @@ quicksight:DescribeTheme
 quicksight:DescribeThemeAlias
 quicksight:DescribeThemePermissions
 quicksight:DescribeUser
+quicksight:DescribeVPCConnection
 quicksight:GenerateEmbedUrlForAnonymousUser
 quicksight:GenerateEmbedUrlForRegisteredUser
 quicksight:GetAnonymousUserEmbedUrl
@@ -10442,6 +10443,7 @@ quicksight:ListThemeVersions
 quicksight:ListThemes
 quicksight:ListUserGroups
 quicksight:ListUsers
+quicksight:ListVPCConnections
 quicksight:PassDataSet
 quicksight:PassDataSource
 quicksight:PutDataSetRefreshProperties
@@ -10488,6 +10490,7 @@ quicksight:UpdateTheme
 quicksight:UpdateThemeAlias
 quicksight:UpdateThemePermissions
 quicksight:UpdateUser
+quicksight:UpdateVPCConnection
 ram:AcceptResourceShareInvitation
 ram:AssociateResourceShare
 ram:AssociateResourceSharePermission
@@ -12049,6 +12052,7 @@ securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
+securityhub:BatchGetControlEvaluations
 securityhub:BatchGetSecurityControls
 securityhub:BatchGetStandardsControlAssociations
 securityhub:BatchImportFindings
@@ -12084,6 +12088,7 @@ securityhub:GetAdministratorAccount
 securityhub:GetControlFindingSummary
 securityhub:GetEnabledStandards
 securityhub:GetFindingAggregator
+securityhub:GetFindingHistory
 securityhub:GetFindings
 securityhub:GetFreeTrialEndDate
 securityhub:GetFreeTrialUsage
