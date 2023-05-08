@@ -12281,6 +12281,7 @@
         "AWS Support Plans": {
             "StringPrefix": "supportplans",
             "Actions": [
+                "CreateSupportPlanSchedule",
                 "GetSupportPlan",
                 "GetSupportPlanUpdateStatus",
                 "StartSupportPlanUpdate"
