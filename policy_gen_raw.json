@@ -1887,14 +1887,15 @@
                 "CreateScan",
                 "CreateUploadUrl",
                 "DeleteScansByCategory",
+                "GetFindings",
                 "GetScan",
                 "ListFindings",
                 "ListScans",
                 "UpdateAccountConfiguration"
             ],
-            "ARNFormat": "arn:${Partition}:codeguru-security:${Region}:${Account}:*",
-            "ARNRegex": "^arn:${Partition}:codeguru-security:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:codeguru-security:${Region}:${Account}:*",
+            "ARNRegex": "^arn:aws:codeguru-security:.+:.+:.+",
+            "HasResource": true
         },
         "AWS Proton": {
             "StringPrefix": "proton",
@@ -5053,8 +5054,7 @@
                 "UpdateUserIdentityInfo",
                 "UpdateUserPhoneConfig",
                 "UpdateUserRoutingProfile",
-                "UpdateUserSecurityProfiles",
-                "UpdatedescribeContent"
+                "UpdateUserSecurityProfiles"
             ],
             "ARNFormat": "arn:aws:connect:${Region}:${Account}:instance/${InstanceId}",
             "ARNRegex": "^arn:aws:connect:.+:.+:instance/.+",
@@ -5735,6 +5735,7 @@
                 "ListMembers",
                 "ListTagsForResource",
                 "ListUsageTotals",
+                "SearchVulnerabilities",
                 "TagResource",
                 "UntagResource",
                 "UpdateConfiguration",
@@ -9284,6 +9285,16 @@
                 "license-manager:ResourceTag/${TagKey}"
             ],
             "HasResource": true
+        },
+        "AWS Customer Verification Service": {
+            "StringPrefix": "customer-verification",
+            "Actions": [
+                "CreateCustomerVerificationDetails",
+                "GetCustomerVerificationDetails",
+                "GetCustomerVerificationEligibility",
+                "UpdateCustomerVerificationDetails"
+            ],
+            "HasResource": false
         },
         "Alexa for Business": {
             "StringPrefix": "a4b",

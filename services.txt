@@ -54,6 +54,7 @@ AWS Consolidated Billing
 AWS Control Tower
 AWS Cost Explorer Service
 AWS Cost and Usage Report
+AWS Customer Verification Service
 AWS Data Exchange
 AWS Data Pipeline
 AWS DataSync
