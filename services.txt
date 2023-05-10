@@ -192,6 +192,7 @@ AWS Transfer Family
 AWS Trusted Advisor
 AWS User Notifications
 AWS User Notifications Contacts
+AWS Verified Access
 AWS WAF
 AWS WAF Regional
 AWS WAF V2

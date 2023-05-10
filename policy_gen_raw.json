@@ -13111,6 +13111,7 @@
         "AWS SimSpace Weaver": {
             "StringPrefix": "simspaceweaver",
             "Actions": [
+                "CreateSnapshot",
                 "DeleteApp",
                 "DeleteSimulation",
                 "DescribeApp",
@@ -17306,6 +17307,13 @@
                 "aws:TagKeys"
             ],
             "HasResource": true
+        },
+        "AWS Verified Access": {
+            "StringPrefix": "verified-access",
+            "Actions": [
+                "AllowVerifiedAccess"
+            ],
+            "HasResource": false
         },
         "AWS Control Tower": {
             "StringPrefix": "controltower",
