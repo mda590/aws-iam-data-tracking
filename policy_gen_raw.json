@@ -15446,6 +15446,11 @@
             ],
             "ARNFormat": "arn:aws:outposts:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:outposts:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon GameLift": {
@@ -15682,6 +15687,7 @@
                 "StartAwsBackupJob",
                 "StartAwsRestoreJob",
                 "TagResource",
+                "Unload",
                 "UntagResource",
                 "UpdateDatabase",
                 "UpdateScheduledQuery",

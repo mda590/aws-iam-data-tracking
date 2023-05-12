@@ -13553,6 +13553,7 @@ timestream:SelectValues
 timestream:StartAwsBackupJob
 timestream:StartAwsRestoreJob
 timestream:TagResource
+timestream:Unload
 timestream:UntagResource
 timestream:UpdateDatabase
 timestream:UpdateScheduledQuery
