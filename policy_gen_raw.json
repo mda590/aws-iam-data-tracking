@@ -17292,6 +17292,7 @@
             "Actions": [
                 "CreateBroker",
                 "CreateConfiguration",
+                "CreateReplicaBroker",
                 "CreateTags",
                 "CreateUser",
                 "DeleteBroker",
