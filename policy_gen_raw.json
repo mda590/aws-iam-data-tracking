@@ -17912,11 +17912,14 @@
         "Amazon Omics": {
             "StringPrefix": "omics",
             "Actions": [
+                "AbortMultipartReadSetUpload",
                 "BatchDeleteReadSet",
                 "CancelAnnotationImportJob",
                 "CancelRun",
                 "CancelVariantImportJob",
+                "CompleteMultipartReadSetUpload",
                 "CreateAnnotationStore",
+                "CreateMultipartReadSetUpload",
                 "CreateReferenceStore",
                 "CreateRunGroup",
                 "CreateSequenceStore",
@@ -17950,9 +17953,11 @@
                 "GetWorkflow",
                 "ListAnnotationImportJobs",
                 "ListAnnotationStores",
+                "ListMultipartReadSetUploads",
                 "ListReadSetActivationJobs",
                 "ListReadSetExportJobs",
                 "ListReadSetImportJobs",
+                "ListReadSetUploadParts",
                 "ListReadSets",
                 "ListReferenceImportJobs",
                 "ListReferenceStores",
@@ -17977,10 +17982,11 @@
                 "UpdateAnnotationStore",
                 "UpdateRunGroup",
                 "UpdateVariantStore",
-                "UpdateWorkflow"
+                "UpdateWorkflow",
+                "UploadReadSetPart"
             ],
             "ARNFormat": "arn:aws:omics:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:omics:${Region}:${Account}:${ResourceType}/.+?",
+            "ARNRegex": "^arn:aws:omics:${Region}:${Account}?:${ResourceType}/.+?",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
