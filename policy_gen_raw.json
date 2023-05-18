@@ -8552,7 +8552,6 @@
             "ARNFormat": "arn:aws:dynamodb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:dynamodb:.+:.+",
             "conditionKeys": [
-                "aws:TagKeys",
                 "dynamodb:Attributes",
                 "dynamodb:EnclosingOperation",
                 "dynamodb:FullTableScan",
