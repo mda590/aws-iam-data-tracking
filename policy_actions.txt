@@ -2977,6 +2977,7 @@ connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
 connect:CreateParticipant
+connect:CreatePrompt
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
@@ -2996,6 +2997,7 @@ connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
+connect:DeletePrompt
 connect:DeleteQuickConnect
 connect:DeleteRule
 connect:DeleteSecurityProfile
@@ -3017,6 +3019,7 @@ connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
 connect:DescribePhoneNumber
+connect:DescribePrompt
 connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
@@ -3045,6 +3048,7 @@ connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
 connect:GetMetricDataV2
+connect:GetPromptFile
 connect:GetTaskTemplate
 connect:GetTrafficDistribution
 connect:ListAgentStatuses
@@ -3126,6 +3130,7 @@ connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
 connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
+connect:UpdatePrompt
 connect:UpdateQueueHoursOfOperation
 connect:UpdateQueueMaxContacts
 connect:UpdateQueueName
