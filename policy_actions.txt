@@ -3308,6 +3308,7 @@ datapipeline:ReportTaskRunnerHeartbeat
 datapipeline:SetStatus
 datapipeline:SetTaskStatus
 datapipeline:ValidatePipelineDefinition
+datasync:AddStorageSystem
 datasync:CancelTaskExecution
 datasync:CreateAgent
 datasync:CreateLocationEfs
@@ -3325,6 +3326,7 @@ datasync:DeleteAgent
 datasync:DeleteLocation
 datasync:DeleteTask
 datasync:DescribeAgent
+datasync:DescribeDiscoveryJob
 datasync:DescribeLocationEfs
 datasync:DescribeLocationFsxLustre
 datasync:DescribeLocationFsxOntap
@@ -3335,14 +3337,23 @@ datasync:DescribeLocationNfs
 datasync:DescribeLocationObjectStorage
 datasync:DescribeLocationS3
 datasync:DescribeLocationSmb
+datasync:DescribeStorageSystem
+datasync:DescribeStorageSystemResourceMetrics
+datasync:DescribeStorageSystemResources
 datasync:DescribeTask
 datasync:DescribeTaskExecution
+datasync:GenerateRecommendations
 datasync:ListAgents
+datasync:ListDiscoveryJobs
 datasync:ListLocations
+datasync:ListStorageSystems
 datasync:ListTagsForResource
 datasync:ListTaskExecutions
 datasync:ListTasks
+datasync:RemoveStorageSystem
+datasync:StartDiscoveryJob
 datasync:StartTaskExecution
+datasync:StopDiscoveryJob
 datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
@@ -3350,6 +3361,7 @@ datasync:UpdateLocationHdfs
 datasync:UpdateLocationNfs
 datasync:UpdateLocationObjectStorage
 datasync:UpdateLocationSmb
+datasync:UpdateStorageSystem
 datasync:UpdateTask
 datasync:UpdateTaskExecution
 datazone:GetProject
@@ -6204,6 +6216,7 @@ glue:StopTrigger
 glue:StopWorkflowRun
 glue:TagResource
 glue:TerminateNotebook
+glue:TestConnection
 glue:UntagResource
 glue:UpdateBlueprint
 glue:UpdateClassifier
@@ -12508,6 +12521,7 @@ ses:PutConfigurationSetTrackingOptions
 ses:PutConfigurationSetVdmOptions
 ses:PutDedicatedIpInPool
 ses:PutDedicatedIpInPool
+ses:PutDedicatedIpPoolScalingAttributes
 ses:PutDedicatedIpWarmupAttributes
 ses:PutDedicatedIpWarmupAttributes
 ses:PutDeliverabilityDashboardOption
