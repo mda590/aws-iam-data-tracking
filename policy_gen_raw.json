@@ -16610,6 +16610,7 @@
                 "StartTextTranslationJob",
                 "StopTextTranslationJob",
                 "TagResource",
+                "TranslateDocument",
                 "TranslateText",
                 "UntagResource",
                 "UpdateParallelData"
