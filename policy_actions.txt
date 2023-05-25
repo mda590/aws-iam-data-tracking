@@ -654,6 +654,8 @@ appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
 appsync:AssociateApi
+appsync:AssociateMergedGraphqlApi
+appsync:AssociateSourceGraphqlApi
 appsync:CreateApiCache
 appsync:CreateApiKey
 appsync:CreateDataSource
@@ -669,8 +671,11 @@ appsync:DeleteDomainName
 appsync:DeleteFunction
 appsync:DeleteGraphqlApi
 appsync:DeleteResolver
+appsync:DeleteResourcePolicy
 appsync:DeleteType
 appsync:DisassociateApi
+appsync:DisassociateMergedGraphqlApi
+appsync:DisassociateSourceGraphqlApi
 appsync:EvaluateCode
 appsync:EvaluateMappingTemplate
 appsync:FlushApiCache
@@ -682,7 +687,9 @@ appsync:GetFunction
 appsync:GetGraphqlApi
 appsync:GetIntrospectionSchema
 appsync:GetResolver
+appsync:GetResourcePolicy
 appsync:GetSchemaCreationStatus
+appsync:GetSourceApiAssociation
 appsync:GetType
 appsync:GraphQL
 appsync:ListApiKeys
@@ -692,10 +699,15 @@ appsync:ListFunctions
 appsync:ListGraphqlApis
 appsync:ListResolvers
 appsync:ListResolversByFunction
+appsync:ListSourceApiAssociations
 appsync:ListTagsForResource
 appsync:ListTypes
+appsync:ListTypesByAssociation
+appsync:PutResourcePolicy
 appsync:SetWebACL
+appsync:SourceGraphQL
 appsync:StartSchemaCreation
+appsync:StartSchemaMerge
 appsync:TagResource
 appsync:UntagResource
 appsync:UpdateApiCache
@@ -705,6 +717,7 @@ appsync:UpdateDomainName
 appsync:UpdateFunction
 appsync:UpdateGraphqlApi
 appsync:UpdateResolver
+appsync:UpdateSourceApiAssociation
 appsync:UpdateType
 aps:CreateAlertManagerAlerts
 aps:CreateAlertManagerDefinition
