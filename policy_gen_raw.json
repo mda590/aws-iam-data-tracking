@@ -1888,6 +1888,7 @@
                 "CreateScan",
                 "CreateUploadUrl",
                 "DeleteScansByCategory",
+                "GetAccountConfiguration",
                 "GetFindings",
                 "GetScan",
                 "ListFindings",
@@ -4027,7 +4028,7 @@
                 "UpdateGroup",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:aws:identitystore::${AwsAccountId}:${ResourceType}/${ResourceId}",
+            "ARNFormat": "arn:aws:identitystore::${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:identitystore:.+",
             "HasResource": true
         },
@@ -4229,6 +4230,46 @@
             "ARNFormat": "arn:${Partition}:identitystore-auth:${Region}:${Account}:${RelativeId}",
             "ARNRegex": "^arn:${Partition}:identitystore-auth:${Region}:.+",
             "HasResource": false
+        },
+        "AWS Elemental MediaPackage V2": {
+            "StringPrefix": "mediapackagev2",
+            "Actions": [
+                "CreateChannel",
+                "CreateChannelGroup",
+                "CreateOriginEndpoint",
+                "DeleteChannel",
+                "DeleteChannelGroup",
+                "DeleteChannelPolicy",
+                "DeleteOriginEndpoint",
+                "DeleteOriginEndpointPolicy",
+                "GetChannel",
+                "GetChannelGroup",
+                "GetChannelPolicy",
+                "GetHeadObject",
+                "GetObject",
+                "GetOriginEndpoint",
+                "GetOriginEndpointPolicy",
+                "ListChannelGroups",
+                "ListChannels",
+                "ListOriginEndpoints",
+                "ListTagsForResource",
+                "PutChannelPolicy",
+                "PutObject",
+                "PutOriginEndpointPolicy",
+                "TagResource",
+                "UntagResource",
+                "UpdateChannel",
+                "UpdateChannelGroup",
+                "UpdateOriginEndpoint"
+            ],
+            "ARNFormat": "arn:aws:mediapackagev2:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
+            "ARNRegex": "^arn:aws:mediapackagev2:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS CodeDeploy": {
             "StringPrefix": "codedeploy",
@@ -12756,6 +12797,8 @@
                 "ListSubjects",
                 "ListTagsForResource",
                 "ListTrustAnchors",
+                "PutNotificationSettings",
+                "ResetNotificationSettings",
                 "TagResource",
                 "UntagResource",
                 "UpdateCrl",

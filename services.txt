@@ -74,6 +74,7 @@ AWS Elemental MediaConnect
 AWS Elemental MediaConvert
 AWS Elemental MediaLive
 AWS Elemental MediaPackage
+AWS Elemental MediaPackage V2
 AWS Elemental MediaPackage VOD
 AWS Elemental MediaStore
 AWS Elemental MediaTailor
