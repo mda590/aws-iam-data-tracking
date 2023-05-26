@@ -10470,6 +10470,8 @@ quicksight:DescribeAccountSettings
 quicksight:DescribeAccountSubscription
 quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
+quicksight:DescribeAssetBundleExportJob
+quicksight:DescribeAssetBundleImportJob
 quicksight:DescribeCustomPermissions
 quicksight:DescribeDashboard
 quicksight:DescribeDashboardPermissions
@@ -10509,6 +10511,8 @@ quicksight:GetDashboardEmbedUrl
 quicksight:GetGroupMapping
 quicksight:GetSessionEmbedUrl
 quicksight:ListAnalyses
+quicksight:ListAssetBundleExportJobs
+quicksight:ListAssetBundleImportJobs
 quicksight:ListCustomPermissions
 quicksight:ListDashboardVersions
 quicksight:ListDashboards
@@ -10549,6 +10553,8 @@ quicksight:SearchDirectoryGroups
 quicksight:SearchFolders
 quicksight:SearchGroups
 quicksight:SetGroupMapping
+quicksight:StartAssetBundleExportJob
+quicksight:StartAssetBundleImportJob
 quicksight:Subscribe
 quicksight:TagResource
 quicksight:Unsubscribe
