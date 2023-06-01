@@ -9999,12 +9999,22 @@
         "AWS Marketplace Management Portal": {
             "StringPrefix": "aws-marketplace-management",
             "Actions": [
+                "GetAdditionalSellerNotificationRecipients",
+                "GetBankAccountVerificationDetails",
+                "GetSecondaryUserVerificationDetails",
+                "GetSellerVerificationDetails",
+                "PutAdditionalSellerNotificationRecipients",
+                "PutBankAccountVerificationDetails",
+                "PutSecondaryUserVerificationDetails",
+                "PutSellerVerificationDetails",
                 "uploadFiles",
                 "viewMarketing",
                 "viewReports",
                 "viewSettings",
                 "viewSupport"
             ],
+            "ARNFormat": "arn:${Partition}:Marketplace:${Region}:${Account}:${Resource}",
+            "ARNRegex": "^arn:${Partition}:Marketplace:.+",
             "HasResource": false
         },
         "Amazon Comprehend Medical": {
