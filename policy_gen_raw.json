@@ -3598,6 +3598,7 @@
                 "CreatePreparedStatement",
                 "CreatePresignedNotebookUrl",
                 "CreateWorkGroup",
+                "DeleteCapacityReservation",
                 "DeleteDataCatalog",
                 "DeleteNamedQuery",
                 "DeleteNotebook",
