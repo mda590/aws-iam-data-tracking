@@ -245,7 +245,6 @@ Amazon DevOps Guru
 Amazon DocumentDB Elastic Clusters
 Amazon DynamoDB
 Amazon DynamoDB Accelerator (DAX)
-Amazon EC2
 Amazon EC2 Auto Scaling
 Amazon EC2 Image Builder
 Amazon EC2 Instance Connect
@@ -253,6 +252,7 @@ Amazon EMR Serverless
 Amazon EMR on EKS (EMR Containers)
 Amazon ElastiCache
 Amazon Elastic Block Store
+Amazon Elastic Compute Cloud (EC2)
 Amazon Elastic Container Registry
 Amazon Elastic Container Registry Public
 Amazon Elastic Container Service
