@@ -8589,7 +8589,9 @@ logs:PutQueryDefinition
 logs:PutResourcePolicy
 logs:PutRetentionPolicy
 logs:PutSubscriptionFilter
+logs:StartLiveTail
 logs:StartQuery
+logs:StopLiveTail
 logs:StopQuery
 logs:TagLogGroup
 logs:TagResource
