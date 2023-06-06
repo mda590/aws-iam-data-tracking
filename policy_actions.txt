@@ -14148,6 +14148,8 @@ wafv2:DeletePermissionPolicy
 wafv2:DeleteRegexPatternSet
 wafv2:DeleteRuleGroup
 wafv2:DeleteWebACL
+wafv2:DescribeAllManagedProducts
+wafv2:DescribeManagedProductsByVendor
 wafv2:DescribeManagedRuleGroup
 wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
