@@ -14263,7 +14263,7 @@
             "ARNRegex": "^arn:${Partition}:codeguru:.+:.+:.+",
             "HasResource": false
         },
-        "Amazon Elastic Compute Cloud (EC2)": {
+        "Amazon EC2": {
             "StringPrefix": "ec2",
             "Actions": [
                 "AcceptAddressTransfer",
