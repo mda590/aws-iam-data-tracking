@@ -346,13 +346,13 @@ Amazon S3 Object Lambda
 Amazon S3 on Outposts
 Amazon SES
 Amazon SNS
-Amazon SQS
 Amazon SageMaker
 Amazon SageMaker Ground Truth Synthetic
 Amazon SageMaker geospatial capabilities
 Amazon Security Lake
 Amazon Session Manager Message Gateway Service
 Amazon Simple Email Service v2
+Amazon Simple Queue Service (SQS)
 Amazon Simple Workflow Service
 Amazon SimpleDB
 Amazon Textract
