@@ -1902,13 +1902,23 @@
                 "DeleteScansByCategory",
                 "GetAccountConfiguration",
                 "GetFindings",
+                "GetMetricsSummary",
                 "GetScan",
                 "ListFindings",
+                "ListFindingsMetrics",
                 "ListScans",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
                 "UpdateAccountConfiguration"
             ],
             "ARNFormat": "arn:aws:codeguru-security:${Region}:${Account}:*",
             "ARNRegex": "^arn:aws:codeguru-security:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Proton": {
