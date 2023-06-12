@@ -2742,6 +2742,7 @@
                 "sagemaker:RootAccess",
                 "sagemaker:ServerlessMaxConcurrency",
                 "sagemaker:ServerlessMemorySize",
+                "sagemaker:TaggingAction",
                 "sagemaker:TargetModel",
                 "sagemaker:VolumeKmsKey",
                 "sagemaker:VpcSecurityGroupIds",
