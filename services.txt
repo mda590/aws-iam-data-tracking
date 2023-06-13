@@ -362,6 +362,7 @@ Amazon Transcribe
 Amazon Translate
 Amazon VPC Lattice
 Amazon VPC Lattice Services
+Amazon Verified Permissions
 Amazon WorkDocs
 Amazon WorkLink
 Amazon WorkMail
