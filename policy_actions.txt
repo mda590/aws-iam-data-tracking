@@ -12256,15 +12256,19 @@ secretsmanager:UpdateSecretVersionStage
 secretsmanager:ValidateResourcePolicy
 securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
+securityhub:BatchDeleteAutomationRules
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
+securityhub:BatchGetAutomationRules
 securityhub:BatchGetControlEvaluations
 securityhub:BatchGetSecurityControls
 securityhub:BatchGetStandardsControlAssociations
 securityhub:BatchImportFindings
+securityhub:BatchUpdateAutomationRules
 securityhub:BatchUpdateFindings
 securityhub:BatchUpdateStandardsControlAssociations
 securityhub:CreateActionTarget
+securityhub:CreateAutomationRule
 securityhub:CreateFindingAggregator
 securityhub:CreateInsight
 securityhub:CreateMembers
@@ -12306,6 +12310,7 @@ securityhub:GetMasterAccount
 securityhub:GetMembers
 securityhub:GetUsage
 securityhub:InviteMembers
+securityhub:ListAutomationRules
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
 securityhub:ListFindingAggregators
