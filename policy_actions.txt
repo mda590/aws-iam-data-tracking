@@ -3390,6 +3390,7 @@ datasync:StopDiscoveryJob
 datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
+datasync:UpdateDiscoveryJob
 datasync:UpdateLocationHdfs
 datasync:UpdateLocationNfs
 datasync:UpdateLocationObjectStorage

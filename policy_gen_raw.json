@@ -19688,6 +19688,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateAgent",
+                "UpdateDiscoveryJob",
                 "UpdateLocationHdfs",
                 "UpdateLocationNfs",
                 "UpdateLocationObjectStorage",
