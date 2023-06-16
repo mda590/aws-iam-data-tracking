@@ -149,6 +149,7 @@ AWS OpsWorks Configuration Management
 AWS Organizations
 AWS Outposts
 AWS Panorama
+AWS Payment Cryptography
 AWS Payments
 AWS Performance Insights
 AWS Price List
