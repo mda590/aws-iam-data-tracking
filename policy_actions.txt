@@ -10620,6 +10620,7 @@ quicksight:ListAnalyses
 quicksight:ListAssetBundleExportJobs
 quicksight:ListAssetBundleImportJobs
 quicksight:ListCustomPermissions
+quicksight:ListCustomerManagedKeys
 quicksight:ListDashboardVersions
 quicksight:ListDashboards
 quicksight:ListDataSets
@@ -10631,6 +10632,7 @@ quicksight:ListGroups
 quicksight:ListIAMPolicyAssignments
 quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIngestions
+quicksight:ListKMSKeysForUser
 quicksight:ListNamespaces
 quicksight:ListRefreshSchedules
 quicksight:ListTagsForResource
@@ -10648,7 +10650,9 @@ quicksight:ListVPCConnections
 quicksight:PassDataSet
 quicksight:PassDataSource
 quicksight:PutDataSetRefreshProperties
+quicksight:RegisterCustomerManagedKey
 quicksight:RegisterUser
+quicksight:RemoveCustomerManagedKey
 quicksight:RestoreAnalysis
 quicksight:ScopeDownPolicy
 quicksight:SearchAnalyses
@@ -11105,6 +11109,7 @@ refactor-spaces:PutResourcePolicy
 refactor-spaces:TagResource
 refactor-spaces:UntagResource
 refactor-spaces:UpdateRoute
+rekognition:AssociateFaces
 rekognition:CompareFaces
 rekognition:CopyProjectVersion
 rekognition:CreateCollection
@@ -11113,6 +11118,7 @@ rekognition:CreateFaceLivenessSession
 rekognition:CreateProject
 rekognition:CreateProjectVersion
 rekognition:CreateStreamProcessor
+rekognition:CreateUser
 rekognition:DeleteCollection
 rekognition:DeleteDataset
 rekognition:DeleteFaces
@@ -11120,6 +11126,7 @@ rekognition:DeleteProject
 rekognition:DeleteProjectPolicy
 rekognition:DeleteProjectVersion
 rekognition:DeleteStreamProcessor
+rekognition:DeleteUser
 rekognition:DescribeCollection
 rekognition:DescribeDataset
 rekognition:DescribeProjectVersions
@@ -11131,6 +11138,7 @@ rekognition:DetectLabels
 rekognition:DetectModerationLabels
 rekognition:DetectProtectiveEquipment
 rekognition:DetectText
+rekognition:DisassociateFaces
 rekognition:DistributeDatasetEntries
 rekognition:GetCelebrityInfo
 rekognition:GetCelebrityRecognition
@@ -11150,10 +11158,13 @@ rekognition:ListFaces
 rekognition:ListProjectPolicies
 rekognition:ListStreamProcessors
 rekognition:ListTagsForResource
+rekognition:ListUsers
 rekognition:PutProjectPolicy
 rekognition:RecognizeCelebrities
 rekognition:SearchFaces
 rekognition:SearchFacesByImage
+rekognition:SearchUsers
+rekognition:SearchUsersByImage
 rekognition:StartCelebrityRecognition
 rekognition:StartContentModeration
 rekognition:StartFaceDetection
