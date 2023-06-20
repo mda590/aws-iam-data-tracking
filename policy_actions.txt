@@ -9361,6 +9361,7 @@ mgn:ListExportErrors
 mgn:ListExports
 mgn:ListImportErrors
 mgn:ListImports
+mgn:ListManagedAccounts
 mgn:ListSourceServerActions
 mgn:ListTagsForResource
 mgn:ListTemplateActions
@@ -9371,11 +9372,13 @@ mgn:NotifyAgentConnectedForMgn
 mgn:NotifyAgentDisconnectedForMgn
 mgn:NotifyAgentReplicationProgressForMgn
 mgn:NotifyVcenterClientStartedForMgn
+mgn:PauseReplication
 mgn:PutSourceServerAction
 mgn:PutTemplateAction
 mgn:RegisterAgentForMgn
 mgn:RemoveSourceServerAction
 mgn:RemoveTemplateAction
+mgn:ResumeReplication
 mgn:RetryDataReplication
 mgn:SendAgentLogsForMgn
 mgn:SendAgentMetricsForMgn
@@ -9390,6 +9393,7 @@ mgn:StartExport
 mgn:StartImport
 mgn:StartReplication
 mgn:StartTest
+mgn:StopReplication
 mgn:TagResource
 mgn:TerminateTargetInstances
 mgn:UnarchiveApplication
