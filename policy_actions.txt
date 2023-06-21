@@ -4255,6 +4255,7 @@ ec2:CreateFleet
 ec2:CreateFlowLogs
 ec2:CreateFpgaImage
 ec2:CreateImage
+ec2:CreateInstanceConnectEndpoint
 ec2:CreateInstanceEventWindow
 ec2:CreateInstanceExportTask
 ec2:CreateInternetGateway
@@ -4333,6 +4334,7 @@ ec2:DeleteEgressOnlyInternetGateway
 ec2:DeleteFleets
 ec2:DeleteFlowLogs
 ec2:DeleteFpgaImage
+ec2:DeleteInstanceConnectEndpoint
 ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
 ec2:DeleteIpam
@@ -4449,6 +4451,7 @@ ec2:DescribeImages
 ec2:DescribeImportImageTasks
 ec2:DescribeImportSnapshotTasks
 ec2:DescribeInstanceAttribute
+ec2:DescribeInstanceConnectEndpoints
 ec2:DescribeInstanceCreditSpecifications
 ec2:DescribeInstanceEventNotificationAttributes
 ec2:DescribeInstanceEventWindows
