@@ -7957,6 +7957,7 @@ kendra:ListTagsForResource
 kendra:ListThesauri
 kendra:PutPrincipalMapping
 kendra:Query
+kendra:Retrieve
 kendra:StartDataSourceSyncJob
 kendra:StopDataSourceSyncJob
 kendra:SubmitFeedback
