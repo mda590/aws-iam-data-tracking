@@ -8293,6 +8293,8 @@ lex:CreateResourcePolicy
 lex:CreateSlot
 lex:CreateSlotType
 lex:CreateSlotTypeVersion
+lex:CreateTestSet
+lex:CreateTestSetDiscrepancyReport
 lex:CreateUploadUrl
 lex:DeleteBot
 lex:DeleteBot
@@ -8316,6 +8318,7 @@ lex:DeleteSlot
 lex:DeleteSlotType
 lex:DeleteSlotType
 lex:DeleteSlotTypeVersion
+lex:DeleteTestSet
 lex:DeleteUtterances
 lex:DeleteUtterances
 lex:DescribeBot
@@ -8332,6 +8335,10 @@ lex:DescribeIntent
 lex:DescribeResourcePolicy
 lex:DescribeSlot
 lex:DescribeSlotType
+lex:DescribeTestExecution
+lex:DescribeTestSet
+lex:DescribeTestSetDiscrepancyReport
+lex:DescribeTestSetGeneration
 lex:GetBot
 lex:GetBotAlias
 lex:GetBotAliases
@@ -8354,6 +8361,7 @@ lex:GetSession
 lex:GetSlotType
 lex:GetSlotTypeVersions
 lex:GetSlotTypes
+lex:GetTestExecutionArtifactsUrl
 lex:GetUtterancesView
 lex:ListAggregatedUtterances
 lex:ListBotAliases
@@ -8373,6 +8381,10 @@ lex:ListSlotTypes
 lex:ListSlots
 lex:ListTagsForResource
 lex:ListTagsForResource
+lex:ListTestExecutionResultItems
+lex:ListTestExecutions
+lex:ListTestSetRecords
+lex:ListTestSets
 lex:PostContent
 lex:PostText
 lex:PutBot
@@ -8389,6 +8401,8 @@ lex:StartConversation
 lex:StartImport
 lex:StartImport
 lex:StartMigration
+lex:StartTestExecution
+lex:StartTestSetGeneration
 lex:StopBotRecommendation
 lex:TagResource
 lex:TagResource
@@ -8404,6 +8418,7 @@ lex:UpdateIntent
 lex:UpdateResourcePolicy
 lex:UpdateSlot
 lex:UpdateSlotType
+lex:UpdateTestSet
 license-manager-linux-subscriptions:GetServiceSettings
 license-manager-linux-subscriptions:ListLinuxSubscriptionInstances
 license-manager-linux-subscriptions:ListLinuxSubscriptions
