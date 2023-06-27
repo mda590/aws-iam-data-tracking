@@ -416,6 +416,7 @@ appflow:ListConnectors
 appflow:ListFlows
 appflow:ListTagsForResource
 appflow:RegisterConnector
+appflow:ResetConnectorMetadataCache
 appflow:RunFlow
 appflow:StartFlow
 appflow:StopFlow
@@ -1834,6 +1835,7 @@ clouddirectory:UpdateSchema
 clouddirectory:UpdateTypedLinkFacet
 clouddirectory:UpgradeAppliedSchema
 clouddirectory:UpgradePublishedSchema
+cloudformation:ActivateOrganizationsAccess
 cloudformation:ActivateType
 cloudformation:BatchDescribeTypeConfigurations
 cloudformation:CancelResourceRequest
@@ -1845,6 +1847,7 @@ cloudformation:CreateStack
 cloudformation:CreateStackInstances
 cloudformation:CreateStackSet
 cloudformation:CreateUploadBucket
+cloudformation:DeactivateOrganizationsAccess
 cloudformation:DeactivateType
 cloudformation:DeleteChangeSet
 cloudformation:DeleteResource
@@ -1855,6 +1858,7 @@ cloudformation:DeregisterType
 cloudformation:DescribeAccountLimits
 cloudformation:DescribeChangeSet
 cloudformation:DescribeChangeSetHooks
+cloudformation:DescribeOrganizationsAccess
 cloudformation:DescribePublisher
 cloudformation:DescribeStackDriftDetectionStatus
 cloudformation:DescribeStackEvents
@@ -1883,6 +1887,7 @@ cloudformation:ListExports
 cloudformation:ListImports
 cloudformation:ListResourceRequests
 cloudformation:ListResources
+cloudformation:ListStackInstanceResourceDrifts
 cloudformation:ListStackInstances
 cloudformation:ListStackResources
 cloudformation:ListStackSetOperationResults
@@ -3128,6 +3133,7 @@ connect:SearchHoursOfOperations
 connect:SearchPrompts
 connect:SearchQueues
 connect:SearchQuickConnects
+connect:SearchResourceTags
 connect:SearchRoutingProfiles
 connect:SearchSecurityProfiles
 connect:SearchUsers
