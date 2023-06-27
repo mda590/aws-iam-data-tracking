@@ -8,6 +8,7 @@ AWS App Mesh Preview
 AWS App Runner
 AWS App2Container
 AWS AppConfig
+AWS AppFabric
 AWS AppSync
 AWS Application Auto Scaling
 AWS Application Cost Profiler Service
