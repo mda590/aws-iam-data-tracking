@@ -8090,6 +8090,7 @@ kinesisvideo:ConnectAsMaster
 kinesisvideo:ConnectAsViewer
 kinesisvideo:CreateSignalingChannel
 kinesisvideo:CreateStream
+kinesisvideo:DeleteEdgeConfiguration
 kinesisvideo:DeleteSignalingChannel
 kinesisvideo:DeleteStream
 kinesisvideo:DescribeEdgeConfiguration
@@ -8109,6 +8110,7 @@ kinesisvideo:GetMedia
 kinesisvideo:GetMediaForFragmentList
 kinesisvideo:GetSignalingChannelEndpoint
 kinesisvideo:JoinStorageSession
+kinesisvideo:ListEdgeAgentConfigurations
 kinesisvideo:ListFragments
 kinesisvideo:ListSignalingChannels
 kinesisvideo:ListStreams
