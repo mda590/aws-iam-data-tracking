@@ -7761,13 +7761,16 @@ iq:CreateSeller
 iq:CreateUpfrontProposal
 iq:DeclineCall
 iq:DeleteAttachment
+iq:DisableIndividualPublicProfile
 iq:DownloadAttachment
+iq:EnableIndividualPublicProfile
 iq:EndCall
 iq:GetBuyer
 iq:GetCall
 iq:GetChatInfo
 iq:GetChatMessages
 iq:GetChatToken
+iq:GetCompanyChatMessages
 iq:GetCompanyProfile
 iq:GetConversation
 iq:GetExpert
@@ -7779,8 +7782,10 @@ iq:GetRequest
 iq:GetReview
 iq:HideRequest
 iq:InitiateCall
+iq:LinkAwsCertification
 iq:ListAttachments
 iq:ListConversations
+iq:ListExpertAccessLogs
 iq:ListListings
 iq:ListPaymentRequests
 iq:ListProposals
@@ -7792,6 +7797,7 @@ iq:RejectProposal
 iq:SendCompanyChatMessage
 iq:SendIndividualChatMessage
 iq:UnarchiveConversation
+iq:UnlinkAwsCertification
 iq:UpdateCompanyProfile
 iq:UpdateConversationMembers
 iq:UpdateExpert
