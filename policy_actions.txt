@@ -615,6 +615,7 @@ apprunner:TagResource
 apprunner:UntagResource
 apprunner:UpdateService
 apprunner:UpdateVpcIngressConnection
+appstream:AssociateAppBlockBuilderAppBlock
 appstream:AssociateApplicationFleet
 appstream:AssociateApplicationToEntitlement
 appstream:AssociateFleet
@@ -622,6 +623,8 @@ appstream:BatchAssociateUserStack
 appstream:BatchDisassociateUserStack
 appstream:CopyImage
 appstream:CreateAppBlock
+appstream:CreateAppBlockBuilder
+appstream:CreateAppBlockBuilderStreamingURL
 appstream:CreateApplication
 appstream:CreateDirectoryConfig
 appstream:CreateEntitlement
@@ -634,6 +637,7 @@ appstream:CreateUpdatedImage
 appstream:CreateUsageReportSubscription
 appstream:CreateUser
 appstream:DeleteAppBlock
+appstream:DeleteAppBlockBuilder
 appstream:DeleteApplication
 appstream:DeleteDirectoryConfig
 appstream:DeleteEntitlement
@@ -644,6 +648,8 @@ appstream:DeleteImagePermissions
 appstream:DeleteStack
 appstream:DeleteUsageReportSubscription
 appstream:DeleteUser
+appstream:DescribeAppBlockBuilderAppBlockAssociations
+appstream:DescribeAppBlockBuilders
 appstream:DescribeAppBlocks
 appstream:DescribeApplicationFleetAssociations
 appstream:DescribeApplications
@@ -659,6 +665,7 @@ appstream:DescribeUsageReportSubscriptions
 appstream:DescribeUserStackAssociations
 appstream:DescribeUsers
 appstream:DisableUser
+appstream:DisassociateAppBlockBuilderAppBlock
 appstream:DisassociateApplicationFleet
 appstream:DisassociateApplicationFromEntitlement
 appstream:DisassociateFleet
@@ -668,13 +675,16 @@ appstream:ListAssociatedFleets
 appstream:ListAssociatedStacks
 appstream:ListEntitledApplications
 appstream:ListTagsForResource
+appstream:StartAppBlockBuilder
 appstream:StartFleet
 appstream:StartImageBuilder
+appstream:StopAppBlockBuilder
 appstream:StopFleet
 appstream:StopImageBuilder
 appstream:Stream
 appstream:TagResource
 appstream:UntagResource
+appstream:UpdateAppBlockBuilder
 appstream:UpdateApplication
 appstream:UpdateDirectoryConfig
 appstream:UpdateEntitlement
@@ -5262,6 +5272,7 @@ elasticmapreduce:ListSecurityConfigurations
 elasticmapreduce:ListSteps
 elasticmapreduce:ListStudioSessionMappings
 elasticmapreduce:ListStudios
+elasticmapreduce:ListSupportedInstanceTypes
 elasticmapreduce:ListWorkspaceAccessIdentities
 elasticmapreduce:ModifyCluster
 elasticmapreduce:ModifyInstanceFleet
