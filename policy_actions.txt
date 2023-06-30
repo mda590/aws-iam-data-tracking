@@ -11102,6 +11102,7 @@ redshift:CreateClusterSecurityGroup
 redshift:CreateClusterSnapshot
 redshift:CreateClusterSubnetGroup
 redshift:CreateClusterUser
+redshift:CreateCustomDomainAssociation
 redshift:CreateEndpointAccess
 redshift:CreateEventSubscription
 redshift:CreateHsmClientCertificate
@@ -11119,6 +11120,7 @@ redshift:DeleteClusterParameterGroup
 redshift:DeleteClusterSecurityGroup
 redshift:DeleteClusterSnapshot
 redshift:DeleteClusterSubnetGroup
+redshift:DeleteCustomDomainAssociation
 redshift:DeleteEndpointAccess
 redshift:DeleteEventSubscription
 redshift:DeleteHsmClientCertificate
@@ -11141,6 +11143,7 @@ redshift:DescribeClusterSubnetGroups
 redshift:DescribeClusterTracks
 redshift:DescribeClusterVersions
 redshift:DescribeClusters
+redshift:DescribeCustomDomainAssociations
 redshift:DescribeDataShares
 redshift:DescribeDataSharesForConsumer
 redshift:DescribeDataSharesForProducer
@@ -11196,6 +11199,7 @@ redshift:ModifyClusterParameterGroup
 redshift:ModifyClusterSnapshot
 redshift:ModifyClusterSnapshotSchedule
 redshift:ModifyClusterSubnetGroup
+redshift:ModifyCustomDomainAssociation
 redshift:ModifyEndpointAccess
 redshift:ModifyEventSubscription
 redshift:ModifySavedQuery
