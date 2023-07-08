@@ -15845,7 +15845,7 @@
                 "UpdateSiteRackPhysicalProperties"
             ],
             "ARNFormat": "arn:aws:outposts:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:outposts:.+:.+:.+",
+            "ARNRegex": "^arn:aws:outposts:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
