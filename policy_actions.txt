@@ -3070,7 +3070,9 @@ connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeletePrompt
+connect:DeleteQueue
 connect:DeleteQuickConnect
+connect:DeleteRoutingProfile
 connect:DeleteRule
 connect:DeleteSecurityProfile
 connect:DeleteTaskTemplate
@@ -5858,6 +5860,7 @@ freetier:GetFreeTierUsage
 freetier:PutFreeTierAlertPreference
 fsx:AssociateFileGateway
 fsx:AssociateFileSystemAliases
+fsx:BypassSnaplockEnterpriseRetention
 fsx:CancelDataRepositoryTask
 fsx:CopyBackup
 fsx:CreateBackup

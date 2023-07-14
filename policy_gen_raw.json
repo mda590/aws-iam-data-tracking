@@ -5039,7 +5039,9 @@
                 "DeleteInstance",
                 "DeleteIntegrationAssociation",
                 "DeletePrompt",
+                "DeleteQueue",
                 "DeleteQuickConnect",
+                "DeleteRoutingProfile",
                 "DeleteRule",
                 "DeleteSecurityProfile",
                 "DeleteTaskTemplate",
@@ -13946,6 +13948,7 @@
             "Actions": [
                 "AssociateFileGateway",
                 "AssociateFileSystemAliases",
+                "BypassSnaplockEnterpriseRetention",
                 "CancelDataRepositoryTask",
                 "CopyBackup",
                 "CreateBackup",
