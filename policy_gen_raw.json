@@ -2576,6 +2576,7 @@
                 "GetModelPackageGroupPolicy",
                 "GetRecord",
                 "GetSagemakerServicecatalogPortfolioStatus",
+                "GetScalingPolicyConfigurationRecommendation",
                 "GetSearchSuggestions",
                 "ImportHubContent",
                 "InvokeEndpoint",
@@ -14542,6 +14543,36 @@
             "ARNFormat": "arn:${Partition}:codeguru:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:codeguru:.+:.+:.+",
             "HasResource": false
+        },
+        "Amazon Bedrock": {
+            "StringPrefix": "bedrock",
+            "Actions": [
+                "CreateModelCustomizationJob",
+                "DeleteCustomModel",
+                "DeletePrompt",
+                "GetCustomModel",
+                "GetModelCustomizationJob",
+                "GetPrompt",
+                "InvokeModel",
+                "InvokeModelWithResponseStream",
+                "ListCustomModels",
+                "ListFoundationModels",
+                "ListModelCustomizationJobs",
+                "ListPrompts",
+                "ListTagsForResource",
+                "StopModelCustomizationJob",
+                "TagResource",
+                "UntagResource",
+                "UpdatePrompt"
+            ],
+            "ARNFormat": "arn:aws:bedrock:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:bedrock:.*:.*:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon EC2": {
             "StringPrefix": "ec2",

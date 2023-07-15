@@ -212,6 +212,7 @@ Amazon AppFlow
 Amazon AppIntegrations
 Amazon AppStream 2.0
 Amazon Athena
+Amazon Bedrock
 Amazon Braket
 Amazon Chime
 Amazon Cloud Directory
