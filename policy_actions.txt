@@ -9748,6 +9748,7 @@ mq:ListConfigurationRevisions
 mq:ListConfigurations
 mq:ListTags
 mq:ListUsers
+mq:Promote
 mq:RebootBroker
 mq:UpdateBroker
 mq:UpdateConfiguration
