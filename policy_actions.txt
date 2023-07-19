@@ -6421,6 +6421,7 @@ grafana:DescribeWorkspaceConfiguration
 grafana:DisassociateLicense
 grafana:ListPermissions
 grafana:ListTagsForResource
+grafana:ListVersions
 grafana:ListWorkspaces
 grafana:TagResource
 grafana:UntagResource
