@@ -4163,6 +4163,7 @@ ds:ShareDirectory
 ds:StartSchemaExtension
 ds:UnauthorizeApplication
 ds:UnshareDirectory
+ds:UpdateAuthorizedApplication
 ds:UpdateConditionalForwarder
 ds:UpdateDirectorySetup
 ds:UpdateNumberOfDomainControllers
@@ -12528,7 +12529,10 @@ securitylake:ListDataLakeExceptions
 securitylake:ListDataLakes
 securitylake:ListLogSources
 securitylake:ListSubscribers
+securitylake:ListTagsForResource
 securitylake:RegisterDataLakeDelegatedAdministrator
+securitylake:TagResource
+securitylake:UntagResource
 securitylake:UpdateDataLake
 securitylake:UpdateDataLakeExceptionSubscription
 securitylake:UpdateSubscriber

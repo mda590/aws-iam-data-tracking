@@ -7105,6 +7105,7 @@
                 "StartSchemaExtension",
                 "UnauthorizeApplication",
                 "UnshareDirectory",
+                "UpdateAuthorizedApplication",
                 "UpdateConditionalForwarder",
                 "UpdateDirectorySetup",
                 "UpdateNumberOfDomainControllers",
@@ -11477,7 +11478,10 @@
                 "ListDataLakes",
                 "ListLogSources",
                 "ListSubscribers",
+                "ListTagsForResource",
                 "RegisterDataLakeDelegatedAdministrator",
+                "TagResource",
+                "UntagResource",
                 "UpdateDataLake",
                 "UpdateDataLakeExceptionSubscription",
                 "UpdateSubscriber",
@@ -11485,6 +11489,11 @@
             ],
             "ARNFormat": "arn:aws:securitylake:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:securitylake:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS IoT FleetWise": {
