@@ -18502,6 +18502,37 @@
             ],
             "HasResource": false
         },
+        "AWS HealthImaging": {
+            "StringPrefix": "medical-imaging",
+            "Actions": [
+                "CopyImageSet",
+                "CreateDatastore",
+                "DeleteDatastore",
+                "DeleteImageSet",
+                "GetDICOMImportJob",
+                "GetDatastore",
+                "GetImageFrame",
+                "GetImageSet",
+                "GetImageSetMetadata",
+                "ListDICOMImportJobs",
+                "ListDatastores",
+                "ListImageSetVersions",
+                "ListTagsForResource",
+                "SearchImageSets",
+                "StartDICOMImportJob",
+                "TagResource",
+                "UntagResource",
+                "UpdateImageSetMetadata"
+            ],
+            "ARNFormat": "arn:aws:medical-imaging:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:medical-imaging:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Kendra Intelligent Ranking": {
             "StringPrefix": "kendra-ranking",
             "Actions": [

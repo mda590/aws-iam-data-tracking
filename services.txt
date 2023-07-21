@@ -90,6 +90,7 @@ AWS Glue
 AWS Glue DataBrew
 AWS Ground Station
 AWS Health APIs and Notifications
+AWS HealthImaging
 AWS IAM Access Analyzer
 AWS IAM Identity Center (successor to AWS Single Sign-On)
 AWS IAM Identity Center (successor to AWS Single Sign-On) directory
