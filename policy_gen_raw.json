@@ -4118,6 +4118,9 @@
             ],
             "ARNFormat": "arn:aws:identitystore::${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:identitystore:.+",
+            "conditionKeys": [
+                "identitystore:UserId"
+            ],
             "HasResource": true
         },
         "AWS Elemental Support Cases": {
@@ -18087,6 +18090,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateCampaign",
+                "UpdateDataset",
                 "UpdateMetricAttribution",
                 "UpdateRecommender"
             ],

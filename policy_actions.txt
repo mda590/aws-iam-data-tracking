@@ -10429,6 +10429,7 @@ personalize:StopSolutionVersionCreation
 personalize:TagResource
 personalize:UntagResource
 personalize:UpdateCampaign
+personalize:UpdateDataset
 personalize:UpdateMetricAttribution
 personalize:UpdateRecommender
 pi:DescribeDimensionKeys
