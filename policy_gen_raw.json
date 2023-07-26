@@ -5509,6 +5509,7 @@
                 "GetReservationPurchaseRecommendation",
                 "GetReservationUtilization",
                 "GetRightsizingRecommendation",
+                "GetSavingsPlanPurchaseRecommendationDetails",
                 "GetSavingsPlansCoverage",
                 "GetSavingsPlansPurchaseRecommendation",
                 "GetSavingsPlansUtilization",
@@ -6495,6 +6496,35 @@
                 "swf:version",
                 "swf:workflowType.name",
                 "swf:workflowType.version"
+            ],
+            "HasResource": true
+        },
+        "AWS Entity Resolution": {
+            "StringPrefix": "entityresolution",
+            "Actions": [
+                "CreateMatchingWorkflow",
+                "CreateSchemaMapping",
+                "DeleteMatchingWorkflow",
+                "DeleteSchemaMapping",
+                "GetMatchId",
+                "GetMatchingJob",
+                "GetMatchingWorkflow",
+                "GetSchemaMapping",
+                "ListMatchingJobs",
+                "ListMatchingWorkflows",
+                "ListSchemaMappings",
+                "ListTagsForResource",
+                "StartMatchingJob",
+                "TagResource",
+                "UntagResource",
+                "UpdateMatchingWorkflow"
+            ],
+            "ARNFormat": "arn:aws:entityresolution:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:entityresolution:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
@@ -11067,6 +11097,7 @@
             "Actions": [
                 "BatchGetChannel",
                 "BatchGetStreamKey",
+                "BatchStartViewerSessionRevocation",
                 "CreateChannel",
                 "CreateParticipantToken",
                 "CreateRecordingConfiguration",
@@ -11100,6 +11131,7 @@
                 "ListStreams",
                 "ListTagsForResource",
                 "PutMetadata",
+                "StartViewerSessionRevocation",
                 "StopStream",
                 "TagResource",
                 "UntagResource",
@@ -12978,6 +13010,20 @@
                 "ecr-public:ResourceTag/${TagKey}"
             ],
             "HasResource": true
+        },
+        "Amazon Managed Blockchain Query": {
+            "StringPrefix": "managedblockchain-query",
+            "Actions": [
+                "BatchGetTokenBalance",
+                "GetTokenBalance",
+                "GetTransaction",
+                "ListTokenBalances",
+                "ListTransactionEvents",
+                "ListTransactions"
+            ],
+            "ARNFormat": "arn:${Partition}:managedblockchain-query:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:${Partition}:managedblockchain-query:.*:[0-9]*:.+",
+            "HasResource": false
         },
         "AWS Snow Device Management": {
             "StringPrefix": "snow-device-management",

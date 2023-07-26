@@ -82,6 +82,7 @@ AWS Elemental MediaStore
 AWS Elemental MediaTailor
 AWS Elemental Support Cases
 AWS Elemental Support Content
+AWS Entity Resolution
 AWS Fault Injection Simulator
 AWS Firewall Manager
 AWS Free Tier
@@ -306,6 +307,7 @@ Amazon MQ
 Amazon Machine Learning
 Amazon Macie
 Amazon Managed Blockchain
+Amazon Managed Blockchain Query
 Amazon Managed Grafana
 Amazon Managed Service for Prometheus
 Amazon Managed Streaming for Apache Kafka
