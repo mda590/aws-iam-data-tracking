@@ -705,6 +705,8 @@
                 "ssm:SessionDocumentAccessCheck",
                 "ssm:SyncType",
                 "ssm:resourceTag/${TagKey}",
+                "ssm:resourceTag/aws:ssmmessages:session-id",
+                "ssm:resourceTag/aws:ssmmessages:target-id",
                 "ssm:resourceTag/tag-key"
             ],
             "HasResource": true
@@ -3074,6 +3076,7 @@
                 "GetMatches",
                 "GetProfileObjectType",
                 "GetProfileObjectTypeTemplate",
+                "GetSimilarProfiles",
                 "GetWorkflow",
                 "GetWorkflowSteps",
                 "ListAccountIntegrations",
@@ -3086,6 +3089,7 @@
                 "ListProfileObjectTypeTemplates",
                 "ListProfileObjectTypes",
                 "ListProfileObjects",
+                "ListRuleBasedMatches",
                 "ListTagsForResource",
                 "ListWorkflows",
                 "MergeProfiles",
@@ -4628,12 +4632,14 @@
                 "CreateFirewallDomainList",
                 "CreateFirewallRule",
                 "CreateFirewallRuleGroup",
+                "CreateOutpostResolver",
                 "CreateResolverEndpoint",
                 "CreateResolverQueryLogConfig",
                 "CreateResolverRule",
                 "DeleteFirewallDomainList",
                 "DeleteFirewallRule",
                 "DeleteFirewallRuleGroup",
+                "DeleteOutpostResolver",
                 "DeleteResolverEndpoint",
                 "DeleteResolverQueryLogConfig",
                 "DeleteResolverRule",
@@ -4646,6 +4652,7 @@
                 "GetFirewallRuleGroup",
                 "GetFirewallRuleGroupAssociation",
                 "GetFirewallRuleGroupPolicy",
+                "GetOutpostResolver",
                 "GetResolverConfig",
                 "GetResolverDnssecConfig",
                 "GetResolverEndpoint",
@@ -4662,6 +4669,7 @@
                 "ListFirewallRuleGroupAssociations",
                 "ListFirewallRuleGroups",
                 "ListFirewallRules",
+                "ListOutpostResolvers",
                 "ListResolverConfigs",
                 "ListResolverDnssecConfigs",
                 "ListResolverEndpointIpAddresses",
@@ -4680,6 +4688,7 @@
                 "UpdateFirewallDomains",
                 "UpdateFirewallRule",
                 "UpdateFirewallRuleGroupAssociation",
+                "UpdateOutpostResolver",
                 "UpdateResolverConfig",
                 "UpdateResolverDnssecConfig",
                 "UpdateResolverEndpoint",
@@ -10615,6 +10624,8 @@
                 "DescribeCustomPermissions",
                 "DescribeDashboard",
                 "DescribeDashboardPermissions",
+                "DescribeDashboardSnapshotJob",
+                "DescribeDashboardSnapshotJobResult",
                 "DescribeDataSet",
                 "DescribeDataSetPermissions",
                 "DescribeDataSetRefreshProperties",
@@ -10696,9 +10707,11 @@
                 "SearchDirectoryGroups",
                 "SearchFolders",
                 "SearchGroups",
+                "SearchUsers",
                 "SetGroupMapping",
                 "StartAssetBundleExportJob",
                 "StartAssetBundleImportJob",
+                "StartDashboardSnapshotJob",
                 "Subscribe",
                 "TagResource",
                 "Unsubscribe",
@@ -18383,7 +18396,7 @@
             ],
             "HasResource": true
         },
-        "Amazon Omics": {
+        "AWS HealthOmics": {
             "StringPrefix": "omics",
             "Actions": [
                 "AbortMultipartReadSetUpload",
@@ -18814,7 +18827,7 @@
             ],
             "HasResource": true
         },
-        "Amazon HealthLake": {
+        "AWS HealthLake": {
             "StringPrefix": "healthlake",
             "Actions": [
                 "CreateFHIRDatastore",
@@ -18838,7 +18851,7 @@
                 "UntagResource",
                 "UpdateResource"
             ],
-            "ARNFormat": "arn:aws:healthlake:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:healthlake:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:healthlake:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",

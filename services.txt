@@ -91,6 +91,8 @@ AWS Glue DataBrew
 AWS Ground Station
 AWS Health APIs and Notifications
 AWS HealthImaging
+AWS HealthLake
+AWS HealthOmics
 AWS IAM Access Analyzer
 AWS IAM Identity Center (successor to AWS Single Sign-On)
 AWS IAM Identity Center (successor to AWS Single Sign-On) directory
@@ -280,7 +282,6 @@ Amazon GameLift
 Amazon GameSparks
 Amazon GroundTruth Labeling
 Amazon GuardDuty
-Amazon HealthLake
 Amazon Honeycode
 Amazon Inspector
 Amazon Inspector2
@@ -317,7 +318,6 @@ Amazon Mobile Analytics
 Amazon Monitron
 Amazon Neptune
 Amazon Nimble Studio
-Amazon Omics
 Amazon OpenSearch Ingestion
 Amazon OpenSearch Serverless
 Amazon OpenSearch Service

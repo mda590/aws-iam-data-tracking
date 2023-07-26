@@ -10513,6 +10513,7 @@ profile:GetIntegration
 profile:GetMatches
 profile:GetProfileObjectType
 profile:GetProfileObjectTypeTemplate
+profile:GetSimilarProfiles
 profile:GetWorkflow
 profile:GetWorkflowSteps
 profile:ListAccountIntegrations
@@ -10525,6 +10526,7 @@ profile:ListIntegrations
 profile:ListProfileObjectTypeTemplates
 profile:ListProfileObjectTypes
 profile:ListProfileObjects
+profile:ListRuleBasedMatches
 profile:ListTagsForResource
 profile:ListWorkflows
 profile:MergeProfiles
@@ -10757,6 +10759,8 @@ quicksight:DescribeAssetBundleImportJob
 quicksight:DescribeCustomPermissions
 quicksight:DescribeDashboard
 quicksight:DescribeDashboardPermissions
+quicksight:DescribeDashboardSnapshotJob
+quicksight:DescribeDashboardSnapshotJobResult
 quicksight:DescribeDataSet
 quicksight:DescribeDataSetPermissions
 quicksight:DescribeDataSetRefreshProperties
@@ -10838,9 +10842,11 @@ quicksight:SearchDataSources
 quicksight:SearchDirectoryGroups
 quicksight:SearchFolders
 quicksight:SearchGroups
+quicksight:SearchUsers
 quicksight:SetGroupMapping
 quicksight:StartAssetBundleExportJob
 quicksight:StartAssetBundleImportJob
+quicksight:StartDashboardSnapshotJob
 quicksight:Subscribe
 quicksight:TagResource
 quicksight:Unsubscribe
@@ -11714,12 +11720,14 @@ route53resolver:AssociateResolverRule
 route53resolver:CreateFirewallDomainList
 route53resolver:CreateFirewallRule
 route53resolver:CreateFirewallRuleGroup
+route53resolver:CreateOutpostResolver
 route53resolver:CreateResolverEndpoint
 route53resolver:CreateResolverQueryLogConfig
 route53resolver:CreateResolverRule
 route53resolver:DeleteFirewallDomainList
 route53resolver:DeleteFirewallRule
 route53resolver:DeleteFirewallRuleGroup
+route53resolver:DeleteOutpostResolver
 route53resolver:DeleteResolverEndpoint
 route53resolver:DeleteResolverQueryLogConfig
 route53resolver:DeleteResolverRule
@@ -11732,6 +11740,7 @@ route53resolver:GetFirewallDomainList
 route53resolver:GetFirewallRuleGroup
 route53resolver:GetFirewallRuleGroupAssociation
 route53resolver:GetFirewallRuleGroupPolicy
+route53resolver:GetOutpostResolver
 route53resolver:GetResolverConfig
 route53resolver:GetResolverDnssecConfig
 route53resolver:GetResolverEndpoint
@@ -11748,6 +11757,7 @@ route53resolver:ListFirewallDomains
 route53resolver:ListFirewallRuleGroupAssociations
 route53resolver:ListFirewallRuleGroups
 route53resolver:ListFirewallRules
+route53resolver:ListOutpostResolvers
 route53resolver:ListResolverConfigs
 route53resolver:ListResolverDnssecConfigs
 route53resolver:ListResolverEndpointIpAddresses
@@ -11766,6 +11776,7 @@ route53resolver:UpdateFirewallConfig
 route53resolver:UpdateFirewallDomains
 route53resolver:UpdateFirewallRule
 route53resolver:UpdateFirewallRuleGroupAssociation
+route53resolver:UpdateOutpostResolver
 route53resolver:UpdateResolverConfig
 route53resolver:UpdateResolverDnssecConfig
 route53resolver:UpdateResolverEndpoint
