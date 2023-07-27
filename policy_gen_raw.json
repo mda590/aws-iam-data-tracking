@@ -10347,6 +10347,8 @@
                 "GetNode",
                 "GetProposal",
                 "Invoke",
+                "InvokeRpcBitcoinMainnet",
+                "InvokeRpcBitcoinTestnet",
                 "ListAccessors",
                 "ListInvitations",
                 "ListMembers",
