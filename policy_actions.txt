@@ -8472,8 +8472,13 @@ lex:ListBuiltInSlotTypes
 lex:ListCustomVocabularyItems
 lex:ListExports
 lex:ListImports
+lex:ListIntentMetrics
+lex:ListIntentPaths
+lex:ListIntentStageMetrics
 lex:ListIntents
 lex:ListRecommendedIntents
+lex:ListSessionAnalyticsData
+lex:ListSessionMetrics
 lex:ListSlotTypes
 lex:ListSlots
 lex:ListTagsForResource
