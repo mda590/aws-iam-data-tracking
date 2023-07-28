@@ -14203,6 +14203,7 @@ trustedadvisor:ListRoots
 trustedadvisor:RefreshCheck
 trustedadvisor:SetAccountAccess
 trustedadvisor:SetOrganizationAccess
+trustedadvisor:UpdateEngagement
 trustedadvisor:UpdateEngagementStatus
 trustedadvisor:UpdateNotificationConfigurations
 trustedadvisor:UpdateNotificationPreferences
