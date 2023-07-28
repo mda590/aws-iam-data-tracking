@@ -7947,6 +7947,7 @@ kafka:DeleteConfiguration
 kafka:DeleteVpcConnection
 kafka:DescribeCluster
 kafka:DescribeClusterOperation
+kafka:DescribeClusterOperationV2
 kafka:DescribeClusterV2
 kafka:DescribeConfiguration
 kafka:DescribeConfigurationRevision
@@ -7956,6 +7957,7 @@ kafka:GetClusterPolicy
 kafka:GetCompatibleKafkaVersions
 kafka:ListClientVpcConnections
 kafka:ListClusterOperations
+kafka:ListClusterOperationsV2
 kafka:ListClusters
 kafka:ListClustersV2
 kafka:ListConfigurationRevisions
