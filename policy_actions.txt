@@ -10596,6 +10596,7 @@ proton:CreateServiceTemplateVersion
 proton:CreateTemplateSyncConfig
 proton:DeleteAccountRoles
 proton:DeleteComponent
+proton:DeleteDeployment
 proton:DeleteEnvironment
 proton:DeleteEnvironmentAccountConnection
 proton:DeleteEnvironmentTemplate
@@ -10613,6 +10614,7 @@ proton:DeleteTemplateSyncConfig
 proton:GetAccountRoles
 proton:GetAccountSettings
 proton:GetComponent
+proton:GetDeployment
 proton:GetEnvironment
 proton:GetEnvironmentAccountConnection
 proton:GetEnvironmentTemplate
@@ -10637,6 +10639,7 @@ proton:GetTemplateSyncStatus
 proton:ListComponentOutputs
 proton:ListComponentProvisionedResources
 proton:ListComponents
+proton:ListDeployments
 proton:ListEnvironmentAccountConnections
 proton:ListEnvironmentOutputs
 proton:ListEnvironmentProvisionedResources
