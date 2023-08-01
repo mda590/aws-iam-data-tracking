@@ -9225,6 +9225,7 @@ medialive:DeleteMultiplexProgram
 medialive:DeleteReservation
 medialive:DeleteSchedule
 medialive:DeleteTags
+medialive:DescribeAccountConfiguration
 medialive:DescribeChannel
 medialive:DescribeInput
 medialive:DescribeInputDevice
@@ -9235,6 +9236,7 @@ medialive:DescribeMultiplexProgram
 medialive:DescribeOffering
 medialive:DescribeReservation
 medialive:DescribeSchedule
+medialive:DescribeThumbnails
 medialive:ListChannels
 medialive:ListInputDeviceTransfers
 medialive:ListInputDevices
@@ -9254,6 +9256,7 @@ medialive:StartMultiplex
 medialive:StopChannel
 medialive:StopMultiplex
 medialive:TransferInputDevice
+medialive:UpdateAccountConfiguration
 medialive:UpdateChannel
 medialive:UpdateChannelClass
 medialive:UpdateInput
