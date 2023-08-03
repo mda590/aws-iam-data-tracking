@@ -3609,10 +3609,11 @@
             ],
             "HasResource": true
         },
-        "AWS Resilience Hub Service": {
+        "AWS Resilience Hub": {
             "StringPrefix": "resiliencehub",
             "Actions": [
                 "AddDraftAppVersionResourceMappings",
+                "BatchUpdateRecommendationStatus",
                 "CreateApp",
                 "CreateAppVersionAppComponent",
                 "CreateAppVersionResource",
@@ -3636,6 +3637,7 @@
                 "DescribeResiliencyPolicy",
                 "ImportResourcesToDraftAppVersion",
                 "ListAlarmRecommendations",
+                "ListAppAssessmentComplianceDrifts",
                 "ListAppAssessments",
                 "ListAppComponentCompliances",
                 "ListAppComponentRecommendations",

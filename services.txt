@@ -162,7 +162,7 @@ AWS Private Certificate Authority
 AWS Proton
 AWS Purchase Orders Console
 AWS Recycle Bin
-AWS Resilience Hub Service
+AWS Resilience Hub
 AWS Resource Access Manager (RAM)
 AWS Resource Explorer
 AWS Resource Groups
