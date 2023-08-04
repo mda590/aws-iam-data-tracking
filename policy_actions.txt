@@ -3415,6 +3415,7 @@ datapipeline:ValidatePipelineDefinition
 datasync:AddStorageSystem
 datasync:CancelTaskExecution
 datasync:CreateAgent
+datasync:CreateLocationAzureBlob
 datasync:CreateLocationEfs
 datasync:CreateLocationFsxLustre
 datasync:CreateLocationFsxOntap
@@ -3431,6 +3432,7 @@ datasync:DeleteLocation
 datasync:DeleteTask
 datasync:DescribeAgent
 datasync:DescribeDiscoveryJob
+datasync:DescribeLocationAzureBlob
 datasync:DescribeLocationEfs
 datasync:DescribeLocationFsxLustre
 datasync:DescribeLocationFsxOntap
@@ -3462,6 +3464,7 @@ datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
 datasync:UpdateDiscoveryJob
+datasync:UpdateLocationAzureBlob
 datasync:UpdateLocationHdfs
 datasync:UpdateLocationNfs
 datasync:UpdateLocationObjectStorage
@@ -11026,6 +11029,7 @@ rds:CrossRegionCommunication
 rds:DeleteBlueGreenDeployment
 rds:DeleteCustomDBEngineVersion
 rds:DeleteDBCluster
+rds:DeleteDBClusterAutomatedBackup
 rds:DeleteDBClusterEndpoint
 rds:DeleteDBClusterParameterGroup
 rds:DeleteDBClusterSnapshot
@@ -11044,6 +11048,7 @@ rds:DeregisterDBProxyTargets
 rds:DescribeAccountAttributes
 rds:DescribeBlueGreenDeployments
 rds:DescribeCertificates
+rds:DescribeDBClusterAutomatedBackups
 rds:DescribeDBClusterBacktracks
 rds:DescribeDBClusterEndpoints
 rds:DescribeDBClusterParameterGroups
