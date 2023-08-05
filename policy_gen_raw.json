@@ -5208,6 +5208,7 @@
                 "UpdateQueueStatus",
                 "UpdateQuickConnectConfig",
                 "UpdateQuickConnectName",
+                "UpdateRoutingProfileAgentAvailabilityTimer",
                 "UpdateRoutingProfileConcurrency",
                 "UpdateRoutingProfileDefaultOutboundQueue",
                 "UpdateRoutingProfileName",
@@ -12297,6 +12298,7 @@
             "Actions": [
                 "ApproveAccessGrant",
                 "ApprovePermissionRequest",
+                "AssumePermissionRole",
                 "CreatePermissionRequest",
                 "GetPermissionRequest",
                 "ListPermissionRequests",
@@ -16892,6 +16894,7 @@
         "Amazon CloudWatch Application Insights": {
             "StringPrefix": "applicationinsights",
             "Actions": [
+                "AddWorkload",
                 "CreateApplication",
                 "CreateComponent",
                 "CreateLogPattern",
@@ -16906,6 +16909,7 @@
                 "DescribeObservation",
                 "DescribeProblem",
                 "DescribeProblemObservations",
+                "DescribeWorkload",
                 "Link",
                 "ListApplications",
                 "ListComponents",
@@ -16914,12 +16918,16 @@
                 "ListLogPatterns",
                 "ListProblems",
                 "ListTagsForResource",
+                "ListWorkloads",
+                "RemoveWorkload",
                 "TagResource",
                 "UntagResource",
                 "UpdateApplication",
                 "UpdateComponent",
                 "UpdateComponentConfiguration",
-                "UpdateLogPattern"
+                "UpdateLogPattern",
+                "UpdateProblem",
+                "UpdateWorkload"
             ],
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",

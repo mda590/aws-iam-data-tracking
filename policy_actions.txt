@@ -472,6 +472,7 @@ application-cost-profiler:ImportApplicationUsage
 application-cost-profiler:ListReportDefinitions
 application-cost-profiler:PutReportDefinition
 application-cost-profiler:UpdateReportDefinition
+applicationinsights:AddWorkload
 applicationinsights:CreateApplication
 applicationinsights:CreateComponent
 applicationinsights:CreateLogPattern
@@ -486,6 +487,7 @@ applicationinsights:DescribeLogPattern
 applicationinsights:DescribeObservation
 applicationinsights:DescribeProblem
 applicationinsights:DescribeProblemObservations
+applicationinsights:DescribeWorkload
 applicationinsights:Link
 applicationinsights:ListApplications
 applicationinsights:ListComponents
@@ -494,12 +496,16 @@ applicationinsights:ListLogPatternSets
 applicationinsights:ListLogPatterns
 applicationinsights:ListProblems
 applicationinsights:ListTagsForResource
+applicationinsights:ListWorkloads
+applicationinsights:RemoveWorkload
 applicationinsights:TagResource
 applicationinsights:UntagResource
 applicationinsights:UpdateApplication
 applicationinsights:UpdateComponent
 applicationinsights:UpdateComponentConfiguration
 applicationinsights:UpdateLogPattern
+applicationinsights:UpdateProblem
+applicationinsights:UpdateWorkload
 appmesh-preview:CreateGatewayRoute
 appmesh-preview:CreateMesh
 appmesh-preview:CreateRoute
@@ -3242,6 +3248,7 @@ connect:UpdateQueueOutboundCallerConfig
 connect:UpdateQueueStatus
 connect:UpdateQuickConnectConfig
 connect:UpdateQuickConnectName
+connect:UpdateRoutingProfileAgentAvailabilityTimer
 connect:UpdateRoutingProfileConcurrency
 connect:UpdateRoutingProfileDefaultOutboundQueue
 connect:UpdateRoutingProfileName
@@ -7800,6 +7807,7 @@ iotwireless:UpdateWirelessDeviceImportTask
 iotwireless:UpdateWirelessGateway
 iq-permission:ApproveAccessGrant
 iq-permission:ApprovePermissionRequest
+iq-permission:AssumePermissionRole
 iq-permission:CreatePermissionRequest
 iq-permission:GetPermissionRequest
 iq-permission:ListPermissionRequests
