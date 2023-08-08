@@ -12168,10 +12168,12 @@
                 "AcceptAgreement",
                 "DownloadAgreement",
                 "Get",
+                "GetAccountSettings",
                 "GetReport",
                 "GetReportMetadata",
                 "GetTermForReport",
                 "ListReports",
+                "PutAccountSettings",
                 "TerminateAgreement"
             ],
             "ARNFormat": "arn:aws:artifact:::${Resource}",
