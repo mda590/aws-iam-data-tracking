@@ -5030,6 +5030,7 @@
                 "AssociateQueueQuickConnects",
                 "AssociateRoutingProfileQueues",
                 "AssociateSecurityKey",
+                "AssociateTrafficDistributionGroupUser",
                 "BatchAssociateAnalyticsDataSet",
                 "BatchDisassociateAnalyticsDataSet",
                 "ClaimPhoneNumber",
@@ -5106,6 +5107,7 @@
                 "DisassociateQueueQuickConnects",
                 "DisassociateRoutingProfileQueues",
                 "DisassociateSecurityKey",
+                "DisassociateTrafficDistributionGroupUser",
                 "DismissUserContact",
                 "GetContactAttributes",
                 "GetCurrentMetricData",
@@ -5149,6 +5151,7 @@
                 "ListSecurityProfiles",
                 "ListTagsForResource",
                 "ListTaskTemplates",
+                "ListTrafficDistributionGroupUsers",
                 "ListTrafficDistributionGroups",
                 "ListUseCases",
                 "ListUserHierarchyGroups",
@@ -8016,7 +8019,8 @@
                 "ResetCacheParameterGroup",
                 "RevokeCacheSecurityGroupIngress",
                 "StartMigration",
-                "TestFailover"
+                "TestFailover",
+                "TestMigration"
             ],
             "ARNFormat": "arn:aws:elasticache:${Region}:${Account}:${ResourceType}:${ResourceName}",
             "ARNRegex": "^arn:aws:elasticache:.+:.+:.+",
