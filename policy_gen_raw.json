@@ -9103,6 +9103,17 @@
             ],
             "HasResource": true
         },
+        "AWS Migration Acceleration Program Credits": {
+            "StringPrefix": "mapcredits",
+            "Actions": [
+                "ListAssociatedPrograms",
+                "ListQuarterCredits",
+                "ListQuarterSpend"
+            ],
+            "ARNFormat": "arn:aws:mapcredits:::${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:mapcredits:::.+",
+            "HasResource": true
+        },
         "AWS AppFabric": {
             "StringPrefix": "appfabric",
             "Actions": [

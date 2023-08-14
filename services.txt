@@ -142,6 +142,7 @@ AWS Marketplace Procurement Systems Integration
 AWS Marketplace Seller Reporting
 AWS Marketplace Vendor Insights
 AWS Microservice Extractor for .NET
+AWS Migration Acceleration Program Credits
 AWS Migration Hub
 AWS Migration Hub Orchestrator
 AWS Migration Hub Refactor Spaces

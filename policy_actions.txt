@@ -9128,6 +9128,9 @@ managedblockchain:UntagResource
 managedblockchain:UpdateMember
 managedblockchain:UpdateNode
 managedblockchain:VoteOnProposal
+mapcredits:ListAssociatedPrograms
+mapcredits:ListQuarterCredits
+mapcredits:ListQuarterSpend
 marketplacecommerceanalytics:GenerateDataSet
 marketplacecommerceanalytics:StartSupportDataExport
 mechanicalturk:AcceptQualificationRequest
