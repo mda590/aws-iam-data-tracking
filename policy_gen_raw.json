@@ -16628,6 +16628,7 @@
                 "ListTagsForResource",
                 "TagResource",
                 "UntagResource",
+                "UpdateDataSource",
                 "UpdateSecurityProfile",
                 "UpdateSecurityProfileSnapshotCreationConfiguration",
                 "UpdateSecurityProfileSnapshotReleaseConfiguration"
