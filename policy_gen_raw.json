@@ -11502,6 +11502,44 @@
             ],
             "HasResource": true
         },
+        "AWS Private CA Connector for Active Directory": {
+            "StringPrefix": "pca-connector-ad",
+            "Actions": [
+                "CreateConnector",
+                "CreateDirectoryRegistration",
+                "CreateServicePrincipalName",
+                "CreateTemplate",
+                "CreateTemplateGroupAccessControlEntry",
+                "DeleteConnector",
+                "DeleteDirectoryRegistration",
+                "DeleteServicePrincipalName",
+                "DeleteTemplate",
+                "DeleteTemplateGroupAccessControlEntry",
+                "GetConnector",
+                "GetDirectoryRegistration",
+                "GetServicePrincipalName",
+                "GetTemplate",
+                "GetTemplateGroupAccessControlEntry",
+                "ListConnectors",
+                "ListDirectoryRegistrations",
+                "ListServicePrincipalNames",
+                "ListTagsForResource",
+                "ListTemplateGroupAccessControlEntries",
+                "ListTemplates",
+                "TagResource",
+                "UntagResource",
+                "UpdateTemplate",
+                "UpdateTemplateGroupAccessControlEntry"
+            ],
+            "ARNFormat": "arn:aws:pca-connector-ad:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:pca-connector-ad:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Elastic Transcoder": {
             "StringPrefix": "elastictranscoder",
             "Actions": [

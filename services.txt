@@ -159,6 +159,7 @@ AWS Payment Cryptography
 AWS Payments
 AWS Performance Insights
 AWS Price List
+AWS Private CA Connector for Active Directory
 AWS Private Certificate Authority
 AWS Proton
 AWS Purchase Orders Console
