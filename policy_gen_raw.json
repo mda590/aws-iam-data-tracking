@@ -16538,6 +16538,7 @@
                 "ListApprovalRuleTemplates",
                 "ListAssociatedApprovalRuleTemplatesForRepository",
                 "ListBranches",
+                "ListFileCommitHistory",
                 "ListPullRequests",
                 "ListRepositories",
                 "ListRepositoriesForApprovalRuleTemplate",
