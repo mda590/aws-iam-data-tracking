@@ -7142,9 +7142,13 @@ internetmonitor:CreateMonitor
 internetmonitor:DeleteMonitor
 internetmonitor:GetHealthEvent
 internetmonitor:GetMonitor
+internetmonitor:GetQueryResults
+internetmonitor:GetQueryStatus
 internetmonitor:ListHealthEvents
 internetmonitor:ListMonitors
 internetmonitor:ListTagsForResource
+internetmonitor:StartQuery
+internetmonitor:StopQuery
 internetmonitor:TagResource
 internetmonitor:UntagResource
 internetmonitor:UpdateMonitor
@@ -12897,6 +12901,7 @@ servicequotas:RequestServiceQuotaIncrease
 servicequotas:TagResource
 servicequotas:UntagResource
 ses:BatchGetMetricData
+ses:CancelExportJob
 ses:CloneReceiptRuleSet
 ses:CreateConfigurationSet
 ses:CreateConfigurationSet
@@ -12917,6 +12922,7 @@ ses:CreateEmailIdentity
 ses:CreateEmailIdentity
 ses:CreateEmailIdentityPolicy
 ses:CreateEmailTemplate
+ses:CreateExportJob
 ses:CreateImportJob
 ses:CreateReceiptFilter
 ses:CreateReceiptRule
@@ -12981,12 +12987,14 @@ ses:GetEmailIdentity
 ses:GetEmailIdentity
 ses:GetEmailIdentityPolicies
 ses:GetEmailTemplate
+ses:GetExportJob
 ses:GetIdentityDkimAttributes
 ses:GetIdentityMailFromDomainAttributes
 ses:GetIdentityNotificationAttributes
 ses:GetIdentityPolicies
 ses:GetIdentityVerificationAttributes
 ses:GetImportJob
+ses:GetMessageInsights
 ses:GetSendQuota
 ses:GetSendStatistics
 ses:GetSuppressedDestination
@@ -13007,6 +13015,7 @@ ses:ListDomainDeliverabilityCampaigns
 ses:ListEmailIdentities
 ses:ListEmailIdentities
 ses:ListEmailTemplates
+ses:ListExportJobs
 ses:ListIdentities
 ses:ListIdentityPolicies
 ses:ListImportJobs
