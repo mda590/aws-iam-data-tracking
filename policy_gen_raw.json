@@ -2586,7 +2586,7 @@
                 "GetModelPackageGroupPolicy",
                 "GetRecord",
                 "GetSagemakerServicecatalogPortfolioStatus",
-                "GetScalingPolicyConfigurationRecommendation",
+                "GetScalingConfigurationRecommendation",
                 "GetSearchSuggestions",
                 "ImportHubContent",
                 "InvokeEndpoint",
