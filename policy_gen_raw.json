@@ -19748,7 +19748,10 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "mediaconvert:HttpInputsAllowed",
+                "mediaconvert:HttpsInputsAllowed",
+                "mediaconvert:S3InputsAllowed"
             ],
             "HasResource": true
         },
