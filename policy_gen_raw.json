@@ -19408,6 +19408,7 @@
                 "DeleteService",
                 "DeregisterInstance",
                 "DiscoverInstances",
+                "DiscoverInstancesRevision",
                 "GetInstance",
                 "GetInstancesHealthStatus",
                 "GetNamespace",
