@@ -248,7 +248,6 @@ Amazon Connect Voice ID
 Amazon Connect Wisdom
 Amazon Data Lifecycle Manager
 Amazon DataZone
-Amazon DataZone Control
 Amazon Detective
 Amazon DevOps Guru
 Amazon DocumentDB Elastic Clusters
