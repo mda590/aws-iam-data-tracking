@@ -9673,11 +9673,13 @@ mgn:BatchCreateVolumeSnapshotGroupForMgn
 mgn:BatchDeleteSnapshotRequestForMgn
 mgn:ChangeServerLifeCycleState
 mgn:CreateApplication
+mgn:CreateConnector
 mgn:CreateLaunchConfigurationTemplate
 mgn:CreateReplicationConfigurationTemplate
 mgn:CreateVcenterClientForMgn
 mgn:CreateWave
 mgn:DeleteApplication
+mgn:DeleteConnector
 mgn:DeleteJob
 mgn:DeleteLaunchConfigurationTemplate
 mgn:DeleteReplicationConfigurationTemplate
@@ -9709,6 +9711,7 @@ mgn:GetVcenterClientCommandsForMgn
 mgn:InitializeService
 mgn:IssueClientCertificateForMgn
 mgn:ListApplications
+mgn:ListConnectors
 mgn:ListExportErrors
 mgn:ListExports
 mgn:ListImportErrors
@@ -9757,10 +9760,12 @@ mgn:UpdateAgentReplicationInfoForMgn
 mgn:UpdateAgentReplicationProcessStateForMgn
 mgn:UpdateAgentSourcePropertiesForMgn
 mgn:UpdateApplication
+mgn:UpdateConnector
 mgn:UpdateLaunchConfiguration
 mgn:UpdateLaunchConfigurationTemplate
 mgn:UpdateReplicationConfiguration
 mgn:UpdateReplicationConfigurationTemplate
+mgn:UpdateSourceServer
 mgn:UpdateSourceServerReplicationType
 mgn:UpdateWave
 mgn:VerifyClientRoleForMgn
