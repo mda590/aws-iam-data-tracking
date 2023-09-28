@@ -11347,6 +11347,7 @@ rds:StopDBCluster
 rds:StopDBInstance
 rds:StopDBInstanceAutomatedBackupsReplication
 rds:SwitchoverBlueGreenDeployment
+rds:SwitchoverGlobalCluster
 rds:SwitchoverReadReplica
 redshift-data:BatchExecuteStatement
 redshift-data:CancelStatement

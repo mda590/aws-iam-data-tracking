@@ -6406,6 +6406,7 @@
                 "StopDBInstance",
                 "StopDBInstanceAutomatedBackupsReplication",
                 "SwitchoverBlueGreenDeployment",
+                "SwitchoverGlobalCluster",
                 "SwitchoverReadReplica"
             ],
             "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
