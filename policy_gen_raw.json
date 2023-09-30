@@ -9495,6 +9495,7 @@
                 "ListObservabilityConfigurations",
                 "ListOperations",
                 "ListServices",
+                "ListServicesForAutoScalingConfiguration",
                 "ListTagsForResource",
                 "ListVpcConnectors",
                 "ListVpcIngressConnections",
@@ -9503,6 +9504,7 @@
                 "StartDeployment",
                 "TagResource",
                 "UntagResource",
+                "UpdateDefaultAutoScalingConfiguration",
                 "UpdateService",
                 "UpdateVpcIngressConnection"
             ],
