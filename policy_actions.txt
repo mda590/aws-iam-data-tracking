@@ -4090,6 +4090,7 @@ dms:DescribeDataProviders
 dms:DescribeEndpointSettings
 dms:DescribeEndpointTypes
 dms:DescribeEndpoints
+dms:DescribeEngineVersions
 dms:DescribeEventCategories
 dms:DescribeEventSubscriptions
 dms:DescribeEvents
@@ -4322,10 +4323,12 @@ ds:DescribeUpdateDirectory
 ds:DisableClientAuthentication
 ds:DisableLDAPS
 ds:DisableRadius
+ds:DisableRoleAccess
 ds:DisableSso
 ds:EnableClientAuthentication
 ds:EnableLDAPS
 ds:EnableRadius
+ds:EnableRoleAccess
 ds:EnableSso
 ds:GetAuthorizedApplicationDetails
 ds:GetDirectoryLimits
@@ -4350,6 +4353,7 @@ ds:UnauthorizeApplication
 ds:UnshareDirectory
 ds:UpdateAuthorizedApplication
 ds:UpdateConditionalForwarder
+ds:UpdateDirectory
 ds:UpdateDirectorySetup
 ds:UpdateNumberOfDomainControllers
 ds:UpdateRadius
@@ -15216,6 +15220,7 @@ workspaces-web:UpdateUserAccessLoggingSettings
 workspaces-web:UpdateUserSettings
 workspaces:AssociateConnectionAlias
 workspaces:AssociateIpGroups
+workspaces:AssociateWorkspaceApplication
 workspaces:AuthorizeIpRules
 workspaces:CopyWorkspaceImage
 workspaces:CreateConnectClientAddIn
@@ -15234,16 +15239,22 @@ workspaces:DeleteIpGroup
 workspaces:DeleteTags
 workspaces:DeleteWorkspaceBundle
 workspaces:DeleteWorkspaceImage
+workspaces:DeployWorkspaceApplications
 workspaces:DeregisterWorkspaceDirectory
 workspaces:DescribeAccount
 workspaces:DescribeAccountModifications
+workspaces:DescribeApplicationAssociations
+workspaces:DescribeApplications
+workspaces:DescribeBundleAssociations
 workspaces:DescribeClientBranding
 workspaces:DescribeClientProperties
 workspaces:DescribeConnectClientAddIns
 workspaces:DescribeConnectionAliasPermissions
 workspaces:DescribeConnectionAliases
+workspaces:DescribeImageAssociations
 workspaces:DescribeIpGroups
 workspaces:DescribeTags
+workspaces:DescribeWorkspaceAssociations
 workspaces:DescribeWorkspaceBundles
 workspaces:DescribeWorkspaceDirectories
 workspaces:DescribeWorkspaceImagePermissions
@@ -15253,6 +15264,7 @@ workspaces:DescribeWorkspaces
 workspaces:DescribeWorkspacesConnectionStatus
 workspaces:DisassociateConnectionAlias
 workspaces:DisassociateIpGroups
+workspaces:DisassociateWorkspaceApplication
 workspaces:ImportClientBranding
 workspaces:ImportWorkspaceImage
 workspaces:ListAvailableManagementCidrRanges
