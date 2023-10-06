@@ -9283,6 +9283,7 @@
                 "DescribeAttachment",
                 "DescribeCaseAttributes",
                 "DescribeCases",
+                "DescribeCommunication",
                 "DescribeCommunications",
                 "DescribeCreateCaseOptions",
                 "DescribeIssueTypes",
