@@ -14315,6 +14315,7 @@
                 "ManageBackupPrincipalAssociations",
                 "ReleaseFileSystemNfsV3Locks",
                 "RestoreVolumeFromSnapshot",
+                "StartMisconfiguredStateRecovery",
                 "TagResource",
                 "UntagResource",
                 "UpdateDataRepositoryAssociation",
