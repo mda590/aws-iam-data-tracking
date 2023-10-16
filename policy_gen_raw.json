@@ -6523,22 +6523,33 @@
         "AWS Entity Resolution": {
             "StringPrefix": "entityresolution",
             "Actions": [
+                "CreateIdMappingWorkflow",
                 "CreateMatchingWorkflow",
                 "CreateSchemaMapping",
+                "DeleteIdMappingWorkflow",
                 "DeleteMatchingWorkflow",
                 "DeleteSchemaMapping",
+                "GetIdMappingJob",
+                "GetIdMappingWorkflow",
                 "GetMatchId",
                 "GetMatchingJob",
                 "GetMatchingWorkflow",
+                "GetProviderService",
                 "GetSchemaMapping",
+                "ListIdMappingJobs",
+                "ListIdMappingWorkflows",
                 "ListMatchingJobs",
                 "ListMatchingWorkflows",
+                "ListProviderServices",
                 "ListSchemaMappings",
                 "ListTagsForResource",
+                "StartIdMappingJob",
                 "StartMatchingJob",
                 "TagResource",
                 "UntagResource",
-                "UpdateMatchingWorkflow"
+                "UpdateIdMappingWorkflow",
+                "UpdateMatchingWorkflow",
+                "UpdateSchemaMapping"
             ],
             "ARNFormat": "arn:aws:entityresolution:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:entityresolution:.+:.+:.+",
@@ -18195,6 +18206,7 @@
                 "GetAccountInfo",
                 "GetAvailableUpdates",
                 "GetControlOperation",
+                "GetEnabledControl",
                 "GetGuardrailComplianceStatus",
                 "GetHomeRegion",
                 "GetLandingZoneDriftStatus",
@@ -18218,9 +18230,9 @@
                 "SetupLandingZone",
                 "UpdateAccountFactoryConfig"
             ],
-            "ARNFormat": "arn:${Partition}:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:controltower:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:controltower:.+:.+:.+",
+            "HasResource": true
         },
         "Amazon Nimble Studio": {
             "StringPrefix": "nimble",
