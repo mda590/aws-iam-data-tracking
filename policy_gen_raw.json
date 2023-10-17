@@ -13279,8 +13279,10 @@
             "StringPrefix": "managedblockchain-query",
             "Actions": [
                 "BatchGetTokenBalance",
+                "GetAssetContract",
                 "GetTokenBalance",
                 "GetTransaction",
+                "ListAssetContracts",
                 "ListTokenBalances",
                 "ListTransactionEvents",
                 "ListTransactions"
