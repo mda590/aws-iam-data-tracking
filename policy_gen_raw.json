@@ -13481,13 +13481,21 @@
         "Amazon CodeWhisperer": {
             "StringPrefix": "codewhisperer",
             "Actions": [
+                "AssociateCustomizationPermission",
+                "CreateCustomization",
                 "CreateProfile",
+                "DeleteCustomization",
                 "DeleteProfile",
+                "DisassociateCustomizationPermission",
                 "GenerateRecommendations",
+                "GetCustomization",
+                "ListCustomizationPermissions",
+                "ListCustomizations",
                 "ListProfiles",
                 "ListTagsForResource",
                 "TagResource",
                 "UntagResource",
+                "UpdateCustomization",
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
@@ -16444,6 +16452,7 @@
                 "DescribeRoutingControl",
                 "DescribeRoutingControlByName",
                 "DescribeSafetyRule",
+                "GetResourcePolicy",
                 "ListAssociatedRoute53HealthChecks",
                 "ListClusters",
                 "ListControlPanels",
@@ -18973,6 +18982,7 @@
         "Amazon AppIntegrations": {
             "StringPrefix": "app-integrations",
             "Actions": [
+                "CreateApplication",
                 "CreateDataIntegration",
                 "CreateDataIntegrationAssociation",
                 "CreateEventIntegration",
@@ -18981,8 +18991,10 @@
                 "DeleteDataIntegrationAssociation",
                 "DeleteEventIntegration",
                 "DeleteEventIntegrationAssociation",
+                "GetApplication",
                 "GetDataIntegration",
                 "GetEventIntegration",
+                "ListApplications",
                 "ListDataIntegrationAssociations",
                 "ListDataIntegrations",
                 "ListEventIntegrationAssociations",
@@ -18990,6 +19002,7 @@
                 "ListTagsForResource",
                 "TagResource",
                 "UntagResource",
+                "UpdateApplication",
                 "UpdateDataIntegration",
                 "UpdateEventIntegration"
             ],
