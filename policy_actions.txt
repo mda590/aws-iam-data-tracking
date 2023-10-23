@@ -3158,6 +3158,7 @@ connect:AssociateSecurityKey
 connect:AssociateTrafficDistributionGroupUser
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
+connect:BatchGetFlowAssociation
 connect:ClaimPhoneNumber
 connect:CreateAgentStatus
 connect:CreateContactFlow
@@ -3167,6 +3168,7 @@ connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
 connect:CreateParticipant
+connect:CreatePredefinedAttribute
 connect:CreatePrompt
 connect:CreateQueue
 connect:CreateQuickConnect
@@ -3189,6 +3191,7 @@ connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
+connect:DeletePredefinedAttribute
 connect:DeletePrompt
 connect:DeleteQueue
 connect:DeleteQuickConnect
@@ -3215,6 +3218,7 @@ connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
 connect:DescribePhoneNumber
+connect:DescribePredefinedAttribute
 connect:DescribePrompt
 connect:DescribeQueue
 connect:DescribeQuickConnect
@@ -3268,6 +3272,7 @@ connect:ListLambdaFunctions
 connect:ListLexBots
 connect:ListPhoneNumbers
 connect:ListPhoneNumbersV2
+connect:ListPredefinedAttributes
 connect:ListPrompts
 connect:ListQueueQuickConnects
 connect:ListQueues
@@ -3277,6 +3282,7 @@ connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
 connect:ListRules
 connect:ListSecurityKeys
+connect:ListSecurityProfileApplications
 connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
 connect:ListTagsForResource
@@ -3335,6 +3341,8 @@ connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
 connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
+connect:UpdatePhoneNumberMetadata
+connect:UpdatePredefinedAttribute
 connect:UpdatePrompt
 connect:UpdateQueueHoursOfOperation
 connect:UpdateQueueMaxContacts
