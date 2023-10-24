@@ -11687,6 +11687,7 @@ rekognition:GetFaceDetection
 rekognition:GetFaceLivenessSessionResults
 rekognition:GetFaceSearch
 rekognition:GetLabelDetection
+rekognition:GetMediaAnalysisJob
 rekognition:GetPersonTracking
 rekognition:GetSegmentDetection
 rekognition:GetTextDetection
@@ -11695,6 +11696,7 @@ rekognition:ListCollections
 rekognition:ListDatasetEntries
 rekognition:ListDatasetLabels
 rekognition:ListFaces
+rekognition:ListMediaAnalysisJobs
 rekognition:ListProjectPolicies
 rekognition:ListStreamProcessors
 rekognition:ListTagsForResource
@@ -11711,6 +11713,7 @@ rekognition:StartFaceDetection
 rekognition:StartFaceLivenessSession
 rekognition:StartFaceSearch
 rekognition:StartLabelDetection
+rekognition:StartMediaAnalysisJob
 rekognition:StartPersonTracking
 rekognition:StartProjectVersion
 rekognition:StartSegmentDetection
