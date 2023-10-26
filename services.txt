@@ -193,7 +193,6 @@ AWS Systems Manager GUI Connect
 AWS Systems Manager Incident Manager
 AWS Systems Manager Incident Manager Contacts
 AWS Systems Manager for SAP
-AWS Tag Editor
 AWS Tax Settings
 AWS Telco Network Builder
 AWS Tiros
