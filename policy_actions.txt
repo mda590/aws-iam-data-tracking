@@ -4855,6 +4855,7 @@ ec2:DisableAwsNetworkPerformanceMetricSubscription
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
+ec2:DisableImage
 ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
 ec2:DisableIpamOrganizationAdminAccount
@@ -4883,6 +4884,7 @@ ec2:EnableAwsNetworkPerformanceMetricSubscription
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
+ec2:EnableImage
 ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
