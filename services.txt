@@ -279,7 +279,6 @@ Amazon Forecast
 Amazon Fraud Detector
 Amazon FreeRTOS
 Amazon GameLift
-Amazon GameSparks
 Amazon GroundTruth Labeling
 Amazon GuardDuty
 Amazon Honeycode
