@@ -7504,6 +7504,24 @@
             ],
             "HasResource": false
         },
+        "AWS Application Transformation Service": {
+            "StringPrefix": "application-transformation",
+            "Actions": [
+                "GetGroupingAssessment",
+                "GetPortingCompatibilityAssessment",
+                "GetPortingRecommendationAssessment",
+                "GetRuntimeAssessment",
+                "PutLogData",
+                "PutMetricData",
+                "StartGroupingAssessment",
+                "StartPortingCompatibilityAssessment",
+                "StartPortingRecommendationAssessment",
+                "StartRuntimeAssessment"
+            ],
+            "ARNFormat": "arn:${Partition}:application-transformation:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:application-transformation:.+:.+:.+",
+            "HasResource": false
+        },
         "Amazon WorkSpaces": {
             "StringPrefix": "workspaces",
             "Actions": [
