@@ -9891,6 +9891,7 @@ migrationhub-strategy:GetPortfolioSummary
 migrationhub-strategy:GetRecommendationReportDetails
 migrationhub-strategy:GetServerDetails
 migrationhub-strategy:GetServerStrategies
+migrationhub-strategy:ListAnalyzableServers
 migrationhub-strategy:ListAntiPatterns
 migrationhub-strategy:ListApplicationComponents
 migrationhub-strategy:ListCollectors
@@ -11581,6 +11582,7 @@ redshift:DisassociateDataShareConsumer
 redshift:EnableLogging
 redshift:EnableSnapshotCopy
 redshift:ExecuteQuery
+redshift:FailoverPrimaryCompute
 redshift:FetchResults
 redshift:GetClusterCredentials
 redshift:GetClusterCredentialsWithIAM
