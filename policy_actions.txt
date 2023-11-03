@@ -13750,6 +13750,7 @@ ssm:DeleteAssociation
 ssm:DeleteDocument
 ssm:DeleteInventory
 ssm:DeleteMaintenanceWindow
+ssm:DeleteOpsItem
 ssm:DeleteOpsMetadata
 ssm:DeleteParameter
 ssm:DeleteParameters

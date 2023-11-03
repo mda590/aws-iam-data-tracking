@@ -561,6 +561,7 @@
                 "DeleteDocument",
                 "DeleteInventory",
                 "DeleteMaintenanceWindow",
+                "DeleteOpsItem",
                 "DeleteOpsMetadata",
                 "DeleteParameter",
                 "DeleteParameters",
