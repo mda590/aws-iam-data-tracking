@@ -12428,6 +12428,7 @@ sagemaker:CreateHumanTaskUi
 sagemaker:CreateHyperParameterTuningJob
 sagemaker:CreateImage
 sagemaker:CreateImageVersion
+sagemaker:CreateInferenceComponent
 sagemaker:CreateInferenceExperiment
 sagemaker:CreateInferenceRecommendationsJob
 sagemaker:CreateLabelingJob
@@ -12482,6 +12483,7 @@ sagemaker:DeleteHumanLoop
 sagemaker:DeleteHumanTaskUi
 sagemaker:DeleteImage
 sagemaker:DeleteImageVersion
+sagemaker:DeleteInferenceComponent
 sagemaker:DeleteInferenceExperiment
 sagemaker:DeleteLineageGroupPolicy
 sagemaker:DeleteModel
@@ -12536,6 +12538,7 @@ sagemaker:DescribeHumanTaskUi
 sagemaker:DescribeHyperParameterTuningJob
 sagemaker:DescribeImage
 sagemaker:DescribeImageVersion
+sagemaker:DescribeInferenceComponent
 sagemaker:DescribeInferenceExperiment
 sagemaker:DescribeInferenceRecommendationsJob
 sagemaker:DescribeLabelingJob
@@ -12582,6 +12585,7 @@ sagemaker:GetSearchSuggestions
 sagemaker:ImportHubContent
 sagemaker:InvokeEndpoint
 sagemaker:InvokeEndpointAsync
+sagemaker:InvokeEndpointWithResponseStream
 sagemaker:ListActions
 sagemaker:ListAlgorithms
 sagemaker:ListAliases
@@ -12613,6 +12617,7 @@ sagemaker:ListHumanTaskUis
 sagemaker:ListHyperParameterTuningJobs
 sagemaker:ListImageVersions
 sagemaker:ListImages
+sagemaker:ListInferenceComponents
 sagemaker:ListInferenceExperiments
 sagemaker:ListInferenceRecommendationsJobSteps
 sagemaker:ListInferenceRecommendationsJobs
@@ -12707,6 +12712,8 @@ sagemaker:UpdateFeatureMetadata
 sagemaker:UpdateHub
 sagemaker:UpdateImage
 sagemaker:UpdateImageVersion
+sagemaker:UpdateInferenceComponent
+sagemaker:UpdateInferenceComponentRuntimeConfig
 sagemaker:UpdateInferenceExperiment
 sagemaker:UpdateModelCard
 sagemaker:UpdateModelPackage
