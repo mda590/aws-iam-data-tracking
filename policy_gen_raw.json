@@ -11115,7 +11115,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "connect:UserArn"
             ],
             "HasResource": true
         },
