@@ -5041,6 +5041,7 @@
                 "BatchAssociateAnalyticsDataSet",
                 "BatchDisassociateAnalyticsDataSet",
                 "BatchGetFlowAssociation",
+                "BatchPutContact",
                 "ClaimPhoneNumber",
                 "CreateAgentStatus",
                 "CreateContactFlow",
