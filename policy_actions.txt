@@ -11315,7 +11315,9 @@ rds:CreateDBSnapshot
 rds:CreateDBSubnetGroup
 rds:CreateEventSubscription
 rds:CreateGlobalCluster
+rds:CreateIntegration
 rds:CreateOptionGroup
+rds:CreateTenantDatabase
 rds:CrossRegionCommunication
 rds:DeleteBlueGreenDeployment
 rds:DeleteCustomDBEngineVersion
@@ -11334,7 +11336,9 @@ rds:DeleteDBSnapshot
 rds:DeleteDBSubnetGroup
 rds:DeleteEventSubscription
 rds:DeleteGlobalCluster
+rds:DeleteIntegration
 rds:DeleteOptionGroup
+rds:DeleteTenantDatabase
 rds:DeregisterDBProxyTargets
 rds:DescribeAccountAttributes
 rds:DescribeBlueGreenDeployments
@@ -11361,6 +11365,7 @@ rds:DescribeDBSecurityGroups
 rds:DescribeDBSnapshotAttributes
 rds:DescribeDBSnapshots
 rds:DescribeDBSubnetGroups
+rds:DescribeDbSnapshotTenantDatabases
 rds:DescribeEngineDefaultClusterParameters
 rds:DescribeEngineDefaultParameters
 rds:DescribeEventCategories
@@ -11368,6 +11373,7 @@ rds:DescribeEventSubscriptions
 rds:DescribeEvents
 rds:DescribeExportTasks
 rds:DescribeGlobalClusters
+rds:DescribeIntegrations
 rds:DescribeOptionGroupOptions
 rds:DescribeOptionGroups
 rds:DescribeOrderableDBInstanceOptions
@@ -11377,6 +11383,7 @@ rds:DescribeRecommendations
 rds:DescribeReservedDBInstances
 rds:DescribeReservedDBInstancesOfferings
 rds:DescribeSourceRegions
+rds:DescribeTenantDatabases
 rds:DescribeValidDBInstanceModifications
 rds:DownloadCompleteDBLogFile
 rds:DownloadDBLogFilePortion
@@ -11403,6 +11410,7 @@ rds:ModifyEventSubscription
 rds:ModifyGlobalCluster
 rds:ModifyOptionGroup
 rds:ModifyRecommendation
+rds:ModifyTenantDatabase
 rds:PromoteReadReplica
 rds:PromoteReadReplicaDBCluster
 rds:PurchaseReservedDBInstancesOffering
