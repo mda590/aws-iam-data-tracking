@@ -12982,8 +12982,10 @@
         "AWS Resource Groups": {
             "StringPrefix": "resource-groups",
             "Actions": [
+                "AssociateResource",
                 "CreateGroup",
                 "DeleteGroup",
+                "DisassociateResource",
                 "GetAccountSettings",
                 "GetGroup",
                 "GetGroupConfiguration",
