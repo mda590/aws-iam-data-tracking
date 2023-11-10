@@ -187,6 +187,15 @@
             ],
             "HasResource": true
         },
+        "AWS Partner central account management": {
+            "StringPrefix": "partnercentral-account-management",
+            "Actions": [
+                "AssociatePartnerAccount",
+                "AssociatePartnerUser",
+                "DisassociatePartnerUser"
+            ],
+            "HasResource": false
+        },
         "Amazon Elastic File System": {
             "StringPrefix": "elasticfilesystem",
             "Actions": [
@@ -17299,8 +17308,13 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "elasticloadbalancing:CreateAction",
+                "elasticloadbalancing:ListenerProtocol",
                 "elasticloadbalancing:ResourceTag/",
-                "elasticloadbalancing:ResourceTag/${TagKey}"
+                "elasticloadbalancing:ResourceTag/${TagKey}",
+                "elasticloadbalancing:Scheme",
+                "elasticloadbalancing:SecurityGroup",
+                "elasticloadbalancing:SecurityPolicy",
+                "elasticloadbalancing:Subnet"
             ],
             "HasResource": true
         },
@@ -17350,7 +17364,12 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "elasticloadbalancing:CreateAction",
-                "elasticloadbalancing:ResourceTag/${TagKey}"
+                "elasticloadbalancing:ListenerProtocol",
+                "elasticloadbalancing:ResourceTag/${TagKey}",
+                "elasticloadbalancing:Scheme",
+                "elasticloadbalancing:SecurityGroup",
+                "elasticloadbalancing:SecurityPolicy",
+                "elasticloadbalancing:Subnet"
             ],
             "HasResource": true
         },

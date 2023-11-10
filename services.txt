@@ -155,6 +155,7 @@ AWS OpsWorks Configuration Management
 AWS Organizations
 AWS Outposts
 AWS Panorama
+AWS Partner central account management
 AWS Payment Cryptography
 AWS Payments
 AWS Performance Insights
