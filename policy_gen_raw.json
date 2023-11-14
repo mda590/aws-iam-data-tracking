@@ -13545,6 +13545,7 @@
         "Amazon CodeWhisperer": {
             "StringPrefix": "codewhisperer",
             "Actions": [
+                "AllowVendedLogDeliveryForResource",
                 "AssociateCustomizationPermission",
                 "CreateCustomization",
                 "CreateProfile",
