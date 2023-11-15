@@ -3438,9 +3438,12 @@ controltower:ListManagedAccountsForGuardrail
 controltower:ListManagedAccountsForParent
 controltower:ListManagedOrganizationalUnits
 controltower:ListManagedOrganizationalUnitsForGuardrail
+controltower:ListTagsForResource
 controltower:ManageOrganizationalUnit
 controltower:PerformPreLaunchChecks
 controltower:SetupLandingZone
+controltower:TagResource
+controltower:UntagResource
 controltower:UpdateAccountFactoryConfig
 cur:DeleteReportDefinition
 cur:DescribeReportDefinitions
@@ -14113,6 +14116,7 @@ states:ListStateMachineVersions
 states:ListStateMachines
 states:ListTagsForResource
 states:PublishStateMachineVersion
+states:RedriveExecution
 states:SendTaskFailure
 states:SendTaskHeartbeat
 states:SendTaskSuccess

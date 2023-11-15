@@ -9832,6 +9832,7 @@
                 "ListStateMachines",
                 "ListTagsForResource",
                 "PublishStateMachineVersion",
+                "RedriveExecution",
                 "SendTaskFailure",
                 "SendTaskHeartbeat",
                 "SendTaskSuccess",
@@ -18338,13 +18339,21 @@
                 "ListManagedAccountsForParent",
                 "ListManagedOrganizationalUnits",
                 "ListManagedOrganizationalUnitsForGuardrail",
+                "ListTagsForResource",
                 "ManageOrganizationalUnit",
                 "PerformPreLaunchChecks",
                 "SetupLandingZone",
+                "TagResource",
+                "UntagResource",
                 "UpdateAccountFactoryConfig"
             ],
             "ARNFormat": "arn:aws:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:controltower:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon Nimble Studio": {
