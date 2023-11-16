@@ -6687,6 +6687,7 @@
         "AWS Systems Manager Incident Manager": {
             "StringPrefix": "ssm-incidents",
             "Actions": [
+                "BatchGetIncidentFindings",
                 "CreateReplicationSet",
                 "CreateResponsePlan",
                 "CreateTimelineEvent",
@@ -6700,6 +6701,7 @@
                 "GetResourcePolicies",
                 "GetResponsePlan",
                 "GetTimelineEvent",
+                "ListIncidentFindings",
                 "ListIncidentRecords",
                 "ListRelatedItems",
                 "ListReplicationSets",
