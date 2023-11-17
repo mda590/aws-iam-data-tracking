@@ -98,6 +98,7 @@ AWS HealthOmics
 AWS IAM Access Analyzer
 AWS IAM Identity Center (successor to AWS Single Sign-On)
 AWS IAM Identity Center (successor to AWS Single Sign-On) directory
+AWS IAM Identity Center OIDC service
 AWS IQ
 AWS IQ Permissions
 AWS Identity Store
