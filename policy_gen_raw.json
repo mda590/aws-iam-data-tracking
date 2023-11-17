@@ -3542,6 +3542,7 @@
                 "GetFederationToken",
                 "GetServiceBearerToken",
                 "GetSessionToken",
+                "SetContext",
                 "SetSourceIdentity",
                 "TagSession"
             ],
@@ -3595,6 +3596,8 @@
                 "sts:AWSServiceName",
                 "sts:DurationSeconds",
                 "sts:ExternalId",
+                "sts:RequestContext/${ContextKey}",
+                "sts:RequestContextProviders",
                 "sts:RoleSessionName",
                 "sts:SourceIdentity",
                 "sts:TransitiveTagKeys",
