@@ -224,6 +224,7 @@ Amazon Braket
 Amazon Chime
 Amazon Cloud Directory
 Amazon CloudFront
+Amazon CloudFront KeyValueStore
 Amazon CloudSearch
 Amazon CloudWatch
 Amazon CloudWatch Application Insights
