@@ -8416,6 +8416,7 @@ kendra:UpdateThesaurus
 kinesis:AddTagsToStream
 kinesis:CreateStream
 kinesis:DecreaseStreamRetentionPeriod
+kinesis:DeleteResourcePolicy
 kinesis:DeleteStream
 kinesis:DeregisterStreamConsumer
 kinesis:DescribeLimits
@@ -8425,6 +8426,7 @@ kinesis:DescribeStreamSummary
 kinesis:DisableEnhancedMonitoring
 kinesis:EnableEnhancedMonitoring
 kinesis:GetRecords
+kinesis:GetResourcePolicy
 kinesis:GetShardIterator
 kinesis:IncreaseStreamRetentionPeriod
 kinesis:ListShards
@@ -8434,6 +8436,7 @@ kinesis:ListTagsForStream
 kinesis:MergeShards
 kinesis:PutRecord
 kinesis:PutRecords
+kinesis:PutResourcePolicy
 kinesis:RegisterStreamConsumer
 kinesis:RemoveTagsFromStream
 kinesis:SplitShard
