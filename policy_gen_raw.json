@@ -10620,6 +10620,8 @@
                 "Invoke",
                 "InvokeRpcBitcoinMainnet",
                 "InvokeRpcBitcoinTestnet",
+                "InvokeRpcPolygonMainnet",
+                "InvokeRpcPolygonMumbaiTestnet",
                 "ListAccessors",
                 "ListInvitations",
                 "ListMembers",
@@ -13150,6 +13152,19 @@
                 "aws:TagKeys"
             ],
             "HasResource": true
+        },
+        "AWS Cost Optimization Hub": {
+            "StringPrefix": "cost-optimization-hub",
+            "Actions": [
+                "GetPreferences",
+                "GetRecommendation",
+                "ListEnrollmentStatuses",
+                "ListRecommendationSummaries",
+                "ListRecommendations",
+                "UpdateEnrollmentStatus",
+                "UpdatePreferences"
+            ],
+            "HasResource": false
         },
         "AWS Resource Groups": {
             "StringPrefix": "resource-groups",

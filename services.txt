@@ -55,6 +55,7 @@ AWS Console Mobile App
 AWS Consolidated Billing
 AWS Control Tower
 AWS Cost Explorer Service
+AWS Cost Optimization Hub
 AWS Cost and Usage Report
 AWS Customer Verification Service
 AWS Data Exchange
