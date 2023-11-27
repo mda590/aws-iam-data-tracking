@@ -262,6 +262,7 @@ Amazon EC2
 Amazon EC2 Auto Scaling
 Amazon EC2 Image Builder
 Amazon EC2 Instance Connect
+Amazon EKS Auth
 Amazon EMR Serverless
 Amazon EMR on EKS (EMR Containers)
 Amazon ElastiCache
@@ -379,6 +380,7 @@ Amazon WorkMail
 Amazon WorkMail Message Flow
 Amazon WorkSpaces
 Amazon WorkSpaces Application Manager
+Amazon WorkSpaces Thin Client
 Amazon WorkSpaces Web
 AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
