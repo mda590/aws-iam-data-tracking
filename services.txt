@@ -18,6 +18,7 @@ AWS Application Transformation Service
 AWS Artifact
 AWS Audit Manager
 AWS Auto Scaling
+AWS B2B Data Interchange
 AWS Backup
 AWS Backup Gateway
 AWS Backup storage
