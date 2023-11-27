@@ -23,6 +23,7 @@ AWS Backup Gateway
 AWS Backup storage
 AWS Batch
 AWS Billing
+AWS Billing And Cost Management Data Exports
 AWS Billing Conductor
 AWS Billing Console
 AWS Budget Service
