@@ -68,6 +68,7 @@ AWS DeepComposer
 AWS DeepLens
 AWS DeepRacer
 AWS Device Farm
+AWS Diagnostic tools
 AWS Direct Connect
 AWS Directory Service
 AWS Elastic Beanstalk
@@ -213,6 +214,7 @@ AWS WAF V2
 AWS Well-Architected Tool
 AWS Wickr
 AWS X-Ray
+AWS re:Post Private
 AWS service providing managed private networks
 Alexa for Business
 Amazon API Gateway
