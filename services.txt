@@ -328,6 +328,7 @@ Amazon Mobile Analytics
 Amazon Monitron
 Amazon Neptune
 Amazon Nimble Studio
+Amazon One Enterprise
 Amazon OpenSearch Ingestion
 Amazon OpenSearch Serverless
 Amazon OpenSearch Service
