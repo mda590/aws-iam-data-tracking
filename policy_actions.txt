@@ -3794,6 +3794,7 @@ datazone:GetGlossaryTerm
 datazone:GetGroupProfile
 datazone:GetIamPortalLoginUrl
 datazone:GetListing
+datazone:GetMetadataGenerationRun
 datazone:GetProject
 datazone:GetSubscription
 datazone:GetSubscriptionEligibility
@@ -3812,6 +3813,7 @@ datazone:ListEnvironmentBlueprints
 datazone:ListEnvironmentProfiles
 datazone:ListEnvironments
 datazone:ListGroupsForUser
+datazone:ListMetadataGenerationRuns
 datazone:ListNotifications
 datazone:ListProjectMemberships
 datazone:ListProjects
@@ -3836,6 +3838,8 @@ datazone:SearchUserProfiles
 datazone:SsoLogin
 datazone:SsoLogout
 datazone:StartDataSourceRun
+datazone:StartMetadataGenerationRun
+datazone:StopMetadataGenerationRun
 datazone:TagResource
 datazone:UntagResource
 datazone:UpdateDataSource
@@ -10416,6 +10420,13 @@ network-firewall:UpdateLoggingConfiguration
 network-firewall:UpdateRuleGroup
 network-firewall:UpdateSubnetChangeProtection
 network-firewall:UpdateTLSInspectionConfiguration
+networkmanager-chat:CancelMessageResponse
+networkmanager-chat:CreateConversation
+networkmanager-chat:DeleteConversation
+networkmanager-chat:ListConversationMessages
+networkmanager-chat:ListConversations
+networkmanager-chat:NotifyConversationIsActive
+networkmanager-chat:SendConversationMessage
 networkmanager:AcceptAttachment
 networkmanager:AssociateConnectPeer
 networkmanager:AssociateCustomerGateway
@@ -11156,6 +11167,7 @@ profile:DeleteProfileKey
 profile:DeleteProfileObject
 profile:DeleteProfileObjectType
 profile:DeleteWorkflow
+profile:DetectProfileObjectType
 profile:GetAutoMergingPreview
 profile:GetCalculatedAttributeDefinition
 profile:GetCalculatedAttributeForProfile
@@ -11317,6 +11329,12 @@ purchase-orders:UpdateConsoleActionSetEnforced
 purchase-orders:UpdatePurchaseOrder
 purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
+q:GetConversation
+q:GetTroubleshootingResults
+q:SendMessage
+q:StartConversation
+q:StartTroubleshootingAnalysis
+q:StartTroubleshootingResolutionExplanation
 qldb:CancelJournalKinesisStream
 qldb:CreateLedger
 qldb:DeleteLedger

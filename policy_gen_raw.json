@@ -3196,6 +3196,7 @@
                 "DeleteProfileObject",
                 "DeleteProfileObjectType",
                 "DeleteWorkflow",
+                "DetectProfileObjectType",
                 "GetAutoMergingPreview",
                 "GetCalculatedAttributeDefinition",
                 "GetCalculatedAttributeForProfile",
@@ -4011,6 +4012,21 @@
                 "aws-marketplace:PartyType",
                 "aws-marketplace:ProductId"
             ],
+            "HasResource": false
+        },
+        "AWS Network Manager Chat": {
+            "StringPrefix": "networkmanager-chat",
+            "Actions": [
+                "CancelMessageResponse",
+                "CreateConversation",
+                "DeleteConversation",
+                "ListConversationMessages",
+                "ListConversations",
+                "NotifyConversationIsActive",
+                "SendConversationMessage"
+            ],
+            "ARNFormat": "arn:${Partition}:networkmanager-chat:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:aws:networkmanager-chat::.+",
             "HasResource": false
         },
         "Amazon OpenSearch Ingestion": {
@@ -6099,6 +6115,18 @@
                 "aws:TagKeys"
             ],
             "HasResource": true
+        },
+        "Amazon Q": {
+            "StringPrefix": "q",
+            "Actions": [
+                "GetConversation",
+                "GetTroubleshootingResults",
+                "SendMessage",
+                "StartConversation",
+                "StartTroubleshootingAnalysis",
+                "StartTroubleshootingResolutionExplanation"
+            ],
+            "HasResource": false
         },
         "AWS IAM Identity Center (successor to AWS Single Sign-On) directory": {
             "StringPrefix": "sso-directory",
@@ -10185,7 +10213,7 @@
             ],
             "HasResource": true
         },
-        "Amazon Connect Wisdom": {
+        "Amazon Q in Connect": {
             "StringPrefix": "wisdom",
             "Actions": [
                 "CreateAssistant",
@@ -11126,6 +11154,7 @@
                 "GetGroupProfile",
                 "GetIamPortalLoginUrl",
                 "GetListing",
+                "GetMetadataGenerationRun",
                 "GetProject",
                 "GetSubscription",
                 "GetSubscriptionEligibility",
@@ -11144,6 +11173,7 @@
                 "ListEnvironmentProfiles",
                 "ListEnvironments",
                 "ListGroupsForUser",
+                "ListMetadataGenerationRuns",
                 "ListNotifications",
                 "ListProjectMemberships",
                 "ListProjects",
@@ -11168,6 +11198,8 @@
                 "SsoLogin",
                 "SsoLogout",
                 "StartDataSourceRun",
+                "StartMetadataGenerationRun",
+                "StopMetadataGenerationRun",
                 "TagResource",
                 "UntagResource",
                 "UpdateDataSource",

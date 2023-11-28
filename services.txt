@@ -155,6 +155,7 @@ AWS Migration Hub Refactor Spaces
 AWS Migration Hub Strategy Recommendations
 AWS Network Firewall
 AWS Network Manager
+AWS Network Manager Chat
 AWS OpsWorks
 AWS OpsWorks Configuration Management
 AWS Organizations
@@ -253,7 +254,6 @@ Amazon Connect
 Amazon Connect Cases
 Amazon Connect Customer Profiles
 Amazon Connect Voice ID
-Amazon Connect Wisdom
 Amazon Data Lifecycle Manager
 Amazon DataZone
 Amazon Detective
@@ -338,6 +338,8 @@ Amazon Pinpoint Email Service
 Amazon Pinpoint SMS Voice V2
 Amazon Pinpoint SMS and Voice Service
 Amazon Polly
+Amazon Q
+Amazon Q in Connect
 Amazon QLDB
 Amazon QuickSight
 Amazon RDS
