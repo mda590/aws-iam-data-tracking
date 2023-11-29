@@ -328,6 +328,7 @@ Amazon Message Delivery Service
 Amazon Mobile Analytics
 Amazon Monitron
 Amazon Neptune
+Amazon Neptune Analytics
 Amazon Nimble Studio
 Amazon One Enterprise
 Amazon OpenSearch Ingestion
