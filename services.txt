@@ -294,6 +294,7 @@ Amazon GuardDuty
 Amazon Honeycode
 Amazon Inspector
 Amazon Inspector2
+Amazon InspectorScan
 Amazon Interactive Video Service
 Amazon Interactive Video Service Chat
 Amazon Kendra
@@ -339,6 +340,7 @@ Amazon Pinpoint SMS Voice V2
 Amazon Pinpoint SMS and Voice Service
 Amazon Polly
 Amazon Q
+Amazon Q Business
 Amazon Q in Connect
 Amazon QLDB
 Amazon QuickSight
@@ -359,6 +361,7 @@ Amazon Route 53 Recovery Controls
 Amazon Route 53 Recovery Readiness
 Amazon Route 53 Resolver
 Amazon S3
+Amazon S3 Express
 Amazon S3 Glacier
 Amazon S3 Object Lambda
 Amazon S3 on Outposts
