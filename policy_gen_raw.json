@@ -19882,6 +19882,7 @@
         "AWS Control Tower": {
             "StringPrefix": "controltower",
             "Actions": [
+                "CreateLandingZone",
                 "CreateManagedAccount",
                 "DeleteLandingZone",
                 "DeregisterManagedAccount",
@@ -19905,7 +19906,9 @@
                 "GetEnabledControl",
                 "GetGuardrailComplianceStatus",
                 "GetHomeRegion",
+                "GetLandingZone",
                 "GetLandingZoneDriftStatus",
+                "GetLandingZoneOperation",
                 "GetLandingZoneStatus",
                 "ListDirectoryGroups",
                 "ListDriftDetails",
@@ -19916,6 +19919,7 @@
                 "ListGuardrailViolations",
                 "ListGuardrails",
                 "ListGuardrailsForTarget",
+                "ListLandingZones",
                 "ListManagedAccounts",
                 "ListManagedAccountsForGuardrail",
                 "ListManagedAccountsForParent",
@@ -19924,10 +19928,13 @@
                 "ListTagsForResource",
                 "ManageOrganizationalUnit",
                 "PerformPreLaunchChecks",
+                "ResetLandingZone",
                 "SetupLandingZone",
                 "TagResource",
                 "UntagResource",
-                "UpdateAccountFactoryConfig"
+                "UpdateAccountFactoryConfig",
+                "UpdateEnabledControl",
+                "UpdateLandingZone"
             ],
             "ARNFormat": "arn:aws:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:controltower:.+:.+:.+",
