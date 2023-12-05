@@ -11622,6 +11622,7 @@ quicksight:DeleteFolderMembership
 quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
+quicksight:DeleteIdentityPropagationConfig
 quicksight:DeleteNamespace
 quicksight:DeleteRefreshSchedule
 quicksight:DeleteRoleCustomPermission
@@ -11698,6 +11699,7 @@ quicksight:ListGroupMemberships
 quicksight:ListGroups
 quicksight:ListIAMPolicyAssignments
 quicksight:ListIAMPolicyAssignmentsForUser
+quicksight:ListIdentityPropagationConfigs
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
 quicksight:ListNamespaces
@@ -11756,6 +11758,7 @@ quicksight:UpdateFolder
 quicksight:UpdateFolderPermissions
 quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
+quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateRefreshSchedule
