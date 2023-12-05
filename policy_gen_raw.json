@@ -366,28 +366,36 @@
             ],
             "HasResource": true
         },
-        "AWS Fault Injection Simulator": {
+        "AWS Fault Injection Service": {
             "StringPrefix": "fis",
             "Actions": [
                 "CreateExperimentTemplate",
+                "CreateTargetAccountConfiguration",
                 "DeleteExperimentTemplate",
+                "DeleteTargetAccountConfiguration",
                 "GetAction",
                 "GetExperiment",
+                "GetExperimentTargetAccountConfiguration",
                 "GetExperimentTemplate",
+                "GetTargetAccountConfiguration",
                 "GetTargetResourceType",
                 "InjectApiInternalError",
                 "InjectApiThrottleError",
                 "InjectApiUnavailableError",
                 "ListActions",
+                "ListExperimentResolvedTargets",
+                "ListExperimentTargetAccountConfigurations",
                 "ListExperimentTemplates",
                 "ListExperiments",
                 "ListTagsForResource",
+                "ListTargetAccountConfigurations",
                 "ListTargetResourceTypes",
                 "StartExperiment",
                 "StopExperiment",
                 "TagResource",
                 "UntagResource",
-                "UpdateExperimentTemplate"
+                "UpdateExperimentTemplate",
+                "UpdateTargetAccountConfiguration"
             ],
             "ARNFormat": "arn:aws:fis:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:fis:.+:.+:.+",

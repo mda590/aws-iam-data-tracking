@@ -89,7 +89,7 @@ AWS Elemental MediaTailor
 AWS Elemental Support Cases
 AWS Elemental Support Content
 AWS Entity Resolution
-AWS Fault Injection Simulator
+AWS Fault Injection Service
 AWS Firewall Manager
 AWS Free Tier
 AWS Global Accelerator
