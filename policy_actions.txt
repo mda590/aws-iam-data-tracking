@@ -2233,6 +2233,7 @@ cloudfront:CreateFieldLevelEncryptionProfile
 cloudfront:CreateFunction
 cloudfront:CreateInvalidation
 cloudfront:CreateKeyGroup
+cloudfront:CreateKeyValueStore
 cloudfront:CreateMonitoringSubscription
 cloudfront:CreateOriginAccessControl
 cloudfront:CreateOriginRequestPolicy
@@ -2250,6 +2251,7 @@ cloudfront:DeleteFieldLevelEncryptionConfig
 cloudfront:DeleteFieldLevelEncryptionProfile
 cloudfront:DeleteFunction
 cloudfront:DeleteKeyGroup
+cloudfront:DeleteKeyValueStore
 cloudfront:DeleteMonitoringSubscription
 cloudfront:DeleteOriginAccessControl
 cloudfront:DeleteOriginRequestPolicy
@@ -2258,6 +2260,7 @@ cloudfront:DeleteRealtimeLogConfig
 cloudfront:DeleteResponseHeadersPolicy
 cloudfront:DeleteStreamingDistribution
 cloudfront:DescribeFunction
+cloudfront:DescribeKeyValueStore
 cloudfront:GetCachePolicy
 cloudfront:GetCachePolicyConfig
 cloudfront:GetCloudFrontOriginAccessIdentity
@@ -2304,6 +2307,7 @@ cloudfront:ListFieldLevelEncryptionProfiles
 cloudfront:ListFunctions
 cloudfront:ListInvalidations
 cloudfront:ListKeyGroups
+cloudfront:ListKeyValueStores
 cloudfront:ListOriginAccessControls
 cloudfront:ListOriginRequestPolicies
 cloudfront:ListPublicKeys
@@ -2326,6 +2330,7 @@ cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
 cloudfront:UpdateFunction
 cloudfront:UpdateKeyGroup
+cloudfront:UpdateKeyValueStore
 cloudfront:UpdateOriginAccessControl
 cloudfront:UpdateOriginRequestPolicy
 cloudfront:UpdatePublicKey
