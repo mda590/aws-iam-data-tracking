@@ -13605,13 +13605,21 @@
                 "GetClassicReport",
                 "GetClassicReportPreferences",
                 "GetUsageReport",
+                "ListTagsForResource",
                 "ModifyReportDefinition",
                 "PutClassicReportPreferences",
                 "PutReportDefinition",
+                "TagResource",
+                "UntagResource",
                 "ValidateReportDestination"
             ],
             "ARNFormat": "arn:aws:cur:${Region}:${Account}:definition/${ResourceName}",
             "ARNRegex": "^arn:aws:cur:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Elemental Support Cases": {
