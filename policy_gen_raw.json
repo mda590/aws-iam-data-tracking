@@ -4244,6 +4244,7 @@
                 "DeletePricingRule",
                 "DisassociateAccounts",
                 "DisassociatePricingRules",
+                "GetBillingGroupCostReport",
                 "ListAccountAssociations",
                 "ListBillingGroupCostReports",
                 "ListBillingGroups",
