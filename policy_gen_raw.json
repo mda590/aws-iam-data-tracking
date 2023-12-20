@@ -7743,6 +7743,7 @@
                 "DeleteDataRepositoryAssociation",
                 "DeleteFileCache",
                 "DeleteFileSystem",
+                "DeleteResourcePolicy",
                 "DeleteSnapshot",
                 "DeleteStorageVirtualMachine",
                 "DeleteVolume",
@@ -7759,8 +7760,10 @@
                 "DescribeVolumes",
                 "DisassociateFileGateway",
                 "DisassociateFileSystemAliases",
+                "GetResourcePolicy",
                 "ListTagsForResource",
                 "ManageBackupPrincipalAssociations",
+                "PutResourcePolicy",
                 "ReleaseFileSystemNfsV3Locks",
                 "RestoreVolumeFromSnapshot",
                 "StartMisconfiguredStateRecovery",
@@ -16313,6 +16316,7 @@
                 "UpdateAnalysisPermissions",
                 "UpdateCustomPermissions",
                 "UpdateDashboard",
+                "UpdateDashboardLinks",
                 "UpdateDashboardPermissions",
                 "UpdateDashboardPublishedVersion",
                 "UpdateDataSet",
@@ -17123,6 +17127,10 @@
             ],
             "ARNFormat": "arn:aws:artifact:::${Resource}",
             "ARNRegex": "^arn:aws:artifact::.+",
+            "conditionKeys": [
+                "artifact:ReportCategory",
+                "artifact:ReportSeries"
+            ],
             "HasResource": true
         },
         "AWS Payment Cryptography": {
