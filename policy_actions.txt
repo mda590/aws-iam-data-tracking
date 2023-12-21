@@ -3394,6 +3394,7 @@ connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
 connect:AssociateTrafficDistributionGroupUser
+connect:AssociateUserProficiencies
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
 connect:BatchGetFlowAssociation
@@ -3483,6 +3484,7 @@ connect:DisassociateQueueQuickConnects
 connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
 connect:DisassociateTrafficDistributionGroupUser
+connect:DisassociateUserProficiencies
 connect:DismissUserContact
 connect:GetContactAttributes
 connect:GetCurrentMetricData
@@ -3536,6 +3538,7 @@ connect:ListTrafficDistributionGroupUsers
 connect:ListTrafficDistributionGroups
 connect:ListUseCases
 connect:ListUserHierarchyGroups
+connect:ListUserProficiencies
 connect:ListUsers
 connect:ListViewVersions
 connect:ListViews
@@ -3548,6 +3551,7 @@ connect:ResumeContact
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
 connect:SearchHoursOfOperations
+connect:SearchPredefinedAttributes
 connect:SearchPrompts
 connect:SearchQueues
 connect:SearchQuickConnects
@@ -3585,6 +3589,7 @@ connect:UpdateContactFlowMetadata
 connect:UpdateContactFlowModuleContent
 connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
+connect:UpdateContactRoutingData
 connect:UpdateContactSchedule
 connect:UpdateEvaluationForm
 connect:UpdateHoursOfOperation
@@ -3616,6 +3621,7 @@ connect:UpdateUserHierarchyGroupName
 connect:UpdateUserHierarchyStructure
 connect:UpdateUserIdentityInfo
 connect:UpdateUserPhoneConfig
+connect:UpdateUserProficiencies
 connect:UpdateUserRoutingProfile
 connect:UpdateUserSecurityProfiles
 connect:UpdateViewContent
