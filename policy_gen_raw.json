@@ -8777,6 +8777,7 @@
                 "UpdatePullRequestStatus",
                 "UpdatePullRequestTitle",
                 "UpdateRepositoryDescription",
+                "UpdateRepositoryEncryptionKey",
                 "UpdateRepositoryName",
                 "UploadArchive"
             ],
@@ -12559,6 +12560,7 @@
                 "DeleteAssociation",
                 "DeleteCluster",
                 "DeleteCodeRepository",
+                "DeleteCompilationJob",
                 "DeleteContext",
                 "DeleteDataQualityJobDefinition",
                 "DeleteDeviceFleet",
@@ -12843,6 +12845,7 @@
                 "sagemaker:CustomerMetadataPropertiesToRemove",
                 "sagemaker:DirectInternetAccess",
                 "sagemaker:DomainSharingOutputKmsKey",
+                "sagemaker:EnableRemoteDebug",
                 "sagemaker:FeatureGroupDisableGlueTableCreation",
                 "sagemaker:FeatureGroupEnableOnlineStore",
                 "sagemaker:FeatureGroupOfflineStoreConfig",
@@ -19531,6 +19534,31 @@
             ],
             "ARNFormat": "arn:aws:vendor-insights:::${ResourceType}:${ResourceId}",
             "ARNRegex": "^arn:aws:vendor-insights:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
+        "Amazon CloudWatch Network Monitor": {
+            "StringPrefix": "networkmonitor",
+            "Actions": [
+                "CreateMonitor",
+                "CreateProbe",
+                "DeleteMonitor",
+                "DeleteProbe",
+                "GetMonitor",
+                "GetProbe",
+                "ListMonitors",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateMonitor",
+                "UpdateProbe"
+            ],
+            "ARNFormat": "arn:aws:networkmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:networkmonitor:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",

@@ -2742,6 +2742,7 @@ codecommit:UpdatePullRequestDescription
 codecommit:UpdatePullRequestStatus
 codecommit:UpdatePullRequestTitle
 codecommit:UpdateRepositoryDescription
+codecommit:UpdateRepositoryEncryptionKey
 codecommit:UpdateRepositoryName
 codecommit:UploadArchive
 codedeploy-commands-secure:GetDeploymentSpecification
@@ -10743,6 +10744,18 @@ networkmanager:UpdateLink
 networkmanager:UpdateNetworkResourceMetadata
 networkmanager:UpdateSite
 networkmanager:UpdateVpcAttachment
+networkmonitor:CreateMonitor
+networkmonitor:CreateProbe
+networkmonitor:DeleteMonitor
+networkmonitor:DeleteProbe
+networkmonitor:GetMonitor
+networkmonitor:GetProbe
+networkmonitor:ListMonitors
+networkmonitor:ListTagsForResource
+networkmonitor:TagResource
+networkmonitor:UntagResource
+networkmonitor:UpdateMonitor
+networkmonitor:UpdateProbe
 nimble:AcceptEulas
 nimble:CreateLaunchProfile
 nimble:CreateStreamingImage
@@ -13171,6 +13184,7 @@ sagemaker:DeleteArtifact
 sagemaker:DeleteAssociation
 sagemaker:DeleteCluster
 sagemaker:DeleteCodeRepository
+sagemaker:DeleteCompilationJob
 sagemaker:DeleteContext
 sagemaker:DeleteDataQualityJobDefinition
 sagemaker:DeleteDeviceFleet

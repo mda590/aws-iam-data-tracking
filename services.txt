@@ -239,6 +239,7 @@ Amazon CloudWatch Application Insights
 Amazon CloudWatch Evidently
 Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
+Amazon CloudWatch Network Monitor
 Amazon CloudWatch Observability Access Manager
 Amazon CloudWatch Synthetics
 Amazon CodeCatalyst
