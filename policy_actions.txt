@@ -7264,6 +7264,7 @@ guardduty:GetMalwareScanSettings
 guardduty:GetMasterAccount
 guardduty:GetMemberDetectors
 guardduty:GetMembers
+guardduty:GetOrganizationStatistics
 guardduty:GetRemainingFreeTrialDays
 guardduty:GetThreatIntelSet
 guardduty:GetUsageStatistics
@@ -11998,6 +11999,7 @@ rds:DescribeDBProxies
 rds:DescribeDBProxyEndpoints
 rds:DescribeDBProxyTargetGroups
 rds:DescribeDBProxyTargets
+rds:DescribeDBRecommendations
 rds:DescribeDBSecurityGroups
 rds:DescribeDBSnapshotAttributes
 rds:DescribeDBSnapshots
@@ -12022,8 +12024,10 @@ rds:DescribeReservedDBInstancesOfferings
 rds:DescribeSourceRegions
 rds:DescribeTenantDatabases
 rds:DescribeValidDBInstanceModifications
+rds:DisableHttpEndpoint
 rds:DownloadCompleteDBLogFile
 rds:DownloadDBLogFilePortion
+rds:EnableHttpEndpoint
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
 rds:ListTagsForResource
@@ -12040,6 +12044,7 @@ rds:ModifyDBParameterGroup
 rds:ModifyDBProxy
 rds:ModifyDBProxyEndpoint
 rds:ModifyDBProxyTargetGroup
+rds:ModifyDBRecommendation
 rds:ModifyDBSnapshot
 rds:ModifyDBSnapshotAttribute
 rds:ModifyDBSubnetGroup
