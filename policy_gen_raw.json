@@ -1764,6 +1764,7 @@
                 "ResumeContact",
                 "ResumeContactRecording",
                 "SearchAvailablePhoneNumbers",
+                "SearchContacts",
                 "SearchHoursOfOperations",
                 "SearchPredefinedAttributes",
                 "SearchPrompts",
@@ -1850,6 +1851,7 @@
                 "connect:AttributeType",
                 "connect:InstanceId",
                 "connect:MonitorCapabilities",
+                "connect:SearchContactsByContactAnalysis",
                 "connect:SearchTag/${TagKey}",
                 "connect:StorageResourceType"
             ],

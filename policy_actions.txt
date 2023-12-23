@@ -3551,6 +3551,7 @@ connect:ReplicateInstance
 connect:ResumeContact
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
+connect:SearchContacts
 connect:SearchHoursOfOperations
 connect:SearchPredefinedAttributes
 connect:SearchPrompts
