@@ -19785,6 +19785,7 @@
                 "ecs:cluster",
                 "ecs:container-instances",
                 "ecs:container-name",
+                "ecs:enable-ebs-volumes",
                 "ecs:enable-execute-command",
                 "ecs:enable-service-connect",
                 "ecs:namespace",
