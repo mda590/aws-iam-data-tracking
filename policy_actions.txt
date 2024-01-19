@@ -5899,6 +5899,7 @@ elasticmapreduce:RemoveAutoTerminationPolicy
 elasticmapreduce:RemoveManagedScalingPolicy
 elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
+elasticmapreduce:SetKeepJobFlowAliveWhenNoSteps
 elasticmapreduce:SetTerminationProtection
 elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
