@@ -16420,6 +16420,7 @@
                 "CreateTemplate",
                 "DeleteDomain",
                 "GetCase",
+                "GetCaseAuditEvents",
                 "GetCaseEventConfiguration",
                 "GetDomain",
                 "GetLayout",
