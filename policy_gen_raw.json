@@ -14328,7 +14328,7 @@
                 "UpdateBackendJob",
                 "UpdateBackendStorage"
             ],
-            "ARNFormat": "arn:aws:amplifybackend:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNFormat": "arn:aws:amplifybackend:${Region}:${Account}:/${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:amplifybackend:.+:.+:.+",
             "HasResource": true
         },
