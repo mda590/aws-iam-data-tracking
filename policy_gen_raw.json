@@ -12908,6 +12908,7 @@
                 "sagemaker:ResourceTag/",
                 "sagemaker:ResourceTag/${TagKey}",
                 "sagemaker:RootAccess",
+                "sagemaker:SearchVisibilityCondition/${FilterKey}",
                 "sagemaker:ServerlessMaxConcurrency",
                 "sagemaker:ServerlessMemorySize",
                 "sagemaker:SpaceSharingType",
