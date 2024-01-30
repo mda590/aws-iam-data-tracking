@@ -12264,6 +12264,7 @@
                 "DeregisterGatewayInstance",
                 "DescribeBridge",
                 "DescribeFlow",
+                "DescribeFlowSourceMetadata",
                 "DescribeGateway",
                 "DescribeGatewayInstance",
                 "DescribeOffering",
