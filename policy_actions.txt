@@ -8560,6 +8560,7 @@ ivs:BatchStartViewerSessionRevocation
 ivs:CreateChannel
 ivs:CreateEncoderConfiguration
 ivs:CreateParticipantToken
+ivs:CreatePlaybackRestrictionPolicy
 ivs:CreateRecordingConfiguration
 ivs:CreateStage
 ivs:CreateStorageConfiguration
@@ -8567,6 +8568,7 @@ ivs:CreateStreamKey
 ivs:DeleteChannel
 ivs:DeleteEncoderConfiguration
 ivs:DeletePlaybackKeyPair
+ivs:DeletePlaybackRestrictionPolicy
 ivs:DeleteRecordingConfiguration
 ivs:DeleteStage
 ivs:DeleteStorageConfiguration
@@ -8577,6 +8579,7 @@ ivs:GetComposition
 ivs:GetEncoderConfiguration
 ivs:GetParticipant
 ivs:GetPlaybackKeyPair
+ivs:GetPlaybackRestrictionPolicy
 ivs:GetRecordingConfiguration
 ivs:GetStage
 ivs:GetStageSession
@@ -8591,6 +8594,7 @@ ivs:ListEncoderConfigurations
 ivs:ListParticipantEvents
 ivs:ListParticipants
 ivs:ListPlaybackKeyPairs
+ivs:ListPlaybackRestrictionPolicies
 ivs:ListRecordingConfigurations
 ivs:ListStageSessions
 ivs:ListStages
@@ -8607,6 +8611,7 @@ ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
 ivs:UpdateChannel
+ivs:UpdatePlaybackRestrictionPolicy
 ivs:UpdateStage
 ivschat:CreateChatToken
 ivschat:CreateLoggingConfiguration
