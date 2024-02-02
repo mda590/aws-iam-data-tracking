@@ -12623,6 +12623,7 @@
                 "DeleteHubContent",
                 "DeleteHumanLoop",
                 "DeleteHumanTaskUi",
+                "DeleteHyperParameterTuningJob",
                 "DeleteImage",
                 "DeleteImageVersion",
                 "DeleteInferenceComponent",
