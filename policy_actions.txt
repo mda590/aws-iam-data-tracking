@@ -4399,6 +4399,10 @@ dms:CreateReplicationConfig
 dms:CreateReplicationInstance
 dms:CreateReplicationSubnetGroup
 dms:CreateReplicationTask
+dms:CreateTest
+dms:CreateTestEnvironments
+dms:CreateTestPlan
+dms:CreateTestRun
 dms:DeleteCertificate
 dms:DeleteConnection
 dms:DeleteDataMigration
@@ -4414,6 +4418,8 @@ dms:DeleteReplicationInstance
 dms:DeleteReplicationSubnetGroup
 dms:DeleteReplicationTask
 dms:DeleteReplicationTaskAssessmentRun
+dms:DeleteTest
+dms:DeleteTestPlan
 dms:DescribeAccountAttributes
 dms:DescribeApplicableIndividualAssessments
 dms:DescribeCertificates
@@ -4458,6 +4464,12 @@ dms:DescribeReplicationTasks
 dms:DescribeReplications
 dms:DescribeSchemas
 dms:DescribeTableStatistics
+dms:DescribeTestEnvironments
+dms:DescribeTestGenerationStatus
+dms:DescribeTestPlans
+dms:DescribeTestRunResultsSummaries
+dms:DescribeTestRuns
+dms:DescribeTests
 dms:DisassociateExtensionPack
 dms:ExportMetadataModelAssessment
 dms:GetMetadataModel
@@ -4484,6 +4496,8 @@ dms:ModifyReplicationConfig
 dms:ModifyReplicationInstance
 dms:ModifyReplicationSubnetGroup
 dms:ModifyReplicationTask
+dms:ModifyTest
+dms:ModifyTestPlan
 dms:MoveReplicationTask
 dms:RebootReplicationInstance
 dms:RefreshSchemas
@@ -4493,6 +4507,7 @@ dms:RemoveTagsFromResource
 dms:RunFleetAdvisorLsaAnalysis
 dms:StartDataMigration
 dms:StartExtensionPackAssociation
+dms:StartGenerateTests
 dms:StartMetadataModelAssessment
 dms:StartMetadataModelConversion
 dms:StartMetadataModelExportAsScript
@@ -4505,8 +4520,10 @@ dms:StartReplicationTask
 dms:StartReplicationTaskAssessment
 dms:StartReplicationTaskAssessmentRun
 dms:StopDataMigration
+dms:StopGenerateTests
 dms:StopReplication
 dms:StopReplicationTask
+dms:StopTestRun
 dms:TestConnection
 dms:UpdateConversionConfiguration
 dms:UpdateDataProvider
@@ -4514,6 +4531,7 @@ dms:UpdateInstanceProfile
 dms:UpdateMigrationProject
 dms:UpdateSubscriptionsToEventBridge
 dms:UploadFileMetadataList
+dms:ViewTestRunResults
 docdb-elastic:CreateCluster
 docdb-elastic:CreateClusterSnapshot
 docdb-elastic:DeleteCluster
