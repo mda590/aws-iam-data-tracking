@@ -401,3 +401,4 @@ Application Discovery Arsenal
 Database Query Metadata Service
 High-volume outbound communications
 Service Quotas
+Tag Editor

@@ -12555,6 +12555,9 @@ resource-explorer-2:TagResource
 resource-explorer-2:UntagResource
 resource-explorer-2:UpdateIndexType
 resource-explorer-2:UpdateView
+resource-explorer:ListResourceTypes
+resource-explorer:ListResources
+resource-explorer:ListTags
 resource-groups:AssociateResource
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
@@ -15179,6 +15182,7 @@ tag:UntagResources
 tax:BatchPutTaxRegistration
 tax:DeleteTaxRegistration
 tax:GetExemptions
+tax:GetTaxInfoReportingDocument
 tax:GetTaxInheritance
 tax:GetTaxInterview
 tax:GetTaxRegistration

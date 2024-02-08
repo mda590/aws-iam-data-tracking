@@ -19622,6 +19622,17 @@
             ],
             "HasResource": true
         },
+        "Tag Editor": {
+            "StringPrefix": "resource-explorer",
+            "Actions": [
+                "ListResourceTypes",
+                "ListResources",
+                "ListTags"
+            ],
+            "ARNFormat": "arn:${Partition}:resource-explorer:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:resource-explorer:.+",
+            "HasResource": false
+        },
         "Amazon CloudWatch Network Monitor": {
             "StringPrefix": "networkmonitor",
             "Actions": [
@@ -20363,6 +20374,7 @@
                 "BatchPutTaxRegistration",
                 "DeleteTaxRegistration",
                 "GetExemptions",
+                "GetTaxInfoReportingDocument",
                 "GetTaxInheritance",
                 "GetTaxInterview",
                 "GetTaxRegistration",
