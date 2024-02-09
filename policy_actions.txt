@@ -2160,6 +2160,7 @@ cloudformation:CancelResourceRequest
 cloudformation:CancelUpdateStack
 cloudformation:ContinueUpdateRollback
 cloudformation:CreateChangeSet
+cloudformation:CreateGeneratedTemplate
 cloudformation:CreateResource
 cloudformation:CreateStack
 cloudformation:CreateStackInstances
@@ -2168,6 +2169,7 @@ cloudformation:CreateUploadBucket
 cloudformation:DeactivateOrganizationsAccess
 cloudformation:DeactivateType
 cloudformation:DeleteChangeSet
+cloudformation:DeleteGeneratedTemplate
 cloudformation:DeleteResource
 cloudformation:DeleteStack
 cloudformation:DeleteStackInstances
@@ -2176,8 +2178,10 @@ cloudformation:DeregisterType
 cloudformation:DescribeAccountLimits
 cloudformation:DescribeChangeSet
 cloudformation:DescribeChangeSetHooks
+cloudformation:DescribeGeneratedTemplate
 cloudformation:DescribeOrganizationsAccess
 cloudformation:DescribePublisher
+cloudformation:DescribeResourceScan
 cloudformation:DescribeStackDriftDetectionStatus
 cloudformation:DescribeStackEvents
 cloudformation:DescribeStackInstance
@@ -2194,6 +2198,7 @@ cloudformation:DetectStackResourceDrift
 cloudformation:DetectStackSetDrift
 cloudformation:EstimateTemplateCost
 cloudformation:ExecuteChangeSet
+cloudformation:GetGeneratedTemplate
 cloudformation:GetResource
 cloudformation:GetResourceRequestStatus
 cloudformation:GetStackPolicy
@@ -2202,8 +2207,12 @@ cloudformation:GetTemplateSummary
 cloudformation:ImportStacksToStackSet
 cloudformation:ListChangeSets
 cloudformation:ListExports
+cloudformation:ListGeneratedTemplates
 cloudformation:ListImports
 cloudformation:ListResourceRequests
+cloudformation:ListResourceScanRelatedResources
+cloudformation:ListResourceScanResources
+cloudformation:ListResourceScans
 cloudformation:ListResources
 cloudformation:ListStackInstanceResourceDrifts
 cloudformation:ListStackInstances
@@ -2224,10 +2233,12 @@ cloudformation:SetStackPolicy
 cloudformation:SetTypeConfiguration
 cloudformation:SetTypeDefaultVersion
 cloudformation:SignalResource
+cloudformation:StartResourceScan
 cloudformation:StopStackSetOperation
 cloudformation:TagResource
 cloudformation:TestType
 cloudformation:UntagResource
+cloudformation:UpdateGeneratedTemplate
 cloudformation:UpdateResource
 cloudformation:UpdateStack
 cloudformation:UpdateStackInstances
