@@ -12533,6 +12533,7 @@
                 "s3:ExistingJobOperation",
                 "s3:ExistingJobPriority",
                 "s3:ExistingObjectTag/<key>",
+                "s3:InventoryAccessibleOptionalFields",
                 "s3:JobSuspendedCause",
                 "s3:RequestJobOperation",
                 "s3:RequestJobPriority",
