@@ -5916,7 +5916,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "wafv2:LogDestinationResource",
+                "wafv2:LogScope"
             ],
             "HasResource": true
         },
