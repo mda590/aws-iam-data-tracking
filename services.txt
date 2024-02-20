@@ -328,6 +328,7 @@ Amazon Managed Workflows for Apache Airflow
 Amazon Mechanical Turk
 Amazon MemoryDB
 Amazon Message Delivery Service
+Amazon Message Gateway Service
 Amazon Mobile Analytics
 Amazon Monitron
 Amazon Neptune
@@ -376,7 +377,6 @@ Amazon SageMaker
 Amazon SageMaker Ground Truth Synthetic
 Amazon SageMaker geospatial capabilities
 Amazon Security Lake
-Amazon Session Manager Message Gateway Service
 Amazon Simple Email Service v2
 Amazon Simple Workflow Service
 Amazon SimpleDB

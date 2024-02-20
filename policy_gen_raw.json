@@ -17187,7 +17187,7 @@
             ],
             "HasResource": true
         },
-        "Amazon Session Manager Message Gateway Service": {
+        "Amazon Message Gateway Service": {
             "StringPrefix": "ssmmessages",
             "Actions": [
                 "CreateControlChannel",
