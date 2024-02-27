@@ -7975,6 +7975,7 @@
                 "PurchaseOffering",
                 "RebootInputDevice",
                 "RejectInputDeviceTransfer",
+                "RestartChannelPipelines",
                 "StartChannel",
                 "StartInputDevice",
                 "StartInputDeviceMaintenanceWindow",

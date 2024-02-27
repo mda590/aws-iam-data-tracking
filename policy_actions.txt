@@ -10076,6 +10076,7 @@ medialive:ListTagsForResource
 medialive:PurchaseOffering
 medialive:RebootInputDevice
 medialive:RejectInputDeviceTransfer
+medialive:RestartChannelPipelines
 medialive:StartChannel
 medialive:StartInputDevice
 medialive:StartInputDeviceMaintenanceWindow
