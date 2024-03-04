@@ -21114,16 +21114,25 @@
                 "CreateWorkerConfiguration",
                 "DeleteConnector",
                 "DeleteCustomPlugin",
+                "DeleteWorkerConfiguration",
                 "DescribeConnector",
                 "DescribeCustomPlugin",
                 "DescribeWorkerConfiguration",
                 "ListConnectors",
                 "ListCustomPlugins",
+                "ListTagsForResource",
                 "ListWorkerConfigurations",
+                "TagResource",
+                "UntagResource",
                 "UpdateConnector"
             ],
             "ARNFormat": "arn:aws:kafkaconnect:${Region}:${Account}:${ResourceType}/${ResourceName}/${UUID}",
             "ARNRegex": "^arn:aws:kafkaconnect:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon Neptune Analytics": {
