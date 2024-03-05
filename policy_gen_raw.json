@@ -2310,6 +2310,7 @@
             "Actions": [
                 "GetConversation",
                 "GetTroubleshootingResults",
+                "ListConversations",
                 "SendMessage",
                 "StartConversation",
                 "StartTroubleshootingAnalysis",
