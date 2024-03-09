@@ -5728,6 +5728,7 @@
             "Actions": [
                 "AcceptPredictions",
                 "AcceptSubscriptionRequest",
+                "CancelMetadataGenerationRun",
                 "CancelSubscription",
                 "CreateAsset",
                 "CreateAssetRevision",

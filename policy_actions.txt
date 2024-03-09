@@ -3903,6 +3903,7 @@ datasync:UpdateTask
 datasync:UpdateTaskExecution
 datazone:AcceptPredictions
 datazone:AcceptSubscriptionRequest
+datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
 datazone:CreateAsset
 datazone:CreateAssetRevision
