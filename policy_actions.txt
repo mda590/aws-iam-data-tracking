@@ -9496,6 +9496,7 @@ lightsail:GetRelationalDatabaseParameters
 lightsail:GetRelationalDatabaseSnapshot
 lightsail:GetRelationalDatabaseSnapshots
 lightsail:GetRelationalDatabases
+lightsail:GetSetupHistory
 lightsail:GetStaticIp
 lightsail:GetStaticIps
 lightsail:ImportKeyPair
@@ -9512,6 +9513,7 @@ lightsail:ResetDistributionCache
 lightsail:SendContactMethodVerification
 lightsail:SetIpAddressType
 lightsail:SetResourceAccessForBucket
+lightsail:SetupInstanceHttps
 lightsail:StartGUISession
 lightsail:StartInstance
 lightsail:StartRelationalDatabase
@@ -10457,6 +10459,8 @@ migrationhub-strategy:ListCollectors
 migrationhub-strategy:ListImportFileTask
 migrationhub-strategy:ListJarArtifacts
 migrationhub-strategy:ListServers
+migrationhub-strategy:PutLogData
+migrationhub-strategy:PutMetricData
 migrationhub-strategy:PutPortfolioPreferences
 migrationhub-strategy:RegisterCollector
 migrationhub-strategy:SendMessage
