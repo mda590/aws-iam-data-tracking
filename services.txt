@@ -382,6 +382,7 @@ Amazon Simple Workflow Service
 Amazon SimpleDB
 Amazon Textract
 Amazon Timestream
+Amazon Timestream Influxdb
 Amazon Transcribe
 Amazon Translate
 Amazon VPC Lattice

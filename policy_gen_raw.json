@@ -17241,6 +17241,30 @@
             ],
             "HasResource": true
         },
+        "Amazon Timestream Influxdb": {
+            "StringPrefix": "timestream-influxdb",
+            "Actions": [
+                "CreateDbInstance",
+                "CreateDbParameterGroup",
+                "DeleteDbInstance",
+                "GetDbInstance",
+                "GetDbParameterGroup",
+                "ListDbInstances",
+                "ListDbParameterGroups",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateDbInstance"
+            ],
+            "ARNFormat": "arn:aws:timestream-influxdb:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:timestream-influxdb:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Payment Cryptography": {
             "StringPrefix": "payment-cryptography",
             "Actions": [
