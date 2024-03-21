@@ -4728,6 +4728,7 @@ dynamodb:CreateTable
 dynamodb:CreateTableReplica
 dynamodb:DeleteBackup
 dynamodb:DeleteItem
+dynamodb:DeleteResourcePolicy
 dynamodb:DeleteTable
 dynamodb:DeleteTableReplica
 dynamodb:DescribeBackup
@@ -4768,6 +4769,7 @@ dynamodb:PartiQLSelect
 dynamodb:PartiQLUpdate
 dynamodb:PurchaseReservedCapacityOfferings
 dynamodb:PutItem
+dynamodb:PutResourcePolicy
 dynamodb:Query
 dynamodb:RestoreTableFromAwsBackup
 dynamodb:RestoreTableFromBackup
@@ -4782,6 +4784,7 @@ dynamodb:UpdateGlobalTable
 dynamodb:UpdateGlobalTableSettings
 dynamodb:UpdateGlobalTableVersion
 dynamodb:UpdateItem
+dynamodb:UpdateKinesisStreamingDestination
 dynamodb:UpdateTable
 dynamodb:UpdateTableReplicaAutoScaling
 dynamodb:UpdateTimeToLive

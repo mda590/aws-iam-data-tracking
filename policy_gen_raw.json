@@ -4357,6 +4357,7 @@
                 "CreateTableReplica",
                 "DeleteBackup",
                 "DeleteItem",
+                "DeleteResourcePolicy",
                 "DeleteTable",
                 "DeleteTableReplica",
                 "DescribeBackup",
@@ -4397,6 +4398,7 @@
                 "PartiQLUpdate",
                 "PurchaseReservedCapacityOfferings",
                 "PutItem",
+                "PutResourcePolicy",
                 "Query",
                 "RestoreTableFromAwsBackup",
                 "RestoreTableFromBackup",
@@ -4411,6 +4413,7 @@
                 "UpdateGlobalTableSettings",
                 "UpdateGlobalTableVersion",
                 "UpdateItem",
+                "UpdateKinesisStreamingDestination",
                 "UpdateTable",
                 "UpdateTableReplicaAutoScaling",
                 "UpdateTimeToLive"
