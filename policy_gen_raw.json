@@ -13145,6 +13145,7 @@
                 "GetMonitor",
                 "GetQueryResults",
                 "GetQueryStatus",
+                "Link",
                 "ListHealthEvents",
                 "ListMonitors",
                 "ListTagsForResource",
