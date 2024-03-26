@@ -2165,11 +2165,13 @@
                 "GetSavingsPlansUtilizationDetails",
                 "GetTags",
                 "GetUsageForecast",
+                "ListCostAllocationTagBackfillHistory",
                 "ListCostAllocationTags",
                 "ListCostCategoryDefinitions",
                 "ListSavingsPlansPurchaseRecommendationGeneration",
                 "ListTagsForResource",
                 "ProvideAnomalyFeedback",
+                "StartCostAllocationTagBackfill",
                 "StartSavingsPlansPurchaseRecommendationGeneration",
                 "TagResource",
                 "UntagResource",
@@ -11175,6 +11177,7 @@
                 "DescribeSavingsPlansOfferingRates",
                 "DescribeSavingsPlansOfferings",
                 "ListTagsForResource",
+                "ReturnSavingsPlan",
                 "TagResource",
                 "UntagResource"
             ],
@@ -19408,9 +19411,11 @@
         "AWS Migration Hub Orchestrator": {
             "StringPrefix": "migrationhub-orchestrator",
             "Actions": [
+                "CreateTemplate",
                 "CreateWorkflow",
                 "CreateWorkflowStep",
                 "CreateWorkflowStepGroup",
+                "DeleteTemplate",
                 "DeleteWorkflow",
                 "DeleteWorkflowStep",
                 "DeleteWorkflowStepGroup",
@@ -19436,6 +19441,7 @@
                 "StopWorkflow",
                 "TagResource",
                 "UntagResource",
+                "UpdateTemplate",
                 "UpdateWorkflow",
                 "UpdateWorkflowStep",
                 "UpdateWorkflowStepGroup"

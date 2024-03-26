@@ -1621,11 +1621,13 @@ ce:GetSavingsPlansUtilization
 ce:GetSavingsPlansUtilizationDetails
 ce:GetTags
 ce:GetUsageForecast
+ce:ListCostAllocationTagBackfillHistory
 ce:ListCostAllocationTags
 ce:ListCostCategoryDefinitions
 ce:ListSavingsPlansPurchaseRecommendationGeneration
 ce:ListTagsForResource
 ce:ProvideAnomalyFeedback
+ce:StartCostAllocationTagBackfill
 ce:StartSavingsPlansPurchaseRecommendationGeneration
 ce:TagResource
 ce:UntagResource
@@ -10424,9 +10426,11 @@ mgn:UpdateSourceServer
 mgn:UpdateSourceServerReplicationType
 mgn:UpdateWave
 mgn:VerifyClientRoleForMgn
+migrationhub-orchestrator:CreateTemplate
 migrationhub-orchestrator:CreateWorkflow
 migrationhub-orchestrator:CreateWorkflowStep
 migrationhub-orchestrator:CreateWorkflowStepGroup
+migrationhub-orchestrator:DeleteTemplate
 migrationhub-orchestrator:DeleteWorkflow
 migrationhub-orchestrator:DeleteWorkflowStep
 migrationhub-orchestrator:DeleteWorkflowStepGroup
@@ -10452,6 +10456,7 @@ migrationhub-orchestrator:StartWorkflow
 migrationhub-orchestrator:StopWorkflow
 migrationhub-orchestrator:TagResource
 migrationhub-orchestrator:UntagResource
+migrationhub-orchestrator:UpdateTemplate
 migrationhub-orchestrator:UpdateWorkflow
 migrationhub-orchestrator:UpdateWorkflowStep
 migrationhub-orchestrator:UpdateWorkflowStepGroup
@@ -13588,6 +13593,7 @@ savingsplans:DescribeSavingsPlans
 savingsplans:DescribeSavingsPlansOfferingRates
 savingsplans:DescribeSavingsPlansOfferings
 savingsplans:ListTagsForResource
+savingsplans:ReturnSavingsPlan
 savingsplans:TagResource
 savingsplans:UntagResource
 scheduler:CreateSchedule
