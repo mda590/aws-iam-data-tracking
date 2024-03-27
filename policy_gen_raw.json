@@ -20866,6 +20866,7 @@
                 "CreateUser",
                 "DeleteEnvironment",
                 "DeleteKxCluster",
+                "DeleteKxClusterNode",
                 "DeleteKxDatabase",
                 "DeleteKxDataview",
                 "DeleteKxEnvironment",
