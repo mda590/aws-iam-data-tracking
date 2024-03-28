@@ -20926,12 +20926,23 @@
             "StringPrefix": "groundtruthlabeling",
             "Actions": [
                 "AssociatePatchToManifestJob",
+                "CreateBatch",
+                "CreateIntakeForm",
+                "CreateProject",
+                "CreateWorkflowDefinition",
                 "DescribeConsoleJob",
+                "GenerateLIDARPreviewTaskConfigJob",
+                "GetBatch",
+                "GetIntakeFormStatus",
+                "ListBatches",
                 "ListDatasetObjects",
+                "ListProjects",
                 "RunFilterOrSampleDatasetJob",
-                "RunGenerateManifestByCrawlingJob"
+                "RunGenerateManifestByCrawlingJob",
+                "RunGenerateManifestMetricsJob",
+                "UpdateBatch"
             ],
-            "ARNFormat": "arn:${Partition}:groundtruthlabeling:${region}:${account}:${resourceType}/${resourcePath}",
+            "ARNFormat": "arn:${Partition}:groundtruthlabeling:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:${Partition}:groundtruthlabeling:.+",
             "HasResource": false
         },
