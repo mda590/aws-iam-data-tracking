@@ -13363,6 +13363,7 @@ sagemaker:DeleteNotebookInstanceLifecycleConfig
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
+sagemaker:DeleteResourcePolicy
 sagemaker:DeleteSpace
 sagemaker:DeleteStudioLifecycleConfig
 sagemaker:DeleteTags
@@ -13444,6 +13445,7 @@ sagemaker:GetDeviceRegistration
 sagemaker:GetLineageGroupPolicy
 sagemaker:GetModelPackageGroupPolicy
 sagemaker:GetRecord
+sagemaker:GetResourcePolicy
 sagemaker:GetSagemakerServicecatalogPortfolioStatus
 sagemaker:GetScalingConfigurationRecommendation
 sagemaker:GetSearchSuggestions
@@ -13533,6 +13535,7 @@ sagemaker:ListWorkteams
 sagemaker:PutLineageGroupPolicy
 sagemaker:PutModelPackageGroupPolicy
 sagemaker:PutRecord
+sagemaker:PutResourcePolicy
 sagemaker:QueryLineage
 sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
