@@ -45,6 +45,7 @@ AWS CloudWatch RUM
 AWS CodeArtifact
 AWS CodeBuild
 AWS CodeCommit
+AWS CodeConnections
 AWS CodeDeploy
 AWS CodeDeploy secure host commands service
 AWS CodePipeline
