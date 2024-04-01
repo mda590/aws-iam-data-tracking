@@ -66,6 +66,7 @@ AWS Data Exchange
 AWS Data Pipeline
 AWS DataSync
 AWS Database Migration Service
+AWS Deadline Cloud
 AWS DeepComposer
 AWS DeepLens
 AWS DeepRacer
