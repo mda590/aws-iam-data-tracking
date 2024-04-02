@@ -8427,6 +8427,7 @@
                 "ListStackInstanceResourceDrifts",
                 "ListStackInstances",
                 "ListStackResources",
+                "ListStackSetAutoDeploymentTargets",
                 "ListStackSetOperationResults",
                 "ListStackSetOperations",
                 "ListStackSets",

@@ -2223,6 +2223,7 @@ cloudformation:ListResources
 cloudformation:ListStackInstanceResourceDrifts
 cloudformation:ListStackInstances
 cloudformation:ListStackResources
+cloudformation:ListStackSetAutoDeploymentTargets
 cloudformation:ListStackSetOperationResults
 cloudformation:ListStackSetOperations
 cloudformation:ListStackSets
