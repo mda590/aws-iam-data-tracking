@@ -5041,6 +5041,7 @@
             "Actions": [
                 "BatchGetCollaborationAnalysisTemplate",
                 "BatchGetSchema",
+                "BatchGetSchemaAnalysisRule",
                 "CreateAnalysisTemplate",
                 "CreateCollaboration",
                 "CreateConfiguredAudienceModelAssociation",

@@ -2005,6 +2005,7 @@ cleanrooms-ml:UnTagResource
 cleanrooms-ml:UpdateConfiguredAudienceModel
 cleanrooms:BatchGetCollaborationAnalysisTemplate
 cleanrooms:BatchGetSchema
+cleanrooms:BatchGetSchemaAnalysisRule
 cleanrooms:CreateAnalysisTemplate
 cleanrooms:CreateCollaboration
 cleanrooms:CreateConfiguredAudienceModelAssociation
