@@ -21449,6 +21449,7 @@
                 "ReadDataViaQuery",
                 "ResetGraph",
                 "RestoreGraphFromSnapshot",
+                "StartImportTask",
                 "TagResource",
                 "UntagResource",
                 "UpdateGraph",
