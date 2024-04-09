@@ -19,5 +19,6 @@ aws:TagKeys
 aws:TokenIssueTime
 aws:UserAgent
 aws:ViaAWSService
+aws:VpcSourceIp
 aws:userid
 aws:username
