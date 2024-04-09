@@ -454,6 +454,17 @@
             ],
             "HasResource": true
         },
+        "AWS Control Catalog": {
+            "StringPrefix": "controlcatalog",
+            "Actions": [
+                "ListCommonControls",
+                "ListDomains",
+                "ListObjectives"
+            ],
+            "ARNFormat": "arn:aws:controlcatalog:::${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:controlcatalog:::.+",
+            "HasResource": true
+        },
         "AWS Audit Manager": {
             "StringPrefix": "auditmanager",
             "Actions": [
