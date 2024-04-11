@@ -13842,6 +13842,7 @@ scn:ListAdminUsers
 scn:ListInstances
 scn:ListTagsForResource
 scn:RemoveAdminPermissionsForUser
+scn:SendDataIntegrationEvent
 scn:TagResource
 scn:UntagResource
 scn:UpdateInstance
