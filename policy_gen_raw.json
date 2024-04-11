@@ -5292,7 +5292,8 @@
                 "UntagResource",
                 "UpdateContent",
                 "UpdateKnowledgeBaseTemplateUri",
-                "UpdateQuickResponse"
+                "UpdateQuickResponse",
+                "UpdateSession"
             ],
             "ARNFormat": "arn:aws:wisdom:${Region}:${Account}:${Resource}/${ResourceId}",
             "ARNRegex": "^arn:aws:wisdom:.+:.+:.+",
