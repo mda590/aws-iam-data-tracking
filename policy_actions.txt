@@ -9194,6 +9194,7 @@ kms:ImportKeyMaterial
 kms:ListAliases
 kms:ListGrants
 kms:ListKeyPolicies
+kms:ListKeyRotations
 kms:ListKeys
 kms:ListResourceTags
 kms:ListRetirableGrants
@@ -9203,6 +9204,7 @@ kms:ReEncryptTo
 kms:ReplicateKey
 kms:RetireGrant
 kms:RevokeGrant
+kms:RotateKeyOnDemand
 kms:ScheduleKeyDeletion
 kms:Sign
 kms:SynchronizeMultiRegionKey
