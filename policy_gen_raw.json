@@ -16747,6 +16747,7 @@
             "Actions": [
                 "AssociateLenses",
                 "AssociateProfiles",
+                "ConfigureIntegration",
                 "CreateLensShare",
                 "CreateLensVersion",
                 "CreateMilestone",
@@ -16769,6 +16770,7 @@
                 "ExportLens",
                 "GetAnswer",
                 "GetConsolidatedReport",
+                "GetGlobalSettings",
                 "GetLens",
                 "GetLensReview",
                 "GetLensReviewReport",
@@ -16804,6 +16806,7 @@
                 "UntagResource",
                 "UpdateAnswer",
                 "UpdateGlobalSettings",
+                "UpdateIntegration",
                 "UpdateLensReview",
                 "UpdateProfile",
                 "UpdateReviewTemplate",
@@ -16821,7 +16824,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "wellarchitected:JiraProjectKey"
             ],
             "HasResource": true
         },

@@ -16145,6 +16145,7 @@ wafv2:UpdateWebACL
 wam:AuthenticatePackager
 wellarchitected:AssociateLenses
 wellarchitected:AssociateProfiles
+wellarchitected:ConfigureIntegration
 wellarchitected:CreateLensShare
 wellarchitected:CreateLensVersion
 wellarchitected:CreateMilestone
@@ -16167,6 +16168,7 @@ wellarchitected:DisassociateProfiles
 wellarchitected:ExportLens
 wellarchitected:GetAnswer
 wellarchitected:GetConsolidatedReport
+wellarchitected:GetGlobalSettings
 wellarchitected:GetLens
 wellarchitected:GetLensReview
 wellarchitected:GetLensReviewReport
@@ -16202,6 +16204,7 @@ wellarchitected:TagResource
 wellarchitected:UntagResource
 wellarchitected:UpdateAnswer
 wellarchitected:UpdateGlobalSettings
+wellarchitected:UpdateIntegration
 wellarchitected:UpdateLensReview
 wellarchitected:UpdateProfile
 wellarchitected:UpdateReviewTemplate
