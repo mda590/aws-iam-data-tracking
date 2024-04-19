@@ -2450,12 +2450,15 @@
             "StringPrefix": "q",
             "Actions": [
                 "GetConversation",
+                "GetIdentityMetadata",
                 "GetTroubleshootingResults",
                 "ListConversations",
+                "PassRequest",
                 "SendMessage",
                 "StartConversation",
                 "StartTroubleshootingAnalysis",
-                "StartTroubleshootingResolutionExplanation"
+                "StartTroubleshootingResolutionExplanation",
+                "UpdateTroubleshootingCommandResult"
             ],
             "HasResource": false
         },
@@ -15297,11 +15300,13 @@
         "Amazon WorkSpaces": {
             "StringPrefix": "workspaces",
             "Actions": [
+                "AcceptAccountLinkInvitation",
                 "AssociateConnectionAlias",
                 "AssociateIpGroups",
                 "AssociateWorkspaceApplication",
                 "AuthorizeIpRules",
                 "CopyWorkspaceImage",
+                "CreateAccountLinkInvitation",
                 "CreateConnectClientAddIn",
                 "CreateConnectionAlias",
                 "CreateIpGroup",
@@ -15311,6 +15316,7 @@
                 "CreateWorkspaceBundle",
                 "CreateWorkspaceImage",
                 "CreateWorkspaces",
+                "DeleteAccountLinkInvitation",
                 "DeleteClientBranding",
                 "DeleteConnectClientAddIn",
                 "DeleteConnectionAlias",
@@ -15344,8 +15350,10 @@
                 "DisassociateConnectionAlias",
                 "DisassociateIpGroups",
                 "DisassociateWorkspaceApplication",
+                "GetAccountLink",
                 "ImportClientBranding",
                 "ImportWorkspaceImage",
+                "ListAccountLinks",
                 "ListAvailableManagementCidrRanges",
                 "MigrateWorkspace",
                 "ModifyAccount",
@@ -15360,6 +15368,7 @@
                 "RebootWorkspaces",
                 "RebuildWorkspaces",
                 "RegisterWorkspaceDirectory",
+                "RejectAccountLinkInvitation",
                 "RestoreWorkspace",
                 "RevokeIpRules",
                 "StartWorkspaces",

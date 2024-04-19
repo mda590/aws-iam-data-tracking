@@ -11923,12 +11923,15 @@ purchase-orders:UpdatePurchaseOrder
 purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
 q:GetConversation
+q:GetIdentityMetadata
 q:GetTroubleshootingResults
 q:ListConversations
+q:PassRequest
 q:SendMessage
 q:StartConversation
 q:StartTroubleshootingAnalysis
 q:StartTroubleshootingResolutionExplanation
+q:UpdateTroubleshootingCommandResult
 qbusiness:AddUserLicenses
 qbusiness:BatchDeleteDocument
 qbusiness:BatchPutDocument
@@ -16557,11 +16560,13 @@ workspaces-web:UpdatePortal
 workspaces-web:UpdateTrustStore
 workspaces-web:UpdateUserAccessLoggingSettings
 workspaces-web:UpdateUserSettings
+workspaces:AcceptAccountLinkInvitation
 workspaces:AssociateConnectionAlias
 workspaces:AssociateIpGroups
 workspaces:AssociateWorkspaceApplication
 workspaces:AuthorizeIpRules
 workspaces:CopyWorkspaceImage
+workspaces:CreateAccountLinkInvitation
 workspaces:CreateConnectClientAddIn
 workspaces:CreateConnectionAlias
 workspaces:CreateIpGroup
@@ -16571,6 +16576,7 @@ workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
 workspaces:CreateWorkspaceImage
 workspaces:CreateWorkspaces
+workspaces:DeleteAccountLinkInvitation
 workspaces:DeleteClientBranding
 workspaces:DeleteConnectClientAddIn
 workspaces:DeleteConnectionAlias
@@ -16604,8 +16610,10 @@ workspaces:DescribeWorkspacesConnectionStatus
 workspaces:DisassociateConnectionAlias
 workspaces:DisassociateIpGroups
 workspaces:DisassociateWorkspaceApplication
+workspaces:GetAccountLink
 workspaces:ImportClientBranding
 workspaces:ImportWorkspaceImage
+workspaces:ListAccountLinks
 workspaces:ListAvailableManagementCidrRanges
 workspaces:MigrateWorkspace
 workspaces:ModifyAccount
@@ -16620,6 +16628,7 @@ workspaces:ModifyWorkspaceState
 workspaces:RebootWorkspaces
 workspaces:RebuildWorkspaces
 workspaces:RegisterWorkspaceDirectory
+workspaces:RejectAccountLinkInvitation
 workspaces:RestoreWorkspace
 workspaces:RevokeIpRules
 workspaces:StartWorkspaces
