@@ -7452,6 +7452,7 @@
             "Actions": [
                 "CreateProfile",
                 "CreateTrustAnchor",
+                "DeleteAttributeMapping",
                 "DeleteCrl",
                 "DeleteProfile",
                 "DeleteTrustAnchor",
@@ -7471,6 +7472,7 @@
                 "ListSubjects",
                 "ListTagsForResource",
                 "ListTrustAnchors",
+                "PutAttributeMapping",
                 "PutNotificationSettings",
                 "ResetNotificationSettings",
                 "TagResource",
