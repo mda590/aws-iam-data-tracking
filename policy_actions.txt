@@ -1370,12 +1370,14 @@ bcm-data-exports:ListTagsForResource
 bcm-data-exports:TagResource
 bcm-data-exports:UntagResource
 bcm-data-exports:UpdateExport
+bedrock:ApplyGuardrail
 bedrock:AssociateAgentKnowledgeBase
 bedrock:AssociateThirdPartyKnowledgeBase
 bedrock:CreateAgent
 bedrock:CreateAgentActionGroup
 bedrock:CreateAgentAlias
 bedrock:CreateDataSource
+bedrock:CreateEvaluationJob
 bedrock:CreateFoundationModelAgreement
 bedrock:CreateGuardrail
 bedrock:CreateGuardrailVersion
@@ -1404,6 +1406,7 @@ bedrock:GetAgentKnowledgeBase
 bedrock:GetAgentVersion
 bedrock:GetCustomModel
 bedrock:GetDataSource
+bedrock:GetEvaluationJob
 bedrock:GetFoundationModel
 bedrock:GetFoundationModelAvailability
 bedrock:GetGuardrail
@@ -1425,6 +1428,7 @@ bedrock:ListAgentVersions
 bedrock:ListAgents
 bedrock:ListCustomModels
 bedrock:ListDataSources
+bedrock:ListEvaluationJobs
 bedrock:ListFoundationModelAgreementOffers
 bedrock:ListFoundationModels
 bedrock:ListGuardrails
@@ -1442,6 +1446,7 @@ bedrock:PutUseCaseForModelAccess
 bedrock:Retrieve
 bedrock:RetrieveAndGenerate
 bedrock:StartIngestionJob
+bedrock:StopEvaluationJob
 bedrock:StopModelCustomizationJob
 bedrock:StopModelInvocationJob
 bedrock:TagResource
