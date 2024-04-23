@@ -17405,6 +17405,35 @@
             "ARNRegex": "^arn:${Partition}:rhelkb:.+",
             "HasResource": false
         },
+        "Amazon Route 53 Profiles enables sharing DNS settings with VPCs": {
+            "StringPrefix": "route53profiles",
+            "Actions": [
+                "AssociateProfile",
+                "AssociateResourceToProfile",
+                "CreateProfile",
+                "DeleteProfile",
+                "DisassociateProfile",
+                "DisassociateResourceFromProfile",
+                "GetProfile",
+                "GetProfileAssociation",
+                "GetProfileResourceAssociation",
+                "ListProfileAssociations",
+                "ListProfileResourceAssociations",
+                "ListProfiles",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateProfileResourceAssociation"
+            ],
+            "ARNFormat": "arn:aws:route53profiles:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:route53profiles:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Braket": {
             "StringPrefix": "braket",
             "Actions": [

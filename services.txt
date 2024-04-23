@@ -364,6 +364,7 @@ Amazon Resource Group Tagging API
 Amazon Route 53
 Amazon Route 53 Application Recovery Controller - Zonal Shift
 Amazon Route 53 Domains
+Amazon Route 53 Profiles enables sharing DNS settings with VPCs
 Amazon Route 53 Recovery Cluster
 Amazon Route 53 Recovery Controls
 Amazon Route 53 Recovery Readiness
