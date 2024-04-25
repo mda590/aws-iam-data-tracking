@@ -16312,6 +16312,7 @@
                 "DescribeDocumentVersions",
                 "DescribeFolderContents",
                 "DescribeGroups",
+                "DescribeInstanceExports",
                 "DescribeInstances",
                 "DescribeNotificationPermissions",
                 "DescribeNotificationSubscriptions",
@@ -16333,6 +16334,7 @@
                 "RemoveResourcePermission",
                 "RestoreDocumentVersions",
                 "SearchResources",
+                "StartInstanceExport",
                 "UpdateDocument",
                 "UpdateDocumentVersion",
                 "UpdateFolder",
@@ -16340,7 +16342,9 @@
                 "UpdateUser",
                 "UpdateUserAdministrativeSettings"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:workdocs:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:workdocs:.+:.+:.+",
+            "HasResource": true
         },
         "Amazon Comprehend Medical": {
             "StringPrefix": "comprehendmedical",
