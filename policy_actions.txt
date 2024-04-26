@@ -1560,6 +1560,9 @@ cases:CreateLayout
 cases:CreateRelatedItem
 cases:CreateTemplate
 cases:DeleteDomain
+cases:DeleteField
+cases:DeleteLayout
+cases:DeleteTemplate
 cases:GetCase
 cases:GetCaseAuditEvents
 cases:GetCaseEventConfiguration
@@ -12229,6 +12232,7 @@ quicksight:UpdatePublicSharingSettings
 quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
 quicksight:UpdateRoleCustomPermission
+quicksight:UpdateSPICECapacityConfiguration
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
 quicksight:UpdateTemplatePermissions
@@ -14526,6 +14530,8 @@ signer:SignPayload
 signer:StartSigningJob
 signer:TagResource
 signer:UntagResource
+signin:CreateTrustedIdentityPropagationApplicationForConsole
+signin:ListTrustedIdentityPropagationApplicationsForConsole
 simspaceweaver:CreateSnapshot
 simspaceweaver:DeleteApp
 simspaceweaver:DeleteSimulation
@@ -15292,6 +15298,7 @@ states:UntagResource
 states:UpdateMapRun
 states:UpdateStateMachine
 states:UpdateStateMachineAlias
+states:ValidateStateMachineDefinition
 storagegateway:ActivateGateway
 storagegateway:AddCache
 storagegateway:AddTagsToResource

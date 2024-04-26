@@ -5240,7 +5240,8 @@
                 "UntagResource",
                 "UpdateMapRun",
                 "UpdateStateMachine",
-                "UpdateStateMachineAlias"
+                "UpdateStateMachineAlias",
+                "ValidateStateMachineDefinition"
             ],
             "ARNFormat": "arn:aws:states:${Region}:${Account}:${ResourceType}:${ResourceName}",
             "ARNRegex": "^arn:aws:states:.+",
@@ -9671,6 +9672,14 @@
             "Actions": [
                 "GenerateDataSet",
                 "StartSupportDataExport"
+            ],
+            "HasResource": false
+        },
+        "AWS Signin": {
+            "StringPrefix": "signin",
+            "Actions": [
+                "CreateTrustedIdentityPropagationApplicationForConsole",
+                "ListTrustedIdentityPropagationApplicationsForConsole"
             ],
             "HasResource": false
         },
@@ -16693,6 +16702,7 @@
                 "UpdateRefreshSchedule",
                 "UpdateResourcePermissions",
                 "UpdateRoleCustomPermission",
+                "UpdateSPICECapacityConfiguration",
                 "UpdateTemplate",
                 "UpdateTemplateAlias",
                 "UpdateTemplatePermissions",
@@ -16739,6 +16749,9 @@
                 "CreateRelatedItem",
                 "CreateTemplate",
                 "DeleteDomain",
+                "DeleteField",
+                "DeleteLayout",
+                "DeleteTemplate",
                 "GetCase",
                 "GetCaseAuditEvents",
                 "GetCaseEventConfiguration",
