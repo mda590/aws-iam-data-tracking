@@ -2980,6 +2980,7 @@ codepipeline:PutThirdPartyJobSuccessResult
 codepipeline:PutWebhook
 codepipeline:RegisterWebhookWithThirdParty
 codepipeline:RetryStageExecution
+codepipeline:RollbackStage
 codepipeline:StartPipelineExecution
 codepipeline:StopPipelineExecution
 codepipeline:TagResource
@@ -7600,6 +7601,7 @@ healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
 healthlake:ListTagsForResource
 healthlake:ReadResource
+healthlake:SearchEverything
 healthlake:SearchWithGet
 healthlake:SearchWithPost
 healthlake:StartFHIRExportJob
