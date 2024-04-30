@@ -350,6 +350,7 @@ Amazon Pinpoint SMS and Voice Service
 Amazon Polly
 Amazon Q
 Amazon Q Business
+Amazon Q Business Q Apps
 Amazon Q in Connect
 Amazon QLDB
 Amazon QuickSight
