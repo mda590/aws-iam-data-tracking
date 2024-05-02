@@ -21656,7 +21656,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "neptune-graph:PublicConnectivity"
             ],
             "HasResource": true
         },
