@@ -2642,6 +2642,7 @@
         "AWS Trusted Advisor": {
             "StringPrefix": "trustedadvisor",
             "Actions": [
+                "BatchUpdateRecommendationResourceExclusion",
                 "CreateEngagement",
                 "CreateEngagementAttachment",
                 "CreateEngagementCommunication",
@@ -4889,12 +4890,20 @@
                 "DescribeBudgetActionsForAccount",
                 "DescribeBudgetActionsForBudget",
                 "ExecuteBudgetAction",
+                "ListTagsForResource",
                 "ModifyBudget",
+                "TagResource",
+                "UntagResource",
                 "UpdateBudgetAction",
                 "ViewBudget"
             ],
             "ARNFormat": "arn:aws:budgets::${Account}:budget/${BudgetName}",
             "ARNRegex": "^arn:aws:budgets::.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon EventBridge Schemas": {
@@ -18204,7 +18213,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "memorydb:TLSEnabled",
+                "memorydb:UserAuthenticationMode"
             ],
             "HasResource": true
         },
