@@ -1062,6 +1062,7 @@
                 "ImportResourcesToDraftAppVersion",
                 "ListAlarmRecommendations",
                 "ListAppAssessmentComplianceDrifts",
+                "ListAppAssessmentResourceDrifts",
                 "ListAppAssessments",
                 "ListAppComponentCompliances",
                 "ListAppComponentRecommendations",
