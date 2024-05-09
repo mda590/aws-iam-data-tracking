@@ -21099,6 +21099,7 @@
                 "ListUsers",
                 "ListWorkflows",
                 "SendWorkflowStepState",
+                "StartDirectoryListing",
                 "StartFileTransfer",
                 "StartServer",
                 "StopServer",

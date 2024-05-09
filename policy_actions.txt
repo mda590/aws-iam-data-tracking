@@ -15805,6 +15805,7 @@ transfer:ListTagsForResource
 transfer:ListUsers
 transfer:ListWorkflows
 transfer:SendWorkflowStepState
+transfer:StartDirectoryListing
 transfer:StartFileTransfer
 transfer:StartServer
 transfer:StopServer
