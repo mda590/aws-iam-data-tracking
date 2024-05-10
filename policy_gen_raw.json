@@ -2479,6 +2479,8 @@
         "Amazon Q": {
             "StringPrefix": "q",
             "Actions": [
+                "CreateAssignment",
+                "DeleteAssignment",
                 "GetConversation",
                 "GetIdentityMetadata",
                 "GetTroubleshootingResults",
