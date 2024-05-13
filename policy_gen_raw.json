@@ -16792,6 +16792,7 @@
                 "DeleteDomain",
                 "DeleteField",
                 "DeleteLayout",
+                "DeleteRelatedItem",
                 "DeleteTemplate",
                 "GetCase",
                 "GetCaseAuditEvents",
