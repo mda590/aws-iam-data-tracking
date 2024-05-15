@@ -12271,7 +12271,8 @@
                 "UpdateApiDestination",
                 "UpdateArchive",
                 "UpdateConnection",
-                "UpdateEndpoint"
+                "UpdateEndpoint",
+                "UpdateEventBus"
             ],
             "ARNFormat": "arn:aws:events:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:events:.+",
