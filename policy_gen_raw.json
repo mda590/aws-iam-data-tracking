@@ -21797,6 +21797,18 @@
             ],
             "HasResource": true
         },
+        "AWS User Subscriptions": {
+            "StringPrefix": "user-subscriptions",
+            "Actions": [
+                "CreateClaim",
+                "DeleteClaim",
+                "ListApplicationClaims",
+                "ListClaims",
+                "ListUserSubscriptions",
+                "UpdateClaim"
+            ],
+            "HasResource": false
+        },
         "Amazon S3 Glacier": {
             "StringPrefix": "glacier",
             "Actions": [
