@@ -10522,6 +10522,7 @@ medical-imaging:CreateDatastore
 medical-imaging:DeleteDatastore
 medical-imaging:DeleteImageSet
 medical-imaging:GetDICOMImportJob
+medical-imaging:GetDICOMInstance
 medical-imaging:GetDatastore
 medical-imaging:GetImageFrame
 medical-imaging:GetImageSet
@@ -12178,6 +12179,7 @@ quicksight:DescribeGroupMembership
 quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
+quicksight:DescribeKeyRegistration
 quicksight:DescribeNamespace
 quicksight:DescribeRefreshSchedule
 quicksight:DescribeRoleCustomPermission
@@ -12277,6 +12279,7 @@ quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
+quicksight:UpdateKeyRegistration
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
