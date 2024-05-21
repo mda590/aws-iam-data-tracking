@@ -20783,6 +20783,7 @@
                 "GetLandingZoneOperation",
                 "GetLandingZoneStatus",
                 "ListBaselines",
+                "ListControlOperations",
                 "ListDirectoryGroups",
                 "ListDriftDetails",
                 "ListEnabledBaselines",

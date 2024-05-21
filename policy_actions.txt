@@ -3773,6 +3773,7 @@ controltower:GetLandingZoneDriftStatus
 controltower:GetLandingZoneOperation
 controltower:GetLandingZoneStatus
 controltower:ListBaselines
+controltower:ListControlOperations
 controltower:ListDirectoryGroups
 controltower:ListDriftDetails
 controltower:ListEnabledBaselines
