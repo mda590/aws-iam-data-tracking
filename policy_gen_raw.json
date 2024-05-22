@@ -10965,7 +10965,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "pi:Dimensions"
             ],
             "HasResource": true
         },
