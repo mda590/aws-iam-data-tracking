@@ -8068,7 +8068,7 @@
                 "UpdatePaymentPreferences"
             ],
             "ARNFormat": "arn:aws:payments::${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:payments::[0-9]{12}:.+:.+",
+            "ARNRegex": "^arn:aws:payments:::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
