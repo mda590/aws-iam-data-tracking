@@ -242,6 +242,7 @@ Amazon CloudFront KeyValueStore
 Amazon CloudSearch
 Amazon CloudWatch
 Amazon CloudWatch Application Insights
+Amazon CloudWatch Application Signals
 Amazon CloudWatch Evidently
 Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs

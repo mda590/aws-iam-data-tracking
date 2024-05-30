@@ -2473,6 +2473,34 @@
             ],
             "HasResource": true
         },
+        "Amazon CloudWatch Application Signals": {
+            "StringPrefix": "application-signals",
+            "Actions": [
+                "BatchGetServiceLevelObjectiveBudgetReport",
+                "CreateServiceLevelObjective",
+                "DeleteServiceLevelObjective",
+                "GetService",
+                "GetServiceLevelObjective",
+                "ListServiceDependencies",
+                "ListServiceDependents",
+                "ListServiceLevelObjectives",
+                "ListServiceOperations",
+                "ListServices",
+                "ListTagsForResource",
+                "StartDiscovery",
+                "TagResource",
+                "UntagResource",
+                "UpdateServiceLevelObjective"
+            ],
+            "ARNFormat": "arn:aws:application-signals:${Region}:${Account}:slo/{ServiceLevelObjectivesName}",
+            "ARNRegex": "^arn:aws:application-signals:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Inspector2": {
             "StringPrefix": "inspector2",
             "Actions": [
