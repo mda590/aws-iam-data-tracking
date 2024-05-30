@@ -404,8 +404,8 @@ Amazon WorkMail
 Amazon WorkMail Message Flow
 Amazon WorkSpaces
 Amazon WorkSpaces Application Manager
+Amazon WorkSpaces Secure Browser
 Amazon WorkSpaces Thin Client
-Amazon WorkSpaces Web
 AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
