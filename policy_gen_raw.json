@@ -17480,6 +17480,7 @@
                 "GetDashboardForJobRun",
                 "GetJobRun",
                 "ListApplications",
+                "ListJobRunAttempts",
                 "ListJobRuns",
                 "ListTagsForResource",
                 "StartApplication",
