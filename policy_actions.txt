@@ -9314,6 +9314,7 @@ lakeformation:DescribeTransaction
 lakeformation:ExtendTransaction
 lakeformation:GetDataAccess
 lakeformation:GetDataCellsFilter
+lakeformation:GetDataLakePrincipal
 lakeformation:GetDataLakeSettings
 lakeformation:GetEffectivePermissionsForPath
 lakeformation:GetLFTag

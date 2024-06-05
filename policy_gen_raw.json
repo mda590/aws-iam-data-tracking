@@ -13490,6 +13490,7 @@
                 "ExtendTransaction",
                 "GetDataAccess",
                 "GetDataCellsFilter",
+                "GetDataLakePrincipal",
                 "GetDataLakeSettings",
                 "GetEffectivePermissionsForPath",
                 "GetLFTag",
