@@ -10796,6 +10796,7 @@
                 "GetWorkload",
                 "GetWorkloadAsset",
                 "GetWorkloadAssets",
+                "GetWorkloadDeploymentPattern",
                 "ListAdditionalNodes",
                 "ListAllowedResources",
                 "ListDeploymentEvents",
@@ -10803,15 +10804,24 @@
                 "ListProvisionedApps",
                 "ListResourceCostEstimates",
                 "ListSettingsSets",
+                "ListTagsForResource",
                 "ListWorkloadDeploymentOptions",
                 "ListWorkloadDeploymentPatterns",
                 "ListWorkloads",
                 "PutSettingsSet",
                 "StartProvisioning",
+                "TagResource",
+                "UntagResource",
                 "UpdateSettingsSet"
             ],
+            "ARNFormat": "arn:aws:launchwizard:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:launchwizard:.+:.+:.+",
-            "HasResource": false
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Systems Manager for SAP": {
             "StringPrefix": "ssm-sap",
