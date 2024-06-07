@@ -18851,6 +18851,7 @@
                 "DescribeRouteCalculator",
                 "DescribeTracker",
                 "DisassociateTrackerConsumer",
+                "ForecastGeofenceEvents",
                 "GetDevicePosition",
                 "GetDevicePositionHistory",
                 "GetGeofence",
@@ -18880,7 +18881,8 @@
                 "UpdateMap",
                 "UpdatePlaceIndex",
                 "UpdateRouteCalculator",
-                "UpdateTracker"
+                "UpdateTracker",
+                "VerifyDevicePosition"
             ],
             "ARNFormat": "arn:aws:geo:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:geo:.+",
@@ -22595,6 +22597,7 @@
         "AWS Account Management": {
             "StringPrefix": "account",
             "Actions": [
+                "AcceptPrimaryEmailUpdate",
                 "CloseAccount",
                 "DeleteAlternateContact",
                 "DisableRegion",
@@ -22603,11 +22606,13 @@
                 "GetAlternateContact",
                 "GetChallengeQuestions",
                 "GetContactInformation",
+                "GetPrimaryEmail",
                 "GetRegionOptStatus",
                 "ListRegions",
                 "PutAlternateContact",
                 "PutChallengeQuestions",
-                "PutContactInformation"
+                "PutContactInformation",
+                "StartPrimaryEmailUpdate"
             ],
             "ARNFormat": "arn:aws:account::${Account}:account",
             "ARNRegex": "^arn:aws:account::.+:account",
@@ -22615,6 +22620,7 @@
                 "account:AccountResourceOrgPaths",
                 "account:AccountResourceOrgTags/${TagKey}",
                 "account:AlternateContactTypes",
+                "account:EmailTargetDomain",
                 "account:TargetRegion"
             ],
             "HasResource": true
