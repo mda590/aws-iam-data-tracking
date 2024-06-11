@@ -172,6 +172,7 @@ AWS Payments
 AWS Performance Insights
 AWS Price List
 AWS Private CA Connector for Active Directory
+AWS Private CA Connector for SCEP
 AWS Private Certificate Authority
 AWS Proton
 AWS Purchase Orders Console

@@ -2511,6 +2511,7 @@ cloudtrail:DescribeQuery
 cloudtrail:DescribeTrails
 cloudtrail:DisableFederation
 cloudtrail:EnableFederation
+cloudtrail:GenerateQuery
 cloudtrail:GetChannel
 cloudtrail:GetEventDataStore
 cloudtrail:GetEventDataStoreData
@@ -11700,6 +11701,18 @@ pca-connector-ad:TagResource
 pca-connector-ad:UntagResource
 pca-connector-ad:UpdateTemplate
 pca-connector-ad:UpdateTemplateGroupAccessControlEntry
+pca-connector-scep:CreateChallenge
+pca-connector-scep:CreateConnector
+pca-connector-scep:DeleteChallenge
+pca-connector-scep:DeleteConnector
+pca-connector-scep:GetChallengeMetadata
+pca-connector-scep:GetChallengePassword
+pca-connector-scep:GetConnector
+pca-connector-scep:ListChallengeMetadata
+pca-connector-scep:ListConnectors
+pca-connector-scep:ListTagsForResource
+pca-connector-scep:TagResource
+pca-connector-scep:UntagResource
 personalize:CreateBatchInferenceJob
 personalize:CreateBatchSegmentJob
 personalize:CreateCampaign

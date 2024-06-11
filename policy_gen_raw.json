@@ -16045,6 +16045,7 @@
                 "DescribeTrails",
                 "DisableFederation",
                 "EnableFederation",
+                "GenerateQuery",
                 "GetChannel",
                 "GetEventDataStore",
                 "GetEventDataStoreData",
@@ -19059,6 +19060,31 @@
             "ARNFormat": "arn:${Partition}:codeguru:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:codeguru:.+:.+:.+",
             "HasResource": false
+        },
+        "AWS Private CA Connector for SCEP": {
+            "StringPrefix": "pca-connector-scep",
+            "Actions": [
+                "CreateChallenge",
+                "CreateConnector",
+                "DeleteChallenge",
+                "DeleteConnector",
+                "GetChallengeMetadata",
+                "GetChallengePassword",
+                "GetConnector",
+                "ListChallengeMetadata",
+                "ListConnectors",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:pca-connector-scep:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:pca-connector-scep:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon EC2": {
             "StringPrefix": "ec2",
