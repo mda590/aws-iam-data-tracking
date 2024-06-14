@@ -138,6 +138,7 @@ AWS Launch Wizard
 AWS License Manager
 AWS License Manager Linux Subscriptions Manager
 AWS License Manager User Subscriptions
+AWS Mainframe Modernization Application Testing provides tools and resources for automated functional equivalence testing for your migration projects.
 AWS Mainframe Modernization Service
 AWS Marketplace
 AWS Marketplace Catalog
