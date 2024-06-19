@@ -387,6 +387,7 @@ Amazon SQS
 Amazon SageMaker
 Amazon SageMaker Ground Truth Synthetic
 Amazon SageMaker geospatial capabilities
+Amazon SageMaker with MLflow
 Amazon Security Lake
 Amazon Simple Email Service - Mail Manager
 Amazon Simple Email Service v2
