@@ -19560,6 +19560,7 @@
                 "DescribeStoreImageTasks",
                 "DescribeSubnets",
                 "DescribeTags",
+                "DescribeTrafficMirrorFilterRules",
                 "DescribeTrafficMirrorFilters",
                 "DescribeTrafficMirrorSessions",
                 "DescribeTrafficMirrorTargets",
