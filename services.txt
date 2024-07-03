@@ -209,6 +209,7 @@ AWS Systems Manager
 AWS Systems Manager GUI Connect
 AWS Systems Manager Incident Manager
 AWS Systems Manager Incident Manager Contacts
+AWS Systems Manager Quick Setup
 AWS Systems Manager for SAP
 AWS Tax Settings
 AWS Telco Network Builder
