@@ -105,12 +105,14 @@
                 "ImportDocumentToQAppSession",
                 "ListLibraryItems",
                 "ListQApps",
+                "ListTagsForResource",
                 "PredictProblemStatementFromConversation",
                 "PredictQApp",
                 "PredictQAppFromProblemStatement",
                 "StartQAppSession",
                 "StopQAppSession",
                 "TagResource",
+                "UntagResource",
                 "UpdateLibraryItem",
                 "UpdateQApp",
                 "UpdateQAppSession",
@@ -121,7 +123,11 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "qapps:AppIsPublished",
+                "qapps:SessionIsShared",
+                "qapps:UserIsAppOwner",
+                "qapps:UserIsSessionModerator"
             ],
             "HasResource": true
         },
