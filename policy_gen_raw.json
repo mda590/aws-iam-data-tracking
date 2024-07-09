@@ -22347,6 +22347,7 @@
                 "ListQueues",
                 "ListTagsForResource",
                 "PutPolicy",
+                "SearchJobs",
                 "TagResource",
                 "UntagResource",
                 "UpdateJobTemplate",
