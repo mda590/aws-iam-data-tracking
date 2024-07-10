@@ -6,6 +6,7 @@ AWS Amplify UI Builder
 AWS App Mesh
 AWS App Mesh Preview
 AWS App Runner
+AWS App Studio
 AWS App2Container
 AWS AppConfig
 AWS AppFabric

@@ -18418,6 +18418,19 @@
             ],
             "HasResource": true
         },
+        "AWS App Studio": {
+            "StringPrefix": "appstudio",
+            "Actions": [
+                "GetAccountStatus",
+                "GetEnablementJobStatus",
+                "StartEnablementJob",
+                "StartRollbackEnablementJob",
+                "StartTeamDeployment"
+            ],
+            "ARNFormat": "arn:${Partition}:appstudio:${Region}:${Account}:${ResourceType}:${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:appstudio:.+:.+:.+",
+            "HasResource": false
+        },
         "AWS App Mesh": {
             "StringPrefix": "appmesh",
             "Actions": [
