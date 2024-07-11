@@ -3481,6 +3481,7 @@
                 "UpdateCloudFrontOriginAccessIdentity",
                 "UpdateContinuousDeploymentPolicy",
                 "UpdateDistribution",
+                "UpdateDistributionWithStagingConfig",
                 "UpdateFieldLevelEncryptionConfig",
                 "UpdateFieldLevelEncryptionProfile",
                 "UpdateFunction",
@@ -21587,6 +21588,8 @@
                 "DeleteImageSet",
                 "GetDICOMImportJob",
                 "GetDICOMInstance",
+                "GetDICOMInstanceFrames",
+                "GetDICOMInstanceMetadata",
                 "GetDatastore",
                 "GetImageFrame",
                 "GetImageSet",
@@ -22331,12 +22334,26 @@
         "AWS License Manager Linux Subscriptions Manager": {
             "StringPrefix": "license-manager-linux-subscriptions",
             "Actions": [
+                "DeregisterSubscriptionProvider",
+                "GetRegisteredSubscriptionProvider",
                 "GetServiceSettings",
                 "ListLinuxSubscriptionInstances",
                 "ListLinuxSubscriptions",
+                "ListRegisteredSubscriptionProviders",
+                "ListTagsForResource",
+                "RegisterSubscriptionProvider",
+                "TagResource",
+                "UntagResource",
                 "UpdateServiceSettings"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:license-manager-linux-subscriptions:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:license-manager-linux-subscriptions:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Elemental MediaConvert": {
             "StringPrefix": "mediaconvert",
