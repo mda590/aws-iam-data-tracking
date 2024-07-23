@@ -22978,12 +22978,12 @@
     "VPCPolicyServiceActionMap": {
         "Amazon DynamoDB For VPC Policies": [
             "DescribeContinuousBackups",
-            "DescribeBackup",
             "DescribeReservedCapacity",
+            "DescribeBackup",
             "PurchaseReservedCapacityOfferings",
             "ListBackups",
-            "DeleteItem",
             "Query",
+            "DeleteItem",
             "DeleteBackup",
             "DescribeTable",
             "CreateTable",
