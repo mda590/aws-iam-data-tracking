@@ -14780,6 +14780,7 @@
                 "DeleteRetentionPolicy",
                 "DeleteSmtpGateway",
                 "DeleteUser",
+                "DeliverToMailbox",
                 "DeregisterFromWorkMail",
                 "DeregisterMailDomain",
                 "DescribeEmailMonitoringConfiguration",
