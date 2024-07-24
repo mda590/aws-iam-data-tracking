@@ -13250,7 +13250,7 @@
                 "DeleteMonitoringSchedule",
                 "DeleteNotebookInstance",
                 "DeleteNotebookInstanceLifecycleConfig",
-                "DeleteOptimization",
+                "DeleteOptimizationJob",
                 "DeletePipeline",
                 "DeleteProject",
                 "DeleteRecord",
