@@ -9,6 +9,7 @@ aws:PrincipalType
 aws:Referer
 aws:RequestTag/${TagKey}
 aws:RequestedRegion
+aws:ResourceAccount
 aws:SecureTransport
 aws:SourceAccount
 aws:SourceArn
