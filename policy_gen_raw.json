@@ -7778,26 +7778,16 @@
                 "DownloadSoftware",
                 "GenerateLicense",
                 "GenerateLicenses",
-                "GetActivation",
                 "GetArtifactGroupSoftwareVersions",
                 "GetAsset",
                 "GetAssets",
                 "GetProductAdvisories",
                 "GetSoftwareVersions",
-                "ListTagsForResource",
-                "StartAccountRegistration",
-                "StartFileUpload",
-                "TagResource",
-                "UntagResource"
+                "StartFileUpload"
             ],
-            "ARNFormat": "arn:aws:elemental-activations:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:elemental-activations:.+:.+:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
-            "HasResource": true
+            "ARNFormat": "arn:${Partition}:elemental-activations::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:${Partition}:elemental-activations::.+:.+",
+            "HasResource": false
         },
         "Amazon Managed Grafana": {
             "StringPrefix": "grafana",
@@ -21497,20 +21487,12 @@
                 "GetQuote",
                 "GetTaxes",
                 "ListQuotes",
-                "ListTagsForResource",
                 "StartUpload",
                 "SubmitOrderV1",
-                "TagResource",
-                "UntagResource",
                 "UpdateQuote"
             ],
-            "ARNFormat": "arn:aws:elemental-appliances-software:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:elemental-appliances-software:.+:.+:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
+            "ARNFormat": "arn:aws:elemental-appliances-software::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:elemental-appliances-software::.+:.+",
             "HasResource": true
         },
         "Amazon Detective": {
