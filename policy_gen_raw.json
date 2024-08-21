@@ -14420,9 +14420,9 @@
                 "GetCases",
                 "UpdateCase"
             ],
-            "ARNFormat": "arn:${Partition}:elemental-support-cases:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:elemental-support-cases:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:elemental-support-cases::${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:elemental-support-cases::.+:.+",
+            "HasResource": true
         },
         "Amazon Route 53 Domains": {
             "StringPrefix": "route53domains",
