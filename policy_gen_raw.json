@@ -14459,6 +14459,7 @@
             "Actions": [
                 "CreateAdminSession",
                 "CreateNetwork",
+                "DeleteNetwork",
                 "ListNetworks",
                 "ListTagsForResource",
                 "TagResource",
