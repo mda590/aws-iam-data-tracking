@@ -6102,6 +6102,38 @@
             ],
             "HasResource": true
         },
+        "AWS Parallel Computing Service": {
+            "StringPrefix": "pcs",
+            "Actions": [
+                "AllowVendedLogDeliveryForResource",
+                "CreateCluster",
+                "CreateComputeNodeGroup",
+                "CreateQueue",
+                "DeleteCluster",
+                "DeleteComputeNodeGroup",
+                "DeleteQueue",
+                "GetCluster",
+                "GetComputeNodeGroup",
+                "GetQueue",
+                "ListClusters",
+                "ListComputeNodeGroups",
+                "ListQueues",
+                "ListTagsForResource",
+                "RegisterComputeNodeGroupInstance",
+                "TagResource",
+                "UntagResource",
+                "UpdateComputeNodeGroup",
+                "UpdateQueue"
+            ],
+            "ARNFormat": "arn:aws:pcs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:pcs:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon DataZone": {
             "StringPrefix": "datazone",
             "Actions": [
