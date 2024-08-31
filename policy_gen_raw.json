@@ -746,6 +746,7 @@
             "ARNRegex": "^arn:aws:(redshift|redshift-serverless):.+:.+:.+",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
+                "redshift-data:session-owner-iam-userid",
                 "redshift-data:statement-owner-iam-userid"
             ],
             "HasResource": true
