@@ -433,6 +433,7 @@
                 "GetExperiment",
                 "GetExperimentTargetAccountConfiguration",
                 "GetExperimentTemplate",
+                "GetSafetyLever",
                 "GetTargetAccountConfiguration",
                 "GetTargetResourceType",
                 "InjectApiInternalError",
@@ -451,6 +452,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateExperimentTemplate",
+                "UpdateSafetyLeverState",
                 "UpdateTargetAccountConfiguration"
             ],
             "ARNFormat": "arn:aws:fis:${Region}:${Account}:${ResourceType}/${ResourceName}",
