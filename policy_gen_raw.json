@@ -18328,6 +18328,7 @@
                 "CreateSupportPlanSchedule",
                 "GetSupportPlan",
                 "GetSupportPlanUpdateStatus",
+                "ListSupportPlanModifiers",
                 "StartSupportPlanUpdate"
             ],
             "ARNFormat": "^arn:${Partition}:supportplans::${Account}:${ResourceType}/${ResourcePath}",
