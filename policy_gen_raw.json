@@ -9262,40 +9262,6 @@
             ],
             "HasResource": true
         },
-        "AWS IoT RoboRunner": {
-            "StringPrefix": "iotroborunner",
-            "Actions": [
-                "CreateDestination",
-                "CreateSite",
-                "CreateWorker",
-                "CreateWorkerFleet",
-                "DeleteDestination",
-                "DeleteSite",
-                "DeleteWorker",
-                "DeleteWorkerFleet",
-                "GetDestination",
-                "GetSite",
-                "GetWorker",
-                "GetWorkerFleet",
-                "ListDestinations",
-                "ListSites",
-                "ListWorkerFleets",
-                "ListWorkers",
-                "UpdateDestination",
-                "UpdateSite",
-                "UpdateWorker",
-                "UpdateWorkerFleet"
-            ],
-            "ARNFormat": "arn:aws:iotroborunner:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:iotroborunner:.+:.+:.+",
-            "conditionKeys": [
-                "iotroborunner:DestinationResourceId",
-                "iotroborunner:SiteResourceId",
-                "iotroborunner:WorkerFleetResourceId",
-                "iotroborunner:WorkerResourceId"
-            ],
-            "HasResource": true
-        },
         "Amazon EC2 Instance Connect": {
             "StringPrefix": "ec2-instance-connect",
             "Actions": [

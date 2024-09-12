@@ -128,7 +128,6 @@ AWS IoT FleetWise
 AWS IoT Greengrass
 AWS IoT Greengrass V2
 AWS IoT Jobs DataPlane
-AWS IoT RoboRunner
 AWS IoT SiteWise
 AWS IoT TwinMaker
 AWS IoT Wireless
