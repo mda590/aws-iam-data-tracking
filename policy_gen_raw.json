@@ -10407,7 +10407,8 @@
                 "UpdateCampaign",
                 "UpdateDataset",
                 "UpdateMetricAttribution",
-                "UpdateRecommender"
+                "UpdateRecommender",
+                "UpdateSolution"
             ],
             "ARNFormat": "arn:aws:personalize:${Region}:${Account}:${Resourcename}/${ResourceId}",
             "ARNRegex": "^arn:aws:personalize:.+:.+:.+",
