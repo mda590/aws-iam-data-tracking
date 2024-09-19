@@ -76,6 +76,7 @@ AWS Device Farm
 AWS Diagnostic tools
 AWS Direct Connect
 AWS Directory Service
+AWS Directory Service Data
 AWS Elastic Beanstalk
 AWS Elastic Disaster Recovery
 AWS Elastic Load Balancing
