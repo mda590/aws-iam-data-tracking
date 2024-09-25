@@ -2656,7 +2656,13 @@
                 "StartTroubleshootingResolutionExplanation",
                 "UpdateTroubleshootingCommandResult"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:codewhisperer:.+:[0-9]+:.+",
+            "conditionKeys": [
+                "identitystore:GroupId",
+                "identitystore:UserId"
+            ],
+            "HasResource": true
         },
         "AWS IAM Identity Center (successor to AWS Single Sign-On) directory": {
             "StringPrefix": "sso-directory",
