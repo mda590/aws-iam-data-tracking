@@ -2796,6 +2796,7 @@
                 "CreateCapability",
                 "CreatePartnership",
                 "CreateProfile",
+                "CreateStarterMappingTemplate",
                 "CreateTransformer",
                 "DeleteCapability",
                 "DeletePartnership",
@@ -2813,6 +2814,7 @@
                 "ListTransformers",
                 "StartTransformerJob",
                 "TagResource",
+                "TestConversion",
                 "TestMapping",
                 "TestParsing",
                 "UntagResource",
@@ -18086,7 +18088,7 @@
             "ARNRegex": "^arn:${Partition}:rhelkb:.+",
             "HasResource": false
         },
-        "Amazon Route 53 Profiles enables sharing DNS settings with VPCs": {
+        "Amazon Route 53 Profiles": {
             "StringPrefix": "route53profiles",
             "Actions": [
                 "AssociateProfile",
