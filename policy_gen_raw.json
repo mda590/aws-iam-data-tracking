@@ -7884,7 +7884,7 @@
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:codewhisperer:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:codewhisperer:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
