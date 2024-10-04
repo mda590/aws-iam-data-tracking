@@ -1176,6 +1176,7 @@
             "Actions": [
                 "CancelConnection",
                 "GetConnection",
+                "ListConnections",
                 "StartConnection"
             ],
             "HasResource": false
