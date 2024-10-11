@@ -200,6 +200,7 @@ AWS Signin
 AWS SimSpace Weaver
 AWS Snow Device Management
 AWS Snowball
+AWS Social Messaging
 AWS Step Functions
 AWS Storage Gateway
 AWS Supply Chain
