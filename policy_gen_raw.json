@@ -10521,7 +10521,7 @@
             "ARNRegex": "^arn:aws:personalize:.+:.+:.+",
             "HasResource": true
         },
-        "AWS Social Messaging": {
+        "AWS End User Messaging Social": {
             "StringPrefix": "social-messaging",
             "Actions": [
                 "AssociateWhatsAppBusinessAccount",

@@ -93,6 +93,7 @@ AWS Elemental MediaStore
 AWS Elemental MediaTailor
 AWS Elemental Support Cases
 AWS Elemental Support Content
+AWS End User Messaging Social
 AWS Entity Resolution
 AWS Fault Injection Service
 AWS Firewall Manager
@@ -200,7 +201,6 @@ AWS Signin
 AWS SimSpace Weaver
 AWS Snow Device Management
 AWS Snowball
-AWS Social Messaging
 AWS Step Functions
 AWS Storage Gateway
 AWS Supply Chain
