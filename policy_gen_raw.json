@@ -17345,6 +17345,7 @@
                 "StartAssetBundleExportJob",
                 "StartAssetBundleImportJob",
                 "StartDashboardSnapshotJob",
+                "StartDashboardSnapshotJobSchedule",
                 "Subscribe",
                 "TagResource",
                 "Unsubscribe",
