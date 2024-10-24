@@ -5538,6 +5538,7 @@
             "StringPrefix": "wisdom",
             "Actions": [
                 "ActivateMessageTemplate",
+                "AllowVendedLogDeliveryForResource",
                 "CreateAIAgent",
                 "CreateAIAgentVersion",
                 "CreateAIPrompt",
