@@ -10416,6 +10416,7 @@
                 "CreateWebLoginToken",
                 "DeleteEnvironment",
                 "GetEnvironment",
+                "InvokeRestApi",
                 "ListEnvironments",
                 "ListTagsForResource",
                 "PublishMetrics",
