@@ -21858,6 +21858,7 @@
                 "ListCertificates",
                 "ListConnectors",
                 "ListExecutions",
+                "ListFileTransferResults",
                 "ListHostKeys",
                 "ListProfiles",
                 "ListSecurityPolicies",
