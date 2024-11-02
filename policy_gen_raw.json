@@ -89,6 +89,9 @@
             "Actions": [
                 "AssociateLibraryItemReview",
                 "AssociateQAppWithUser",
+                "BatchCreateCategory",
+                "BatchDeleteCategory",
+                "BatchUpdateCategory",
                 "CopyQApp",
                 "CreateLibraryItem",
                 "CreateLibraryItemReview",
@@ -106,6 +109,7 @@
                 "ImportDocument",
                 "ImportDocumentToQApp",
                 "ImportDocumentToQAppSession",
+                "ListCategories",
                 "ListLibraryItems",
                 "ListQAppSessionData",
                 "ListQApps",
