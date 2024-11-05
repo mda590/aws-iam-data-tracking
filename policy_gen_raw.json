@@ -2765,6 +2765,7 @@
         "Amazon DocumentDB Elastic Clusters": {
             "StringPrefix": "docdb-elastic",
             "Actions": [
+                "ApplyPendingMaintenanceAction",
                 "CopyClusterSnapshot",
                 "CreateCluster",
                 "CreateClusterSnapshot",
@@ -2772,8 +2773,10 @@
                 "DeleteClusterSnapshot",
                 "GetCluster",
                 "GetClusterSnapshot",
+                "GetPendingMaintenanceAction",
                 "ListClusterSnapshots",
                 "ListClusters",
+                "ListPendingMaintenanceActions",
                 "ListTagsForResource",
                 "RestoreClusterFromSnapshot",
                 "StartCluster",
@@ -7410,6 +7413,16 @@
             ],
             "HasResource": true
         },
+        "Amazon Location Service Maps": {
+            "StringPrefix": "geo-maps",
+            "Actions": [
+                "GetStaticMap",
+                "GetTile"
+            ],
+            "ARNFormat": "arn:aws:geo-maps:${Region}::provider/default",
+            "ARNRegex": "^arn:aws:geo-maps:.+",
+            "HasResource": true
+        },
         "AWS Elemental MediaPackage VOD": {
             "StringPrefix": "mediapackage-vod",
             "Actions": [
@@ -10777,6 +10790,19 @@
                 "PutMemberInfo"
             ],
             "HasResource": false
+        },
+        "Amazon Location Service Routes": {
+            "StringPrefix": "geo-routes",
+            "Actions": [
+                "CalculateIsolines",
+                "CalculateRouteMatrix",
+                "CalculateRoutes",
+                "OptimizeWaypoints",
+                "SnapToRoads"
+            ],
+            "ARNFormat": "arn:aws:geo-routes:${Region}::provider/default",
+            "ARNRegex": "^arn:aws:geo-routes:.+",
+            "HasResource": true
         },
         "AWS IoT 1-Click": {
             "StringPrefix": "iot1click",
@@ -16547,6 +16573,21 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
+            "HasResource": true
+        },
+        "Amazon Location Service Places": {
+            "StringPrefix": "geo-places",
+            "Actions": [
+                "Autocomplete",
+                "Geocode",
+                "GetPlace",
+                "ReverseGeocode",
+                "SearchNearby",
+                "SearchText",
+                "Suggest"
+            ],
+            "ARNFormat": "arn:aws:geo-places:${Region}::provider/default",
+            "ARNRegex": "^arn:aws:geo-places:.+",
             "HasResource": true
         },
         "AWS Migration Acceleration Program Credits": {

@@ -326,6 +326,9 @@ Amazon Lex
 Amazon Lex V2
 Amazon Lightsail
 Amazon Location
+Amazon Location Service Maps
+Amazon Location Service Places
+Amazon Location Service Routes
 Amazon Lookout for Equipment
 Amazon Lookout for Metrics
 Amazon Lookout for Vision
