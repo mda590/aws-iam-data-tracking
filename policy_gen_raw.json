@@ -21727,6 +21727,7 @@
             "Actions": [
                 "BatchDeleteTaxRegistration",
                 "BatchPutTaxRegistration",
+                "DeleteSupplementalTaxRegistration",
                 "DeleteTaxRegistration",
                 "GetExemptions",
                 "GetTaxInfoReportingDocument",
@@ -21734,7 +21735,9 @@
                 "GetTaxInterview",
                 "GetTaxRegistration",
                 "GetTaxRegistrationDocument",
+                "ListSupplementalTaxRegistrations",
                 "ListTaxRegistrations",
+                "PutSupplementalTaxRegistration",
                 "PutTaxInheritance",
                 "PutTaxInterview",
                 "PutTaxRegistration",
