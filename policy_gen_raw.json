@@ -11639,6 +11639,8 @@
                 "PutBackupPolicy",
                 "PutFileSystemPolicy",
                 "PutLifecycleConfiguration",
+                "ReplicationRead",
+                "ReplicationWrite",
                 "Restore",
                 "TagResource",
                 "UntagResource",
@@ -14014,6 +14016,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateLoggingConfiguration",
+                "UpdateScraper",
                 "UpdateWorkspaceAlias"
             ],
             "ARNFormat": "arn:aws:aps:${Region}:${Account}:${ResourceType}/${ResourceName}",
