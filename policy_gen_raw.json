@@ -1860,6 +1860,7 @@
             "Actions": [
                 "ActivateEvaluationForm",
                 "AdminGetEmergencyAccessToken",
+                "AssociateAnalyticsDataSet",
                 "AssociateApprovedOrigin",
                 "AssociateBot",
                 "AssociateCustomerProfilesDomain",
@@ -1959,6 +1960,7 @@
                 "DescribeUserHierarchyStructure",
                 "DescribeView",
                 "DescribeVocabulary",
+                "DisassociateAnalyticsDataSet",
                 "DisassociateApprovedOrigin",
                 "DisassociateBot",
                 "DisassociateCustomerProfilesDomain",
@@ -1987,6 +1989,7 @@
                 "GetTrafficDistribution",
                 "ImportPhoneNumber",
                 "ListAgentStatuses",
+                "ListAnalyticsDataAssociations",
                 "ListApprovedOrigins",
                 "ListAuthenticationProfiles",
                 "ListBots",
@@ -2064,7 +2067,9 @@
                 "StartContactRecording",
                 "StartContactStreaming",
                 "StartForecastingPlanningSchedulingIntegration",
+                "StartOutboundChatContact",
                 "StartOutboundVoiceContact",
+                "StartScreenSharing",
                 "StartTaskContact",
                 "StartWebRTCContact",
                 "StopContact",
@@ -2139,6 +2144,7 @@
                 "connect:SearchContactsByContactAnalysis",
                 "connect:SearchTag/${TagKey}",
                 "connect:StorageResourceType",
+                "connect:Subtype",
                 "connect:UserArn"
             ],
             "HasResource": true
