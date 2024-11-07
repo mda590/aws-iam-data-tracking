@@ -8832,6 +8832,7 @@
                 "PutModelInvocationLoggingConfiguration",
                 "PutResourcePolicy",
                 "PutUseCaseForModelAccess",
+                "RenderPrompt",
                 "Retrieve",
                 "RetrieveAndGenerate",
                 "StartIngestionJob",
@@ -8851,7 +8852,8 @@
                 "UpdateGuardrail",
                 "UpdateKnowledgeBase",
                 "UpdatePrompt",
-                "UpdateProvisionedModelThroughput"
+                "UpdateProvisionedModelThroughput",
+                "ValidateFlowDefinition"
             ],
             "ARNFormat": "arn:aws:bedrock:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:bedrock:.*:.*:.+",
