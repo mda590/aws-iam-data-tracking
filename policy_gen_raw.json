@@ -22493,6 +22493,7 @@
                 "AssociateDefaultView",
                 "BatchGetView",
                 "CreateIndex",
+                "CreateManagedView",
                 "CreateView",
                 "DeleteIndex",
                 "DeleteResourcePolicy",
@@ -22501,10 +22502,12 @@
                 "GetAccountLevelServiceConfiguration",
                 "GetDefaultView",
                 "GetIndex",
+                "GetManagedView",
                 "GetResourcePolicy",
                 "GetView",
                 "ListIndexes",
                 "ListIndexesForMembers",
+                "ListManagedViews",
                 "ListSupportedResourceTypes",
                 "ListTagsForResource",
                 "ListViews",
@@ -22520,7 +22523,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "resource-explorer-2:Operation"
             ],
             "HasResource": true
         },
