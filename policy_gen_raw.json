@@ -14839,8 +14839,10 @@
         "AWS Elemental MediaPackage V2": {
             "StringPrefix": "mediapackagev2",
             "Actions": [
+                "CancelHarvestJob",
                 "CreateChannel",
                 "CreateChannelGroup",
+                "CreateHarvestJob",
                 "CreateOriginEndpoint",
                 "DeleteChannel",
                 "DeleteChannelGroup",
@@ -14850,12 +14852,15 @@
                 "GetChannel",
                 "GetChannelGroup",
                 "GetChannelPolicy",
+                "GetHarvestJob",
                 "GetHeadObject",
                 "GetObject",
                 "GetOriginEndpoint",
                 "GetOriginEndpointPolicy",
+                "HarvestObject",
                 "ListChannelGroups",
                 "ListChannels",
+                "ListHarvestJobs",
                 "ListOriginEndpoints",
                 "ListTagsForResource",
                 "PutChannelPolicy",
@@ -17097,6 +17102,9 @@
                 "DeleteRegisteredModelTag",
                 "DeleteRun",
                 "DeleteTag",
+                "DeleteTraceTag",
+                "DeleteTraces",
+                "EndTrace",
                 "GetDownloadURIForModelVersionArtifacts",
                 "GetExperiment",
                 "GetExperimentByName",
@@ -17106,6 +17114,7 @@
                 "GetModelVersionByAlias",
                 "GetRegisteredModel",
                 "GetRun",
+                "GetTraceInfo",
                 "ListArtifacts",
                 "LogBatch",
                 "LogInputs",
@@ -17119,11 +17128,14 @@
                 "SearchModelVersions",
                 "SearchRegisteredModels",
                 "SearchRuns",
+                "SearchTraces",
                 "SetExperimentTag",
                 "SetModelVersionTag",
                 "SetRegisteredModelAlias",
                 "SetRegisteredModelTag",
                 "SetTag",
+                "SetTraceTag",
+                "StartTrace",
                 "TransitionModelVersionStage",
                 "UpdateExperiment",
                 "UpdateModelVersion",
@@ -17132,6 +17144,10 @@
             ],
             "ARNFormat": "arn:aws:sagemaker:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:sagemaker:.+",
+            "conditionKeys": [
+                "aws:ResourceTag/${TagKey}",
+                "sagemaker:ResourceTag/${TagKey}"
+            ],
             "HasResource": true
         },
         "Amazon Comprehend Medical": {
@@ -18127,6 +18143,15 @@
                 "aws:ResourceTag/${TagKey}",
                 "elasticloadbalancing:ResourceTag/${TagKey}"
             ],
+            "HasResource": true
+        },
+        "Amazon OpenSearch": {
+            "StringPrefix": "opensearch",
+            "Actions": [
+                "ApplicationAccessAll"
+            ],
+            "ARNFormat": "arn:aws:opensearch:${Region}:${Account}:${Resource}",
+            "ARNRegex": "^arn:aws:opensearch:.+",
             "HasResource": true
         },
         "AWS Consolidated Billing": {

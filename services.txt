@@ -352,6 +352,7 @@ Amazon Neptune
 Amazon Neptune Analytics
 Amazon Nimble Studio
 Amazon One Enterprise
+Amazon OpenSearch
 Amazon OpenSearch Ingestion
 Amazon OpenSearch Serverless
 Amazon OpenSearch Service
