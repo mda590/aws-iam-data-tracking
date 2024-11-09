@@ -17809,6 +17809,7 @@
                 "GetUser",
                 "GetWebExperience",
                 "ListApplications",
+                "ListAttachments",
                 "ListConversations",
                 "ListDataSourceSyncJobs",
                 "ListDataSources",
@@ -17844,7 +17845,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "identitystore:GroupId",
+                "identitystore:UserId"
             ],
             "HasResource": true
         },
