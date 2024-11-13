@@ -8401,16 +8401,28 @@
         "AWS Payments": {
             "StringPrefix": "payments",
             "Actions": [
+                "AcceptFinancingApplicationTerms",
+                "CreateFinancingApplication",
                 "CreatePaymentInstrument",
                 "DeletePaymentInstrument",
+                "GetFinancingApplication",
+                "GetFinancingLine",
+                "GetFinancingLineWithdrawal",
+                "GetFinancingOption",
                 "GetPaymentInstrument",
                 "GetPaymentStatus",
+                "ListFinancingApplications",
+                "ListFinancingLineWithdrawals",
+                "ListFinancingLines",
                 "ListPaymentInstruments",
                 "ListPaymentPreferences",
+                "ListPaymentProgramOptions",
+                "ListPaymentProgramStatus",
                 "ListTagsForResource",
                 "MakePayment",
                 "TagResource",
                 "UntagResource",
+                "UpdateFinancingApplication",
                 "UpdatePaymentInstrument",
                 "UpdatePaymentPreferences"
             ],
@@ -18131,7 +18143,7 @@
             ],
             "HasResource": true
         },
-        "Amazon Route 53 Application Recovery Controller - Zonal Shift": {
+        "Amazon Application Recovery Controller - Zonal Shift": {
             "StringPrefix": "arc-zonal-shift",
             "Actions": [
                 "CancelZonalShift",
@@ -18151,6 +18163,7 @@
             "ARNFormat": "arn:aws:arc-zonal-shift:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:arc-zonal-shift:.+:.+:.+",
             "conditionKeys": [
+                "arc-zonal-shift:ResourceIdentifier",
                 "aws:ResourceTag/${TagKey}",
                 "elasticloadbalancing:ResourceTag/${TagKey}"
             ],

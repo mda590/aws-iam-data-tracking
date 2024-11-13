@@ -239,6 +239,7 @@ Amazon API Gateway Management V2
 Amazon AppFlow
 Amazon AppIntegrations
 Amazon AppStream 2.0
+Amazon Application Recovery Controller - Zonal Shift
 Amazon Athena
 Amazon Bedrock
 Amazon Braket
@@ -378,7 +379,6 @@ Amazon Redshift Serverless
 Amazon Rekognition
 Amazon Resource Group Tagging API
 Amazon Route 53
-Amazon Route 53 Application Recovery Controller - Zonal Shift
 Amazon Route 53 Domains
 Amazon Route 53 Profiles
 Amazon Route 53 Recovery Cluster
