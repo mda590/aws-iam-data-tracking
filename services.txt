@@ -272,6 +272,7 @@ Amazon Comprehend Medical
 Amazon Connect
 Amazon Connect Cases
 Amazon Connect Customer Profiles
+Amazon Connect Outbound Campaigns
 Amazon Connect Voice ID
 Amazon Data Lifecycle Manager
 Amazon DataZone
@@ -423,6 +424,5 @@ AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
 Database Query Metadata Service
-High-volume outbound communications
 Service Quotas
 Tag Editor
