@@ -4237,6 +4237,7 @@ datazone:CreateListingChangeSet
 datazone:CreateProject
 datazone:CreateProjectMembership
 datazone:CreateProjectProfile
+datazone:CreateRule
 datazone:CreateSubscriptionGrant
 datazone:CreateSubscriptionRequest
 datazone:CreateSubscriptionTarget
@@ -4261,6 +4262,7 @@ datazone:DeleteListing
 datazone:DeleteProject
 datazone:DeleteProjectMembership
 datazone:DeleteProjectProfile
+datazone:DeleteRule
 datazone:DeleteSubscriptionGrant
 datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
@@ -4292,6 +4294,7 @@ datazone:GetListing
 datazone:GetMetadataGenerationRun
 datazone:GetProject
 datazone:GetProjectProfile
+datazone:GetRule
 datazone:GetSubscription
 datazone:GetSubscriptionEligibility
 datazone:GetSubscriptionGrant
@@ -4324,6 +4327,7 @@ datazone:ListPolicyGrants
 datazone:ListProjectMemberships
 datazone:ListProjectProfiles
 datazone:ListProjects
+datazone:ListRules
 datazone:ListSubscriptionGrants
 datazone:ListSubscriptionRequests
 datazone:ListSubscriptionTargets
@@ -4345,6 +4349,7 @@ datazone:RevokeSubscription
 datazone:Search
 datazone:SearchGroupProfiles
 datazone:SearchListings
+datazone:SearchRules
 datazone:SearchTypes
 datazone:SearchUserProfiles
 datazone:SsoLogin
@@ -4370,6 +4375,7 @@ datazone:UpdateGlossaryTerm
 datazone:UpdateGroupProfile
 datazone:UpdateProject
 datazone:UpdateProjectProfile
+datazone:UpdateRule
 datazone:UpdateSubscriptionGrantStatus
 datazone:UpdateSubscriptionRequest
 datazone:UpdateSubscriptionTarget
