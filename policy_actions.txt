@@ -8920,6 +8920,7 @@ iotsitewise:CreateAssetModel
 iotsitewise:CreateAssetModelCompositeModel
 iotsitewise:CreateBulkImportJob
 iotsitewise:CreateDashboard
+iotsitewise:CreateDataset
 iotsitewise:CreateGateway
 iotsitewise:CreatePortal
 iotsitewise:CreateProject
@@ -8928,6 +8929,7 @@ iotsitewise:DeleteAsset
 iotsitewise:DeleteAssetModel
 iotsitewise:DeleteAssetModelCompositeModel
 iotsitewise:DeleteDashboard
+iotsitewise:DeleteDataset
 iotsitewise:DeleteGateway
 iotsitewise:DeletePortal
 iotsitewise:DeleteProject
@@ -8941,6 +8943,7 @@ iotsitewise:DescribeAssetModelCompositeModel
 iotsitewise:DescribeAssetProperty
 iotsitewise:DescribeBulkImportJob
 iotsitewise:DescribeDashboard
+iotsitewise:DescribeDataset
 iotsitewise:DescribeDefaultEncryptionConfiguration
 iotsitewise:DescribeGateway
 iotsitewise:DescribeGatewayCapabilityConfiguration
@@ -8958,6 +8961,7 @@ iotsitewise:GetAssetPropertyAggregates
 iotsitewise:GetAssetPropertyValue
 iotsitewise:GetAssetPropertyValueHistory
 iotsitewise:GetInterpolatedAssetPropertyValues
+iotsitewise:InvokeAssistant
 iotsitewise:ListAccessPolicies
 iotsitewise:ListActions
 iotsitewise:ListAssetModelCompositeModels
@@ -8970,6 +8974,7 @@ iotsitewise:ListAssociatedAssets
 iotsitewise:ListBulkImportJobs
 iotsitewise:ListCompositionRelationships
 iotsitewise:ListDashboards
+iotsitewise:ListDatasets
 iotsitewise:ListGateways
 iotsitewise:ListPortals
 iotsitewise:ListProjectAssets
@@ -8988,6 +8993,7 @@ iotsitewise:UpdateAssetModelCompositeModel
 iotsitewise:UpdateAssetModelPropertyRouting
 iotsitewise:UpdateAssetProperty
 iotsitewise:UpdateDashboard
+iotsitewise:UpdateDataset
 iotsitewise:UpdateGateway
 iotsitewise:UpdateGatewayCapabilityConfiguration
 iotsitewise:UpdatePortal
@@ -13412,6 +13418,8 @@ rekognition:TagResource
 rekognition:UntagResource
 rekognition:UpdateDatasetEntries
 rekognition:UpdateStreamProcessor
+repostspace:BatchAddRole
+repostspace:BatchRemoveRole
 repostspace:CreateSpace
 repostspace:DeleteSpace
 repostspace:DeregisterAdmin
@@ -15357,6 +15365,7 @@ sms-voice:DeleteOptOutList
 sms-voice:DeleteOptedOutNumber
 sms-voice:DeletePool
 sms-voice:DeleteProtectConfiguration
+sms-voice:DeleteProtectConfigurationRuleSetNumberOverride
 sms-voice:DeleteRegistration
 sms-voice:DeleteRegistrationAttachment
 sms-voice:DeleteRegistrationFieldValue
@@ -15391,10 +15400,13 @@ sms-voice:GetProtectConfigurationCountryRuleSet
 sms-voice:GetResourcePolicy
 sms-voice:ListConfigurationSets
 sms-voice:ListPoolOriginationIdentities
+sms-voice:ListProtectConfigurationRuleSetNumberOverrides
 sms-voice:ListRegistrationAssociations
 sms-voice:ListTagsForResource
 sms-voice:PutKeyword
+sms-voice:PutMessageFeedback
 sms-voice:PutOptedOutNumber
+sms-voice:PutProtectConfigurationRuleSetNumberOverride
 sms-voice:PutRegistrationFieldValue
 sms-voice:PutResourcePolicy
 sms-voice:ReleasePhoneNumber
@@ -15407,6 +15419,7 @@ sms-voice:SendTextMessage
 sms-voice:SendVoiceMessage
 sms-voice:SendVoiceMessage
 sms-voice:SetAccountDefaultProtectConfiguration
+sms-voice:SetDefaultMessageFeedbackEnabled
 sms-voice:SetDefaultMessageType
 sms-voice:SetDefaultSenderId
 sms-voice:SetMediaMessageSpendLimitOverride

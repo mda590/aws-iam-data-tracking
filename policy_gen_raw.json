@@ -1077,7 +1077,8 @@
             "conditionKeys": [
                 "route53:ChangeResourceRecordSetsActions",
                 "route53:ChangeResourceRecordSetsNormalizedRecordNames",
-                "route53:ChangeResourceRecordSetsRecordTypes"
+                "route53:ChangeResourceRecordSetsRecordTypes",
+                "route53:VPCs"
             ],
             "HasResource": true
         },
@@ -6069,9 +6070,11 @@
             "ARNRegex": "^arn:${Partition}:Marketplace:.+",
             "HasResource": false
         },
-        "AWS re:Post Private": {
+        "AWS rePost Private": {
             "StringPrefix": "repostspace",
             "Actions": [
+                "BatchAddRole",
+                "BatchRemoveRole",
                 "CreateSpace",
                 "DeleteSpace",
                 "DeregisterAdmin",
@@ -15975,6 +15978,7 @@
                 "CreateAssetModelCompositeModel",
                 "CreateBulkImportJob",
                 "CreateDashboard",
+                "CreateDataset",
                 "CreateGateway",
                 "CreatePortal",
                 "CreateProject",
@@ -15983,6 +15987,7 @@
                 "DeleteAssetModel",
                 "DeleteAssetModelCompositeModel",
                 "DeleteDashboard",
+                "DeleteDataset",
                 "DeleteGateway",
                 "DeletePortal",
                 "DeleteProject",
@@ -15996,6 +16001,7 @@
                 "DescribeAssetProperty",
                 "DescribeBulkImportJob",
                 "DescribeDashboard",
+                "DescribeDataset",
                 "DescribeDefaultEncryptionConfiguration",
                 "DescribeGateway",
                 "DescribeGatewayCapabilityConfiguration",
@@ -16013,6 +16019,7 @@
                 "GetAssetPropertyValue",
                 "GetAssetPropertyValueHistory",
                 "GetInterpolatedAssetPropertyValues",
+                "InvokeAssistant",
                 "ListAccessPolicies",
                 "ListActions",
                 "ListAssetModelCompositeModels",
@@ -16025,6 +16032,7 @@
                 "ListBulkImportJobs",
                 "ListCompositionRelationships",
                 "ListDashboards",
+                "ListDatasets",
                 "ListGateways",
                 "ListPortals",
                 "ListProjectAssets",
@@ -16043,6 +16051,7 @@
                 "UpdateAssetModelPropertyRouting",
                 "UpdateAssetProperty",
                 "UpdateDashboard",
+                "UpdateDataset",
                 "UpdateGateway",
                 "UpdateGatewayCapabilityConfiguration",
                 "UpdatePortal",
@@ -19213,7 +19222,23 @@
             ],
             "HasResource": true
         },
-        "Amazon Pinpoint SMS Voice V2": {
+        "Amazon Pinpoint SMS and Voice Service": {
+            "StringPrefix": "sms-voice",
+            "Actions": [
+                "CreateConfigurationSet",
+                "CreateConfigurationSetEventDestination",
+                "DeleteConfigurationSet",
+                "DeleteConfigurationSetEventDestination",
+                "GetConfigurationSetEventDestinations",
+                "ListConfigurationSets",
+                "SendVoiceMessage",
+                "UpdateConfigurationSetEventDestination"
+            ],
+            "ARNFormat": "arn:aws:sms-voice:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNRegex": "^arn:aws:sms-voice:.+:.+:.+",
+            "HasResource": false
+        },
+        "AWS End User Messaging SMS and Voice V2": {
             "StringPrefix": "sms-voice",
             "Actions": [
                 "AssociateOriginationIdentity",
@@ -19239,6 +19264,7 @@
                 "DeleteOptedOutNumber",
                 "DeletePool",
                 "DeleteProtectConfiguration",
+                "DeleteProtectConfigurationRuleSetNumberOverride",
                 "DeleteRegistration",
                 "DeleteRegistrationAttachment",
                 "DeleteRegistrationFieldValue",
@@ -19271,10 +19297,13 @@
                 "GetProtectConfigurationCountryRuleSet",
                 "GetResourcePolicy",
                 "ListPoolOriginationIdentities",
+                "ListProtectConfigurationRuleSetNumberOverrides",
                 "ListRegistrationAssociations",
                 "ListTagsForResource",
                 "PutKeyword",
+                "PutMessageFeedback",
                 "PutOptedOutNumber",
+                "PutProtectConfigurationRuleSetNumberOverride",
                 "PutRegistrationFieldValue",
                 "PutResourcePolicy",
                 "ReleasePhoneNumber",
@@ -19286,6 +19315,7 @@
                 "SendTextMessage",
                 "SendVoiceMessage",
                 "SetAccountDefaultProtectConfiguration",
+                "SetDefaultMessageFeedbackEnabled",
                 "SetDefaultMessageType",
                 "SetDefaultSenderId",
                 "SetMediaMessageSpendLimitOverride",
@@ -19310,22 +19340,6 @@
                 "aws:TagKeys"
             ],
             "HasResource": true
-        },
-        "Amazon Pinpoint SMS and Voice Service": {
-            "StringPrefix": "sms-voice",
-            "Actions": [
-                "CreateConfigurationSet",
-                "CreateConfigurationSetEventDestination",
-                "DeleteConfigurationSet",
-                "DeleteConfigurationSetEventDestination",
-                "GetConfigurationSetEventDestinations",
-                "ListConfigurationSets",
-                "SendVoiceMessage",
-                "UpdateConfigurationSetEventDestination"
-            ],
-            "ARNFormat": "arn:aws:sms-voice:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:sms-voice:.+:.+:.+",
-            "HasResource": false
         },
         "AWS SimSpace Weaver": {
             "StringPrefix": "simspaceweaver",
