@@ -1207,6 +1207,7 @@ aws-marketplace:GetEntitlements
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
 aws-marketplace:ListAgreementApprovalRequests
+aws-marketplace:ListAgreementCharges
 aws-marketplace:ListAgreementRequests
 aws-marketplace:ListAssessments
 aws-marketplace:ListBuilds
@@ -1235,6 +1236,7 @@ aws-marketplace:Unsubscribe
 aws-marketplace:UntagResource
 aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
+aws-marketplace:UpdatePurchaseOrders
 aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
 aws-portal:GetConsoleActionSetEnforced
@@ -4220,6 +4222,7 @@ datazone:CreateAsset
 datazone:CreateAssetFilter
 datazone:CreateAssetRevision
 datazone:CreateAssetType
+datazone:CreateConnection
 datazone:CreateDataProduct
 datazone:CreateDataProductRevision
 datazone:CreateDataSource
@@ -4245,6 +4248,7 @@ datazone:CreateUserProfile
 datazone:DeleteAsset
 datazone:DeleteAssetFilter
 datazone:DeleteAssetType
+datazone:DeleteConnection
 datazone:DeleteDataProduct
 datazone:DeleteDataSource
 datazone:DeleteDomain
@@ -4271,10 +4275,12 @@ datazone:DisassociateEnvironmentRole
 datazone:GetAsset
 datazone:GetAssetFilter
 datazone:GetAssetType
+datazone:GetConnection
 datazone:GetDataProduct
 datazone:GetDataSource
 datazone:GetDataSourceRun
 datazone:GetDomain
+datazone:GetDomainExecutionRoleCredentials
 datazone:GetDomainSharingPolicy
 datazone:GetDomainUnit
 datazone:GetEnvironment
@@ -4289,6 +4295,8 @@ datazone:GetGlossary
 datazone:GetGlossaryTerm
 datazone:GetGroupProfile
 datazone:GetIamPortalLoginUrl
+datazone:GetJobRun
+datazone:GetLineageEvent
 datazone:GetLineageNode
 datazone:GetListing
 datazone:GetMetadataGenerationRun
@@ -4305,6 +4313,7 @@ datazone:GetUserProfile
 datazone:ListAccountEnvironments
 datazone:ListAssetFilters
 datazone:ListAssetRevisions
+datazone:ListConnections
 datazone:ListDataProductRevisions
 datazone:ListDataSourceRunActivities
 datazone:ListDataSourceRuns
@@ -4319,6 +4328,8 @@ datazone:ListEnvironmentBlueprints
 datazone:ListEnvironmentProfiles
 datazone:ListEnvironments
 datazone:ListGroupsForUser
+datazone:ListJobRuns
+datazone:ListLineageEvents
 datazone:ListLineageNodeHistory
 datazone:ListLinkedTypes
 datazone:ListMetadataGenerationRuns
@@ -4360,6 +4371,7 @@ datazone:StopMetadataGenerationRun
 datazone:TagResource
 datazone:UntagResource
 datazone:UpdateAssetFilter
+datazone:UpdateConnection
 datazone:UpdateDataSource
 datazone:UpdateDataSourceRunActivities
 datazone:UpdateDomain
@@ -14331,6 +14343,8 @@ sagemaker:CreateMonitoringSchedule
 sagemaker:CreateNotebookInstance
 sagemaker:CreateNotebookInstanceLifecycleConfig
 sagemaker:CreateOptimizationJob
+sagemaker:CreatePartnerApp
+sagemaker:CreatePartnerAppPresignedUrl
 sagemaker:CreatePipeline
 sagemaker:CreatePresignedDomainUrl
 sagemaker:CreatePresignedMlflowTrackingServerUrl
@@ -14391,6 +14405,7 @@ sagemaker:DeleteMonitoringSchedule
 sagemaker:DeleteNotebookInstance
 sagemaker:DeleteNotebookInstanceLifecycleConfig
 sagemaker:DeleteOptimizationJob
+sagemaker:DeletePartnerApp
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
@@ -14454,6 +14469,7 @@ sagemaker:DescribeMonitoringSchedule
 sagemaker:DescribeNotebookInstance
 sagemaker:DescribeNotebookInstanceLifecycleConfig
 sagemaker:DescribeOptimizationJob
+sagemaker:DescribePartnerApp
 sagemaker:DescribePipeline
 sagemaker:DescribePipelineDefinitionForExecution
 sagemaker:DescribePipelineExecution
@@ -14545,6 +14561,7 @@ sagemaker:ListMonitoringSchedules
 sagemaker:ListNotebookInstanceLifecycleConfigs
 sagemaker:ListNotebookInstances
 sagemaker:ListOptimizationJobs
+sagemaker:ListPartnerApps
 sagemaker:ListPipelineExecutionSteps
 sagemaker:ListPipelineExecutions
 sagemaker:ListPipelineParametersForExecution
@@ -14633,6 +14650,7 @@ sagemaker:UpdateMonitoringAlert
 sagemaker:UpdateMonitoringSchedule
 sagemaker:UpdateNotebookInstance
 sagemaker:UpdateNotebookInstanceLifecycleConfig
+sagemaker:UpdatePartnerApp
 sagemaker:UpdatePipeline
 sagemaker:UpdatePipelineExecution
 sagemaker:UpdateProject
