@@ -20694,6 +20694,7 @@
                 "ec2:KeyPairType",
                 "ec2:KmsKeyId",
                 "ec2:LaunchTemplate",
+                "ec2:ManagedResourceOperator",
                 "ec2:MetadataHttpEndpoint",
                 "ec2:MetadataHttpPutResponseHopLimit",
                 "ec2:MetadataHttpTokens",
