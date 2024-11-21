@@ -8558,6 +8558,7 @@
                 "DescribeScalingActivities",
                 "DescribeScalingPolicies",
                 "DescribeScheduledActions",
+                "GetPredictiveScalingForecast",
                 "ListTagsForResource",
                 "PutScalingPolicy",
                 "PutScheduledAction",
