@@ -775,6 +775,7 @@
                 "DescribeStatement",
                 "DescribeTable",
                 "ExecuteStatement",
+                "GetStagingBucketLocation",
                 "GetStatementResult",
                 "ListDatabases",
                 "ListSchemas",
@@ -785,6 +786,7 @@
             "ARNRegex": "^arn:aws:(redshift|redshift-serverless):.+:.+:.+",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
+                "redshift-data:glue-catalog-arn",
                 "redshift-data:session-owner-iam-userid",
                 "redshift-data:statement-owner-iam-userid"
             ],
@@ -21811,6 +21813,7 @@
                 "GetCredentials",
                 "GetCustomDomainAssociation",
                 "GetEndpointAccess",
+                "GetManagedWorkgroup",
                 "GetNamespace",
                 "GetRecoveryPoint",
                 "GetResourcePolicy",
@@ -21853,6 +21856,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "redshift-serverless:endpointAccessId",
+                "redshift-serverless:managedWorkgroupName",
                 "redshift-serverless:namespaceId",
                 "redshift-serverless:recoveryPointId",
                 "redshift-serverless:snapshotId",
