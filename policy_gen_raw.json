@@ -2972,6 +2972,7 @@
         "AWS Config": {
             "StringPrefix": "config",
             "Actions": [
+                "AssociateResourceTypes",
                 "BatchGetAggregateResourceConfig",
                 "BatchGetResourceConfig",
                 "DeleteAggregationAuthorization",
@@ -2988,6 +2989,7 @@
                 "DeleteRemediationExceptions",
                 "DeleteResourceConfig",
                 "DeleteRetentionConfiguration",
+                "DeleteServiceLinkedConfigurationRecorder",
                 "DeleteStoredQuery",
                 "DeliverConfigSnapshot",
                 "DescribeAggregateComplianceByConfigRules",
@@ -3015,6 +3017,7 @@
                 "DescribeRemediationExceptions",
                 "DescribeRemediationExecutionStatus",
                 "DescribeRetentionConfigurations",
+                "DisassociateResourceTypes",
                 "GetAggregateComplianceDetailsByConfigRule",
                 "GetAggregateConfigRuleComplianceSummary",
                 "GetAggregateConformancePackComplianceSummary",
@@ -3035,6 +3038,7 @@
                 "GetResourceEvaluationSummary",
                 "GetStoredQuery",
                 "ListAggregateDiscoveredResources",
+                "ListConfigurationRecorders",
                 "ListConformancePackComplianceScores",
                 "ListDiscoveredResources",
                 "ListResourceEvaluations",
@@ -3054,6 +3058,7 @@
                 "PutRemediationExceptions",
                 "PutResourceConfig",
                 "PutRetentionConfiguration",
+                "PutServiceLinkedConfigurationRecorder",
                 "PutStoredQuery",
                 "SelectAggregateResourceConfig",
                 "SelectResourceConfig",
@@ -3070,7 +3075,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "config:ConfigurationRecorderServicePrincipal"
             ],
             "HasResource": true
         },
