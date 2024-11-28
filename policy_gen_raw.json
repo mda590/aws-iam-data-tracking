@@ -9341,6 +9341,22 @@
             "ARNRegex": "^arn:aws:cloudformation:.+:[0-9]+:.+",
             "HasResource": false
         },
+        "Amazon CloudWatch Observability Admin Service": {
+            "StringPrefix": "observabilityadmin",
+            "Actions": [
+                "GetTelemetryEvaluationStatus",
+                "GetTelemetryEvaluationStatusForOrganization",
+                "ListResourceTelemetry",
+                "ListResourceTelemetryForOrganization",
+                "StartTelemetryEvaluation",
+                "StartTelemetryEvaluationForOrganization",
+                "StopTelemetryEvaluation",
+                "StopTelemetryEvaluationForOrganization"
+            ],
+            "ARNFormat": "arn:${Partition}:observabilityadmin:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:observabilityadmin:.+:.+:.+",
+            "HasResource": false
+        },
         "Amazon Macie": {
             "StringPrefix": "macie2",
             "Actions": [

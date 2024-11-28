@@ -260,6 +260,7 @@ Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
 Amazon CloudWatch Network Monitor
 Amazon CloudWatch Observability Access Manager
+Amazon CloudWatch Observability Admin Service
 Amazon CloudWatch Synthetics
 Amazon CodeCatalyst
 Amazon CodeGuru
