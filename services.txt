@@ -195,6 +195,7 @@ AWS SQL Workbench
 AWS Savings Plans
 AWS Secrets Manager
 AWS Security Hub
+AWS Security Incident Response
 AWS Security Token Service
 AWS Server Migration Service
 AWS Serverless Application Repository
