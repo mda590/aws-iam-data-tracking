@@ -238,6 +238,7 @@ AWS X-Ray
 AWS rePost Private
 AWS service providing managed private networks
 Alexa for Business
+Amazon AI Operations
 Amazon API Gateway
 Amazon API Gateway Management
 Amazon API Gateway Management V2

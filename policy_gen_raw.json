@@ -84,6 +84,41 @@
         "aws:username"
     ],
     "serviceMap": {
+        "Amazon AI Operations": {
+            "StringPrefix": "aiops",
+            "Actions": [
+                "CreateInvestigation",
+                "CreateInvestigationEvent",
+                "CreateInvestigationGroup",
+                "CreateInvestigationResource",
+                "DeleteInvestigation",
+                "DeleteInvestigationGroup",
+                "DeleteInvestigationGroupPolicy",
+                "GetInvestigation",
+                "GetInvestigationEvent",
+                "GetInvestigationGroup",
+                "GetInvestigationGroupPolicy",
+                "GetInvestigationResource",
+                "ListInvestigationEvents",
+                "ListInvestigationGroups",
+                "ListInvestigations",
+                "ListTagsForResource",
+                "PutInvestigationGroupPolicy",
+                "TagResource",
+                "UntagResource",
+                "UpdateInvestigation",
+                "UpdateInvestigationEvent",
+                "UpdateInvestigationGroup"
+            ],
+            "ARNFormat": "arn:aws:aiops:${Region}:${Account}:.+",
+            "ARNRegex": "^arn:aws:aiops:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Q Business Q Apps": {
             "StringPrefix": "qapps",
             "Actions": [
@@ -22581,6 +22616,7 @@
                 "CreateProfile",
                 "CreateServer",
                 "CreateUser",
+                "CreateWebApp",
                 "CreateWorkflow",
                 "DeleteAccess",
                 "DeleteAgreement",
@@ -22591,6 +22627,8 @@
                 "DeleteServer",
                 "DeleteSshPublicKey",
                 "DeleteUser",
+                "DeleteWebApp",
+                "DeleteWebAppCustomization",
                 "DeleteWorkflow",
                 "DescribeAccess",
                 "DescribeAgreement",
@@ -22602,6 +22640,8 @@
                 "DescribeSecurityPolicy",
                 "DescribeServer",
                 "DescribeUser",
+                "DescribeWebApp",
+                "DescribeWebAppCustomization",
                 "DescribeWorkflow",
                 "ImportCertificate",
                 "ImportHostKey",
@@ -22618,6 +22658,7 @@
                 "ListServers",
                 "ListTagsForResource",
                 "ListUsers",
+                "ListWebApps",
                 "ListWorkflows",
                 "SendWorkflowStepState",
                 "StartDirectoryListing",
@@ -22635,7 +22676,9 @@
                 "UpdateHostKey",
                 "UpdateProfile",
                 "UpdateServer",
-                "UpdateUser"
+                "UpdateUser",
+                "UpdateWebApp",
+                "UpdateWebAppCustomization"
             ],
             "ARNFormat": "arn:aws:transfer:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:transfer:.+:.+:.+",
