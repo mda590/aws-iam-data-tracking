@@ -11158,6 +11158,45 @@
             ],
             "HasResource": true
         },
+        "Network Flow Monitor": {
+            "StringPrefix": "networkflowmonitor",
+            "Actions": [
+                "CreateMonitor",
+                "CreateScope",
+                "DeleteMonitor",
+                "DeleteScope",
+                "GetMonitor",
+                "GetQueryResultsMonitorTopContributors",
+                "GetQueryResultsWorkloadInsightsTopContributors",
+                "GetQueryResultsWorkloadInsightsTopContributorsData",
+                "GetQueryStatusMonitorTopContributors",
+                "GetQueryStatusWorkloadInsightsTopContributors",
+                "GetQueryStatusWorkloadInsightsTopContributorsData",
+                "GetScope",
+                "ListMonitors",
+                "ListScopes",
+                "ListTagsForResource",
+                "Publish",
+                "StartQueryMonitorTopContributors",
+                "StartQueryWorkloadInsightsTopContributors",
+                "StartQueryWorkloadInsightsTopContributorsData",
+                "StopQueryMonitorTopContributors",
+                "StopQueryWorkloadInsightsTopContributors",
+                "StopQueryWorkloadInsightsTopContributorsData",
+                "TagResource",
+                "UntagResource",
+                "UpdateMonitor",
+                "UpdateScope"
+            ],
+            "ARNFormat": "arn:aws:networkflowmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:networkflowmonitor:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS CodePipeline": {
             "StringPrefix": "codepipeline",
             "Actions": [
@@ -22961,6 +23000,7 @@
             "ARNFormat": "arn:aws:s3express:${Region}:${Account}:bucket/${BucketName}",
             "ARNRegex": "^arn:aws:s3express:${Region}:${Account}:bucket/.+",
             "conditionKeys": [
+                "s3express:AllAccessRestrictedToLocalZoneGroup",
                 "s3express:LocationName",
                 "s3express:ResourceAccount",
                 "s3express:SessionMode",
