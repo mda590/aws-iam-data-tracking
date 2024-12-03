@@ -247,6 +247,7 @@ Amazon AppIntegrations
 Amazon AppStream 2.0
 Amazon Application Recovery Controller - Zonal Shift
 Amazon Athena
+Amazon Aurora DSQL
 Amazon Bedrock
 Amazon Braket
 Amazon Chime
@@ -396,6 +397,7 @@ Amazon S3
 Amazon S3 Express
 Amazon S3 Glacier
 Amazon S3 Object Lambda
+Amazon S3 Tables
 Amazon S3 on Outposts
 Amazon SES
 Amazon SNS

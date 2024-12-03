@@ -17280,6 +17280,32 @@
             "ARNRegex": "^arn:aws:polly:${Region}:.+",
             "HasResource": true
         },
+        "Amazon Aurora DSQL": {
+            "StringPrefix": "dsql",
+            "Actions": [
+                "CreateCluster",
+                "CreateMultiRegionClusters",
+                "DbConnect",
+                "DbConnectAdmin",
+                "DeleteCluster",
+                "DeleteMultiRegionClusters",
+                "GetCluster",
+                "ListClusters",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateCluster"
+            ],
+            "ARNFormat": "arn:aws:dsql:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:dsql:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "dsql:WitnessRegion"
+            ],
+            "HasResource": true
+        },
         "AWS App Runner": {
             "StringPrefix": "apprunner",
             "Actions": [
@@ -23975,6 +24001,46 @@
                 "aws:TagKeys",
                 "organizations:PolicyType",
                 "organizations:ServicePrincipal"
+            ],
+            "HasResource": true
+        },
+        "Amazon S3 Tables": {
+            "StringPrefix": "s3tables",
+            "Actions": [
+                "CreateNamespace",
+                "CreateTable",
+                "CreateTableBucket",
+                "DeleteNamespace",
+                "DeleteTable",
+                "DeleteTableBucket",
+                "DeleteTableBucketPolicy",
+                "DeleteTablePolicy",
+                "GetNamespace",
+                "GetTable",
+                "GetTableBucket",
+                "GetTableBucketMaintenanceConfiguration",
+                "GetTableBucketPolicy",
+                "GetTableData",
+                "GetTableMaintenanceConfiguration",
+                "GetTableMaintenanceJobStatus",
+                "GetTableMetadataLocation",
+                "GetTablePolicy",
+                "ListNamespaces",
+                "ListTableBuckets",
+                "ListTables",
+                "PutTableBucketMaintenanceConfiguration",
+                "PutTableBucketPolicy",
+                "PutTableData",
+                "PutTableMaintenanceConfiguration",
+                "PutTablePolicy",
+                "RenameTable",
+                "UpdateTableMetadataLocation"
+            ],
+            "ARNFormat": "arn:aws:s3tables:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:s3tables:.+",
+            "conditionKeys": [
+                "s3tables:namespace",
+                "s3tables:tableName"
             ],
             "HasResource": true
         },
