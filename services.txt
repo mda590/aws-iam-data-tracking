@@ -404,6 +404,7 @@ Amazon SNS
 Amazon SQS
 Amazon SageMaker
 Amazon SageMaker Ground Truth Synthetic
+Amazon SageMaker data science assistant
 Amazon SageMaker geospatial capabilities
 Amazon SageMaker with MLflow
 Amazon Security Lake

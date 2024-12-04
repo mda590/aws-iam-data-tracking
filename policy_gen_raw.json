@@ -10544,6 +10544,13 @@
             ],
             "HasResource": false
         },
+        "Amazon SageMaker data science assistant": {
+            "StringPrefix": "sagemaker-data-science-assistant",
+            "Actions": [
+                "SendConversation"
+            ],
+            "HasResource": false
+        },
         "AWS Signin": {
             "StringPrefix": "signin",
             "Actions": [
