@@ -11555,6 +11555,7 @@
                 "CreateService",
                 "DeleteNamespace",
                 "DeleteService",
+                "DeleteServiceAttributes",
                 "DeregisterInstance",
                 "DiscoverInstances",
                 "DiscoverInstancesRevision",
@@ -11563,6 +11564,7 @@
                 "GetNamespace",
                 "GetOperation",
                 "GetService",
+                "GetServiceAttributes",
                 "ListInstances",
                 "ListNamespaces",
                 "ListOperations",
@@ -11575,7 +11577,8 @@
                 "UpdateInstanceCustomHealthStatus",
                 "UpdatePrivateDnsNamespace",
                 "UpdatePublicDnsNamespace",
-                "UpdateService"
+                "UpdateService",
+                "UpdateServiceAttributes"
             ],
             "ARNFormat": "arn:aws:servicediscovery:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:servicediscovery:.+",
