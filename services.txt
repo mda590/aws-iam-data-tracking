@@ -22,6 +22,7 @@ AWS Auto Scaling
 AWS B2B Data Interchange
 AWS Backup
 AWS Backup Gateway
+AWS Backup Search
 AWS Backup storage
 AWS Batch
 AWS Billing
