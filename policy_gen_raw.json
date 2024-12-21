@@ -19203,21 +19203,39 @@
         "AWS Billing": {
             "StringPrefix": "billing",
             "Actions": [
+                "CreateBillingView",
+                "DeleteBillingView",
+                "DeleteResourcePolicy",
                 "GetBillingData",
                 "GetBillingDetails",
                 "GetBillingNotifications",
                 "GetBillingPreferences",
+                "GetBillingView",
                 "GetContractInformation",
                 "GetCredits",
                 "GetIAMAccessPreference",
+                "GetResourcePolicy",
                 "GetSellerOfRecord",
                 "ListBillingViews",
+                "ListSourceViewsForBillingView",
+                "ListTagsForResource",
                 "PutContractInformation",
+                "PutResourcePolicy",
                 "RedeemCredits",
+                "TagResource",
+                "UntagResource",
                 "UpdateBillingPreferences",
+                "UpdateBillingView",
                 "UpdateIAMAccessPreference"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:billing::${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:billing:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS Artifact": {
             "StringPrefix": "artifact",
