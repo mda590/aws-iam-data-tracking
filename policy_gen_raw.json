@@ -3763,6 +3763,7 @@
                 "DescribeAddonConfiguration",
                 "DescribeAddonVersions",
                 "DescribeCluster",
+                "DescribeClusterVersions",
                 "DescribeEksAnywhereSubscription",
                 "DescribeFargateProfile",
                 "DescribeIdentityProviderConfig",
@@ -22235,6 +22236,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "ecr:AccountSetting",
                 "ecr:ResourceTag/${TagKey}"
             ],
             "HasResource": true
