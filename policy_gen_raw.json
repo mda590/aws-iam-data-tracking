@@ -2401,6 +2401,7 @@
         "Amazon Simple Email Service - Mail Manager": {
             "StringPrefix": "ses",
             "Actions": [
+                "AllowVendedLogDeliveryForResource",
                 "CreateAddonInstance",
                 "CreateAddonSubscription",
                 "CreateArchive",
