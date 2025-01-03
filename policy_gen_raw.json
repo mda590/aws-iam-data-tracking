@@ -21782,6 +21782,7 @@
                 "StopMatchmaking",
                 "SuspendGameServerGroup",
                 "TagResource",
+                "TerminateGameSession",
                 "UntagResource",
                 "UpdateAlias",
                 "UpdateBuild",
