@@ -8702,6 +8702,7 @@
                 "secretsmanager:Description",
                 "secretsmanager:ForceDeleteWithoutRecovery",
                 "secretsmanager:ForceOverwriteReplicaSecret",
+                "secretsmanager:KmsKeyArn",
                 "secretsmanager:KmsKeyId",
                 "secretsmanager:ModifyRotationRules",
                 "secretsmanager:Name",
