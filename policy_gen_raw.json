@@ -20330,8 +20330,11 @@
                 "Invoke",
                 "ManageConnections"
             ],
-            "ARNFormat": "arn:aws:execute-api:<region>:<account_id>:<api_id>/<stage>/<method>/<api_specific_resource_path>",
+            "ARNFormat": "arn:aws:execute-api:${Region}:${Account}:${ResourcePath}",
             "ARNRegex": "^arn:aws:execute-api:.+",
+            "conditionKeys": [
+                "execute-api:viaDomainArn"
+            ],
             "HasResource": true
         },
         "AWS Migration Hub Strategy Recommendations": {
