@@ -1740,7 +1740,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "codebuild:buildArn",
+                "codebuild:projectArn"
             ],
             "HasResource": true
         },
