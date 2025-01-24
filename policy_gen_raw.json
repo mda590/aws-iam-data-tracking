@@ -1980,6 +1980,7 @@
                 "DeleteContactEvaluation",
                 "DeleteContactFlow",
                 "DeleteContactFlowModule",
+                "DeleteContactFlowVersion",
                 "DeleteEmailAddress",
                 "DeleteEvaluationForm",
                 "DeleteHoursOfOperation",
@@ -6673,7 +6674,10 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "datazone:domainId",
+                "datazone:projectId",
+                "datazone:userId"
             ],
             "HasResource": true
         },
@@ -23481,6 +23485,7 @@
                 "DescribeFHIRExportJobWithGet",
                 "DescribeFHIRImportJob",
                 "GetCapabilities",
+                "GetExportedFile",
                 "ListFHIRDatastores",
                 "ListFHIRExportJobs",
                 "ListFHIRImportJobs",
@@ -23490,6 +23495,7 @@
                 "SearchWithGet",
                 "SearchWithPost",
                 "StartFHIRExportJob",
+                "StartFHIRExportJobWithGet",
                 "StartFHIRExportJobWithPost",
                 "StartFHIRImportJob",
                 "TagResource",
