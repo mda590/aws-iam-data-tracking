@@ -17329,6 +17329,7 @@
                 "RegisterOrganizationDelegatedAdmin",
                 "RemoveTags",
                 "RestoreEventDataStore",
+                "SearchSampleQueries",
                 "StartDashboardRefresh",
                 "StartEventDataStoreIngestion",
                 "StartImport",
