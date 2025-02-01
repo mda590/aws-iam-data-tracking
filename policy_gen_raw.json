@@ -16057,21 +16057,6 @@
             ],
             "HasResource": true
         },
-        "Amazon Elastic Inference": {
-            "StringPrefix": "elastic-inference",
-            "Actions": [
-                "Connect",
-                "DescribeAcceleratorOfferings",
-                "DescribeAcceleratorTypes",
-                "DescribeAccelerators",
-                "ListTagsForResource",
-                "TagResource",
-                "UntagResource"
-            ],
-            "ARNFormat": "arn:aws:elastic-inference:<region>:<account-id>:elastic-inference-accelerator/<identifier>",
-            "ARNRegex": "^arn:aws:elastic-inference:.+",
-            "HasResource": true
-        },
         "Amazon One Enterprise": {
             "StringPrefix": "one",
             "Actions": [
@@ -18636,6 +18621,7 @@
                 "CreateUser",
                 "CreateWebExperience",
                 "DeleteApplication",
+                "DeleteAttachment",
                 "DeleteChatControlsConfiguration",
                 "DeleteConversation",
                 "DeleteDataAccessor",

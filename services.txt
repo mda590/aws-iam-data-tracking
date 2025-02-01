@@ -302,7 +302,6 @@ Amazon Elastic Container Registry
 Amazon Elastic Container Registry Public
 Amazon Elastic Container Service
 Amazon Elastic File System
-Amazon Elastic Inference
 Amazon Elastic Kubernetes Service
 Amazon Elastic MapReduce
 Amazon Elastic Transcoder
