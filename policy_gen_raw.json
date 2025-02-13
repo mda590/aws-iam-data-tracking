@@ -18407,14 +18407,17 @@
         "Amazon Connect Cases": {
             "StringPrefix": "cases",
             "Actions": [
+                "BatchGetCaseRule",
                 "BatchGetField",
                 "BatchPutFieldOptions",
                 "CreateCase",
+                "CreateCaseRule",
                 "CreateDomain",
                 "CreateField",
                 "CreateLayout",
                 "CreateRelatedItem",
                 "CreateTemplate",
+                "DeleteCaseRule",
                 "DeleteDomain",
                 "DeleteField",
                 "DeleteLayout",
@@ -18426,6 +18429,7 @@
                 "GetDomain",
                 "GetLayout",
                 "GetTemplate",
+                "ListCaseRules",
                 "ListCasesForContact",
                 "ListDomains",
                 "ListFieldOptions",
@@ -18439,6 +18443,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateCase",
+                "UpdateCaseRule",
                 "UpdateField",
                 "UpdateLayout",
                 "UpdateTemplate"
