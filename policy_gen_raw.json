@@ -9341,7 +9341,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "datapipeline:PipelineCreator",
-                "datapipeline:Tag",
+                "datapipeline:Tag/${TagKey}",
                 "datapipeline:workerGroup"
             ],
             "HasResource": true
@@ -23550,6 +23550,7 @@
                 "DescribeFHIRImportJob",
                 "GetCapabilities",
                 "GetExportedFile",
+                "GetHistoryByResourceId",
                 "ListFHIRDatastores",
                 "ListFHIRExportJobs",
                 "ListFHIRImportJobs",
@@ -23564,7 +23565,8 @@
                 "StartFHIRImportJob",
                 "TagResource",
                 "UntagResource",
-                "UpdateResource"
+                "UpdateResource",
+                "VersionReadResource"
             ],
             "ARNFormat": "arn:aws:healthlake:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:healthlake:.+:.+:.+",
