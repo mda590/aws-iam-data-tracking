@@ -19332,19 +19332,25 @@
         "Amazon Timestream InfluxDB": {
             "StringPrefix": "timestream-influxdb",
             "Actions": [
+                "CreateDbCluster",
                 "CreateDbInstance",
                 "CreateDbParameterGroup",
+                "DeleteDbCluster",
                 "DeleteDbInstance",
+                "GetDbCluster",
                 "GetDbInstance",
                 "GetDbParameterGroup",
+                "ListDbClusters",
                 "ListDbInstances",
+                "ListDbInstancesForCluster",
                 "ListDbParameterGroups",
                 "ListTagsForResource",
                 "TagResource",
                 "UntagResource",
+                "UpdateDbCluster",
                 "UpdateDbInstance"
             ],
-            "ARNFormat": "arn:aws:timestream-influxdb:${Region}:${Account}:${ResourceType}",
+            "ARNFormat": "arn:aws:timestream-influxdb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:timestream-influxdb:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
