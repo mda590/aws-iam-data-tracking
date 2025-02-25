@@ -20470,6 +20470,7 @@
         "AWS CloudShell": {
             "StringPrefix": "cloudshell",
             "Actions": [
+                "ApproveCommand",
                 "CreateEnvironment",
                 "CreateSession",
                 "DeleteEnvironment",
