@@ -2704,6 +2704,7 @@
                 "DeleteServiceLevelObjective",
                 "GetService",
                 "GetServiceLevelObjective",
+                "Link",
                 "ListObservedEntities",
                 "ListServiceDependencies",
                 "ListServiceDependents",
