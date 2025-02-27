@@ -2374,6 +2374,7 @@
                 "PutAccountSendingAttributes",
                 "PutAccountSuppressionAttributes",
                 "PutAccountVdmAttributes",
+                "PutConfigurationSetArchivingOptions",
                 "PutConfigurationSetDeliveryOptions",
                 "PutConfigurationSetReputationOptions",
                 "PutConfigurationSetSendingOptions",
