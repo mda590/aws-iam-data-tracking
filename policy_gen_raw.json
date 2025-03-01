@@ -11783,6 +11783,26 @@
             ],
             "HasResource": true
         },
+        "Amazon Q Developer": {
+            "StringPrefix": "qdeveloper",
+            "Actions": [
+                "ExportArtifact",
+                "ImportArtifact",
+                "ListTagsForResource",
+                "StartAgentSession",
+                "TagResource",
+                "TransformCode",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:qdeveloper:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:qdeveloper:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Systems Manager for SAP": {
             "StringPrefix": "ssm-sap",
             "Actions": [

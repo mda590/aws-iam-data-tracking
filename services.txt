@@ -374,6 +374,7 @@ Amazon Polly
 Amazon Q
 Amazon Q Business
 Amazon Q Business Q Apps
+Amazon Q Developer
 Amazon Q in Connect
 Amazon QLDB
 Amazon QuickSight
