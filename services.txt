@@ -136,6 +136,7 @@ AWS IoT Jobs DataPlane
 AWS IoT SiteWise
 AWS IoT TwinMaker
 AWS IoT Wireless
+AWS IoT managed integrations feature of IoT Device Management
 AWS Key Management Service
 AWS Lake Formation
 AWS Lambda
