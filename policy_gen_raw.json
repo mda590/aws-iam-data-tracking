@@ -17256,6 +17256,7 @@
                 "DetachVolume",
                 "DisableGateway",
                 "DisassociateFileSystem",
+                "EvictFilesFailingUpload",
                 "JoinDomain",
                 "ListAutomaticTapeCreationPolicies",
                 "ListCacheReports",
