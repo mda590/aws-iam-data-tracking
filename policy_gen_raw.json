@@ -22459,6 +22459,7 @@
                 "GetAccountSetting",
                 "GetAuthorizationToken",
                 "GetDownloadUrlForLayer",
+                "GetImageCopyStatus",
                 "GetLifecyclePolicy",
                 "GetLifecyclePolicyPreview",
                 "GetRegistryPolicy",
