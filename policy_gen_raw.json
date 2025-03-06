@@ -17595,6 +17595,43 @@
             ],
             "HasResource": true
         },
+        "Amazon GameLift Streams": {
+            "StringPrefix": "gameliftstreams",
+            "Actions": [
+                "AddStreamGroupLocations",
+                "AssociateApplications",
+                "CreateApplication",
+                "CreateStreamGroup",
+                "CreateStreamSessionConnection",
+                "DeleteApplication",
+                "DeleteStreamGroup",
+                "DisassociateApplications",
+                "ExportStreamSessionFiles",
+                "GetApplication",
+                "GetStreamGroup",
+                "GetStreamSession",
+                "ListApplications",
+                "ListStreamGroups",
+                "ListStreamSessions",
+                "ListStreamSessionsByAccount",
+                "ListTagsForResource",
+                "RemoveStreamGroupLocations",
+                "StartStreamSession",
+                "TagResource",
+                "TerminateStreamSession",
+                "UntagResource",
+                "UpdateApplication",
+                "UpdateStreamGroup"
+            ],
+            "ARNFormat": "arn:aws:gameliftstreams:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:gameliftstreams:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Support": {
             "StringPrefix": "support",
             "Actions": [
