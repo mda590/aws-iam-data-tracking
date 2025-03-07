@@ -9312,6 +9312,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "bedrock:GuardrailIdentifier",
                 "bedrock:InferenceProfileArn",
                 "bedrock:PromptRouterArn",
                 "bedrock:ThirdPartyKnowledgeBaseCredentialsSecretArn"
@@ -16941,6 +16942,7 @@
                 "ModifyAccount",
                 "ModifyCertificateBasedAuthProperties",
                 "ModifyClientProperties",
+                "ModifyEndpointEncryptionMode",
                 "ModifySamlProperties",
                 "ModifySelfservicePermissions",
                 "ModifyStreamingProperties",
