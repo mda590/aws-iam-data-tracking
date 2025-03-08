@@ -10601,6 +10601,7 @@
                 "GetTrustStoreCaCertificatesBundle",
                 "GetTrustStoreRevocationContent",
                 "ModifyCapacityReservation",
+                "ModifyIpPools",
                 "ModifyListener",
                 "ModifyListenerAttributes",
                 "ModifyLoadBalancerAttributes",
