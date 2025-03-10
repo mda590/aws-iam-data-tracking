@@ -16880,7 +16880,8 @@
                 "codestar-connections:ProviderPermissionsRequired",
                 "codestar-connections:ProviderType",
                 "codestar-connections:ProviderTypeFilter",
-                "codestar-connections:RepositoryName"
+                "codestar-connections:RepositoryName",
+                "codestar-connections:VpcId"
             ],
             "HasResource": true
         },
@@ -21839,7 +21840,8 @@
                 "codeconnections:ProviderPermissionsRequired",
                 "codeconnections:ProviderType",
                 "codeconnections:ProviderTypeFilter",
-                "codeconnections:RepositoryName"
+                "codeconnections:RepositoryName",
+                "codeconnections:VpcId"
             ],
             "HasResource": true
         },
