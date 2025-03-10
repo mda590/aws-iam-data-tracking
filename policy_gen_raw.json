@@ -17662,13 +17662,15 @@
                 "DescribeTrustedAdvisorCheckResult",
                 "DescribeTrustedAdvisorCheckSummaries",
                 "DescribeTrustedAdvisorChecks",
+                "GetInteraction",
                 "InitiateCallForCase",
                 "InitiateChatForCase",
                 "PutCaseAttributes",
                 "RateCaseCommunication",
                 "RefreshTrustedAdvisorCheck",
                 "ResolveCase",
-                "SearchForCases"
+                "SearchForCases",
+                "StartInteraction"
             ],
             "HasResource": false
         },
