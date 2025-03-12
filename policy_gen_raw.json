@@ -14650,6 +14650,8 @@
                 "sagemaker:MinimumInstanceMetadataServiceVersion",
                 "sagemaker:ModelApprovalStatus",
                 "sagemaker:ModelArn",
+                "sagemaker:ModelLifeCycle:Stage",
+                "sagemaker:ModelLifeCycle:StageStatus",
                 "sagemaker:NetworkIsolation",
                 "sagemaker:OutputKmsKey",
                 "sagemaker:OwnerUserProfileArn",
