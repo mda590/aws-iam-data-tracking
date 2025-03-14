@@ -2703,6 +2703,7 @@
             "StringPrefix": "application-signals",
             "Actions": [
                 "BatchGetServiceLevelObjectiveBudgetReport",
+                "BatchUpdateExclusionWindows",
                 "CreateServiceLevelObjective",
                 "DeleteServiceLevelObjective",
                 "GetService",
@@ -2711,6 +2712,7 @@
                 "ListObservedEntities",
                 "ListServiceDependencies",
                 "ListServiceDependents",
+                "ListServiceLevelObjectiveExclusionWindows",
                 "ListServiceLevelObjectives",
                 "ListServiceOperations",
                 "ListServices",
