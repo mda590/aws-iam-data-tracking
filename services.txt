@@ -72,7 +72,6 @@ AWS DataSync
 AWS Database Migration Service
 AWS Deadline Cloud
 AWS DeepComposer
-AWS DeepLens
 AWS DeepRacer
 AWS Device Farm
 AWS Diagnostic tools

@@ -16259,38 +16259,6 @@
             ],
             "HasResource": false
         },
-        "AWS DeepLens": {
-            "StringPrefix": "deeplens",
-            "Actions": [
-                "AssociateServiceRoleToAccount",
-                "BatchGetDevice",
-                "BatchGetModel",
-                "BatchGetProject",
-                "CreateDeviceCertificates",
-                "CreateModel",
-                "CreateProject",
-                "DeleteModel",
-                "DeleteProject",
-                "DeployProject",
-                "DeregisterDevice",
-                "GetAssociatedResources",
-                "GetDeploymentStatus",
-                "GetDevice",
-                "GetModel",
-                "GetProject",
-                "ImportProjectFromTemplate",
-                "ListDeployments",
-                "ListDevices",
-                "ListModels",
-                "ListProjects",
-                "RegisterDevice",
-                "RemoveProject",
-                "UpdateProject"
-            ],
-            "ARNFormat": "arn:aws:deeplens:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:deeplens:.+:.+:.+",
-            "HasResource": true
-        },
         "Amazon RDS Data API": {
             "StringPrefix": "rds-data",
             "Actions": [
@@ -24188,6 +24156,7 @@
                 "ListQueues",
                 "ListTagsForResource",
                 "ListVersions",
+                "Probe",
                 "PutPolicy",
                 "SearchJobs",
                 "TagResource",
