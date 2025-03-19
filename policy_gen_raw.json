@@ -19855,7 +19855,7 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:snow-device-management:<region>:<account-id>:<resource-type>/<resource_name>",
+            "ARNFormat": "arn:aws:snow-device-management:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:snow-device-management:.+:.+:.+/.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
