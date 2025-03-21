@@ -2072,6 +2072,7 @@
                 "ImportPhoneNumber",
                 "ListAgentStatuses",
                 "ListAnalyticsDataAssociations",
+                "ListAnalyticsDataLakeDataSets",
                 "ListApprovedOrigins",
                 "ListAssociatedContacts",
                 "ListAuthenticationProfiles",
