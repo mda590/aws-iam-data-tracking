@@ -15744,6 +15744,8 @@
                 "PutChannelPolicy",
                 "PutObject",
                 "PutOriginEndpointPolicy",
+                "ResetChannelState",
+                "ResetOriginEndpointState",
                 "TagResource",
                 "UntagResource",
                 "UpdateChannel",
