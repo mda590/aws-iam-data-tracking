@@ -375,6 +375,7 @@
                 "ListPolicyVersions",
                 "ListPrincipalPolicies",
                 "ListPrincipalThings",
+                "ListPrincipalThingsV2",
                 "ListProvisioningTemplateVersions",
                 "ListProvisioningTemplates",
                 "ListRelatedResourcesForAuditFinding",
@@ -391,6 +392,7 @@
                 "ListThingGroups",
                 "ListThingGroupsForThing",
                 "ListThingPrincipals",
+                "ListThingPrincipalsV2",
                 "ListThingRegistrationTaskReports",
                 "ListThingRegistrationTasks",
                 "ListThingTypes",
@@ -480,7 +482,8 @@
                 "iot:Delete",
                 "iot:DomainName",
                 "iot:ThingGroupArn",
-                "iot:TunnelDestinationService"
+                "iot:TunnelDestinationService",
+                "iot:thingArn"
             ],
             "HasResource": true
         },
@@ -23736,6 +23739,7 @@
                 "ListFHIRExportJobs",
                 "ListFHIRImportJobs",
                 "ListTagsForResource",
+                "ProcessBundle",
                 "ReadResource",
                 "SearchEverything",
                 "SearchWithGet",
