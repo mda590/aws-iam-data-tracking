@@ -20025,9 +20025,9 @@
                 "StartRollbackEnablementJob",
                 "StartTeamDeployment"
             ],
-            "ARNFormat": "arn:${Partition}:appstudio:${Region}:${Account}:${ResourceType}:${ResourcePath}",
-            "ARNRegex": "^arn:${Partition}:appstudio:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:appstudio:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:appstudio:.+:.+:.+",
+            "HasResource": true
         },
         "AWS App Mesh": {
             "StringPrefix": "appmesh",
