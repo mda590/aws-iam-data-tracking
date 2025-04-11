@@ -1381,6 +1381,7 @@
                 "CreateAgreementRequest",
                 "DescribeAgreement",
                 "GetAgreementApprovalRequest",
+                "GetAgreementEntitlements",
                 "GetAgreementRequest",
                 "GetAgreementTerms",
                 "ListAgreementApprovalRequests",
