@@ -23261,6 +23261,8 @@
                 "SendWorkflowStepState",
                 "StartDirectoryListing",
                 "StartFileTransfer",
+                "StartRemoteDelete",
+                "StartRemoteMove",
                 "StartServer",
                 "StopServer",
                 "TagResource",
