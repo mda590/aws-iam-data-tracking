@@ -14835,6 +14835,7 @@
                 "DescribeRuleGroupsNamespace",
                 "DescribeScraper",
                 "DescribeWorkspace",
+                "DescribeWorkspaceConfiguration",
                 "GetAlertManagerSilence",
                 "GetAlertManagerStatus",
                 "GetDefaultScraperConfiguration",
@@ -14860,7 +14861,8 @@
                 "UntagResource",
                 "UpdateLoggingConfiguration",
                 "UpdateScraper",
-                "UpdateWorkspaceAlias"
+                "UpdateWorkspaceAlias",
+                "UpdateWorkspaceConfiguration"
             ],
             "ARNFormat": "arn:aws:aps:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:aps:.+:.+:.+",
