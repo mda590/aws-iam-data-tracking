@@ -9360,6 +9360,7 @@
                 "aws:TagKeys",
                 "bedrock:GuardrailIdentifier",
                 "bedrock:InferenceProfileArn",
+                "bedrock:InlineAgentName",
                 "bedrock:PromptRouterArn",
                 "bedrock:ThirdPartyKnowledgeBaseCredentialsSecretArn"
             ],
@@ -17739,6 +17740,7 @@
                 "DeleteCluster",
                 "DeleteMultiRegionClusters",
                 "GetCluster",
+                "GetVpcEndpointServiceName",
                 "ListClusters",
                 "ListTagsForResource",
                 "TagResource",
