@@ -1245,9 +1245,12 @@
             "StringPrefix": "ssm-guiconnect",
             "Actions": [
                 "CancelConnection",
+                "DeleteConnectionRecordingPreferences",
                 "GetConnection",
+                "GetConnectionRecordingPreferences",
                 "ListConnections",
-                "StartConnection"
+                "StartConnection",
+                "UpdateConnectionRecordingPreferences"
             ],
             "HasResource": false
         },
@@ -4017,6 +4020,7 @@
                 "ListShards",
                 "ListStreamConsumers",
                 "ListStreams",
+                "ListTagsForResource",
                 "ListTagsForStream",
                 "MergeShards",
                 "PutRecord",
@@ -4028,6 +4032,8 @@
                 "StartStreamEncryption",
                 "StopStreamEncryption",
                 "SubscribeToShard",
+                "TagResource",
+                "UntagResource",
                 "UpdateShardCount",
                 "UpdateStreamMode"
             ],
@@ -12856,6 +12862,7 @@
                 "DescribeSessions",
                 "DisassociateOpsItemRelatedItem",
                 "ExecuteAPI",
+                "GetAccessToken",
                 "GetAutomationExecution",
                 "GetCalendar",
                 "GetCalendarState",
@@ -12921,6 +12928,7 @@
                 "ResumeSession",
                 "SendAutomationSignal",
                 "SendCommand",
+                "StartAccessRequest",
                 "StartAssociationsOnce",
                 "StartAutomationExecution",
                 "StartChangeRequestExecution",
@@ -12953,6 +12961,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "ec2:SourceInstanceARN",
+                "ssm:AccessRequestId",
                 "ssm:AutoApprove",
                 "ssm:DocumentCategories",
                 "ssm:DocumentType",
