@@ -1888,6 +1888,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "deadline:AssociatedMembershipLevel",
+                "deadline:CalledAction",
                 "deadline:FarmMembershipLevels",
                 "deadline:FleetMembershipLevels",
                 "deadline:JobMembershipLevels",
