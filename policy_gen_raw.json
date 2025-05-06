@@ -14760,7 +14760,10 @@
                 "ListPolicies",
                 "ListPolicyStores",
                 "ListPolicyTemplates",
+                "ListTagsForResource",
                 "PutSchema",
+                "TagResource",
+                "UntagResource",
                 "UpdateIdentitySource",
                 "UpdatePolicy",
                 "UpdatePolicyStore",
@@ -14768,6 +14771,11 @@
             ],
             "ARNFormat": "arn:aws:verifiedpermissions:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:verifiedpermissions:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Lake Formation": {
@@ -18858,6 +18866,7 @@
                 "Chat",
                 "ChatSync",
                 "CheckDocumentAccess",
+                "CreateAnonymousWebExperienceUrl",
                 "CreateApplication",
                 "CreateDataAccessor",
                 "CreateDataSource",
