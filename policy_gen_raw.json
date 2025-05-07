@@ -22310,7 +22310,7 @@
             "ARNRegex": "^arn:aws:resource-explorer:.+",
             "HasResource": false
         },
-        "Amazon CloudWatch Network Monitor": {
+        "Amazon CloudWatch Network Synthetic Monitor": {
             "StringPrefix": "networkmonitor",
             "Actions": [
                 "CreateMonitor",

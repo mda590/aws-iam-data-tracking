@@ -262,7 +262,7 @@ Amazon CloudWatch Application Signals
 Amazon CloudWatch Evidently
 Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
-Amazon CloudWatch Network Monitor
+Amazon CloudWatch Network Synthetic Monitor
 Amazon CloudWatch Observability Access Manager
 Amazon CloudWatch Observability Admin Service
 Amazon CloudWatch Synthetics
