@@ -17763,6 +17763,7 @@
         "Amazon Aurora DSQL": {
             "StringPrefix": "dsql",
             "Actions": [
+                "AddPeerCluster",
                 "CreateCluster",
                 "CreateMultiRegionClusters",
                 "DbConnect",
@@ -17773,6 +17774,9 @@
                 "GetVpcEndpointServiceName",
                 "ListClusters",
                 "ListTagsForResource",
+                "PutMultiRegionProperties",
+                "PutWitnessRegion",
+                "RemovePeerCluster",
                 "TagResource",
                 "UntagResource",
                 "UpdateCluster"
@@ -17907,6 +17911,7 @@
             "ARNRegex": "^arn:aws:license-manager:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "license-manager:ResourceTag/${TagKey}"
             ],
