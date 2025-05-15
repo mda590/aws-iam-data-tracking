@@ -11716,6 +11716,21 @@
             ],
             "HasResource": true
         },
+        "AWS Transform": {
+            "StringPrefix": "transform",
+            "Actions": [
+                "AssociateConnectorResource",
+                "CreateProfile",
+                "DeleteProfile",
+                "GetConnector",
+                "ListProfiles",
+                "RejectConnector",
+                "UpdateProfile"
+            ],
+            "ARNFormat": "arn:aws:transform:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:transform:.+:.+:.+",
+            "HasResource": true
+        },
         "Amazon SQS": {
             "StringPrefix": "sqs",
             "Actions": [
@@ -23447,6 +23462,9 @@
                 "ListDatastores",
                 "ListImageSetVersions",
                 "ListTagsForResource",
+                "SearchDICOMInstances",
+                "SearchDICOMSeries",
+                "SearchDICOMStudies",
                 "SearchImageSets",
                 "StartDICOMImportJob",
                 "TagResource",
