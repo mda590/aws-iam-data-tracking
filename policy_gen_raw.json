@@ -17844,6 +17844,7 @@
                 "CreateCase",
                 "DescribeAttachment",
                 "DescribeCaseAttributes",
+                "DescribeCaseOptions",
                 "DescribeCases",
                 "DescribeCommunication",
                 "DescribeCommunications",
@@ -17865,7 +17866,8 @@
                 "RefreshTrustedAdvisorCheck",
                 "ResolveCase",
                 "SearchForCases",
-                "StartInteraction"
+                "StartInteraction",
+                "UpdateCaseSeverity"
             ],
             "HasResource": false
         },
