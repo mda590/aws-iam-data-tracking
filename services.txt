@@ -109,7 +109,7 @@ AWS HealthImaging
 AWS HealthLake
 AWS HealthOmics
 AWS IAM Access Analyzer
-AWS IAM Identity Center (successor to AWS Single Sign-On)
+AWS IAM Identity Center
 AWS IAM Identity Center (successor to AWS Single Sign-On) directory
 AWS IAM Identity Center OIDC service
 AWS IQ

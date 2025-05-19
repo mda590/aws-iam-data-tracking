@@ -13121,7 +13121,7 @@
             ],
             "HasResource": true
         },
-        "AWS IAM Identity Center (successor to AWS Single Sign-On)": {
+        "AWS IAM Identity Center": {
             "StringPrefix": "sso",
             "Actions": [
                 "AssociateDirectory",
