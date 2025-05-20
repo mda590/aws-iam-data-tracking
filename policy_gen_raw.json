@@ -2997,7 +2997,7 @@
             ],
             "HasResource": true
         },
-        "AWS IAM Identity Center (successor to AWS Single Sign-On) directory": {
+        "AWS IAM Identity Center directory": {
             "StringPrefix": "sso-directory",
             "Actions": [
                 "AddMemberToGroup",
