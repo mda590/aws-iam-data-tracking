@@ -2378,6 +2378,8 @@
                 "connect:ContactInitiationMethod",
                 "connect:FlowType",
                 "connect:InstanceId",
+                "connect:ListRealtimeContactAnalysisSegmentsByOutputType",
+                "connect:ListRealtimeContactAnalysisSegmentsBySegmentType",
                 "connect:MonitorCapabilities",
                 "connect:SearchContactsByContactAnalysis",
                 "connect:SearchTag/${TagKey}",
