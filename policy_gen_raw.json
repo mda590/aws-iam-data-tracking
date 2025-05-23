@@ -2898,6 +2898,7 @@
                 "EnableDelegatedAdminAccount",
                 "GetCisScanReport",
                 "GetCisScanResultDetails",
+                "GetClustersForImage",
                 "GetConfiguration",
                 "GetDelegatedAdminAccount",
                 "GetEc2DeepInspectionConfiguration",
