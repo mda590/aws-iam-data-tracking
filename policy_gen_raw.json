@@ -24492,6 +24492,7 @@
             "StringPrefix": "servicequotas",
             "Actions": [
                 "AssociateServiceQuotaTemplate",
+                "CreateSupportCase",
                 "DeleteServiceQuotaIncreaseRequestFromTemplate",
                 "DisassociateServiceQuotaTemplate",
                 "GetAWSDefaultServiceQuota",
