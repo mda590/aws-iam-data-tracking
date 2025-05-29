@@ -9279,26 +9279,6 @@
             ],
             "HasResource": true
         },
-        "Amazon SageMaker Ground Truth Synthetic": {
-            "StringPrefix": "sagemaker-groundtruth-synthetic",
-            "Actions": [
-                "CreateProject",
-                "DeleteProject",
-                "GetAccountDetails",
-                "GetBatch",
-                "GetProject",
-                "ListBatchDataTransfers",
-                "ListBatchSummaries",
-                "ListProjectDataTransfers",
-                "ListProjectSummaries",
-                "StartBatchDataTransfer",
-                "StartProjectDataTransfer",
-                "UpdateBatch"
-            ],
-            "ARNFormat": "arn:${Partition}:sagemaker-groundtruth-synthetic:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:${Partition}:sagemaker-groundtruth-synthetic:.+",
-            "HasResource": false
-        },
         "Amazon Bedrock": {
             "StringPrefix": "bedrock",
             "Actions": [
