@@ -201,7 +201,6 @@ AWS Security Token Service
 AWS Server Migration Service
 AWS Serverless Application Repository
 AWS Service Catalog
-AWS Service for managing account level display settings
 AWS Shield
 AWS Signer
 AWS Signin

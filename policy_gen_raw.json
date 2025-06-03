@@ -7092,6 +7092,7 @@
                 "ListEncoderConfigurations",
                 "ListIngestConfigurations",
                 "ListParticipantEvents",
+                "ListParticipantReplicas",
                 "ListParticipants",
                 "ListPlaybackKeyPairs",
                 "ListPlaybackRestrictionPolicies",
@@ -7106,8 +7107,10 @@
                 "ListTagsForResource",
                 "PutMetadata",
                 "StartComposition",
+                "StartParticipantReplication",
                 "StartViewerSessionRevocation",
                 "StopComposition",
+                "StopParticipantReplication",
                 "StopStream",
                 "TagResource",
                 "UntagResource",
@@ -14873,17 +14876,6 @@
                 "sagemaker:WorkteamType"
             ],
             "HasResource": true
-        },
-        "AWS Service for managing account level display settings": {
-            "StringPrefix": "uxc",
-            "Actions": [
-                "DeleteAccountColor",
-                "GetAccountColor",
-                "PutAccountColor"
-            ],
-            "ARNFormat": "arn:${Partition}:uxc:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:uxc:.+:.+:.+",
-            "HasResource": false
         },
         "Amazon Verified Permissions": {
             "StringPrefix": "verifiedpermissions",
