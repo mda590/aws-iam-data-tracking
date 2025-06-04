@@ -3401,6 +3401,7 @@
                 "DescribeDBInstanceAutomatedBackups",
                 "DescribeDBInstances",
                 "DescribeDBLogFiles",
+                "DescribeDBMajorEngineVersions",
                 "DescribeDBParameterGroups",
                 "DescribeDBParameters",
                 "DescribeDBProxies",
