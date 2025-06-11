@@ -236,6 +236,7 @@ AWS WAF Regional
 AWS WAF V2
 AWS Well-Architected Tool
 AWS Wickr
+AWS WorkSpaces Managed Instances
 AWS X-Ray
 AWS rePost Private
 AWS service providing managed private networks

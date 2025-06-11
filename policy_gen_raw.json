@@ -996,6 +996,32 @@
             ],
             "HasResource": true
         },
+        "AWS WorkSpaces Managed Instances": {
+            "StringPrefix": "workspaces-instances",
+            "Actions": [
+                "AssociateVolume",
+                "CreateVolume",
+                "CreateWorkspaceInstance",
+                "DeleteVolume",
+                "DeleteWorkspaceInstance",
+                "DisassociateVolume",
+                "GetWorkspaceInstance",
+                "ListInstanceTypes",
+                "ListRegions",
+                "ListTagsForResource",
+                "ListWorkspaceInstances",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:workspaces-instances:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:workspaces-instances:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS CloudTrail Data": {
             "StringPrefix": "cloudtrail-data",
             "Actions": [
