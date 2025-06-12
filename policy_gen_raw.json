@@ -574,6 +574,7 @@
             "Actions": [
                 "GetControl",
                 "ListCommonControls",
+                "ListControlMappings",
                 "ListControls",
                 "ListDomains",
                 "ListObjectives"
@@ -12156,6 +12157,30 @@
             ],
             "ARNFormat": "arn:aws:ssm-sap:${Region}:${Account}:${ApplicationType}/${ApplicationId}",
             "ARNRegex": "^arn:aws:ssm-sap:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
+        "Amazon Elastic Virtualization Service": {
+            "StringPrefix": "evs",
+            "Actions": [
+                "CreateEnvironment",
+                "CreateEnvironmentHost",
+                "DeleteEnvironment",
+                "DeleteEnvironmentHost",
+                "GetEnvironment",
+                "ListEnvironmentHosts",
+                "ListEnvironmentVlans",
+                "ListEnvironments",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:evs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:evs:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
