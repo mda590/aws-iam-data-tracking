@@ -3242,6 +3242,25 @@
             "ARNRegex": "^arn:aws:trustedadvisor:.*",
             "HasResource": true
         },
+        "AWS Support Console": {
+            "StringPrefix": "support-console",
+            "Actions": [
+                "CheckSubscription",
+                "CreateCaseDraft",
+                "CreateContact",
+                "DeleteCaseDraft",
+                "DescribeDynamicHelp",
+                "GetAccountGovCloudEnabled",
+                "GetAccountState",
+                "GetBanner",
+                "GetCaseDraft",
+                "GetQuestionnaire",
+                "SaveFeedback"
+            ],
+            "ARNFormat": "arn:${Partition}:support-console:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:support-console:.+:.+:.+",
+            "HasResource": false
+        },
         "AWS Config": {
             "StringPrefix": "config",
             "Actions": [

@@ -212,6 +212,7 @@ AWS Storage Gateway
 AWS Supply Chain
 AWS Support
 AWS Support App in Slack
+AWS Support Console
 AWS Support Plans
 AWS Support Recommendations
 AWS Sustainability
