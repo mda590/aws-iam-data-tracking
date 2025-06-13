@@ -307,7 +307,7 @@ Amazon Elastic File System
 Amazon Elastic Kubernetes Service
 Amazon Elastic MapReduce
 Amazon Elastic Transcoder
-Amazon Elastic Virtualization Service
+Amazon Elastic VMware Service
 Amazon EventBridge
 Amazon EventBridge Pipes
 Amazon EventBridge Scheduler

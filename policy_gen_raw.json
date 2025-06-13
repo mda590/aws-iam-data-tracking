@@ -10544,6 +10544,7 @@
                 "GetIdentityProviderByIdentifier",
                 "GetLogDeliveryConfiguration",
                 "GetSigningCertificate",
+                "GetTokensFromRefreshToken",
                 "GetUICustomization",
                 "GetUser",
                 "GetUserAttributeVerificationCode",
@@ -12164,7 +12165,7 @@
             ],
             "HasResource": true
         },
-        "Amazon Elastic Virtualization Service": {
+        "Amazon Elastic VMware Service": {
             "StringPrefix": "evs",
             "Actions": [
                 "CreateEnvironment",
