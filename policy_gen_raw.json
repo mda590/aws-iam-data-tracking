@@ -3746,6 +3746,7 @@
                 "RenewCertificate",
                 "RequestCertificate",
                 "ResendValidationEmail",
+                "RevokeCertificate",
                 "UpdateCertificateOptions"
             ],
             "ARNFormat": "arn:aws:acm:${Region}:${Account}:${ArnType}/${ResourceId}",
@@ -17978,7 +17979,8 @@
                 "ResolveCase",
                 "SearchForCases",
                 "StartInteraction",
-                "UpdateCaseSeverity"
+                "UpdateCaseSeverity",
+                "UpdateInteraction"
             ],
             "HasResource": false
         },
