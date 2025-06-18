@@ -3755,6 +3755,7 @@
                 "acm:CertificateAuthority",
                 "acm:CertificateTransparencyLogging",
                 "acm:DomainNames",
+                "acm:Export",
                 "acm:KeyAlgorithm",
                 "acm:ValidationMethod",
                 "aws:RequestTag/${TagKey}",
@@ -7336,6 +7337,7 @@
         "AWS Backup": {
             "StringPrefix": "backup",
             "Actions": [
+                "AssociateBackupVaultMpaApprovalTeam",
                 "CancelLegalHold",
                 "CopyFromBackupVault",
                 "CopyIntoBackupVault",
@@ -7346,6 +7348,7 @@
                 "CreateLegalHold",
                 "CreateLogicallyAirGappedBackupVault",
                 "CreateReportPlan",
+                "CreateRestoreAccessBackupVault",
                 "CreateRestoreTestingPlan",
                 "CreateRestoreTestingSelection",
                 "DeleteBackupPlan",
@@ -7371,6 +7374,7 @@
                 "DescribeReportJob",
                 "DescribeReportPlan",
                 "DescribeRestoreJob",
+                "DisassociateBackupVaultMpaApprovalTeam",
                 "DisassociateRecoveryPoint",
                 "DisassociateRecoveryPointFromParent",
                 "ExportBackupPlanTemplate",
@@ -7409,6 +7413,7 @@
                 "ListRecoveryPointsByResource",
                 "ListReportJobs",
                 "ListReportPlans",
+                "ListRestoreAccessBackupVaults",
                 "ListRestoreJobSummaries",
                 "ListRestoreJobs",
                 "ListRestoreJobsByProtectedResource",
@@ -7420,6 +7425,7 @@
                 "PutBackupVaultNotifications",
                 "PutBackupVaultSharingPolicy",
                 "PutRestoreValidationResult",
+                "RevokeRestoreAccessBackupVault",
                 "SearchRecoveryPoint",
                 "StartBackupJob",
                 "StartCopyJob",
@@ -7450,7 +7456,8 @@
                 "backup:FrameworkArns",
                 "backup:Index",
                 "backup:MaxRetentionDays",
-                "backup:MinRetentionDays"
+                "backup:MinRetentionDays",
+                "backup:MpaApprovalTeamArn"
             ],
             "HasResource": true
         },
@@ -13944,6 +13951,7 @@
                 "CreateExport",
                 "CreateIntent",
                 "CreateResourcePolicy",
+                "CreateResourcePolicyStatement",
                 "CreateSlot",
                 "CreateSlotType",
                 "CreateTestSet",
@@ -13960,6 +13968,7 @@
                 "DeleteImport",
                 "DeleteIntent",
                 "DeleteResourcePolicy",
+                "DeleteResourcePolicyStatement",
                 "DeleteSession",
                 "DeleteSlot",
                 "DeleteSlotType",
