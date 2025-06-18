@@ -19898,6 +19898,45 @@
             ],
             "HasResource": true
         },
+        "Multi-party approval": {
+            "StringPrefix": "mpa",
+            "Actions": [
+                "CancelSession",
+                "CreateApprovalTeam",
+                "CreateIdentitySource",
+                "DeleteIdentitySource",
+                "DeleteInactiveApprovalTeamVersion",
+                "DeleteResourcePolicy",
+                "GetApprovalTeam",
+                "GetIdentitySource",
+                "GetPolicyVersion",
+                "GetResourcePolicy",
+                "GetSession",
+                "ListApprovalTeams",
+                "ListIdentitySources",
+                "ListPolicies",
+                "ListPolicyVersions",
+                "ListResourcePolicies",
+                "ListSessions",
+                "ListTagsForResource",
+                "PutResourcePolicy",
+                "StartActiveApprovalTeamDeletion",
+                "StartSession",
+                "TagResource",
+                "UntagResource",
+                "UpdateApprovalTeam"
+            ],
+            "ARNFormat": "arn:aws:mpa:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:mpa:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "mpa:ProtectedResourceAccount",
+                "mpa:RequestedOperation"
+            ],
+            "HasResource": true
+        },
         "AWS Purchase Orders Console": {
             "StringPrefix": "purchase-orders",
             "Actions": [

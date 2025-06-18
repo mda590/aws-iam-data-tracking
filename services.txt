@@ -437,6 +437,7 @@ AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
 Database Query Metadata Service
+Multi-party approval
 Network Flow Monitor
 Service Quotas
 Tag Editor
