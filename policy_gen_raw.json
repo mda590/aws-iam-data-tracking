@@ -108,7 +108,8 @@
                 "UntagResource",
                 "UpdateInvestigation",
                 "UpdateInvestigationEvent",
-                "UpdateInvestigationGroup"
+                "UpdateInvestigationGroup",
+                "ValidateInvestigationGroup"
             ],
             "ARNFormat": "arn:aws:aiops:${Region}:${Account}:.+",
             "ARNRegex": "^arn:aws:aiops:.+:.+:.+",
@@ -22380,7 +22381,7 @@
             ],
             "HasResource": true
         },
-        "Amazon GameLift": {
+        "Amazon GameLift Servers": {
             "StringPrefix": "gamelift",
             "Actions": [
                 "AcceptMatch",

@@ -319,7 +319,7 @@ Amazon FinSpace API
 Amazon Forecast
 Amazon Fraud Detector
 Amazon FreeRTOS
-Amazon GameLift
+Amazon GameLift Servers
 Amazon GameLift Streams
 Amazon GroundTruth Labeling
 Amazon GuardDuty
