@@ -19154,6 +19154,7 @@
                 "CreateAnonymousWebExperienceUrl",
                 "CreateApplication",
                 "CreateDataAccessor",
+                "CreateDataAccessorWithTti",
                 "CreateDataSource",
                 "CreateIndex",
                 "CreateIntegration",
