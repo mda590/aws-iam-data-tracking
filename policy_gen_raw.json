@@ -4998,6 +4998,7 @@
         "Amazon Elastic MapReduce": {
             "StringPrefix": "elasticmapreduce",
             "Actions": [
+                "AccessAllEventLogs",
                 "AddInstanceFleet",
                 "AddInstanceGroups",
                 "AddJobFlowSteps",
@@ -7537,6 +7538,7 @@
         "Amazon VPC Lattice": {
             "StringPrefix": "vpc-lattice",
             "Actions": [
+                "AssociateViaAWSService",
                 "AssociateViaAWSService-EventsAndStates",
                 "CreateAccessLogSubscription",
                 "CreateListener",
