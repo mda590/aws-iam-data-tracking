@@ -200,6 +200,7 @@ AWS Security Incident Response
 AWS Security Token Service
 AWS Server Migration Service
 AWS Serverless Application Repository
+AWS Service - Oracle Database@AWS
 AWS Service Catalog
 AWS Shield
 AWS Signer
