@@ -7812,6 +7812,7 @@
                 "DescribeResourcePolicy",
                 "DescribeRuleGroup",
                 "DescribeRuleGroupMetadata",
+                "DescribeRuleGroupSummary",
                 "DescribeTLSInspectionConfiguration",
                 "DescribeVpcEndpointAssociation",
                 "DisassociateAvailabilityZones",
