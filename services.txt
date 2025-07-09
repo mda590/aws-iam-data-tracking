@@ -203,6 +203,7 @@ AWS Serverless Application Repository
 AWS Service - Oracle Database@AWS
 AWS Service Catalog
 AWS Shield
+AWS Shield network security director
 AWS Signer
 AWS Signin
 AWS SimSpace Weaver
