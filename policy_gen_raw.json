@@ -13653,9 +13653,13 @@
         "AWS Free Tier": {
             "StringPrefix": "freetier",
             "Actions": [
+                "GetAccountActivity",
+                "GetAccountPlanState",
                 "GetFreeTierAlertPreference",
                 "GetFreeTierUsage",
-                "PutFreeTierAlertPreference"
+                "ListAccountActivities",
+                "PutFreeTierAlertPreference",
+                "UpgradeAccountPlan"
             ],
             "HasResource": false
         },
