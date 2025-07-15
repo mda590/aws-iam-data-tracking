@@ -406,6 +406,7 @@ Amazon S3 Express
 Amazon S3 Glacier
 Amazon S3 Object Lambda
 Amazon S3 Tables
+Amazon S3 Vectors
 Amazon S3 on Outposts
 Amazon SES
 Amazon SNS
