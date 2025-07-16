@@ -10829,14 +10829,6 @@
             ],
             "HasResource": true
         },
-        "AWS Support Recommendations": {
-            "StringPrefix": "supportrecommendations",
-            "Actions": [
-                "GetSupportTroubleshootingResponse",
-                "StartSupportTroubleshooting"
-            ],
-            "HasResource": false
-        },
         "Amazon CloudWatch Application Insights": {
             "StringPrefix": "applicationinsights",
             "Actions": [
@@ -14636,6 +14628,8 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateAccessGrantsLocation",
+                "UpdateBucketMetadataInventoryTableConfiguration",
+                "UpdateBucketMetadataJournalTableConfiguration",
                 "UpdateJobPriority",
                 "UpdateJobStatus",
                 "UpdateStorageLensGroup"

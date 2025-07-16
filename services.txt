@@ -216,7 +216,6 @@ AWS Support
 AWS Support App in Slack
 AWS Support Console
 AWS Support Plans
-AWS Support Recommendations
 AWS Sustainability
 AWS Systems Manager
 AWS Systems Manager GUI Connect
