@@ -254,6 +254,7 @@ Amazon Application Recovery Controller - Zonal Shift
 Amazon Athena
 Amazon Aurora DSQL
 Amazon Bedrock
+Amazon Bedrock Agentcore
 Amazon Braket
 Amazon Chime
 Amazon Cloud Directory
