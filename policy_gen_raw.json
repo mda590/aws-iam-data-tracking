@@ -20717,6 +20717,7 @@
                 "ListAllowedMultiRegionClusterUpdates",
                 "ListAllowedNodeTypeUpdates",
                 "ListTags",
+                "PauseMultiRegionClusterReplication",
                 "PurchaseReservedNodesOffering",
                 "ResetParameterGroup",
                 "TagResource",
