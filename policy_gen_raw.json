@@ -20441,7 +20441,7 @@
                 "DeleteRoutingRule",
                 "GET",
                 "GetRoutingRule",
-                "ListRoutingRule",
+                "ListRoutingRules",
                 "PATCH",
                 "POST",
                 "PUT",
