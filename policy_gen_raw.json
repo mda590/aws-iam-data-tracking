@@ -19666,6 +19666,7 @@
             "Actions": [
                 "AccessInteractiveEndpoints",
                 "AccessLivyEndpoints",
+                "AccessSystemProfileLogs",
                 "CancelJobRun",
                 "CreateApplication",
                 "DeleteApplication",
@@ -19952,6 +19953,7 @@
                 "GetBillingNotifications",
                 "GetBillingPreferences",
                 "GetBillingView",
+                "GetBillingViewData",
                 "GetContractInformation",
                 "GetCredits",
                 "GetIAMAccessPreference",
