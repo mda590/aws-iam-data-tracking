@@ -14029,6 +14029,7 @@
             "StringPrefix": "events",
             "Actions": [
                 "ActivateEventSource",
+                "AllowVendedLogDeliveryForResource",
                 "CancelReplay",
                 "CreateApiDestination",
                 "CreateArchive",
