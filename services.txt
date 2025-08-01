@@ -247,6 +247,7 @@ Amazon AI Operations
 Amazon API Gateway
 Amazon API Gateway Management
 Amazon API Gateway Management V2
+Amazon ARC Region switch
 Amazon AppFlow
 Amazon AppIntegrations
 Amazon AppStream 2.0
