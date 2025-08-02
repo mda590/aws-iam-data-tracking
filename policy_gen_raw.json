@@ -10042,18 +10042,36 @@
         "Amazon CloudWatch Observability Admin Service": {
             "StringPrefix": "observabilityadmin",
             "Actions": [
+                "CreateTelemetryRule",
+                "CreateTelemetryRuleForOrganization",
+                "DeleteTelemetryRule",
+                "DeleteTelemetryRuleForOrganization",
                 "GetTelemetryEvaluationStatus",
                 "GetTelemetryEvaluationStatusForOrganization",
+                "GetTelemetryRule",
+                "GetTelemetryRuleForOrganization",
                 "ListResourceTelemetry",
                 "ListResourceTelemetryForOrganization",
+                "ListTagsForResource",
+                "ListTelemetryRules",
+                "ListTelemetryRulesForOrganization",
                 "StartTelemetryEvaluation",
                 "StartTelemetryEvaluationForOrganization",
                 "StopTelemetryEvaluation",
-                "StopTelemetryEvaluationForOrganization"
+                "StopTelemetryEvaluationForOrganization",
+                "TagResource",
+                "UntagResource",
+                "UpdateTelemetryRule",
+                "UpdateTelemetryRuleForOrganization"
             ],
-            "ARNFormat": "arn:${Partition}:observabilityadmin:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:observabilityadmin:.+:.+:.+",
-            "HasResource": false
+            "ARNFormat": "arn:aws:observabilityadmin:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:observabilityadmin:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "Amazon Macie": {
             "StringPrefix": "macie2",
