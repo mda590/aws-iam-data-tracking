@@ -24598,7 +24598,7 @@
                 "GetWorkloadAccessTokenForJWT",
                 "GetWorkloadAccessTokenForUserId",
                 "GetWorkloadIdentity",
-                "InvokeAgentRuntimeEndpoint",
+                "InvokeAgentRuntime",
                 "InvokeCodeInterpreter",
                 "ListActors",
                 "ListAgentRuntimeEndpoints",
