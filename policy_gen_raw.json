@@ -3851,7 +3851,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "xray:ResourcePolicyName",
+                "xray:TraceSegmentDestination"
             ],
             "HasResource": true
         },
@@ -17247,6 +17249,7 @@
                 "DeleteAsset",
                 "DeleteAssetModel",
                 "DeleteAssetModelCompositeModel",
+                "DeleteAssetModelInterfaceRelationship",
                 "DeleteComputationModel",
                 "DeleteDashboard",
                 "DeleteDataset",
@@ -17260,6 +17263,7 @@
                 "DescribeAssetCompositeModel",
                 "DescribeAssetModel",
                 "DescribeAssetModelCompositeModel",
+                "DescribeAssetModelInterfaceRelationship",
                 "DescribeAssetProperty",
                 "DescribeBulkImportJob",
                 "DescribeComputationModel",
@@ -17303,11 +17307,13 @@
                 "ListDatasets",
                 "ListExecutions",
                 "ListGateways",
+                "ListInterfaceRelationships",
                 "ListPortals",
                 "ListProjectAssets",
                 "ListProjects",
                 "ListTagsForResource",
                 "ListTimeSeries",
+                "PutAssetModelInterfaceRelationship",
                 "PutDefaultEncryptionConfiguration",
                 "PutLoggingOptions",
                 "PutStorageConfiguration",
@@ -22608,6 +22614,11 @@
             ],
             "ARNFormat": "arn:aws:chatbot::${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:chatbot:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS Migration Hub Orchestrator": {
