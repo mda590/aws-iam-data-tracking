@@ -8112,6 +8112,7 @@
                 "ListMLInputChannels",
                 "ListTagsForResource",
                 "ListTrainedModelInferenceJobs",
+                "ListTrainedModelVersions",
                 "ListTrainedModels",
                 "ListTrainingDatasets",
                 "PutConfiguredAudienceModelPolicy",
