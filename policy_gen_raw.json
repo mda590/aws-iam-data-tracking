@@ -10074,7 +10074,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "iotmanagedintegrations:cloudConnectorId",
+                "iotmanagedintegrations:connectorDestinationId"
             ],
             "HasResource": true
         },
@@ -19218,6 +19220,7 @@
                 "CreateLayout",
                 "CreateRelatedItem",
                 "CreateTemplate",
+                "DeleteCase",
                 "DeleteCaseRule",
                 "DeleteDomain",
                 "DeleteField",
