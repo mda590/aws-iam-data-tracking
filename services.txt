@@ -1,3 +1,4 @@
+!!!DO NOT USE!!! deprecated in favor of: aws-portal
 AWS Account Management
 AWS Activate
 AWS Amplify
@@ -75,6 +76,8 @@ AWS DeepComposer
 AWS DeepRacer
 AWS Device Farm
 AWS Diagnostic tools
+AWS Diode
+AWS Diode Messaging
 AWS Direct Connect
 AWS Directory Service
 AWS Directory Service Data
