@@ -6000,19 +6000,6 @@
             ],
             "HasResource": true
         },
-        "!!!DO NOT USE!!! deprecated in favor of: aws-portal": {
-            "StringPrefix": "awsbillingconsole-deprecated",
-            "Actions": [
-                "ModifyAccount",
-                "ModifyBilling",
-                "ModifyPaymentMethods",
-                "ViewAccount",
-                "ViewBilling",
-                "ViewPaymentMethods",
-                "ViewUsage"
-            ],
-            "HasResource": false
-        },
         "AWS Customer Verification Service": {
             "StringPrefix": "customer-verification",
             "Actions": [
@@ -10316,6 +10303,7 @@
                 "GetConnection",
                 "GetOrder",
                 "GetOutpost",
+                "GetOutpostBillingInformation",
                 "GetOutpostInstanceTypes",
                 "GetOutpostSupportedInstanceTypes",
                 "GetPrivateConnectivityConfig",

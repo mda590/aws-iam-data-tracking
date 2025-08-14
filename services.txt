@@ -1,4 +1,3 @@
-!!!DO NOT USE!!! deprecated in favor of: aws-portal
 AWS Account Management
 AWS Activate
 AWS Amplify
