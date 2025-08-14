@@ -3597,6 +3597,7 @@
                 "rds:ManageMasterUserPassword",
                 "rds:MultiAz",
                 "rds:Piops",
+                "rds:PubliclyAccessible",
                 "rds:StorageEncrypted",
                 "rds:StorageSize",
                 "rds:TenantDatabaseName",
@@ -10441,44 +10442,6 @@
             ],
             "ARNFormat": "arn:aws:timestream:${Region}:${Account}:database/${DatabaseName}/table/${TableName}",
             "ARNRegex": "^arn:aws:timestream:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
-            ],
-            "HasResource": true
-        },
-        "AWS Diode Messaging": {
-            "StringPrefix": "diode-messaging",
-            "Actions": [
-                "AcceptAccountMapping",
-                "AssociateRequestingFlow",
-                "AssociateRespondingFlow",
-                "CreateAccountMapping",
-                "CreateRequestingFlow",
-                "CreateRespondingFlow",
-                "DeleteAccountMapping",
-                "DeleteRequestingFlow",
-                "DeleteRespondingFlow",
-                "DisassociateRequestingFlow",
-                "DisassociateRespondingFlow",
-                "GetAccountMapping",
-                "GetAccountMappingPin",
-                "GetRequestingFlow",
-                "GetRespondingFlow",
-                "ListAccountMappings",
-                "ListArtifacts",
-                "ListRequestingFlows",
-                "ListRespondingFlows",
-                "ListTagsForResource",
-                "RejectAccountMapping",
-                "TagResource",
-                "UntagResource",
-                "UpdateRequestingFlow",
-                "UpdateRespondingFlow"
-            ],
-            "ARNFormat": "arn:aws:diode-messaging:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:diode-messaging:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20926,39 +20889,6 @@
                 "aws:TagKeys",
                 "memorydb:TLSEnabled",
                 "memorydb:UserAuthenticationMode"
-            ],
-            "HasResource": true
-        },
-        "AWS Diode": {
-            "StringPrefix": "diode",
-            "Actions": [
-                "AcceptAccountMapping",
-                "CreateAccountMapping",
-                "CreateLogDeliverySubscription",
-                "CreateTransfer",
-                "DeleteAccountMapping",
-                "DeleteLogDeliverySubscription",
-                "DescribeAccountMapping",
-                "DescribeTransfer",
-                "GetAccountMappingPin",
-                "ListAccountMappings",
-                "ListLogDeliverySubscriptions",
-                "ListTags",
-                "ListTransfers",
-                "RejectAccountMapping",
-                "TagResource",
-                "UntagResource",
-                "UpdateAccountMappingAlias",
-                "UpdateAccountMappingDeliveryS3BucketName",
-                "UpdateAccountMappingRoleArn"
-            ],
-            "ARNFormat": "arn:aws:diode:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:diode:.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys",
-                "diode:transferProfile"
             ],
             "HasResource": true
         },
