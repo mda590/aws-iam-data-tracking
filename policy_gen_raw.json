@@ -2887,6 +2887,13 @@
             ],
             "HasResource": true
         },
+        "AWS Billing And Cost Management Recommended Actions": {
+            "StringPrefix": "bcm-recommended-actions",
+            "Actions": [
+                "ListRecommendedActions"
+            ],
+            "HasResource": false
+        },
         "Amazon CloudWatch Application Signals": {
             "StringPrefix": "application-signals",
             "Actions": [
@@ -12254,6 +12261,7 @@
                 "CreatePublicDnsNamespace",
                 "CreateService",
                 "DeleteNamespace",
+                "DeleteResourcePolicy",
                 "DeleteService",
                 "DeleteServiceAttributes",
                 "DeregisterInstance",
@@ -12263,6 +12271,7 @@
                 "GetInstancesHealthStatus",
                 "GetNamespace",
                 "GetOperation",
+                "GetResourcePolicy",
                 "GetService",
                 "GetServiceAttributes",
                 "ListInstances",
@@ -12270,6 +12279,7 @@
                 "ListOperations",
                 "ListServices",
                 "ListTagsForResource",
+                "PutResourcePolicy",
                 "RegisterInstance",
                 "TagResource",
                 "UntagResource",
@@ -12289,6 +12299,7 @@
                 "servicediscovery:NamespaceArn",
                 "servicediscovery:NamespaceName",
                 "servicediscovery:ServiceArn",
+                "servicediscovery:ServiceCreatedByAccount",
                 "servicediscovery:ServiceName"
             ],
             "HasResource": true
@@ -15270,6 +15281,17 @@
             ],
             "HasResource": true
         },
+        "AWS Service for managing AWS Console user experience capabilities.": {
+            "StringPrefix": "uxc",
+            "Actions": [
+                "DeleteAccountColor",
+                "GetAccountColor",
+                "PutAccountColor"
+            ],
+            "ARNFormat": "arn:${Partition}:uxc:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:uxc:.+:.+:.+",
+            "HasResource": false
+        },
         "Amazon Verified Permissions": {
             "StringPrefix": "verifiedpermissions",
             "Actions": [
@@ -17532,6 +17554,8 @@
                 "DescribeConnectClientAddIns",
                 "DescribeConnectionAliasPermissions",
                 "DescribeConnectionAliases",
+                "DescribeConsent",
+                "DescribeCustomWorkspaceImageImport",
                 "DescribeImageAssociations",
                 "DescribeIpGroups",
                 "DescribeRootClientCertificates",
@@ -17552,6 +17576,7 @@
                 "DisassociateWorkspaceApplication",
                 "GetAccountLink",
                 "ImportClientBranding",
+                "ImportCustomWorkspaceImage",
                 "ImportWorkspaceImage",
                 "ListAccountLinks",
                 "ListAvailableManagementCidrRanges",
@@ -17583,6 +17608,7 @@
                 "TerminateWorkspacesPoolSession",
                 "UpdateConnectClientAddIn",
                 "UpdateConnectionAliasPermission",
+                "UpdateConsent",
                 "UpdateRootClientCertificate",
                 "UpdateRulesOfIpGroup",
                 "UpdateWorkspaceBundle",
@@ -19831,6 +19857,7 @@
         "Amazon Application Recovery Controller - Zonal Shift": {
             "StringPrefix": "arc-zonal-shift",
             "Actions": [
+                "CancelPracticeRun",
                 "CancelZonalShift",
                 "CreatePracticeRunConfiguration",
                 "DeletePracticeRunConfiguration",
@@ -19839,6 +19866,7 @@
                 "ListAutoshifts",
                 "ListManagedResources",
                 "ListZonalShifts",
+                "StartPracticeRun",
                 "StartZonalShift",
                 "UpdateAutoshiftObserverNotificationStatus",
                 "UpdatePracticeRunConfiguration",
