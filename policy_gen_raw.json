@@ -19489,6 +19489,7 @@
         "Amazon Q Business": {
             "StringPrefix": "qbusiness",
             "Actions": [
+                "AllowVendedLogDeliveryForResource",
                 "AssociatePermission",
                 "BatchDeleteDocument",
                 "BatchPutDocument",
