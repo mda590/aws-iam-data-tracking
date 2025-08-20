@@ -31,6 +31,7 @@ AWS Billing And Cost Management Pricing Calculator
 AWS Billing And Cost Management Recommended Actions
 AWS Billing Conductor
 AWS Billing Console
+AWS Billing and Cost Management Dashboards
 AWS Budget Service
 AWS BugBust
 AWS Certificate Manager

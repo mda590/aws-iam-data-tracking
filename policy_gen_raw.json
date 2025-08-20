@@ -111,8 +111,8 @@
                 "UpdateInvestigationGroup",
                 "ValidateInvestigationGroup"
             ],
-            "ARNFormat": "arn:aws:aiops:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:aiops:.+:.+:.+",
+            "ARNFormat": "arn:aws:aiops:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:aiops:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -164,7 +164,7 @@
                 "UpdateQAppSessionMetadata"
             ],
             "ARNFormat": "arn:aws:qapps:${Region}:${Account}:${ResourceType}:${ResourcePath}",
-            "ARNRegex": "^arn:aws:qapps:.+:.+:.+",
+            "ARNRegex": "^arn:aws:qapps:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -469,7 +469,7 @@
                 "ValidateSecurityProfileBehaviors"
             ],
             "ARNFormat": "arn:aws:iot:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iot:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:iot:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -520,7 +520,7 @@
                 "UpdateTargetAccountConfiguration"
             ],
             "ARNFormat": "arn:aws:fis:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:fis:.+:.+:.+",
+            "ARNRegex": "^arn:aws:fis:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -563,7 +563,7 @@
                 "UpdateNetworkSitePlan"
             ],
             "ARNFormat": "arn:aws:private-networks:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:private-networks:.+",
+            "ARNRegex": "^arn:aws:private-networks:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -582,7 +582,7 @@
                 "ListObjectives"
             ],
             "ARNFormat": "arn:aws:controlcatalog:::${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:controlcatalog:::.+",
+            "ARNRegex": "^arn:aws:controlcatalog:::. ",
             "HasResource": true
         },
         "AWS Audit Manager": {
@@ -652,7 +652,7 @@
                 "ValidateAssessmentReportIntegrity"
             ],
             "ARNFormat": "arn:aws:auditmanager:::${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:auditmanager::.+",
+            "ARNRegex": "^arn:aws:auditmanager::. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -666,7 +666,7 @@
                 "AssumeRoleForPodIdentity"
             ],
             "ARNFormat": "arn:aws:eks:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:eks:.+",
+            "ARNRegex": "^arn:aws:eks:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}"
             ],
@@ -678,7 +678,7 @@
                 "GetProgrammaticAccessCredentials"
             ],
             "ARNFormat": "arn:aws:finspace-api:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:finspace-api:.+",
+            "ARNRegex": "^arn:aws:finspace-api:. ",
             "HasResource": true
         },
         "Amazon CodeGuru Security": {
@@ -701,7 +701,7 @@
                 "UpdateAccountConfiguration"
             ],
             "ARNFormat": "arn:aws:codeguru-security:${Region}:${Account}:*",
-            "ARNRegex": "^arn:aws:codeguru-security:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codeguru-security:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -748,7 +748,7 @@
                 "UpdateResourceShare"
             ],
             "ARNFormat": "arn:aws:ram:${Region}:${Account}:resource-share/${ResourceUUID}",
-            "ARNRegex": "^arn:aws:ram:.+:.+:.+",
+            "ARNRegex": "^arn:aws:ram:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -807,7 +807,7 @@
                 "UpdateInstance"
             ],
             "ARNFormat": "arn:aws:scn:${Region}:${Account}:instance/",
-            "ARNRegex": "^arn:aws:scn:.+",
+            "ARNRegex": "^arn:aws:scn:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -831,7 +831,7 @@
                 "ListTables"
             ],
             "ARNFormat": "arn:aws:redshift-serverless:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:(redshift|redshift-serverless):.+:.+:.+",
+            "ARNRegex": "^arn:aws:(redshift|redshift-serverless):. :. :. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "redshift-data:glue-catalog-arn",
@@ -901,7 +901,7 @@
                 "WithdrawByoipCidr"
             ],
             "ARNFormat": "arn:aws:globalaccelerator::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:globalaccelerator::.+:.+",
+            "ARNRegex": "^arn:aws:globalaccelerator::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -997,7 +997,7 @@
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:profile:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:profile:.+:.+:.+",
+            "ARNRegex": "^arn:aws:profile:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1023,7 +1023,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:workspaces-instances:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:workspaces-instances:.+:.+:.+",
+            "ARNRegex": "^arn:aws:workspaces-instances:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1037,7 +1037,7 @@
                 "PutAuditEvents"
             ],
             "ARNFormat": "arn:aws:cloudtrail:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:cloudtrail:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudtrail:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1094,7 +1094,7 @@
                 "UpdateVodSource"
             ],
             "ARNFormat": "arn:aws:mediatailor:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:mediatailor:.+:.+:.+",
+            "ARNRegex": "^arn:aws:mediatailor:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1177,7 +1177,7 @@
                 "UpdateTrafficPolicyInstance"
             ],
             "ARNFormat": "arn:aws:route53:::${Resource}/{$Id}",
-            "ARNRegex": "^arn:aws:route53:::.+",
+            "ARNRegex": "^arn:aws:route53:::. ",
             "conditionKeys": [
                 "route53:ChangeResourceRecordSetsActions",
                 "route53:ChangeResourceRecordSetsNormalizedRecordNames",
@@ -1201,7 +1201,7 @@
                 "Select"
             ],
             "ARNFormat": "arn:aws:sdb:${Region}:${Account}:domain/${DomainName}",
-            "ARNRegex": "^arn:aws:sdb:.+",
+            "ARNRegex": "^arn:aws:sdb:. ",
             "HasResource": true
         },
         "AWS Resilience Hub": {
@@ -1272,7 +1272,7 @@
                 "UpdateResiliencyPolicy"
             ],
             "ARNFormat": "arn:aws:resiliencehub:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:resiliencehub:.+",
+            "ARNRegex": "^arn:aws:resiliencehub:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1348,7 +1348,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:aws-marketplace:${Region}:${Account}:${Catalog}/${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:aws-marketplace:.+",
+            "ARNRegex": "^arn:aws:aws-marketplace:. ",
             "conditionKeys": [
                 "aws-marketplace:Intent",
                 "aws:RequestTag/${TagKey}",
@@ -1373,7 +1373,7 @@
                 "GetSellerDashboard"
             ],
             "ARNFormat": "arn:aws:aws-marketplace::${Account}:${Catalog}/${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:aws-marketplace:.+",
+            "ARNRegex": "^arn:aws:aws-marketplace:. ",
             "HasResource": true
         },
         "AWS Marketplace Deployment Service": {
@@ -1385,7 +1385,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:aws-marketplace:${Region}:${Account}:${ResourceType}:catalogs/${CatalogName}/products/${ProductId}/${ResourceId}",
-            "ARNRegex": "^arn:aws:aws-marketplace:${Region}:${Account}:${ResourceType}:.+",
+            "ARNRegex": "^arn:aws:aws-marketplace:${Region}:${Account}:${ResourceType}:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1406,7 +1406,7 @@
                 "GetBuyerDashboard"
             ],
             "ARNFormat": "arn:aws:aws-marketplace::${Account}:${Catalog}/ReportingData/${FactTable}/${VizualizationType}/${DashboardName}",
-            "ARNRegex": "^arn:aws:aws-marketplace::.+",
+            "ARNRegex": "^arn:aws:aws-marketplace::. ",
             "HasResource": true
         },
         "AWS Marketplace Entitlement Service": {
@@ -1460,7 +1460,7 @@
                 "SendConversationMessage"
             ],
             "ARNFormat": "arn:${Partition}:networkmanager-chat:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:networkmanager-chat::.+",
+            "ARNRegex": "^arn:aws:networkmanager-chat::. ",
             "HasResource": false
         },
         "Amazon CodeCatalyst": {
@@ -1498,7 +1498,7 @@
                 "UpdateIdentityCenterApplication"
             ],
             "ARNFormat": "arn:aws:codecatalyst:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:codecatalyst:.+",
+            "ARNRegex": "^arn:aws:codecatalyst:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1530,7 +1530,7 @@
                 "UpdateUser"
             ],
             "ARNFormat": "arn:aws:identitystore::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:identitystore:.+",
+            "ARNRegex": "^arn:aws:identitystore:. ",
             "conditionKeys": [
                 "identitystore:UserId"
             ],
@@ -1561,7 +1561,7 @@
                 "VerifyEmail"
             ],
             "ARNFormat": "arn:aws:freertos:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:freertos:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:freertos:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1577,7 +1577,7 @@
                 "ListSessions"
             ],
             "ARNFormat": "arn:${Partition}:identitystore-auth:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:${Partition}:identitystore-auth:${Region}:.+",
+            "ARNRegex": "^arn:${Partition}:identitystore-auth:${Region}:. ",
             "HasResource": false
         },
         "AWS CodeDeploy": {
@@ -1633,7 +1633,7 @@
                 "UpdateDeploymentGroup"
             ],
             "ARNFormat": "arn:aws:codedeploy:${Region}:${Account}:${ResourceType}:${ResourceSpecifier}",
-            "ARNRegex": "^arn:aws:codedeploy:.+",
+            "ARNRegex": "^arn:aws:codedeploy:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1714,7 +1714,7 @@
                 "UpdateResolverRule"
             ],
             "ARNFormat": "arn:aws:route53resolver:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:route53resolver:.+:.+:.+",
+            "ARNRegex": "^arn:aws:route53resolver:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -1794,7 +1794,7 @@
                 "UpdateWebhook"
             ],
             "ARNFormat": "arn:aws:codebuild:${Region}:${Account}:build/${BuildId}",
-            "ARNRegex": "^arn:aws:codebuild:.+:[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:codebuild:. :[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2034,7 +2034,7 @@
                 "UpdateWorkerSchedule"
             ],
             "ARNFormat": "arn:aws:deadline:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:deadline:.+:.+:.+",
+            "ARNRegex": "^arn:aws:deadline:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2090,7 +2090,7 @@
                 "UpdatePipeline"
             ],
             "ARNFormat": "arn:aws:iotanalytics:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iotanalytics:.+",
+            "ARNRegex": "^arn:aws:iotanalytics:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:TagKeys",
@@ -2395,7 +2395,7 @@
                 "UpdateViewMetadata"
             ],
             "ARNFormat": "arn:aws:connect:${Region}:${Account}:instance/${InstanceId}",
-            "ARNRegex": "^arn:aws:connect:.+:.+:instance/.+",
+            "ARNRegex": "^arn:aws:connect:. :. :instance/. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2465,7 +2465,7 @@
                 "UpdateConfigurationSetEventDestination"
             ],
             "ARNFormat": "arn:aws:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ses:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:ses:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2593,7 +2593,7 @@
                 "UpdateReputationEntityPolicy"
             ],
             "ARNFormat": "arn:aws:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ses:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:ses:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2676,7 +2676,7 @@
                 "UpdateTrafficPolicy"
             ],
             "ARNFormat": "arn:aws:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ses:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:ses:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2764,7 +2764,7 @@
                 "VerifyEmailIdentity"
             ],
             "ARNFormat": "arn:aws:ses:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ses:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:ses:. :[0-9] :. ",
             "conditionKeys": [
                 "ses:ApiVersion",
                 "ses:FeedbackAddress",
@@ -2837,7 +2837,7 @@
                 "UpdateReport"
             ],
             "ARNFormat": "arn:aws:ce::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:ce::.+:.+",
+            "ARNRegex": "^arn:aws:ce::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2874,7 +2874,7 @@
                 "UpdateRoute"
             ],
             "ARNFormat": "arn:aws:refactor-spaces:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:refactor-spaces:.+",
+            "ARNRegex": "^arn:aws:refactor-spaces:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -2918,7 +2918,7 @@
                 "UpdateServiceLevelObjective"
             ],
             "ARNFormat": "arn:aws:application-signals:${Region}:${Account}:slo/{ServiceLevelObjectivesName}",
-            "ARNRegex": "^arn:aws:application-signals:.+:.+:.+",
+            "ARNRegex": "^arn:aws:application-signals:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3005,8 +3005,8 @@
                 "UpdateOrgEc2DeepInspectionConfiguration",
                 "UpdateOrganizationConfiguration"
             ],
-            "ARNFormat": "arn:aws:inspector2:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:inspector2:.+:.+:.+",
+            "ARNFormat": "arn:aws:inspector2:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:inspector2:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3056,7 +3056,7 @@
                 "VerifyOAuthAppConnection"
             ],
             "ARNFormat": "arn:aws:qdeveloper:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:qdeveloper:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:qdeveloper:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3128,7 +3128,7 @@
                 "VerifyEmail"
             ],
             "ARNFormat": "arn:${Partition}:sso-directory:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:${Partition}:sso-directory:${Region}:.+",
+            "ARNRegex": "^arn:${Partition}:sso-directory:${Region}:. ",
             "HasResource": false
         },
         "Amazon DocumentDB Elastic Clusters": {
@@ -3155,7 +3155,7 @@
                 "UpdateCluster"
             ],
             "ARNFormat": "arn:aws:docdb-elastic:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:docdb-elastic:.+:.+:.+",
+            "ARNRegex": "^arn:aws:docdb-elastic:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3170,7 +3170,7 @@
                 "Invoke"
             ],
             "ARNFormat": "arn:aws:vpc-lattice:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:vpc-lattice:.+",
+            "ARNRegex": "^arn:aws:vpc-lattice:. ",
             "conditionKeys": [
                 "vpc-lattice-svcs:Port",
                 "vpc-lattice-svcs:RequestHeader/${HeaderName}",
@@ -3218,7 +3218,7 @@
                 "UpdateTransformer"
             ],
             "ARNFormat": "arn:aws:b2bi:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:b2bi:.+:.+:.+",
+            "ARNRegex": "^arn:aws:b2bi:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3302,7 +3302,7 @@
                 "SaveFeedback"
             ],
             "ARNFormat": "arn:${Partition}:support-console:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:support-console:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:support-console:. :. :. ",
             "HasResource": false
         },
         "AWS Config": {
@@ -3407,7 +3407,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:config:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:config:.+",
+            "ARNRegex": "^arn:aws:config:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3590,7 +3590,7 @@
                 "SwitchoverReadReplica"
             ],
             "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:rds:.+",
+            "ARNRegex": "^arn:aws:rds:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3669,7 +3669,7 @@
                 "UseWorkflow"
             ],
             "ARNFormat": "arn:aws:entityresolution:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:entityresolution:.+:.+:.+",
+            "ARNRegex": "^arn:aws:entityresolution:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3765,7 +3765,7 @@
                 "UpdateType"
             ],
             "ARNFormat": "arn:aws:appsync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:appsync:.+",
+            "ARNRegex": "^arn:aws:appsync:. ",
             "conditionKeys": [
                 "appsync:Visibility",
                 "aws:RequestTag/${TagKey}",
@@ -3795,7 +3795,7 @@
                 "UpdateCertificateOptions"
             ],
             "ARNFormat": "arn:aws:acm:${Region}:${Account}:${ArnType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:acm:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:acm:. :[0-9] :. ",
             "conditionKeys": [
                 "acm:CertificateAuthority",
                 "acm:CertificateTransparencyLogging",
@@ -3857,7 +3857,7 @@
                 "UpdateTraceSegmentDestination"
             ],
             "ARNFormat": "arn:aws:xray:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:xray:.+",
+            "ARNRegex": "^arn:aws:xray:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -3881,7 +3881,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:notifications-contacts::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:notifications-contacts::.+:.+",
+            "ARNRegex": "^arn:aws:notifications-contacts::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4048,7 +4048,7 @@
                 "VerifyDnsConfiguration"
             ],
             "ARNFormat": "arn:aws:cloudfront:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:cloudfront:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudfront:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4121,7 +4121,7 @@
                 "UpdatePodIdentityAssociation"
             ],
             "ARNFormat": "arn:aws:eks:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:eks:.+",
+            "ARNRegex": "^arn:aws:eks:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4164,7 +4164,7 @@
                 "UpdateSyncTarget"
             ],
             "ARNFormat": "arn:aws:identity-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:identity-sync:.+:.+:.+",
+            "ARNRegex": "^arn:aws:identity-sync:. :. :. ",
             "HasResource": true
         },
         "AWS Firewall Manager": {
@@ -4214,7 +4214,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:fms:${Region}:${Account}:${Resource}/${Id}",
-            "ARNRegex": "^arn:aws:fms:.+:[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:fms:. :[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4262,7 +4262,7 @@
                 "UpdateStreamMode"
             ],
             "ARNFormat": "arn:aws:kinesis:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:kinesis:.+",
+            "ARNRegex": "^arn:aws:kinesis:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4363,7 +4363,7 @@
                 "VerifyTrust"
             ],
             "ARNFormat": "arn:aws:ds:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:ds:.+",
+            "ARNRegex": "^arn:aws:ds:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4389,7 +4389,7 @@
                 "UpdateNotificationRule"
             ],
             "ARNFormat": "arn:aws:codestar-notifications:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:codestar-notifications:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codestar-notifications:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4477,7 +4477,7 @@
                 "UpdateVariable"
             ],
             "ARNFormat": "arn:aws:frauddetector:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:frauddetector:.+:.+:.+",
+            "ARNRegex": "^arn:aws:frauddetector:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4524,7 +4524,7 @@
                 "UpdateIdentityProviderConfiguration"
             ],
             "ARNFormat": "arn:aws:worklink::${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:worklink:.+",
+            "ARNRegex": "^arn:aws:worklink:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -4570,7 +4570,7 @@
                 "StartRuntimeAssessment"
             ],
             "ARNFormat": "arn:${Partition}:application-transformation:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:application-transformation:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:application-transformation:. :. :. ",
             "HasResource": false
         },
         "Amazon Chime": {
@@ -4894,7 +4894,7 @@
                 "ValidateE911Address"
             ],
             "ARNFormat": "arn:aws:chime:${Region}:${Account}:${ResourceType}/${ResourceID}",
-            "ARNRegex": "^arn:aws:chime:.+",
+            "ARNRegex": "^arn:aws:chime:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5020,7 +5020,7 @@
                 "UpdateWirelessGateway"
             ],
             "ARNFormat": "arn:aws:iotwireless:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:iotwireless:.+",
+            "ARNRegex": "^arn:aws:iotwireless:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5039,7 +5039,7 @@
                 "UpdateKeys"
             ],
             "ARNFormat": "arn:aws:cloudfront:${Region}:${Account}:key-value-store/${ResourceId}",
-            "ARNRegex": "^arn:aws:cloudfront:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudfront:. :[0-9] :. ",
             "HasResource": true
         },
         "Amazon Elastic MapReduce": {
@@ -5130,7 +5130,7 @@
                 "ViewEventsFromAllClustersInConsole"
             ],
             "ARNFormat": "arn:aws:elasticmapreduce:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elasticmapreduce:.+",
+            "ARNRegex": "^arn:aws:elasticmapreduce:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5150,7 +5150,7 @@
                 "UpdateRoutingControlStates"
             ],
             "ARNFormat": "arn:aws:route53-recovery-control::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:route53-recovery-control::.+:.+",
+            "ARNRegex": "^arn:aws:route53-recovery-control::. :. ",
             "conditionKeys": [
                 "route53-recovery-cluster:AllowSafetyRulesOverrides"
             ],
@@ -5200,7 +5200,7 @@
                 "UpdateInputRouting"
             ],
             "ARNFormat": "arn:aws:iotevents:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iotevents:.+",
+            "ARNRegex": "^arn:aws:iotevents:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5246,7 +5246,7 @@
                 "UpdatePricingRule"
             ],
             "ARNFormat": "arn:aws:billingconductor::${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:billingconductor:.+",
+            "ARNRegex": "^arn:aws:billingconductor:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5339,7 +5339,7 @@
                 "UpdateTimeToLive"
             ],
             "ARNFormat": "arn:aws:dynamodb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:dynamodb:.+:.+",
+            "ARNRegex": "^arn:aws:dynamodb:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5469,7 +5469,7 @@
                 "UpgradeElasticsearchDomain"
             ],
             "ARNFormat": "arn:aws:es:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:es:.+",
+            "ARNRegex": "^arn:aws:es:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5535,7 +5535,7 @@
                 "UpdateCar"
             ],
             "ARNFormat": "arn:aws:deepracer:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:deepracer:.+",
+            "ARNRegex": "^arn:aws:deepracer:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5581,7 +5581,7 @@
                 "UpdateWatchlist"
             ],
             "ARNFormat": "arn:aws:voiceid:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:voiceid:.+",
+            "ARNRegex": "^arn:aws:voiceid:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5618,7 +5618,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:emr-containers:${Region}:${Account}:/${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:emr-containers:.+",
+            "ARNRegex": "^arn:aws:emr-containers:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5646,7 +5646,7 @@
                 "ViewBudget"
             ],
             "ARNFormat": "arn:aws:budgets::${Account}:budget/${BudgetName}",
-            "ARNRegex": "^arn:aws:budgets::.+:.+",
+            "ARNRegex": "^arn:aws:budgets::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5690,7 +5690,7 @@
                 "UpdateSchema"
             ],
             "ARNFormat": "arn:aws:schemas:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:schemas:.+:.+:.+",
+            "ARNRegex": "^arn:aws:schemas:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5791,7 +5791,7 @@
                 "UpdateVpcAttachment"
             ],
             "ARNFormat": "arn:aws:networkmanager::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:networkmanager::.+:.+",
+            "ARNRegex": "^arn:aws:networkmanager::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5839,7 +5839,7 @@
                 "UpdateIdentityPool"
             ],
             "ARNFormat": "arn:aws:cognito-identity:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:cognito-identity:.+",
+            "ARNRegex": "^arn:aws:cognito-identity:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -5940,7 +5940,7 @@
                 "UpdateProtectedQuery"
             ],
             "ARNFormat": "arn:aws:cleanrooms:${Region}:${Account}:${ResourceType}/${PathToResource}",
-            "ARNRegex": "^arn:aws:cleanrooms:.+",
+            "ARNRegex": "^arn:aws:cleanrooms:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6000,7 +6000,7 @@
                 "ValidateConfiguration"
             ],
             "ARNFormat": "arn:aws:appconfig:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:appconfig:.+",
+            "ARNRegex": "^arn:aws:appconfig:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6063,7 +6063,7 @@
                 "ValidateStateMachineDefinition"
             ],
             "ARNFormat": "arn:aws:states:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:states:.+",
+            "ARNRegex": "^arn:aws:states:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6171,7 +6171,7 @@
                 "UpdateSessionData"
             ],
             "ARNFormat": "arn:aws:wisdom:${Region}:${Account}:${Resource}/${ResourceId}",
-            "ARNRegex": "^arn:aws:wisdom:.+:.+:.+",
+            "ARNRegex": "^arn:aws:wisdom:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6232,7 +6232,7 @@
                 "UpdateConnectivityInfo"
             ],
             "ARNFormat": "arn:aws:greengrass:${Region}:${Account}:${ResourceType}:${ResourcePath}",
-            "ARNRegex": "^arn:aws:greengrass:.+",
+            "ARNRegex": "^arn:aws:greengrass:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6338,7 +6338,7 @@
                 "UpdateThingRuntimeConfiguration"
             ],
             "ARNFormat": "arn:aws:greengrass:${Region}:${Account}:/greengrass/${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:greengrass:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:greengrass:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6514,7 +6514,7 @@
                 "ViewQueriesInConsole"
             ],
             "ARNFormat": "arn:aws:redshift:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:redshift:.+:.+:.+",
+            "ARNRegex": "^arn:aws:redshift:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6549,7 +6549,7 @@
                 "viewSupport"
             ],
             "ARNFormat": "arn:${Partition}:Marketplace:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:${Partition}:Marketplace:.+",
+            "ARNRegex": "^arn:${Partition}:Marketplace:. ",
             "HasResource": false
         },
         "AWS rePost Private": {
@@ -6576,7 +6576,7 @@
                 "UpdateSpace"
             ],
             "ARNFormat": "arn:aws:repostspace:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:repostspace:.+:.+:.+",
+            "ARNRegex": "^arn:aws:repostspace:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6604,7 +6604,7 @@
                 "UpdateLink"
             ],
             "ARNFormat": "arn:aws:oam:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:oam:.+:.+:.+",
+            "ARNRegex": "^arn:aws:oam:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6636,7 +6636,7 @@
                 "UpdateModel"
             ],
             "ARNFormat": "arn:aws:deepcomposer:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:deepcomposer:.+:.+:.+",
+            "ARNRegex": "^arn:aws:deepcomposer:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6683,7 +6683,7 @@
                 "VoteOnProposal"
             ],
             "ARNFormat": "arn:aws:managedblockchain:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:managedblockchain:.*:[0-9]*:.+",
+            "ARNRegex": "^arn:aws:managedblockchain:.*:[0-9]*:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -6776,7 +6776,7 @@
                 "UpdateThemeForStack"
             ],
             "ARNFormat": "arn:aws:appstream:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:appstream:.+",
+            "ARNRegex": "^arn:aws:appstream:. ",
             "conditionKeys": [
                 "appstream:userId",
                 "aws:RequestTag/${TagKey}",
@@ -6809,7 +6809,7 @@
                 "UpdateQueue"
             ],
             "ARNFormat": "arn:aws:pcs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:pcs:.+:.+:.+",
+            "ARNRegex": "^arn:aws:pcs:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7014,7 +7014,7 @@
                 "ValidatePassRole"
             ],
             "ARNFormat": "arn:aws:datazone:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:datazone:.+:.+:.+",
+            "ARNRegex": "^arn:aws:datazone:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7086,7 +7086,7 @@
                 "UpdateWebACL"
             ],
             "ARNFormat": "arn:aws:wafv2:${Region}:${Account}:${Scope}/${ResourceType}/${ResourceName}/${ResourceId}",
-            "ARNRegex": "^arn:aws:wafv2:.+:.+:.+/.+/.+/.+",
+            "ARNRegex": "^arn:aws:wafv2:. :. :. /. /. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7137,7 +7137,7 @@
                 "UpdateWorkloadEstimateUsage"
             ],
             "ARNFormat": "arn:aws:bcm-pricing-calculator::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:bcm-pricing-calculator::.+:.+",
+            "ARNRegex": "^arn:aws:bcm-pricing-calculator::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7158,7 +7158,7 @@
                 "UpdateLifecyclePolicy"
             ],
             "ARNFormat": "arn:aws:dlm:${Region}:${Account}:policy/${ResourceName}",
-            "ARNRegex": "^arn:aws:dlm:.+:.+:.+",
+            "ARNRegex": "^arn:aws:dlm:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7242,7 +7242,7 @@
                 "UpdateStage"
             ],
             "ARNFormat": "arn:aws:ivs:${Region}:${Account}:${ArnType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ivs:.+:.+:.+",
+            "ARNRegex": "^arn:aws:ivs:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7270,7 +7270,7 @@
                 "UpdateObjectComplete"
             ],
             "ARNFormat": "arn:${Partition}:backup-storage:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^^arn:aws:backup-storage:.+:.+:.+",
+            "ARNRegex": "^^arn:aws:backup-storage:. :. :. ",
             "HasResource": false
         },
         "AWS Private CA Connector for Active Directory": {
@@ -7303,7 +7303,7 @@
                 "UpdateTemplateGroupAccessControlEntry"
             ],
             "ARNFormat": "arn:aws:pca-connector-ad:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:pca-connector-ad:.+:.+:.+",
+            "ARNRegex": "^arn:aws:pca-connector-ad:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7333,7 +7333,7 @@
                 "UpdatePipelineStatus"
             ],
             "ARNFormat": "arn:aws:elastictranscoder:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elastictranscoder:.+",
+            "ARNRegex": "^arn:aws:elastictranscoder:. ",
             "HasResource": true
         },
         "AWS Invoicing Service": {
@@ -7354,7 +7354,7 @@
                 "UpdateInvoiceUnit"
             ],
             "ARNFormat": "arn:aws:invoicing::${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:invoicing::.+:.+",
+            "ARNRegex": "^arn:aws:invoicing::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7398,7 +7398,7 @@
                 "UpdateSubscriberNotification"
             ],
             "ARNFormat": "arn:aws:securitylake:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:securitylake:.+:.+:.+",
+            "ARNRegex": "^arn:aws:securitylake:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7517,7 +7517,7 @@
                 "UpdateRestoreTestingSelection"
             ],
             "ARNFormat": "arn:aws:backup:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:backup:.+:.+:.+",
+            "ARNRegex": "^arn:aws:backup:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7591,7 +7591,7 @@
                 "UpdateSchedule"
             ],
             "ARNFormat": "arn:aws:databrew:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:databrew:.+:.+:.+",
+            "ARNRegex": "^arn:aws:databrew:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7675,7 +7675,7 @@
                 "UpdateTargetGroup"
             ],
             "ARNFormat": "arn:aws:vpc-lattice:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:vpc-lattice:.+",
+            "ARNRegex": "^arn:aws:vpc-lattice:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7702,7 +7702,7 @@
                 "SupportedVersion"
             ],
             "ARNFormat": "arn:${Partition}:iot-device-tester:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:.+:iot-device-tester:.+:.+:.+",
+            "ARNRegex": "^arn:. :iot-device-tester:. :. :. ",
             "HasResource": false
         },
         "AWS Shield network security director": {
@@ -7719,7 +7719,7 @@
                 "UpdateFinding"
             ],
             "ARNFormat": "arn:${Partition}:network-security-director:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:network-security-director:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:network-security-director:. :. :. ",
             "HasResource": false
         },
         "AWS Database Migration Service": {
@@ -7842,7 +7842,7 @@
                 "UploadFileMetadataList"
             ],
             "ARNFormat": "arn:aws:dms:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:dms:.+",
+            "ARNRegex": "^arn:aws:dms:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7926,7 +7926,7 @@
                 "UpdateTLSInspectionConfiguration"
             ],
             "ARNFormat": "arn:aws:network-firewall:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:network-firewall:.+:.+:.+",
+            "ARNRegex": "^arn:aws:network-firewall:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -7979,7 +7979,7 @@
                 "UpdateRotation"
             ],
             "ARNFormat": "arn:aws:ssm-contacts:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ssm-contacts:.+",
+            "ARNRegex": "^arn:aws:ssm-contacts:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8043,7 +8043,7 @@
                 "UpdateVocabularyFilter"
             ],
             "ARNFormat": "arn:aws:transcribe:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:transcribe:.+:.+:.+",
+            "ARNRegex": "^arn:aws:transcribe:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8069,7 +8069,7 @@
                 "WithdrawPermissionRequest"
             ],
             "ARNFormat": "arn:aws:iq-permission:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iq-permission:.+",
+            "ARNRegex": "^arn:aws:iq-permission:. ",
             "HasResource": true
         },
         "AWS Clean Rooms ML": {
@@ -8136,7 +8136,7 @@
                 "UpdateConfiguredAudienceModel"
             ],
             "ARNFormat": "arn:aws:cleanrooms-ml:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:cleanrooms-ml:.+:.+:.+",
+            "ARNRegex": "^arn:aws:cleanrooms-ml:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8152,7 +8152,7 @@
                 "GetTile"
             ],
             "ARNFormat": "arn:aws:geo-maps:${Region}::provider/default",
-            "ARNRegex": "^arn:aws:geo-maps:.+",
+            "ARNRegex": "^arn:aws:geo-maps:. ",
             "HasResource": true
         },
         "AWS Elemental MediaPackage VOD": {
@@ -8177,7 +8177,7 @@
                 "UpdatePackagingGroup"
             ],
             "ARNFormat": "arn:aws:mediapackage-vod:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:mediapackage-vod:.+:.+:.+",
+            "ARNRegex": "^arn:aws:mediapackage-vod:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8267,7 +8267,7 @@
                 "UpdateVPCEConfiguration"
             ],
             "ARNFormat": "arn:aws:devicefarm:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:devicefarm:.+",
+            "ARNRegex": "^arn:aws:devicefarm:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8313,7 +8313,7 @@
                 "UpdateMissionProfile"
             ],
             "ARNFormat": "arn:aws:groundstation:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:groundstation:.+",
+            "ARNRegex": "^arn:aws:groundstation:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8366,7 +8366,7 @@
                 "UpdateServiceIntegration"
             ],
             "ARNFormat": "arn:aws:devops-guru:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:devops-guru:.+:.+:.+/.+",
+            "ARNRegex": "^arn:aws:devops-guru:. :. :. /. ",
             "conditionKeys": [
                 "devops-guru:ServiceNames"
             ],
@@ -8396,7 +8396,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:signer:${Region}:${Account}:/${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:signer:.+",
+            "ARNRegex": "^arn:aws:signer:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8439,7 +8439,7 @@
                 "UpdateGroupQuery"
             ],
             "ARNFormat": "arn:aws:resource-groups:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:resource-groups:.+",
+            "ARNRegex": "^arn:aws:resource-groups:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8515,7 +8515,7 @@
                 "WriteReview"
             ],
             "ARNFormat": "arn:aws:iq:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iq:.+",
+            "ARNRegex": "^arn:aws:iq:. ",
             "HasResource": true
         },
         "AWS Telco Network Builder": {
@@ -8556,7 +8556,7 @@
                 "ValidateSolNetworkPackageContent"
             ],
             "ARNFormat": "arn:aws:tnb:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:tnb:.+",
+            "ARNRegex": "^arn:aws:tnb:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8615,7 +8615,7 @@
                 "UpdateOdbNetwork"
             ],
             "ARNFormat": "arn:aws:odb:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:odb:.+:.+:.+",
+            "ARNRegex": "^arn:aws:odb:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8651,7 +8651,7 @@
                 "UploadLayerPart"
             ],
             "ARNFormat": "arn:aws:ecr-public::${Account}:${RepositoryOrRegistry}/${RepositoryNameOrAccountId}",
-            "ARNRegex": "^arn:aws:ecr-public::.+",
+            "ARNRegex": "^arn:aws:ecr-public::. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8674,7 +8674,7 @@
                 "ListTransactions"
             ],
             "ARNFormat": "arn:${Partition}:managedblockchain-query:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:managedblockchain-query:.*:[0-9]*:.+",
+            "ARNRegex": "^arn:${Partition}:managedblockchain-query:.*:[0-9]*:. ",
             "HasResource": false
         },
         "AWS Identity and Access Management Roles Anywhere": {
@@ -8712,7 +8712,7 @@
                 "UpdateTrustAnchor"
             ],
             "ARNFormat": "arn:aws:rolesanywhere:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:rolesanywhere:.+:.+:.+",
+            "ARNRegex": "^arn:aws:rolesanywhere:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8743,7 +8743,7 @@
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:codewhisperer:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:codewhisperer:.+",
+            "ARNRegex": "^arn:aws:codewhisperer:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8769,7 +8769,7 @@
                 "StartFileUpload"
             ],
             "ARNFormat": "arn:${Partition}:elemental-activations::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:${Partition}:elemental-activations::.+:.+",
+            "ARNRegex": "^arn:${Partition}:elemental-activations::. :. ",
             "HasResource": false
         },
         "Amazon Managed Grafana": {
@@ -8802,7 +8802,7 @@
                 "UpdateWorkspaceConfiguration"
             ],
             "ARNFormat": "arn:aws:grafana:${Region}:${Account}:/${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:grafana:.+:.+:.+",
+            "ARNRegex": "^arn:aws:grafana:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8828,7 +8828,7 @@
                 "UpdateTab"
             ],
             "ARNFormat": "arn:${Partition}:dbqms::",
-            "ARNRegex": "^arn:${Partition}:dbqms::.+",
+            "ARNRegex": "^arn:${Partition}:dbqms::. ",
             "HasResource": false
         },
         "Amazon Managed Streaming for Apache Kafka": {
@@ -8888,7 +8888,7 @@
                 "UpdateStorage"
             ],
             "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceName}/${Uuid}",
-            "ARNRegex": "^arn:aws:kafka:.+",
+            "ARNRegex": "^arn:aws:kafka:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -8957,7 +8957,7 @@
                 "UpdateServiceLevelObjective"
             ],
             "ARNFormat": "arn:aws:cloudwatch:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:cloudwatch:.+",
+            "ARNRegex": "^arn:aws:cloudwatch:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9039,7 +9039,7 @@
                 "UpdateAutoScalingGroup"
             ],
             "ARNFormat": "arn:aws:autoscaling:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:autoscaling:.+:.+:.+",
+            "ARNRegex": "^arn:aws:autoscaling:. :. :. ",
             "conditionKeys": [
                 "autoscaling:CapacityReservationIds",
                 "autoscaling:CapacityReservationResourceGroupArns",
@@ -9109,7 +9109,7 @@
                 "UpdateSubscription"
             ],
             "ARNFormat": "arn:aws:shield:${Region}:${Account}:${Resource}/${ResourceId}",
-            "ARNRegex": "^arn:aws:shield:${Region}:[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:shield:${Region}:[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9145,7 +9145,7 @@
                 "ValidateResourcePolicy"
             ],
             "ARNFormat": "arn:aws:secretsmanager:${Region}:${Account}:secret:${SecretId}",
-            "ARNRegex": "^arn:aws:secretsmanager:.+",
+            "ARNRegex": "^arn:aws:secretsmanager:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9200,7 +9200,7 @@
                 "UpdatePaymentPreferences"
             ],
             "ARNFormat": "arn:aws:payments::${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:payments:::.+:.+",
+            "ARNRegex": "^arn:aws:payments:::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9227,7 +9227,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:application-autoscaling:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:application-autoscaling:.+:.+:.+",
+            "ARNRegex": "^arn:aws:application-autoscaling:. :. :. ",
             "conditionKeys": [
                 "application-autoscaling:scalable-dimension",
                 "application-autoscaling:service-namespace",
@@ -9298,7 +9298,7 @@
                 "UpdateVolume"
             ],
             "ARNFormat": "arn:aws:fsx:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:fsx:.+",
+            "ARNRegex": "^arn:aws:fsx:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9358,7 +9358,7 @@
                 "UpdateWebHook"
             ],
             "ARNFormat": "arn:aws:amplify:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:amplify:.+:.+:.+",
+            "ARNRegex": "^arn:aws:amplify:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9493,7 +9493,7 @@
                 "UpdateSdiSource"
             ],
             "ARNFormat": "arn:aws:medialive:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:medialive:${Region}:${Account}:.+",
+            "ARNRegex": "^arn:aws:medialive:${Region}:${Account}:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9731,7 +9731,7 @@
                 "ValidateFlowDefinition"
             ],
             "ARNFormat": "arn:aws:bedrock:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:bedrock:.*:.*:.+",
+            "ARNRegex": "^arn:aws:bedrock:.*:.*:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9750,7 +9750,7 @@
                 "GetConfig"
             ],
             "ARNFormat": "arn:${Partition}:serviceextract:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:serviceextract:.+:.+:.+",
+            "ARNRegex": "^arn:aws:serviceextract:. :. :. ",
             "HasResource": false
         },
         "AWS Data Pipeline": {
@@ -9779,7 +9779,7 @@
                 "ValidatePipelineDefinition"
             ],
             "ARNFormat": "arn:aws:datapipeline:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:datapipeline:.+:.+",
+            "ARNRegex": "^arn:aws:datapipeline:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9832,7 +9832,7 @@
                 "UpdateReplicationJob"
             ],
             "ARNFormat": "arn:aws:<serviceName>:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
+            "ARNRegex": "^arn:aws:<serviceName>:. :. :. ",
             "HasResource": false
         },
         "Amazon Monitron": {
@@ -9858,7 +9858,7 @@
                 "UpdateProject"
             ],
             "ARNFormat": "arn:aws:monitron:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:monitron:.+:.+:.+",
+            "ARNRegex": "^arn:aws:monitron:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9962,7 +9962,7 @@
                 "ValidateTemplate"
             ],
             "ARNFormat": "arn:aws:cloudformation:${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:cloudformation:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudformation:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -9991,7 +9991,7 @@
                 "UpdateResource"
             ],
             "ARNFormat": "arn:aws:cloudformation:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:cloudformation:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudformation:. :[0-9] :. ",
             "HasResource": false
         },
         "AWS IoT Managed Integrations": {
@@ -10081,7 +10081,7 @@
                 "UpdateOtaTask"
             ],
             "ARNFormat": "arn:aws:iotmanagedintegrations:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:iotmanagedintegrations:.+:.+:.+",
+            "ARNRegex": "^arn:aws:iotmanagedintegrations:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10117,7 +10117,7 @@
                 "UpdateTelemetryRuleForOrganization"
             ],
             "ARNFormat": "arn:aws:observabilityadmin:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:observabilityadmin:.+:.+:.+",
+            "ARNRegex": "^arn:aws:observabilityadmin:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10211,7 +10211,7 @@
                 "UpdateSensitivityInspectionTemplate"
             ],
             "ARNFormat": "arn:aws:macie2:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:macie2:.+:.+:.+",
+            "ARNRegex": "^arn:aws:macie2:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10261,7 +10261,7 @@
                 "UpdateEnvironment"
             ],
             "ARNFormat": "arn:aws:m2:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:m2:${Region}:${Account}:.+",
+            "ARNRegex": "^arn:aws:m2:${Region}:${Account}:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10288,7 +10288,7 @@
                 "EnableHealthServiceAccessForOrganization"
             ],
             "ARNFormat": "arn:aws:health:${Region}::${RelativeId}",
-            "ARNRegex": "^arn:aws:health:[^:]*:[^:]*:.+",
+            "ARNRegex": "^arn:aws:health:[^:]*:[^:]*:. ",
             "conditionKeys": [
                 "health:eventTypeCode",
                 "health:service"
@@ -10336,7 +10336,7 @@
                 "UpdateSiteRackPhysicalProperties"
             ],
             "ARNFormat": "arn:aws:outposts:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:outposts:.+",
+            "ARNRegex": "^arn:aws:outposts:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10357,7 +10357,7 @@
                 "UpdateApplication"
             ],
             "ARNFormat": "arn:aws:iotfleethub:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iotfleethub:.+:.+:.+",
+            "ARNRegex": "^arn:aws:iotfleethub:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10398,7 +10398,7 @@
                 "UpdateSafetyRule"
             ],
             "ARNFormat": "arn:aws:route53-recovery-control::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:route53-recovery-control::.+:.+",
+            "ARNRegex": "^arn:aws:route53-recovery-control::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10448,7 +10448,7 @@
                 "WriteRecords"
             ],
             "ARNFormat": "arn:aws:timestream:${Region}:${Account}:database/${DatabaseName}/table/${TableName}",
-            "ARNRegex": "^arn:aws:timestream:.+",
+            "ARNRegex": "^arn:aws:timestream:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10464,7 +10464,7 @@
                 "SendSerialConsoleSSHPublicKey"
             ],
             "ARNFormat": "arn:aws:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:ec2:.+",
+            "ARNRegex": "^arn:aws:ec2:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "ec2-instance-connect:maxTunnelDuration",
@@ -10481,7 +10481,7 @@
                 "connect"
             ],
             "ARNFormat": "arn:aws:rds-db:<region>:<account-id>:dbuser:<dbi-resource-id>/<db-user-name>",
-            "ARNRegex": "^arn:aws:rds-db:.+",
+            "ARNRegex": "^arn:aws:rds-db:. ",
             "HasResource": true
         },
         "AWS Application Discovery Service": {
@@ -10617,7 +10617,7 @@
                 "UploadArchive"
             ],
             "ARNFormat": "arn:aws:codecommit:${Region}:${Account}:${RepositoryName}",
-            "ARNRegex": "^arn:aws:codecommit:.+",
+            "ARNRegex": "^arn:aws:codecommit:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10654,7 +10654,7 @@
                 "UpdateProfilingGroup"
             ],
             "ARNFormat": "arn:aws:codeguru-profiler:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:codeguru-profiler:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codeguru-profiler:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10681,7 +10681,7 @@
                 "UpdateSuiteDefinition"
             ],
             "ARNFormat": "arn:aws:iotdeviceadvisor:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iotdeviceadvisor:.+",
+            "ARNRegex": "^arn:aws:iotdeviceadvisor:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10735,7 +10735,7 @@
                 "VerifySMSSandboxPhoneNumber"
             ],
             "ARNFormat": "arn:aws:sns:${Region}:${Account}:${TopicName}",
-            "ARNRegex": "^arn:aws:sns:.+",
+            "ARNRegex": "^arn:aws:sns:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10863,7 +10863,7 @@
                 "VerifyUserAttribute"
             ],
             "ARNFormat": "arn:aws:cognito-idp:${Region}:${Account}:${ResourceType}/${ResourcePath}:",
-            "ARNRegex": "^arn:aws:cognito-idp:.+",
+            "ARNRegex": "^arn:aws:cognito-idp:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -10926,7 +10926,7 @@
                 "ValidateConfigurationSettings"
             ],
             "ARNFormat": "arn:aws:elasticbeanstalk:${Region}:${Account}:${ResourceType}/${PathToResource}",
-            "ARNRegex": "^arn:aws:elasticbeanstalk:.+:.*:.+/.+",
+            "ARNRegex": "^arn:aws:elasticbeanstalk:. :.*:. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11019,7 +11019,7 @@
                 "SetLoadBalancerPoliciesOfListener"
             ],
             "ARNFormat": "arn:aws:elasticloadbalancing:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elasticloadbalancing:.+",
+            "ARNRegex": "^arn:aws:elasticloadbalancing:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11092,7 +11092,7 @@
                 "SetWebAcl"
             ],
             "ARNFormat": "arn:aws:elasticloadbalancing:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elasticloadbalancing:.+",
+            "ARNRegex": "^arn:aws:elasticloadbalancing:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11169,7 +11169,7 @@
                 "UpdateRetrainingScheduler"
             ],
             "ARNFormat": "arn:aws:lookoutequipment:${Region}:${Account}:${ResourceType}/${ResourceName}/${ResourceId}",
-            "ARNRegex": "^arn:aws:lookoutequipment:.+:.+:.+",
+            "ARNRegex": "^arn:aws:lookoutequipment:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11213,7 +11213,7 @@
                 "UpdateMetricSet"
             ],
             "ARNFormat": "arn:aws:lookoutmetrics:${Region}:${AccountId}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:lookoutmetrics:.+:.+:.+",
+            "ARNRegex": "^arn:aws:lookoutmetrics:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11348,8 +11348,8 @@
                 "UpdateLogAnomalyDetector",
                 "UpdateLogDelivery"
             ],
-            "ARNFormat": "arn:aws:logs:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:logs:.+",
+            "ARNFormat": "arn:aws:logs:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:logs:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11454,7 +11454,7 @@
                 "UpdateReplicationConfigurationTemplate"
             ],
             "ARNFormat": "arn:aws:drs:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:drs:.+",
+            "ARNRegex": "^arn:aws:drs:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11493,8 +11493,8 @@
                 "UpdateConfiguration",
                 "UpdateUser"
             ],
-            "ARNFormat": "arn:aws:mq:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:mq:.+",
+            "ARNFormat": "arn:aws:mq:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:mq:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11526,7 +11526,7 @@
                 "UpdateEnvironment"
             ],
             "ARNFormat": "arn:aws:airflow:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:airflow:.+:.+:.+",
+            "ARNRegex": "^arn:aws:airflow:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11540,7 +11540,7 @@
                 "GetCarbonFootprintSummary"
             ],
             "ARNFormat": "arn:${Partition}:sustainability:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:sustainability:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:sustainability:. :. :. ",
             "HasResource": false
         },
         "Amazon Personalize": {
@@ -11631,28 +11631,36 @@
                 "UpdateSolution"
             ],
             "ARNFormat": "arn:aws:personalize:${Region}:${Account}:${Resourcename}/${ResourceId}",
-            "ARNRegex": "^arn:aws:personalize:.+:.+:.+",
+            "ARNRegex": "^arn:aws:personalize:. :. :. ",
             "HasResource": true
         },
         "AWS End User Messaging Social": {
             "StringPrefix": "social-messaging",
             "Actions": [
                 "AssociateWhatsAppBusinessAccount",
+                "CreateWhatsAppMessageTemplate",
+                "CreateWhatsAppMessageTemplateFromLibrary",
+                "CreateWhatsAppMessageTemplateMedia",
                 "DeleteWhatsAppMessageMedia",
+                "DeleteWhatsAppMessageTemplate",
                 "DisassociateWhatsAppBusinessAccount",
                 "GetLinkedWhatsAppBusinessAccount",
                 "GetLinkedWhatsAppBusinessAccountPhoneNumber",
                 "GetWhatsAppMessageMedia",
+                "GetWhatsAppMessageTemplate",
                 "ListLinkedWhatsAppBusinessAccounts",
                 "ListTagsForResource",
+                "ListWhatsAppMessageTemplates",
+                "ListWhatsAppTemplateLibrary",
                 "PostWhatsAppMessageMedia",
                 "PutWhatsAppBusinessAccountEventDestinations",
                 "SendWhatsAppMessage",
                 "TagResource",
-                "UntagResource"
+                "UntagResource",
+                "UpdateWhatsAppMessageTemplate"
             ],
             "ARNFormat": "arn:aws:social-messaging:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:social-messaging:.+",
+            "ARNRegex": "^arn:aws:social-messaging:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11701,7 +11709,7 @@
                 "UpdateDeviceMetadata"
             ],
             "ARNFormat": "arn:aws:panorama:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:panorama:.+:.+:.+",
+            "ARNRegex": "^arn:aws:panorama:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11810,7 +11818,7 @@
                 "UploadReadSetPart"
             ],
             "ARNFormat": "arn:aws:omics:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:omics:${Region}:${Account}?:${ResourceType}/.+?",
+            "ARNRegex": "^arn:aws:omics:${Region}:${Account}?:${ResourceType}/. ?",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11848,7 +11856,7 @@
                 "UpdateAdapter"
             ],
             "ARNFormat": "arn:aws:textract:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:textract:.+",
+            "ARNRegex": "^arn:aws:textract:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11880,7 +11888,7 @@
                 "SnapToRoads"
             ],
             "ARNFormat": "arn:aws:geo-routes:${Region}::provider/default",
-            "ARNRegex": "^arn:aws:geo-routes:.+",
+            "ARNRegex": "^arn:aws:geo-routes:. ",
             "HasResource": true
         },
         "Amazon S3 Vectors": {
@@ -11904,7 +11912,7 @@
                 "QueryVectors"
             ],
             "ARNFormat": "arn:aws:s3vectors:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:s3vectors:.+:.+:.+",
+            "ARNRegex": "^arn:aws:s3vectors:. :. :. ",
             "conditionKeys": [
                 "s3vectors:kmsKeyArn",
                 "s3vectors:sseType"
@@ -11942,7 +11950,7 @@
                 "UpdateProject"
             ],
             "ARNFormat": "arn:aws:iot1click:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iot1click:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:iot1click:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -11981,7 +11989,7 @@
                 "UpdateScope"
             ],
             "ARNFormat": "arn:aws:networkflowmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:networkflowmonitor:.+:.+:.+",
+            "ARNRegex": "^arn:aws:networkflowmonitor:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12038,7 +12046,7 @@
                 "UpdatePipeline"
             ],
             "ARNFormat": "arn:aws:codepipeline:${Region}:${Account}:${PathToPipelineResource}",
-            "ARNRegex": "^arn:aws:codepipeline:.+",
+            "ARNRegex": "^arn:aws:codepipeline:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12162,8 +12170,8 @@
                 "UpdateSecurityHubConfiguration",
                 "UpdateStandardsControl"
             ],
-            "ARNFormat": "arn:aws:securityhub:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:securityhub:.+",
+            "ARNFormat": "arn:aws:securityhub:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:securityhub:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12186,7 +12194,7 @@
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:transform:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:transform:.+:.+:.+",
+            "ARNRegex": "^arn:aws:transform:. :. :. ",
             "HasResource": true
         },
         "Amazon SQS": {
@@ -12214,7 +12222,7 @@
                 "UntagQueue"
             ],
             "ARNFormat": "arn:aws:sqs:${Region}:${Account}:${QueueName}",
-            "ARNRegex": "^arn:aws:sqs:.+",
+            "ARNRegex": "^arn:aws:sqs:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12245,7 +12253,7 @@
                 "UpdateSoftwareSet"
             ],
             "ARNFormat": "arn:aws:thinclient:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:thinclient:.+:.+:.+",
+            "ARNRegex": "^arn:aws:thinclient:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12291,7 +12299,7 @@
                 "UpdateServiceAttributes"
             ],
             "ARNFormat": "arn:aws:servicediscovery:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:servicediscovery:.+",
+            "ARNRegex": "^arn:aws:servicediscovery:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12314,7 +12322,7 @@
                 "GetQueryExtensionAccounts"
             ],
             "ARNFormat": "arn:${Partition}:tiros:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:tiros::.+",
+            "ARNRegex": "^arn:aws:tiros::. ",
             "HasResource": false
         },
         "AWS Compute Optimizer": {
@@ -12396,7 +12404,7 @@
                 "UpdateSettingsSet"
             ],
             "ARNFormat": "arn:aws:launchwizard:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:launchwizard:.+:.+:.+",
+            "ARNRegex": "^arn:aws:launchwizard:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12416,7 +12424,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:qdeveloper:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:qdeveloper:.+:.+:.+",
+            "ARNRegex": "^arn:aws:qdeveloper:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12453,7 +12461,7 @@
                 "UpdateHANABackupSettings"
             ],
             "ARNFormat": "arn:aws:ssm-sap:${Region}:${Account}:${ApplicationType}/${ApplicationId}",
-            "ARNRegex": "^arn:aws:ssm-sap:.+",
+            "ARNRegex": "^arn:aws:ssm-sap:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12477,7 +12485,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:evs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:evs:.+:.+:.+",
+            "ARNRegex": "^arn:aws:evs:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12555,7 +12563,7 @@
                 "VerifyServiceRole"
             ],
             "ARNFormat": "arn:aws:codestar:${Region}:${Account}:project/${ResourceId}",
-            "ARNRegex": "^arn:aws:codestar:.+:[0-9]+:project/.+",
+            "ARNRegex": "^arn:aws:codestar:. :[0-9] :project/. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12620,7 +12628,7 @@
                 "UpdateRepository"
             ],
             "ARNFormat": "arn:aws:codeartifact:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:codeartifact:.+:[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:codeartifact:. :[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12666,7 +12674,7 @@
                 "connect"
             ],
             "ARNFormat": "arn:aws:neptune-db:${Region}:${Account}:${Id}/*",
-            "ARNRegex": "^arn:aws:neptune-db:.+",
+            "ARNRegex": "^arn:aws:neptune-db:. ",
             "conditionKeys": [
                 "neptune-db:QueryLanguage"
             ],
@@ -12694,7 +12702,7 @@
                 "UpdateIdentityProviderSettings"
             ],
             "ARNFormat": "arn:aws:license-manager-user-subscriptions:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:license-manager-user-subscriptions:.+:.+:.+",
+            "ARNRegex": "^arn:aws:license-manager-user-subscriptions:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12720,7 +12728,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:pi:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:pi:.+",
+            "ARNRegex": "^arn:aws:pi:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12819,7 +12827,7 @@
                 "UpdateFlywheel"
             ],
             "ARNFormat": "arn:aws:comprehend:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:comprehend:.+:.+:.+",
+            "ARNRegex": "^arn:aws:comprehend:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -12886,7 +12894,7 @@
                 "UpdateFileSystemProtection"
             ],
             "ARNFormat": "arn:aws:elasticfilesystem:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:elasticfilesystem:.+",
+            "ARNRegex": "^arn:aws:elasticfilesystem:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13198,7 +13206,7 @@
                 "UseMLTransforms"
             ],
             "ARNFormat": "arn:aws:glue:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:glue:.+:.+",
+            "ARNRegex": "^arn:aws:glue:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13229,7 +13237,7 @@
                 "UpdateExport"
             ],
             "ARNFormat": "arn:aws:bcm-data-exports:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:bcm-data-exports:.+:.+:.+",
+            "ARNRegex": "^arn:aws:bcm-data-exports:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13280,7 +13288,7 @@
                 "UpdateProjectDataDelivery"
             ],
             "ARNFormat": "arn:aws:evidently:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:evidently:.+:.+:.+",
+            "ARNRegex": "^arn:aws:evidently:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13303,7 +13311,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:savingsplans::${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:savingsplans:.+",
+            "ARNRegex": "^arn:aws:savingsplans:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13472,7 +13480,7 @@
                 "UpdateServiceSetting"
             ],
             "ARNFormat": "arn:aws:ssm:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:(ssm|ec2):.+",
+            "ARNRegex": "^arn:aws:(ssm|ec2):. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13623,7 +13631,7 @@
                 "UpdateTrustedTokenIssuer"
             ],
             "ARNFormat": "arn:aws:sso:::${RelativeId}",
-            "ARNRegex": "^arn:aws:sso:::.+",
+            "ARNRegex": "^arn:aws:sso:::. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13683,7 +13691,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:mgh:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:mgh:.+",
+            "ARNRegex": "^arn:aws:mgh:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13769,7 +13777,7 @@
                 "UpdateFunctionUrlConfig"
             ],
             "ARNFormat": "arn:aws:lambda:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:lambda:.+",
+            "ARNRegex": "^arn:aws:lambda:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13933,7 +13941,7 @@
                 "VerifyClientRoleForMgn"
             ],
             "ARNFormat": "arn:aws:mgn:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:mgn:.+",
+            "ARNRegex": "^arn:aws:mgn:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -13987,7 +13995,7 @@
                 "UpdateRevision"
             ],
             "ARNFormat": "arn:aws:dataexchange:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:dataexchange:.+",
+            "ARNRegex": "^arn:aws:dataexchange:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14029,7 +14037,7 @@
                 "UpdateMLModel"
             ],
             "ARNFormat": "arn:aws:machinelearning:${Region}:${Account}:${ResourceType}/${RelativeID}",
-            "ARNRegex": "^arn:aws:machinelearning:.+",
+            "ARNRegex": "^arn:aws:machinelearning:. ",
             "HasResource": true
         },
         "Amazon GuardDuty": {
@@ -14121,8 +14129,8 @@
                 "UpdateThreatIntelSet",
                 "UpdateTrustedEntitySet"
             ],
-            "ARNFormat": "arn:aws:guardduty:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:guardduty:.+",
+            "ARNFormat": "arn:aws:guardduty:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:guardduty:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14195,7 +14203,7 @@
                 "UpdateEventBus"
             ],
             "ARNFormat": "arn:aws:events:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:events:.+",
+            "ARNRegex": "^arn:aws:events:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14332,7 +14340,7 @@
                 "UpdateTestSet"
             ],
             "ARNFormat": "arn:aws:lex:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:lex:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:lex:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14392,7 +14400,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:lex:${Region}:${Account}:${Type}:${Name}",
-            "ARNRegex": "^arn:aws:lex:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:lex:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14519,7 +14527,7 @@
                 "UpdateTemplateSyncConfig"
             ],
             "ARNFormat": "arn:aws:proton:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:proton:.+:.+:.+",
+            "ARNRegex": "^arn:aws:proton:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -14589,7 +14597,7 @@
                 "UpdateGatewayInstance"
             ],
             "ARNFormat": "arn:aws:mediaconnect:${Region}:${Account}:${Namespace}:${RelativeId}:${RelativeName}",
-            "ARNRegex": "^arn:aws:mediaconnect:.+",
+            "ARNRegex": "^arn:aws:mediaconnect:. ",
             "HasResource": true
         },
         "Amazon S3": {
@@ -14762,7 +14770,7 @@
                 "UpdateStorageLensGroup"
             ],
             "ARNFormat": "arn:aws:s3:::${BucketName}/${KeyName}",
-            "ARNRegex": "^arn:aws:s3:::.+",
+            "ARNRegex": "^arn:aws:s3:::. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15230,7 +15238,7 @@
                 "UpdateWorkteam"
             ],
             "ARNFormat": "arn:aws:sagemaker:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:sagemaker:.+",
+            "ARNRegex": "^arn:aws:sagemaker:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15297,7 +15305,7 @@
                 "PutAccountColor"
             ],
             "ARNFormat": "arn:${Partition}:uxc:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:${Partition}:uxc:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:uxc:. :. :. ",
             "HasResource": false
         },
         "Amazon Verified Permissions": {
@@ -15332,7 +15340,7 @@
                 "UpdatePolicyTemplate"
             ],
             "ARNFormat": "arn:aws:verifiedpermissions:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:verifiedpermissions:.+",
+            "ARNRegex": "^arn:aws:verifiedpermissions:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15404,7 +15412,7 @@
                 "UpdateTableStorageOptimizer"
             ],
             "ARNFormat": "arn:${Partition}:lakeformation:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:lakeformation:.+:.+",
+            "ARNRegex": "^arn:aws:lakeformation:. :. ",
             "conditionKeys": [
                 "lakeformation:EnabledOnlyForMetaDataAccess"
             ],
@@ -15467,7 +15475,7 @@
                 "UpdateWorkspaceConfiguration"
             ],
             "ARNFormat": "arn:aws:aps:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:aps:.+:.+:.+",
+            "ARNRegex": "^arn:aws:aps:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15497,7 +15505,7 @@
                 "UpdateMonitor"
             ],
             "ARNFormat": "arn:aws:internetmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:internetmonitor:.+:.+:.+",
+            "ARNRegex": "^arn:aws:internetmonitor:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15525,7 +15533,7 @@
                 "UpdateApplication"
             ],
             "ARNFormat": "arn:aws:serverlessrepo:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:serverlessrepo:.+:.+:.+",
+            "ARNRegex": "^arn:aws:serverlessrepo:. :. :. ",
             "conditionKeys": [
                 "serverlessrepo:applicationType"
             ],
@@ -15606,7 +15614,7 @@
                 "UpdateDatasetGroup"
             ],
             "ARNFormat": "arn:aws:forecast:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:forecast:.+:.+:.+",
+            "ARNRegex": "^arn:aws:forecast:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15685,7 +15693,7 @@
                 "UpgradePublishedSchema"
             ],
             "ARNFormat": "arn:aws:clouddirectory:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:clouddirectory:.+:[0-9]+:(directory|schema)/.+",
+            "ARNRegex": "^arn:aws:clouddirectory:. :[0-9] :(directory|schema)/. ",
             "HasResource": true
         },
         "AWS Security Token Service": {
@@ -15706,7 +15714,7 @@
                 "TagSession"
             ],
             "ARNFormat": "arn:aws:iam::${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:iam::.+",
+            "ARNRegex": "^arn:aws:iam::. ",
             "conditionKeys": [
                 "accounts.google.com:aud",
                 "accounts.google.com:oaud",
@@ -15790,7 +15798,7 @@
                 "UpdateOriginEndpoint"
             ],
             "ARNFormat": "arn:aws:mediapackage:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:mediapackage:.+",
+            "ARNRegex": "^arn:aws:mediapackage:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15824,7 +15832,7 @@
                 "UpdatePartitioner"
             ],
             "ARNFormat": "arn:aws:cassandra:${Region}:${Account}:/${ResourceType}/${ResourcePath}/",
-            "ARNRegex": "^arn:aws:cassandra:.+",
+            "ARNRegex": "^arn:aws:cassandra:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15916,7 +15924,7 @@
                 "UpdateWorkGroup"
             ],
             "ARNFormat": "arn:aws:athena:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:athena:.+",
+            "ARNRegex": "^arn:aws:athena:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -15944,7 +15952,7 @@
                 "ValidatePipeline"
             ],
             "ARNFormat": "arn:aws:osis:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:osis:.+:.+:.+",
+            "ARNRegex": "^arn:aws:osis:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16079,8 +16087,8 @@
                 "UpdateVoiceTemplate",
                 "VerifyOTPMessage"
             ],
-            "ARNFormat": "arn:aws:mobiletargeting:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:mobiletargeting:.+",
+            "ARNFormat": "arn:aws:mobiletargeting:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:mobiletargeting:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16117,7 +16125,7 @@
                 "ValidateReportDestination"
             ],
             "ARNFormat": "arn:aws:cur:${Region}:${Account}:definition/${ResourceName}",
-            "ARNRegex": "^arn:aws:cur:.+:.+:.+",
+            "ARNRegex": "^arn:aws:cur:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16147,7 +16155,7 @@
                 "UpdateMultipartUpload"
             ],
             "ARNFormat": "arn:aws:elemental-support-cases::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elemental-support-cases::.+:.+",
+            "ARNRegex": "^arn:aws:elemental-support-cases::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16208,7 +16216,7 @@
                 "UpdateNetworkDetails"
             ],
             "ARNFormat": "arn:aws:wickr:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:wickr:.+:.+:.+",
+            "ARNRegex": "^arn:aws:wickr:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16259,7 +16267,7 @@
                 "UpdateOpportunity"
             ],
             "ARNFormat": "arn:aws:partnercentral:${Region}:${Account}:catalog/${CatalogId}/${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:partnercentral:.+",
+            "ARNRegex": "^arn:aws:partnercentral:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16348,7 +16356,7 @@
                 "UpdateVolume"
             ],
             "ARNFormat": "arn:aws:${ServiceName}:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:opsworks:.+",
+            "ARNRegex": "^arn:aws:opsworks:. ",
             "HasResource": true
         },
         "AWS Elemental MediaPackage V2": {
@@ -16390,7 +16398,7 @@
                 "UpdateOriginEndpoint"
             ],
             "ARNFormat": "arn:aws:mediapackagev2:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:mediapackagev2:.+",
+            "ARNRegex": "^arn:aws:mediapackagev2:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16579,7 +16587,7 @@
                 "UploadSigningCertificate"
             ],
             "ARNFormat": "arn:aws:iam::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:iam::.+",
+            "ARNRegex": "^arn:aws:iam::. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16729,7 +16737,7 @@
                 "WipeMobileDevice"
             ],
             "ARNFormat": "arn:aws:workmail:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:workmail:.+:.+:.+",
+            "ARNRegex": "^arn:aws:workmail:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16774,7 +16782,7 @@
                 "UpdateResourceSet"
             ],
             "ARNFormat": "arn:aws:route53-recovery-readiness::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:route53-recovery-readiness::.+:.+",
+            "ARNRegex": "^arn:aws:route53-recovery-readiness::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16818,7 +16826,7 @@
                 "UpdateBackendStorage"
             ],
             "ARNFormat": "arn:aws:amplifybackend:${Region}:${Account}:/${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:amplifybackend:.+:.+:.+",
+            "ARNRegex": "^arn:aws:amplifybackend:. :. :. ",
             "HasResource": true
         },
         "Amazon CloudWatch Synthetics": {
@@ -16848,7 +16856,7 @@
                 "UpdateCanary"
             ],
             "ARNFormat": "arn:aws:synthetics:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:synthetics:.+",
+            "ARNRegex": "^arn:aws:synthetics:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16889,7 +16897,7 @@
                 "UpdateSiteAddress"
             ],
             "ARNFormat": "arn:aws:one:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:one:.+",
+            "ARNRegex": "^arn:aws:one:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -16920,7 +16928,7 @@
                 "RollbackTransaction"
             ],
             "ARNFormat": "arn:aws:rds:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:rds:.+",
+            "ARNRegex": "^arn:aws:rds:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
@@ -17011,7 +17019,7 @@
                 "UpdateSavedQuery"
             ],
             "ARNFormat": "arn:aws:sqlworkbench:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:sqlworkbench:.+:.+:.+",
+            "ARNRegex": "^arn:aws:sqlworkbench:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17028,7 +17036,7 @@
                 "UpdateJobExecution"
             ],
             "ARNFormat": "arn:aws:iot:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iot:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:iot:. :[0-9] :. ",
             "conditionKeys": [
                 "iot:JobId"
             ],
@@ -17070,7 +17078,7 @@
                 "UseConnectorProfile"
             ],
             "ARNFormat": "arn:aws:appflow:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:appflow:.+:.+:.+",
+            "ARNRegex": "^arn:aws:appflow:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17092,7 +17100,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:ts::${Account}:execution/${UserId}/${ToolId}/${ExecutionId}",
-            "ARNRegex": "^arn:aws:ts:.+",
+            "ARNRegex": "^arn:aws:ts:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17156,7 +17164,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:swf:${Region}:${Account}:/domain/${DomainName}",
-            "ARNRegex": "^arn:aws:swf:.+",
+            "ARNRegex": "^arn:aws:swf:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17209,7 +17217,7 @@
                 "UpdateTestSuite"
             ],
             "ARNFormat": "arn:aws:apptest:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:apptest:${Region}:${Account}:.+",
+            "ARNRegex": "^arn:aws:apptest:${Region}:${Account}:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17253,7 +17261,7 @@
                 "UpdateTimelineEvent"
             ],
             "ARNFormat": "arn:aws:ssm-incidents::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ssm-incidents::.+:.+",
+            "ARNRegex": "^arn:aws:ssm-incidents::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17286,7 +17294,7 @@
                 "UpdateRumMetricDefinition"
             ],
             "ARNFormat": "arn:aws:rum:${Region}:${Account}:appmonitor/${Name}",
-            "ARNRegex": "^arn:aws:rum:.+:.+:.+",
+            "ARNRegex": "^arn:aws:rum:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17420,7 +17428,7 @@
                 "UpdateProject"
             ],
             "ARNFormat": "arn:aws:iotsitewise:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:iotsitewise:.+:.+:.+",
+            "ARNRegex": "^arn:aws:iotsitewise:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17447,7 +17455,7 @@
                 "StartDeploymentJob"
             ],
             "ARNFormat": "arn:${Partition}:a2c:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:a2c:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:a2c:. :. :. ",
             "HasResource": false
         },
         "AWS IAM Identity Center OIDC service": {
@@ -17456,7 +17464,7 @@
                 "CreateTokenWithIAM"
             ],
             "ARNFormat": "arn:aws:sso:::${RelativeId}",
-            "ARNRegex": "^arn:aws:sso:::.+",
+            "ARNRegex": "^arn:aws:sso:::. ",
             "HasResource": true
         },
         "AWS CodeStar Connections": {
@@ -17502,7 +17510,7 @@
                 "UseConnection"
             ],
             "ARNFormat": "arn:aws:codestar-connections:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:codestar-connections:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codestar-connections:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17666,7 +17674,7 @@
                 "UpdateDatasetEntries"
             ],
             "ARNFormat": "arn:aws:lookoutvision:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:lookoutvision:.+:.+:.+",
+            "ARNRegex": "^arn:aws:lookoutvision:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17756,7 +17764,7 @@
                 "TestMigration"
             ],
             "ARNFormat": "arn:aws:elasticache:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:elasticache:.+:.+:.+",
+            "ARNRegex": "^arn:aws:elasticache:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17801,7 +17809,7 @@
                 "UpdateDestination"
             ],
             "ARNFormat": "arn:aws:firehose:${Region}:${Account}:deliverystream/${DeliveryStreamName}",
-            "ARNRegex": "^arn:aws:firehose:.+:[0-9]+:deliverystream/.+",
+            "ARNRegex": "^arn:aws:firehose:. :[0-9] :deliverystream/. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17956,7 +17964,7 @@
                 "UpdateVTLDeviceType"
             ],
             "ARNFormat": "arn:aws:storagegateway:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:storagegateway:.+",
+            "ARNRegex": "^arn:aws:storagegateway:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -17971,7 +17979,7 @@
                 "ListDeviceIdentities"
             ],
             "ARNFormat": "arn:aws:consoleapp:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:consoleapp:.+:.+:.+",
+            "ARNRegex": "^arn:aws:consoleapp:. :. :. ",
             "HasResource": true
         },
         "AWS Batch": {
@@ -18018,7 +18026,7 @@
                 "UpdateServiceEnvironment"
             ],
             "ARNFormat": "arn:aws:batch:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:batch:.+",
+            "ARNRegex": "^arn:aws:batch:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18084,7 +18092,7 @@
                 "UpdateCampaignSource"
             ],
             "ARNFormat": "arn:aws:connect-campaigns:${Region}:${Account}:campaign/${CampaignId}",
-            "ARNRegex": "^arn:aws:connect-campaigns:.+:.*:campaign/.*",
+            "ARNRegex": "^arn:aws:connect-campaigns:. :.*:campaign/.*",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18162,7 +18170,7 @@
                 "UpdateTrail"
             ],
             "ARNFormat": "arn:aws:cloudtrail:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:cloudtrail:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:cloudtrail:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18182,7 +18190,7 @@
                 "Suggest"
             ],
             "ARNFormat": "arn:aws:geo-places:${Region}::provider/default",
-            "ARNRegex": "^arn:aws:geo-places:.+",
+            "ARNRegex": "^arn:aws:geo-places:. ",
             "HasResource": true
         },
         "AWS Security Incident Response": {
@@ -18212,7 +18220,7 @@
                 "UpdateResolverType"
             ],
             "ARNFormat": "arn:aws:security-ir:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:security-ir:.+:.+:.+",
+            "ARNRegex": "^arn:aws:security-ir:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18228,7 +18236,7 @@
                 "ListQuarterSpend"
             ],
             "ARNFormat": "arn:aws:mapcredits:::${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:mapcredits:::.+",
+            "ARNRegex": "^arn:aws:mapcredits:::. ",
             "HasResource": true
         },
         "AWS AppFabric": {
@@ -18262,13 +18270,30 @@
                 "UpdateIngestionDestination"
             ],
             "ARNFormat": "arn:aws:appfabric:${Region}:${Account}:${ResourceInfo}",
-            "ARNRegex": "^arn:aws:appfabric:.+:.+:.+",
+            "ARNRegex": "^arn:aws:appfabric:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
             "HasResource": true
+        },
+        "AWS Billing and Cost Management Dashboards": {
+            "StringPrefix": "bcm-dashboards",
+            "Actions": [
+                "CreateDashboard",
+                "DeleteDashboard",
+                "GetDashboard",
+                "GetResourcePolicy",
+                "ListDashboards",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateDashboard"
+            ],
+            "ARNFormat": "arn:${Partition}:bcm-dashboards:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:bcm-dashboards:. :. :. ",
+            "HasResource": false
         },
         "Amazon GameLift Streams": {
             "StringPrefix": "gameliftstreams",
@@ -18299,7 +18324,7 @@
                 "UpdateStreamGroup"
             ],
             "ARNFormat": "arn:aws:gameliftstreams:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:gameliftstreams:.+:.+:.+",
+            "ARNRegex": "^arn:aws:gameliftstreams:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18357,7 +18382,7 @@
                 "SynthesizeSpeech"
             ],
             "ARNFormat": "arn:aws:polly:${Region}:${Account}:lexicon/${RelativeId}",
-            "ARNRegex": "^arn:aws:polly:${Region}:.+",
+            "ARNRegex": "^arn:aws:polly:${Region}:. ",
             "HasResource": true
         },
         "Amazon Aurora DSQL": {
@@ -18386,7 +18411,7 @@
                 "UpdateCluster"
             ],
             "ARNFormat": "arn:aws:dsql:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:dsql:.+:.+:.+",
+            "ARNRegex": "^arn:aws:dsql:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18442,7 +18467,7 @@
                 "UpdateVpcIngressConnection"
             ],
             "ARNFormat": "arn:aws:apprunner:${Region}:${Account}:${ResourceType}/${PathToResource}",
-            "ARNRegex": "^arn:aws:apprunner:.+",
+            "ARNRegex": "^arn:aws:apprunner:. ",
             "conditionKeys": [
                 "apprunner:AutoScalingConfigurationArn",
                 "apprunner:ConnectionArn",
@@ -18512,7 +18537,7 @@
                 "UpdateServiceSettings"
             ],
             "ARNFormat": "arn:aws:license-manager:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:license-manager:.+:.+:.+",
+            "ARNRegex": "^arn:aws:license-manager:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18622,7 +18647,7 @@
                 "UpdateSkillGroup"
             ],
             "ARNFormat": "arn:aws:a4b:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:a4b:.+:.+:.+",
+            "ARNRegex": "^arn:aws:a4b:. :. :. ",
             "conditionKeys": [
                 "a4b:amazonId",
                 "a4b:filters_deviceType",
@@ -18660,7 +18685,7 @@
                 "UpdateCertificateAuthority"
             ],
             "ARNFormat": "arn:aws:acm-pca:${Region}:${Account}:${ARNType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:acm-pca:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:acm-pca:. :[0-9] :. ",
             "conditionKeys": [
                 "acm-pca:TemplateArn",
                 "aws:RequestTag/${TagKey}",
@@ -18686,7 +18711,7 @@
                 "UpdateSchedule"
             ],
             "ARNFormat": "arn:aws:scheduler:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:scheduler:.+:.+:.+",
+            "ARNRegex": "^arn:aws:scheduler:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18760,7 +18785,7 @@
                 "UpdateUserAdministrativeSettings"
             ],
             "ARNFormat": "arn:aws:workdocs:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:workdocs:.+:.+:.+",
+            "ARNRegex": "^arn:aws:workdocs:. :. :. ",
             "HasResource": true
         },
         "Amazon SageMaker with MLflow": {
@@ -18829,7 +18854,7 @@
                 "UpdateRun"
             ],
             "ARNFormat": "arn:aws:sagemaker:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:sagemaker:.+",
+            "ARNRegex": "^arn:aws:sagemaker:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "sagemaker:ResourceTag/${TagKey}"
@@ -18866,7 +18891,7 @@
                 "StopSNOMEDCTInferenceJob"
             ],
             "ARNFormat": "arn:${Partition}:comprehendmedical:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:comprehendmedical:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:comprehendmedical:. :. :. ",
             "conditionKeys": [
                 "aws:TagKeys"
             ],
@@ -18878,7 +18903,7 @@
                 "Query"
             ],
             "ARNFormat": "arn:${Partition}:elemental-support-content:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:elemental-support-content:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:elemental-support-content:. :. :. ",
             "HasResource": false
         },
         "AWS WAF": {
@@ -18963,7 +18988,7 @@
                 "UpdateXssMatchSet"
             ],
             "ARNFormat": "arn:aws:waf::${Account}:${ResourceId}/${Id}",
-            "ARNRegex": "^arn:aws:waf::[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:waf::[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -18986,7 +19011,7 @@
                 "UpdatePipe"
             ],
             "ARNFormat": "arn:aws:pipes:${Region}:${Account}:pipe/${PipeName}",
-            "ARNRegex": "^arn:aws:pipes:.+:.+:.+",
+            "ARNRegex": "^arn:aws:pipes:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19229,7 +19254,7 @@
                 "UpdateVPCConnection"
             ],
             "ARNFormat": "arn:aws:quicksight:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:quicksight:.+",
+            "ARNRegex": "^arn:aws:quicksight:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19298,7 +19323,7 @@
                 "UpdateTemplate"
             ],
             "ARNFormat": "arn:aws:cases:${Region}:${Account}:domain/${DomainId}",
-            "ARNRegex": "^arn:aws:cases:.+",
+            "ARNRegex": "^arn:aws:cases:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19385,7 +19410,7 @@
                 "UpgradeReviewTemplateLensReview"
             ],
             "ARNFormat": "arn:aws:wellarchitected:${Region}:${Account}:${ResourceName}/${ResourceId}",
-            "ARNRegex": "^arn:aws:wellarchitected:.+",
+            "ARNRegex": "^arn:aws:wellarchitected:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19402,7 +19427,7 @@
                 "ValidateConnectorId"
             ],
             "ARNFormat": "arn:aws:<serviceName>:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
+            "ARNRegex": "^arn:aws:<serviceName>:. :. :. ",
             "HasResource": false
         },
         "Amazon Kendra": {
@@ -19476,7 +19501,7 @@
                 "UpdateThesaurus"
             ],
             "ARNFormat": "arn:aws:kendra:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:kendra:.+:.+:.+",
+            "ARNRegex": "^arn:aws:kendra:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19582,7 +19607,7 @@
                 "UpdateWebExperience"
             ],
             "ARNFormat": "arn:aws:qbusiness:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:qbusiness:.+:.+:.+",
+            "ARNRegex": "^arn:aws:qbusiness:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19758,7 +19783,7 @@
                 "UpdateRelationalDatabaseParameters"
             ],
             "ARNFormat": "arn:aws:lightsail:${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:lightsail:.+",
+            "ARNRegex": "^arn:aws:lightsail:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19790,7 +19815,7 @@
                 "UpdateRecords"
             ],
             "ARNFormat": "arn:aws:cognito-sync:${Region}:${Account}:${ResourceType}/${ResourcePath}:",
-            "ARNRegex": "^arn:aws:cognito-sync:.+",
+            "ARNRegex": "^arn:aws:cognito-sync:. ",
             "HasResource": true
         },
         "Amazon CloudSearch": {
@@ -19830,7 +19855,7 @@
                 "suggest"
             ],
             "ARNFormat": "arn:aws:cloudsearch:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:cloudsearch:.+:.+:.+",
+            "ARNRegex": "^arn:aws:cloudsearch:. :. :. ",
             "HasResource": true
         },
         "Amazon EMR Serverless": {
@@ -19857,7 +19882,7 @@
                 "UpdateApplication"
             ],
             "ARNFormat": "arn:aws:emr-serverless:${Region}:${Account}:/${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:emr-serverless:.+",
+            "ARNRegex": "^arn:aws:emr-serverless:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -19885,7 +19910,7 @@
                 "UpdateZonalShift"
             ],
             "ARNFormat": "arn:aws:arc-zonal-shift:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:arc-zonal-shift:.+:.+:.+",
+            "ARNRegex": "^arn:aws:arc-zonal-shift:. :. :. ",
             "conditionKeys": [
                 "arc-zonal-shift:ResourceIdentifier",
                 "aws:ResourceTag/${TagKey}",
@@ -19903,7 +19928,7 @@
                 "StartDirectQuery"
             ],
             "ARNFormat": "arn:aws:opensearch:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:opensearch:.+",
+            "ARNRegex": "^arn:aws:opensearch:. ",
             "HasResource": true
         },
         "AWS Consolidated Billing": {
@@ -19913,7 +19938,7 @@
                 "ListLinkedAccounts"
             ],
             "ARNFormat": "arn:${Partition}:consolidatedbilling::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:${Partition}:consolidatedbilling::.+:.+",
+            "ARNRegex": "^arn:${Partition}:consolidatedbilling::. :. ",
             "HasResource": false
         },
         "AWS Directory Service Data": {
@@ -19938,7 +19963,7 @@
                 "UpdateUser"
             ],
             "ARNFormat": "arn:aws:ds:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:ds:.+",
+            "ARNRegex": "^arn:aws:ds:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}",
                 "ds-data:Identifier",
@@ -20010,7 +20035,7 @@
                 "UpdateVehicle"
             ],
             "ARNFormat": "arn:aws:iotfleetwise:${Region}:${Account}:${Type}/${Name}",
-            "ARNRegex": "^arn:aws:iotfleetwise:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:iotfleetwise:. :[0-9] :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20039,7 +20064,7 @@
                 "GetRhelURL"
             ],
             "ARNFormat": "arn:${Partition}:rhelkb:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:rhelkb:.+",
+            "ARNRegex": "^arn:${Partition}:rhelkb:. ",
             "HasResource": false
         },
         "Amazon Route 53 Profiles": {
@@ -20065,7 +20090,7 @@
                 "UpdateProfileResourceAssociation"
             ],
             "ARNFormat": "arn:aws:route53profiles:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:route53profiles:.+:.+:.+",
+            "ARNRegex": "^arn:aws:route53profiles:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20093,8 +20118,8 @@
                 "TagResource",
                 "UntagResource"
             ],
-            "ARNFormat": "arn:aws:braket:${Region}:${Account}:.+",
-            "ARNRegex": "^arn:aws:braket:${Region}:${Account}:.+",
+            "ARNFormat": "arn:aws:braket:${Region}:${Account}:. ",
+            "ARNRegex": "^arn:aws:braket:${Region}:${Account}:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20146,7 +20171,7 @@
                 "UpdateIAMAccessPreference"
             ],
             "ARNFormat": "arn:aws:billing::${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:billing:.+",
+            "ARNRegex": "^arn:aws:billing:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20173,7 +20198,7 @@
                 "TerminateAgreement"
             ],
             "ARNFormat": "arn:aws:artifact:::${Resource}",
-            "ARNRegex": "^arn:aws:artifact::.+",
+            "ARNRegex": "^arn:aws:artifact::. ",
             "conditionKeys": [
                 "artifact:ReportCategory",
                 "artifact:ReportSeries"
@@ -20202,7 +20227,7 @@
                 "UpdateDbInstance"
             ],
             "ARNFormat": "arn:aws:timestream-influxdb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:timestream-influxdb:.+:.+:.+",
+            "ARNRegex": "^arn:aws:timestream-influxdb:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20247,7 +20272,7 @@
                 "VerifyPinData"
             ],
             "ARNFormat": "arn:aws:payment-cryptography:${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:payment-cryptography:.+",
+            "ARNRegex": "^arn:aws:payment-cryptography:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20292,7 +20317,7 @@
                 "UpdateApprovalTeam"
             ],
             "ARNFormat": "arn:aws:mpa:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:mpa:.+:.+:.+",
+            "ARNRegex": "^arn:aws:mpa:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20321,7 +20346,7 @@
                 "ViewPurchaseOrders"
             ],
             "ARNFormat": "arn:aws:purchase-orders::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:purchase-orders::.+:.+",
+            "ARNRegex": "^arn:aws:purchase-orders::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20377,7 +20402,7 @@
                 "UpdateVpcEndpoint"
             ],
             "ARNFormat": "arn:aws:aoss:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:aoss:.+",
+            "ARNRegex": "^arn:aws:aoss:. ",
             "conditionKeys": [
                 "aoss:CollectionId",
                 "aoss:collection",
@@ -20436,7 +20461,7 @@
                 "UpdateTeam"
             ],
             "ARNFormat": "arn:aws:honeycode:${Region}:${Account}:${ResourceType}:${ResourcePath}",
-            "ARNRegex": "^arn:aws:honeycode:.+:.+:.+",
+            "ARNRegex": "^arn:aws:honeycode:. :. :. ",
             "HasResource": true
         },
         "AWS Support Plans": {
@@ -20449,7 +20474,7 @@
                 "StartSupportPlanUpdate"
             ],
             "ARNFormat": "^arn:${Partition}:supportplans::${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:${Partition}:supportplans::.+:.+",
+            "ARNRegex": "^arn:${Partition}:supportplans::. :. ",
             "HasResource": false
         },
         "AWS Amplify UI Builder": {
@@ -20486,7 +20511,7 @@
                 "UpdateTheme"
             ],
             "ARNFormat": "arn:aws:amplifyuibuilder:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:amplifyuibuilder:.+:.+:.+",
+            "ARNRegex": "^arn:aws:amplifyuibuilder:. :. :. ",
             "conditionKeys": [
                 "amplifyuibuilder:CodegenJobResourceAppId",
                 "amplifyuibuilder:CodegenJobResourceEnvironmentName",
@@ -20586,7 +20611,7 @@
                 "UpdateUserSettings"
             ],
             "ARNFormat": "arn:aws:workspaces-web:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:workspaces-web:.+",
+            "ARNRegex": "^arn:aws:workspaces-web:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20612,7 +20637,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:snow-device-management:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:snow-device-management:.+:.+:.+/.+",
+            "ARNRegex": "^arn:aws:snow-device-management:. :. :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20635,7 +20660,7 @@
                 "UpdateRoutingRule"
             ],
             "ARNFormat": "arn:aws:apigateway:${Region}::${ApiGatewayResourcePath}",
-            "ARNRegex": "^arn:aws:apigateway:.+",
+            "ARNRegex": "^arn:aws:apigateway:. ",
             "conditionKeys": [
                 "apigateway:Request/AccessLoggingDestination",
                 "apigateway:Request/AccessLoggingFormat",
@@ -20692,7 +20717,7 @@
                 "UpdateRestApiPolicy"
             ],
             "ARNFormat": "arn:aws:apigateway:${Region}::${ApiGatewayResourcePath}",
-            "ARNRegex": "^arn:aws:apigateway:.+",
+            "ARNRegex": "^arn:aws:apigateway:. ",
             "conditionKeys": [
                 "apigateway:Request/AccessAssociationSource",
                 "apigateway:Request/AccessLoggingDestination",
@@ -20755,7 +20780,7 @@
                 "WriteDataIdempotently"
             ],
             "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceDescriptor}",
-            "ARNRegex": "^arn:aws:kafka:.+",
+            "ARNRegex": "^arn:aws:kafka:. ",
             "conditionKeys": [
                 "aws:ResourceTag/${TagKey}"
             ],
@@ -20771,7 +20796,7 @@
                 "StartTeamDeployment"
             ],
             "ARNFormat": "arn:aws:appstudio:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:appstudio:.+:.+:.+",
+            "ARNRegex": "^arn:aws:appstudio:. :. :. ",
             "HasResource": true
         },
         "AWS App Mesh": {
@@ -20821,7 +20846,7 @@
                 "UpdateVirtualService"
             ],
             "ARNFormat": "arn:aws:appmesh:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:appmesh:.+:.+:.+",
+            "ARNRegex": "^arn:aws:appmesh:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20851,7 +20876,7 @@
                 "UnTagResource"
             ],
             "ARNFormat": "arn:aws:codeguru-reviewer:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:codeguru-reviewer:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codeguru-reviewer:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20921,7 +20946,7 @@
                 "UpdateUser"
             ],
             "ARNFormat": "arn:aws:memorydb:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:memorydb:.+:.+:.+",
+            "ARNRegex": "^arn:aws:memorydb:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -20944,7 +20969,7 @@
                 "UpdateConfigurationSetEventDestination"
             ],
             "ARNFormat": "arn:aws:sms-voice:<region>:<account-id>:<resource-type>/<resource_name>",
-            "ARNRegex": "^arn:aws:sms-voice:.+:.+:.+",
+            "ARNRegex": "^arn:aws:sms-voice:. :. :. ",
             "HasResource": false
         },
         "AWS End User Messaging SMS and Voice V2": {
@@ -21042,7 +21067,7 @@
                 "VerifyDestinationNumber"
             ],
             "ARNFormat": "arn:aws:sms-voice:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:sms-voice:.+",
+            "ARNRegex": "^arn:aws:sms-voice:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21071,7 +21096,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:simspaceweaver:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:simspaceweaver:.+:.+:.+",
+            "ARNRegex": "^arn:aws:simspaceweaver:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21154,7 +21179,7 @@
                 "UpdateNotificationConfiguration"
             ],
             "ARNFormat": "arn:aws:notifications::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:notifications:.*:.+:.+",
+            "ARNRegex": "^arn:aws:notifications:.*:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21207,7 +21232,7 @@
                 "UpdateWorkspace"
             ],
             "ARNFormat": "arn:aws:iottwinmaker:${Region}:${Account}:${ResourceType}/${ResourceTypeId}",
-            "ARNRegex": "^arn:aws:iottwinmaker:.+:.+:.+",
+            "ARNRegex": "^arn:aws:iottwinmaker:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21262,7 +21287,7 @@
                 "UpdateVirtualService"
             ],
             "ARNFormat": "arn:aws:appmesh-preview:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:appmesh-preview:.+:.+:.+",
+            "ARNRegex": "^arn:aws:appmesh-preview:. :. :. ",
             "HasResource": true
         },
         "Amazon Kinesis Video Streams": {
@@ -21314,7 +21339,7 @@
                 "UpdateStream"
             ],
             "ARNFormat": "arn:aws:kinesisvideo:${Region}:${Account}:${ResourceType}/${ResourceName}/${CreationTime}",
-            "ARNRegex": "^arn:aws:kinesisvideo:.+",
+            "ARNRegex": "^arn:aws:kinesisvideo:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21330,7 +21355,7 @@
                 "ManageConnections"
             ],
             "ARNFormat": "arn:aws:execute-api:${Region}:${Account}:${ResourcePath}",
-            "ARNRegex": "^arn:aws:execute-api:.+",
+            "ARNRegex": "^arn:aws:execute-api:. ",
             "conditionKeys": [
                 "execute-api:viaDomainArn"
             ],
@@ -21372,7 +21397,7 @@
                 "UpdateServerConfig"
             ],
             "ARNFormat": "arn:${Partition}:iam:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:${ServiceName}:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:${ServiceName}:. :. :. ",
             "HasResource": false
         },
         "AWS CloudShell": {
@@ -21391,7 +21416,7 @@
                 "StopEnvironment"
             ],
             "ARNFormat": "arn:aws:cloudshell:${Region}:${Account}:environment/${EnvironmentId}",
-            "ARNRegex": "^arn:aws:cloudshell:${Region}:${Account}:environment/.+?",
+            "ARNRegex": "^arn:aws:cloudshell:${Region}:${Account}:environment/. ?",
             "conditionKeys": [
                 "cloudshell:SecurityGroupIds",
                 "cloudshell:SubnetIds",
@@ -21464,7 +21489,7 @@
                 "VerifyDevicePosition"
             ],
             "ARNFormat": "arn:aws:geo:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:geo:.+",
+            "ARNRegex": "^arn:aws:geo:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21534,7 +21559,7 @@
                 "VerifyMac"
             ],
             "ARNFormat": "arn:aws:kms:${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:kms:.+",
+            "ARNRegex": "^arn:aws:kms:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21632,7 +21657,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:cloudhsm:${Region}:${Account}:${ResourceName}",
-            "ARNRegex": "^arn:aws:cloudhsm:.+",
+            "ARNRegex": "^arn:aws:cloudhsm:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -21646,7 +21671,7 @@
                 "GetCodeGuruFreeTrialSummary"
             ],
             "ARNFormat": "arn:${Partition}:codeguru:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:${Partition}:codeguru:.+:.+:.+",
+            "ARNRegex": "^arn:${Partition}:codeguru:. :. :. ",
             "HasResource": false
         },
         "AWS Private CA Connector for SCEP": {
@@ -21666,7 +21691,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:pca-connector-scep:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:pca-connector-scep:.+:.+:.+",
+            "ARNRegex": "^arn:aws:pca-connector-scep:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22383,7 +22408,7 @@
                 "WithdrawByoipCidr"
             ],
             "ARNFormat": "arn:aws:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:ec2:.+",
+            "ARNRegex": "^arn:aws:ec2:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22562,7 +22587,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:sagemaker-geospatial:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:sagemaker-geospatial:.+:.+",
+            "ARNRegex": "^arn:aws:sagemaker-geospatial:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22613,7 +22638,7 @@
                 "UseConnection"
             ],
             "ARNFormat": "arn:aws:codeconnections:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:codeconnections:.+:.+:.+",
+            "ARNRegex": "^arn:aws:codeconnections:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22641,7 +22666,7 @@
                 "PutRawMessageContent"
             ],
             "ARNFormat": "arn:aws:workmailmessageflow:${Region}:${Account}:message/${OrganizationId}/${Context}/${MessageId}",
-            "ARNRegex": "^arn:aws:workmailmessageflow:.+:.+:.+",
+            "ARNRegex": "^arn:aws:workmailmessageflow:. :. :. ",
             "HasResource": true
         },
         "AWS Recycle Bin": {
@@ -22659,7 +22684,7 @@
                 "UpdateRule"
             ],
             "ARNFormat": "arn:aws:rbin:${Region}:${Account}:rule/${ResourceName}",
-            "ARNRegex": "^arn:aws:rbin:.+:.+:.+",
+            "ARNRegex": "^arn:aws:rbin:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22713,7 +22738,7 @@
                 "UpdateSlackChannelConfiguration"
             ],
             "ARNFormat": "arn:aws:chatbot::${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:chatbot:.+",
+            "ARNRegex": "^arn:aws:chatbot:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22760,7 +22785,7 @@
                 "UpdateWorkflowStepGroup"
             ],
             "ARNFormat": "arn:aws:migrationhub-orchestrator:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:migrationhub-orchestrator:.+:.+:.+",
+            "ARNRegex": "^arn:aws:migrationhub-orchestrator:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22891,7 +22916,7 @@
                 "ValidateMatchmakingRuleSet"
             ],
             "ARNFormat": "arn:aws:gamelift:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:gamelift:.+",
+            "ARNRegex": "^arn:aws:gamelift:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22927,7 +22952,7 @@
                 "UpdatePlanExecutionStep"
             ],
             "ARNFormat": "arn:aws:arc-region-switch:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:arc-region-switch:.+:.+:.+",
+            "ARNRegex": "^arn:aws:arc-region-switch:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -22959,7 +22984,7 @@
                 "UpdateServerEngineAttributes"
             ],
             "ARNFormat": "arn:aws:opsworks-cm:<region>:<account>:<resourceType>/<id>",
-            "ARNRegex": "^arn:aws:opsworks-cm:.+:[0-9]+:.+",
+            "ARNRegex": "^arn:aws:opsworks-cm:. :[0-9] :. ",
             "HasResource": true
         },
         "Amazon Interactive Video Service Chat": {
@@ -22984,7 +23009,7 @@
                 "UpdateRoom"
             ],
             "ARNFormat": "arn:aws:ivschat:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ivschat:.+:.+:.+",
+            "ARNRegex": "^arn:aws:ivschat:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23003,7 +23028,7 @@
                 "StartSnapshot"
             ],
             "ARNFormat": "arn:aws:ebs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:ebs:.+",
+            "ARNRegex": "^arn:aws:ebs:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23043,7 +23068,7 @@
                 "UpdateSecurityProfileSnapshotReleaseConfiguration"
             ],
             "ARNFormat": "arn:aws:vendor-insights:::${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:vendor-insights:.+",
+            "ARNRegex": "^arn:aws:vendor-insights:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23059,7 +23084,7 @@
                 "ListTags"
             ],
             "ARNFormat": "arn:${Partition}:resource-explorer:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:resource-explorer:.+",
+            "ARNRegex": "^arn:aws:resource-explorer:. ",
             "HasResource": false
         },
         "Amazon CloudWatch Network Synthetic Monitor": {
@@ -23079,7 +23104,7 @@
                 "UpdateProbe"
             ],
             "ARNFormat": "arn:aws:networkmonitor:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:networkmonitor:.+:.+:.+",
+            "ARNRegex": "^arn:aws:networkmonitor:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23111,7 +23136,7 @@
                 "UpdateParallelData"
             ],
             "ARNFormat": "arn:aws:translate:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:translate:.+:.+:.+",
+            "ARNRegex": "^arn:aws:translate:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23205,7 +23230,7 @@
                 "UpdateXssMatchSet"
             ],
             "ARNFormat": "arn:aws:waf-regional:${Region}:${Account}:${ResourceId}/${Id}",
-            "ARNRegex": "^arn:aws:waf-regional:.+:[0-9]+:.+/.+",
+            "ARNRegex": "^arn:aws:waf-regional:. :[0-9] :. /. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23280,7 +23305,7 @@
                 "UpdateTaskSet"
             ],
             "ARNFormat": "arn:aws:ecs:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:ecs:.+",
+            "ARNRegex": "^arn:aws:ecs:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23369,7 +23394,7 @@
                 "ValidatePullThroughCacheRule"
             ],
             "ARNFormat": "arn:aws:ecr:${Region}:${Account}:repository/${RepositoryName}",
-            "ARNRegex": "^arn:aws:ecr:.+",
+            "ARNRegex": "^arn:aws:ecr:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23414,7 +23439,7 @@
                 "UpdateSubnetGroup"
             ],
             "ARNFormat": "arn:aws:dax:${Region}:${Account}:cache/${ClusterName}",
-            "ARNRegex": "^arn:aws:dax:.+:[0-9]+:cache/[a-zA-Z0-9_.-]+",
+            "ARNRegex": "^arn:aws:dax:. :[0-9] :cache/[a-zA-Z0-9_.-] ",
             "conditionKeys": [
                 "dax:EnclosingOperation"
             ],
@@ -23504,7 +23529,7 @@
                 "UpdateWorkgroup"
             ],
             "ARNFormat": "arn:aws:redshift-serverless:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:redshift-serverless:.+:.+:.+",
+            "ARNRegex": "^arn:aws:redshift-serverless:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23551,7 +23576,7 @@
                 "UpdateHypervisor"
             ],
             "ARNFormat": "arn:aws:backup-gateway:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:*:backup-gateway:.+:.+:.+",
+            "ARNRegex": "^arn:aws:*:backup-gateway:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23681,7 +23706,7 @@
                 "UpdateTagOption"
             ],
             "ARNFormat": "arn:aws:(catalog|servicecatalog):${Region}:${Account}:${ResourceType}/${Id}",
-            "ARNRegex": "^arn:aws:(catalog|servicecatalog):.+",
+            "ARNRegex": "^arn:aws:(catalog|servicecatalog):. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23764,7 +23789,7 @@
                 "UpdateLandingZone"
             ],
             "ARNFormat": "arn:aws:controltower:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:controltower:.+:.+:.+",
+            "ARNRegex": "^arn:aws:controltower:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23828,7 +23853,7 @@
                 "UpdateStudioComponent"
             ],
             "ARNFormat": "arn:aws:nimble:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:nimble:.+:.+:.+",
+            "ARNRegex": "^arn:aws:nimble:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23895,7 +23920,7 @@
                 "WriteGetObjectResponse"
             ],
             "ARNFormat": "arn:aws:s3-object-lambda:::accesspoint/${AccessPointName}",
-            "ARNRegex": "^arn:aws:s3-object-lambda:::.+",
+            "ARNRegex": "^arn:aws:s3-object-lambda:::. ",
             "conditionKeys": [
                 "s3-object-lambda:TlsVersion",
                 "s3-object-lambda:authType",
@@ -23938,7 +23963,7 @@
                 "UpdateUserSettings"
             ],
             "ARNFormat": "arn:aws:cloud9:${Region}:${Account}:${ResourceType}:${ResourceId}",
-            "ARNRegex": "^arn:aws:cloud9:.+:[0-9]+:.+:.+",
+            "ARNRegex": "^arn:aws:cloud9:. :[0-9] :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -23972,7 +23997,7 @@
                 "UpdateQuote"
             ],
             "ARNFormat": "arn:aws:elemental-appliances-software::${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:elemental-appliances-software::.+:.+",
+            "ARNRegex": "^arn:aws:elemental-appliances-software::. :. ",
             "HasResource": true
         },
         "Amazon Detective": {
@@ -24016,7 +24041,7 @@
                 "UpdateOrganizationConfiguration"
             ],
             "ARNFormat": "arn:aws:detective:${Region}:${Account}:graph:${GraphId}",
-            "ARNRegex": "^arn:aws:detective:.+",
+            "ARNRegex": "^arn:aws:detective:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24100,7 +24125,7 @@
                 "UpdateWebAppCustomization"
             ],
             "ARNFormat": "arn:aws:transfer:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:transfer:.+:.+:.+",
+            "ARNRegex": "^arn:aws:transfer:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24148,7 +24173,7 @@
                 "ValidatePolicy"
             ],
             "ARNFormat": "arn:aws:access-analyzer:${Region}:${Account}:analyzer/${AnalyzerName}",
-            "ARNRegex": "^arn:aws:access-analyzer:.+",
+            "ARNRegex": "^arn:aws:access-analyzer:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24189,7 +24214,7 @@
                 "UpdateImageSetMetadata"
             ],
             "ARNFormat": "arn:aws:medical-imaging:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:medical-imaging:.+:.+:.+",
+            "ARNRegex": "^arn:aws:medical-imaging:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24211,7 +24236,7 @@
                 "UpdateRescoreExecutionPlan"
             ],
             "ARNFormat": "arn:aws:kendra-ranking:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:kendra-ranking:.+:.+:.+",
+            "ARNRegex": "^arn:aws:kendra-ranking:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24259,7 +24284,7 @@
                 "UpdateEventIntegration"
             ],
             "ARNFormat": "arn:aws:app-integrations:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:app-integrations:.+:.+:.+",
+            "ARNRegex": "^arn:aws:app-integrations:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24338,7 +24363,7 @@
                 "UpdateUser"
             ],
             "ARNFormat": "arn:aws:finspace:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:finspace:.+",
+            "ARNRegex": "^arn:aws:finspace:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24367,7 +24392,7 @@
                 "UpdateBatch"
             ],
             "ARNFormat": "arn:${Partition}:groundtruthlabeling:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:${Partition}:groundtruthlabeling:.+",
+            "ARNRegex": "^arn:${Partition}:groundtruthlabeling:. ",
             "HasResource": false
         },
         "Amazon S3 on Outposts": {
@@ -24423,7 +24448,7 @@
                 "ReplicateTags"
             ],
             "ARNFormat": "arn:aws:s3-outposts:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:s3-outposts:.+",
+            "ARNRegex": "^arn:aws:s3-outposts:. ",
             "conditionKeys": [
                 "s3-outposts:AccessPointNetworkOrigin",
                 "s3-outposts:DataAccessPointAccount",
@@ -24478,7 +24503,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:mediastore:${Region}:${Account}:${Resource}",
-            "ARNRegex": "^arn:aws:mediastore:.+:.+",
+            "ARNRegex": "^arn:aws:mediastore:. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24515,7 +24540,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:s3express:${Region}:${Account}:bucket/${BucketName}",
-            "ARNRegex": "^arn:aws:s3express:${Region}:${Account}:bucket/.+",
+            "ARNRegex": "^arn:aws:s3express:${Region}:${Account}:bucket/. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24557,7 +24582,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:backup-search:${Region}:${Account}:${ResourceType}:${ResourceName}",
-            "ARNRegex": "^arn:aws:backup-search:.+:.+:.+",
+            "ARNRegex": "^arn:aws:backup-search:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24587,7 +24612,7 @@
                 "UpdateWorkItemAdmin"
             ],
             "ARNFormat": "arn:aws:bugbust:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:bugbust:.+:.+:.+",
+            "ARNRegex": "^arn:aws:bugbust:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24629,7 +24654,7 @@
                 "VersionReadResource"
             ],
             "ARNFormat": "arn:aws:healthlake:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:healthlake:.+:.+:.+",
+            "ARNRegex": "^arn:aws:healthlake:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24669,7 +24694,7 @@
                 "UpdateView"
             ],
             "ARNFormat": "arn:aws:resource-explorer-2:${Region}:${Account}:${ResourceType}/${ResourceIdentifier}",
-            "ARNRegex": "^arn:aws:resource-explorer-2:.+:.+:.+",
+            "ARNRegex": "^arn:aws:resource-explorer-2:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24764,7 +24789,7 @@
                 "UpdateWorkloadIdentity"
             ],
             "ARNFormat": "arn:aws:bedrock-agentcore:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:bedrock-agentcore:.+:.+:.+",
+            "ARNRegex": "^arn:aws:bedrock-agentcore:. :. :. ",
             "conditionKeys": [
                 "bedrock-agentcore:actorId",
                 "bedrock-agentcore:namespace",
@@ -24796,7 +24821,7 @@
                 "UpdateConnector"
             ],
             "ARNFormat": "arn:aws:kafkaconnect:${Region}:${Account}:${ResourceType}/${ResourceName}/${UUID}",
-            "ARNRegex": "^arn:aws:kafkaconnect:.+",
+            "ARNRegex": "^arn:aws:kafkaconnect:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24845,7 +24870,7 @@
                 "WriteDataViaQuery"
             ],
             "ARNFormat": "arn:aws:neptune-graph:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:neptune-graph:.+",
+            "ARNRegex": "^arn:aws:neptune-graph:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -24934,7 +24959,7 @@
                 "UpdateLifecyclePolicy"
             ],
             "ARNFormat": "arn:aws:imagebuilder:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:imagebuilder:.+:.+:.+",
+            "ARNRegex": "^arn:aws:imagebuilder:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25000,7 +25025,7 @@
                 "UploadMultipartPart"
             ],
             "ARNFormat": "arn:aws:glacier:${Region}:${Account}:vault/${VaultName}",
-            "ARNRegex": "^arn:aws:glacier:.+:.+:.+",
+            "ARNRegex": "^arn:aws:glacier:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:TagKeys",
@@ -25090,7 +25115,7 @@
                 "UpdateStreamProcessor"
             ],
             "ARNFormat": "arn:aws:rekognition:${Region}:${Account}:${RelativeId}",
-            "ARNRegex": "^arn:aws:rekognition:.+",
+            "ARNRegex": "^arn:aws:rekognition:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25114,7 +25139,7 @@
                 "UpdateServiceSettings"
             ],
             "ARNFormat": "arn:aws:license-manager-linux-subscriptions:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:license-manager-linux-subscriptions:.+:.+:.+",
+            "ARNRegex": "^arn:aws:license-manager-linux-subscriptions:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25158,7 +25183,7 @@
                 "UpdateQueue"
             ],
             "ARNFormat": "arn:aws:mediaconvert:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:mediaconvert:.+",
+            "ARNRegex": "^arn:aws:mediaconvert:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25194,7 +25219,7 @@
                 "UntagResource"
             ],
             "ARNFormat": "arn:aws:servicequotas:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:servicequotas:.+",
+            "ARNRegex": "^arn:aws:servicequotas:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25267,7 +25292,7 @@
                 "UpdateWorldTemplate"
             ],
             "ARNFormat": "arn:aws:robomaker:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:robomaker:.+:.+:.+",
+            "ARNRegex": "^arn:aws:robomaker:. :. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25315,7 +25340,7 @@
                 "UpdateLedgerPermissionsMode"
             ],
             "ARNFormat": "arn:aws:qldb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
-            "ARNRegex": "^arn:aws:qldb:.+",
+            "ARNRegex": "^arn:aws:qldb:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25392,7 +25417,7 @@
                 "UpdateVirtualInterfaceAttributes"
             ],
             "ARNFormat": "arn:aws:directconnect:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:directconnect:.+",
+            "ARNRegex": "^arn:aws:directconnect:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25471,7 +25496,7 @@
                 "UpdateTaskExecution"
             ],
             "ARNFormat": "arn:aws:datasync:${Region}:${Account}:${ResourceType}/${ResourceName}",
-            "ARNRegex": "^arn:aws:datasync:.+",
+            "ARNRegex": "^arn:aws:datasync:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25498,7 +25523,7 @@
                 "UpdateServiceSettings"
             ],
             "ARNFormat": "arn:aws:ssm-quicksetup:${Region}:${Account}:${ResourceType}/${ResourceId}",
-            "ARNRegex": "^arn:aws:ssm-quicksetup:.+",
+            "ARNRegex": "^arn:aws:ssm-quicksetup:. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25566,7 +25591,7 @@
                 "UpdatePolicy"
             ],
             "ARNFormat": "arn:aws:organizations::${Account}:${Resource}/o-${OrganizationId}(/${ResourceType}/${ResourceId})?",
-            "ARNRegex": "^arn:aws:organizations::.+:.+",
+            "ARNRegex": "^arn:aws:organizations::. :. ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25614,7 +25639,7 @@
                 "UpdateTableMetadataLocation"
             ],
             "ARNFormat": "arn:aws:s3tables:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:s3tables:.+",
+            "ARNRegex": "^arn:aws:s3tables:. ",
             "conditionKeys": [
                 "s3tables:KMSKeyArn",
                 "s3tables:SSEAlgorithm",
@@ -25661,7 +25686,7 @@
                 "UpdateApplicationMaintenanceConfiguration"
             ],
             "ARNFormat": "arn:aws:kinesisanalytics:${Region}:${Account}:application/${ApplicationName}",
-            "ARNRegex": "^arn:aws:kinesisanalytics:.+:[0-9]+:application/[a-zA-Z0-9_.-]+",
+            "ARNRegex": "^arn:aws:kinesisanalytics:. :[0-9] :application/[a-zA-Z0-9_.-] ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25691,7 +25716,7 @@
                 "UpdateApplication"
             ],
             "ARNFormat": "arn:aws:kinesisanalytics:${Region}:${Account}:application/${ApplicationName}",
-            "ARNRegex": "^arn:aws:kinesisanalytics:.+:[0-9]+:application/[a-zA-Z0-9_.-]+",
+            "ARNRegex": "^arn:aws:kinesisanalytics:. :[0-9] :application/[a-zA-Z0-9_.-] ",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
@@ -25719,7 +25744,7 @@
                 "StartPrimaryEmailUpdate"
             ],
             "ARNFormat": "arn:aws:account::${Account}:account",
-            "ARNRegex": "^arn:aws:account::.+:account",
+            "ARNRegex": "^arn:aws:account::. :account",
             "conditionKeys": [
                 "account:AccountResourceOrgPaths",
                 "account:AccountResourceOrgTags/${TagKey}",
