@@ -18401,6 +18401,7 @@
                 "GetCluster",
                 "GetRestoreJob",
                 "GetVpcEndpointServiceName",
+                "InjectError",
                 "ListClusters",
                 "ListTagsForResource",
                 "PutMultiRegionProperties",
@@ -18420,6 +18421,8 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "dsql:FisActionId",
+                "dsql:FisTargetArns",
                 "dsql:WitnessRegion"
             ],
             "HasResource": true
