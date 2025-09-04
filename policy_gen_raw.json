@@ -5885,6 +5885,7 @@
                 "BatchGetSchemaAnalysisRule",
                 "CreateAnalysisTemplate",
                 "CreateCollaboration",
+                "CreateCollaborationChangeRequest",
                 "CreateConfiguredAudienceModelAssociation",
                 "CreateConfiguredTable",
                 "CreateConfiguredTableAnalysisRule",
@@ -5909,6 +5910,7 @@
                 "GetAnalysisTemplate",
                 "GetCollaboration",
                 "GetCollaborationAnalysisTemplate",
+                "GetCollaborationChangeRequest",
                 "GetCollaborationConfiguredAudienceModelAssociation",
                 "GetCollaborationIdNamespaceAssociation",
                 "GetCollaborationPrivacyBudgetTemplate",
@@ -5927,6 +5929,7 @@
                 "GetSchemaAnalysisRule",
                 "ListAnalysisTemplates",
                 "ListCollaborationAnalysisTemplates",
+                "ListCollaborationChangeRequests",
                 "ListCollaborationConfiguredAudienceModelAssociations",
                 "ListCollaborationIdNamespaceAssociations",
                 "ListCollaborationPrivacyBudgetTemplates",
@@ -11522,6 +11525,7 @@
                 "Promote",
                 "RebootBroker",
                 "UpdateBroker",
+                "UpdateBrokerAccessConfiguration",
                 "UpdateConfiguration",
                 "UpdateUser"
             ],
@@ -16640,7 +16644,9 @@
                 "iam:PermissionsBoundary",
                 "iam:PolicyARN",
                 "iam:RegisterSecurityKey",
-                "iam:ResourceTag/${TagKey}"
+                "iam:ResourceTag/${TagKey}",
+                "iam:ServiceSpecificCredentialAgeDays",
+                "iam:ServiceSpecificCredentialServiceName"
             ],
             "HasResource": true
         },
