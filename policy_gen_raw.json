@@ -1536,9 +1536,11 @@
             "Actions": [
                 "CreateGroup",
                 "CreateGroupMembership",
+                "CreateIdentityStore",
                 "CreateUser",
                 "DeleteGroup",
                 "DeleteGroupMembership",
+                "DeleteIdentityStore",
                 "DeleteUser",
                 "DescribeGroup",
                 "DescribeGroupMembership",
@@ -1552,6 +1554,7 @@
                 "ListGroups",
                 "ListUsers",
                 "UpdateGroup",
+                "UpdateIdentityStore",
                 "UpdateUser"
             ],
             "ARNFormat": "arn:aws:identitystore::${Account}:${ResourceType}/${ResourceId}",
