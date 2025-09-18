@@ -12544,10 +12544,12 @@
         "Amazon Elastic VMware Service": {
             "StringPrefix": "evs",
             "Actions": [
+                "AssociateEipToVlan",
                 "CreateEnvironment",
                 "CreateEnvironmentHost",
                 "DeleteEnvironment",
                 "DeleteEnvironmentHost",
+                "DisassociateEipFromVlan",
                 "GetEnvironment",
                 "ListEnvironmentHosts",
                 "ListEnvironmentVlans",
@@ -17652,7 +17654,6 @@
                 "DescribeCustomWorkspaceImageImport",
                 "DescribeImageAssociations",
                 "DescribeIpGroups",
-                "DescribeRootClientCertificates",
                 "DescribeTags",
                 "DescribeWorkspaceAssociations",
                 "DescribeWorkspaceBundles",
