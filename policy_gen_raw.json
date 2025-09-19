@@ -9557,6 +9557,7 @@
                 "BatchDeleteEvaluationJob",
                 "CallWithBearerToken",
                 "CancelAutomatedReasoningPolicyBuildWorkflow",
+                "CountTokens",
                 "CreateAgent",
                 "CreateAgentActionGroup",
                 "CreateAgentAlias",
