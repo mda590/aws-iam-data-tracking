@@ -20237,9 +20237,11 @@
         "AWS Billing": {
             "StringPrefix": "billing",
             "Actions": [
+                "AssociateSourceViews",
                 "CreateBillingView",
                 "DeleteBillingView",
                 "DeleteResourcePolicy",
+                "DisassociateSourceViews",
                 "GetBillingData",
                 "GetBillingDetails",
                 "GetBillingNotifications",
@@ -20261,7 +20263,8 @@
                 "UntagResource",
                 "UpdateBillingPreferences",
                 "UpdateBillingView",
-                "UpdateIAMAccessPreference"
+                "UpdateIAMAccessPreference",
+                "UseSourceView"
             ],
             "ARNFormat": "arn:aws:billing::${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:billing:.+",
