@@ -17545,7 +17545,9 @@
         "AWS IAM Identity Center OIDC service": {
             "StringPrefix": "sso-oauth",
             "Actions": [
-                "CreateTokenWithIAM"
+                "CreateTokenWithIAM",
+                "IntrospectTokenWithIAM",
+                "RevokeTokenWithIAM"
             ],
             "ARNFormat": "arn:aws:sso:::${RelativeId}",
             "ARNRegex": "^arn:aws:sso:::.+",
