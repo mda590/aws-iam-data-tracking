@@ -24285,7 +24285,11 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "transfer:RequestConnectorProtocol",
+                "transfer:RequestServerDomain",
+                "transfer:RequestServerEndpointType",
+                "transfer:RequestServerProtocols"
             ],
             "HasResource": true
         },
