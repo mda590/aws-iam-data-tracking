@@ -124,7 +124,6 @@ AWS Identity and Access Management Roles Anywhere
 AWS Import Export Disk Service
 AWS Invoicing Service
 AWS IoT
-AWS IoT 1-Click
 AWS IoT Analytics
 AWS IoT Core Device Advisor
 AWS IoT Device Tester
