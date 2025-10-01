@@ -6854,6 +6854,7 @@
                 "RegisterComputeNodeGroupInstance",
                 "TagResource",
                 "UntagResource",
+                "UpdateCluster",
                 "UpdateComputeNodeGroup",
                 "UpdateQueue"
             ],
