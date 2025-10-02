@@ -23418,8 +23418,8 @@
                 "UpdateTaskProtection",
                 "UpdateTaskSet"
             ],
-            "ARNFormat": "arn:aws:ecs:${Region}:${Account}:${ResourceType}/${RelativeId}",
-            "ARNRegex": "^arn:aws:ecs:.+",
+            "ARNFormat": "arn:aws:ecs:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:ecs:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
