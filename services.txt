@@ -12,7 +12,6 @@ AWS AppConfig
 AWS AppFabric
 AWS AppSync
 AWS Application Auto Scaling
-AWS Application Cost Profiler Service
 AWS Application Discovery Service
 AWS Application Migration Service
 AWS Application Transformation Service
