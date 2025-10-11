@@ -25377,6 +25377,7 @@
                 "DisassociateServiceQuotaTemplate",
                 "GetAWSDefaultServiceQuota",
                 "GetAssociationForServiceQuotaTemplate",
+                "GetAutoManagementConfiguration",
                 "GetRequestedServiceQuotaChange",
                 "GetServiceQuota",
                 "GetServiceQuotaIncreaseRequestFromTemplate",
@@ -25389,8 +25390,11 @@
                 "ListTagsForResource",
                 "PutServiceQuotaIncreaseRequestIntoTemplate",
                 "RequestServiceQuotaIncrease",
+                "StartAutoManagement",
+                "StopAutoManagement",
                 "TagResource",
-                "UntagResource"
+                "UntagResource",
+                "UpdateAutoManagement"
             ],
             "ARNFormat": "arn:aws:servicequotas:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:servicequotas:.+",
