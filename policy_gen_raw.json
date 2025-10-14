@@ -24870,6 +24870,7 @@
                 "BatchCreateMemoryRecords",
                 "BatchDeleteMemoryRecords",
                 "BatchUpdateMemoryRecords",
+                "CompleteResourceTokenAuth",
                 "ConnectBrowserAutomationStream",
                 "ConnectBrowserLiveViewStream",
                 "CreateAgentRuntime",
@@ -24965,10 +24966,16 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "bedrock-agentcore:GatewayAuthorizerType",
+                "bedrock-agentcore:InboundJwtClaim/aud",
+                "bedrock-agentcore:InboundJwtClaim/client_id",
+                "bedrock-agentcore:InboundJwtClaim/iss",
+                "bedrock-agentcore:InboundJwtClaim/scope",
+                "bedrock-agentcore:InboundJwtClaim/sub",
                 "bedrock-agentcore:actorId",
                 "bedrock-agentcore:namespace",
                 "bedrock-agentcore:sessionId",
-                "bedrock-agentcore:strategyId"
+                "bedrock-agentcore:strategyId",
+                "bedrock-agentcore:userid"
             ],
             "HasResource": true
         },
