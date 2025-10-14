@@ -24973,8 +24973,10 @@
                 "bedrock-agentcore:InboundJwtClaim/sub",
                 "bedrock-agentcore:actorId",
                 "bedrock-agentcore:namespace",
+                "bedrock-agentcore:securityGroups",
                 "bedrock-agentcore:sessionId",
                 "bedrock-agentcore:strategyId",
+                "bedrock-agentcore:subnets",
                 "bedrock-agentcore:userid"
             ],
             "HasResource": true
