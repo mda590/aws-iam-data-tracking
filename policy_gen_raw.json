@@ -3909,6 +3909,7 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "logs:LogGeneratingResourceArns",
                 "xray:ResourcePolicyName",
                 "xray:TraceSegmentDestination"
             ],
