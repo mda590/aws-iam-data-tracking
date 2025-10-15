@@ -4157,6 +4157,7 @@
                 "ListPodIdentityAssociations",
                 "ListTagsForResource",
                 "ListUpdates",
+                "MutateViaKubernetesApi",
                 "RegisterCluster",
                 "StartInsightsRefresh",
                 "TagResource",
