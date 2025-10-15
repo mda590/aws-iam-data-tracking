@@ -4292,6 +4292,7 @@
                 "GetResourcePolicy",
                 "GetShardIterator",
                 "IncreaseStreamRetentionPeriod",
+                "InjectApiError",
                 "ListShards",
                 "ListStreamConsumers",
                 "ListStreams",
@@ -4317,7 +4318,10 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "kinesis:FisActionId",
+                "kinesis:FisInjectPercentage",
+                "kinesis:FisTargetArns"
             ],
             "HasResource": true
         },
