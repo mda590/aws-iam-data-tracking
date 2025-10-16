@@ -208,6 +208,13 @@
             ],
             "HasResource": true
         },
+        "AWS Action Recommendations": {
+            "StringPrefix": "action-recommendations",
+            "Actions": [
+                "ListRecommendedActions"
+            ],
+            "HasResource": false
+        },
         "AWS IoT": {
             "StringPrefix": "iot",
             "Actions": [
