@@ -8687,7 +8687,8 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateCloudExadataInfrastructure",
-                "UpdateOdbNetwork"
+                "UpdateOdbNetwork",
+                "UpdateOdbPeeringConnection"
             ],
             "ARNFormat": "arn:aws:odb:${Region}:${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:odb:.+:.+:.+",
