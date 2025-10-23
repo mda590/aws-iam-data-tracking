@@ -20907,6 +20907,52 @@
             ],
             "HasResource": true
         },
+        "AWS RTB Fabric": {
+            "StringPrefix": "rtbfabric",
+            "Actions": [
+                "AcceptLink",
+                "CreateInboundExternalLink",
+                "CreateLink",
+                "CreateOutboundExternalLink",
+                "CreateRequesterGateway",
+                "CreateResponderGateway",
+                "DeleteInboundExternalLink",
+                "DeleteLink",
+                "DeleteOutboundExternalLink",
+                "DeleteRequesterGateway",
+                "DeleteResponderGateway",
+                "GetInboundExternalLink",
+                "GetLink",
+                "GetOutboundExternalLink",
+                "GetRequesterGateway",
+                "GetResponderGateway",
+                "ListLinks",
+                "ListRequesterGateways",
+                "ListResponderGateways",
+                "ListTagsForResource",
+                "RejectLink",
+                "TagResource",
+                "UntagResource",
+                "UpdateLink",
+                "UpdateLinkModuleFlow",
+                "UpdateRequesterGateway",
+                "UpdateResponderGateway"
+            ],
+            "ARNFormat": "arn:aws:rtbfabric:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:rtbfabric:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "rtbfabric:InboundExternalLinkGatewayId",
+                "rtbfabric:InboundExternalLinkLinkId",
+                "rtbfabric:LinkLinkId",
+                "rtbfabric:OutboundExternalLinkLinkId",
+                "rtbfabric:RequesterGatewayGatewayId",
+                "rtbfabric:ResponderGatewayGatewayId"
+            ],
+            "HasResource": true
+        },
         "AWS App Studio": {
             "StringPrefix": "appstudio",
             "Actions": [

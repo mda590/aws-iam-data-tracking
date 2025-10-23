@@ -187,6 +187,7 @@ AWS Private Certificate Authority
 AWS PrivateLink
 AWS Proton
 AWS Purchase Orders Console
+AWS RTB Fabric
 AWS Recycle Bin
 AWS Resilience Hub
 AWS Resource Access Manager (RAM)
