@@ -4318,6 +4318,7 @@
                 "SubscribeToShard",
                 "TagResource",
                 "UntagResource",
+                "UpdateMaxRecordSize",
                 "UpdateShardCount",
                 "UpdateStreamMode"
             ],
@@ -18443,6 +18444,7 @@
                 "GetInteraction",
                 "InitiateCallForCase",
                 "InitiateChatForCase",
+                "InitiateLiveContactForCase",
                 "PutCaseAttributes",
                 "RateCaseCommunication",
                 "RefreshTrustedAdvisorCheck",
