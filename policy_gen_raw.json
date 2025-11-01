@@ -9727,6 +9727,7 @@
                 "InvokeInlineAgent",
                 "InvokeModel",
                 "InvokeModelWithResponseStream",
+                "InvokeTool",
                 "ListAgentActionGroups",
                 "ListAgentAliases",
                 "ListAgentCollaborators",
