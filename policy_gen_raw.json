@@ -4290,6 +4290,7 @@
                 "DeleteResourcePolicy",
                 "DeleteStream",
                 "DeregisterStreamConsumer",
+                "DescribeAccountSettings",
                 "DescribeLimits",
                 "DescribeStream",
                 "DescribeStreamConsumer",
@@ -4318,9 +4319,11 @@
                 "SubscribeToShard",
                 "TagResource",
                 "UntagResource",
+                "UpdateAccountSettings",
                 "UpdateMaxRecordSize",
                 "UpdateShardCount",
-                "UpdateStreamMode"
+                "UpdateStreamMode",
+                "UpdateStreamWarmThroughput"
             ],
             "ARNFormat": "arn:aws:kinesis:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:kinesis:.+",
@@ -14686,6 +14689,11 @@
             ],
             "ARNFormat": "arn:aws:mediaconnect:${Region}:${Account}:${Namespace}:${RelativeId}:${RelativeName}",
             "ARNRegex": "^arn:aws:mediaconnect:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon S3": {
