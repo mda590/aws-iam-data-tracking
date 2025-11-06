@@ -3355,6 +3355,8 @@
                 "GetAccountState",
                 "GetBanner",
                 "GetCaseDraft",
+                "GetIssueClassificationPredictions",
+                "GetIssueTextSummary",
                 "GetQuestionnaire",
                 "SaveFeedback"
             ],
