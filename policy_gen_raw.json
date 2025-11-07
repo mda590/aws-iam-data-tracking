@@ -25963,6 +25963,7 @@
                 "ListNamespaces",
                 "ListTableBuckets",
                 "ListTables",
+                "ListTagsForResource",
                 "PutTableBucketEncryption",
                 "PutTableBucketMaintenanceConfiguration",
                 "PutTableBucketPolicy",
@@ -25971,13 +25972,19 @@
                 "PutTableMaintenanceConfiguration",
                 "PutTablePolicy",
                 "RenameTable",
+                "TagResource",
+                "UntagResource",
                 "UpdateTableMetadataLocation"
             ],
             "ARNFormat": "arn:aws:s3tables:${Region}:${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:s3tables:.+",
             "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
                 "s3tables:KMSKeyArn",
                 "s3tables:SSEAlgorithm",
+                "s3tables:TableBucketTag/${TagKey}",
                 "s3tables:namespace",
                 "s3tables:tableName"
             ],
