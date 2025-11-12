@@ -1233,6 +1233,7 @@
                 "TestDNSAnswer",
                 "UpdateHealthCheck",
                 "UpdateHostedZoneComment",
+                "UpdateHostedZoneFeatures",
                 "UpdateTrafficPolicyComment",
                 "UpdateTrafficPolicyInstance"
             ],
