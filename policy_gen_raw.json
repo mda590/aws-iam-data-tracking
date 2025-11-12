@@ -2384,6 +2384,7 @@
                 "SearchVocabularies",
                 "SendChatIntegrationEvent",
                 "SendIntegrationEvent",
+                "SendOutboundChatMessage",
                 "SendOutboundEmail",
                 "StartAttachedFileUpload",
                 "StartChatContact",
