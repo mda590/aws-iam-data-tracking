@@ -7873,6 +7873,8 @@
                 "ApplyPendingMaintenanceAction",
                 "AssociateExtensionPack",
                 "BatchStartRecommendations",
+                "CancelMetadataModelConversion",
+                "CancelMetadataModelCreation",
                 "CancelReplicationTaskAssessmentRun",
                 "CreateDataMigration",
                 "CreateDataProvider",
@@ -7918,6 +7920,9 @@
                 "DescribeFleetAdvisorLsaAnalysis",
                 "DescribeFleetAdvisorSchemaObjectSummary",
                 "DescribeFleetAdvisorSchemas",
+                "DescribeMetadataModel",
+                "DescribeMetadataModelChildren",
+                "DescribeMetadataModelCreations",
                 "DescribeMetadataModelImports",
                 "DescribeOrderableReplicationInstances",
                 "DescribePendingMaintenanceActions",
@@ -7937,6 +7942,7 @@
                 "DescribeSchemas",
                 "DescribeTableStatistics",
                 "ExportMetadataModelAssessment",
+                "GetTargetSelectionRules",
                 "ImportCertificate",
                 "ListDataProviders",
                 "ListExtensionPacks",
@@ -7966,6 +7972,7 @@
                 "StartDataMigration",
                 "StartMetadataModelAssessment",
                 "StartMetadataModelConversion",
+                "StartMetadataModelCreation",
                 "StartMetadataModelExportAsScripts",
                 "StartMetadataModelExportToTarget",
                 "StartMetadataModelImport",
@@ -15581,6 +15588,17 @@
             "conditionKeys": [
                 "lakeformation:EnabledOnlyForMetaDataAccess"
             ],
+            "HasResource": false
+        },
+        "AWS SageMaker Unified Studio MCP is a managed MCP solution for AWS data processing services like EMR, Glue, Athena": {
+            "StringPrefix": "sagemaker-unified-studio-mcp",
+            "Actions": [
+                "CallPrivilegedTool",
+                "CallReadOnlyTool",
+                "InvokeMcp"
+            ],
+            "ARNFormat": "arn:${Partition}:sagemaker-unified-studio-mcp:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:${Partition}:sagemaker-unified-studio-mcp:.+:.+",
             "HasResource": false
         },
         "Amazon Managed Service for Prometheus": {
