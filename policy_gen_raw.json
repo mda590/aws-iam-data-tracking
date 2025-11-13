@@ -1233,7 +1233,6 @@
                 "TestDNSAnswer",
                 "UpdateHealthCheck",
                 "UpdateHostedZoneComment",
-                "UpdateHostedZoneFeatures",
                 "UpdateTrafficPolicyComment",
                 "UpdateTrafficPolicyInstance"
             ],
@@ -8441,6 +8440,7 @@
                 "DescribeContact",
                 "DescribeEphemeris",
                 "GetAgentConfiguration",
+                "GetAgentTaskResponseUrl",
                 "GetConfig",
                 "GetDataflowEndpointGroup",
                 "GetMinuteUsage",
