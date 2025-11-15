@@ -17000,6 +17000,34 @@
             ],
             "HasResource": true
         },
+        "AWS MWAA Serverless": {
+            "StringPrefix": "airflow-serverless",
+            "Actions": [
+                "CreateWorkflow",
+                "DeleteWorkflow",
+                "GetTaskInstance",
+                "GetWorkflow",
+                "GetWorkflowRun",
+                "ListTagsForResource",
+                "ListTaskInstances",
+                "ListWorkflowRuns",
+                "ListWorkflowVersions",
+                "ListWorkflows",
+                "StartWorkflowRun",
+                "StopWorkflowRun",
+                "TagResource",
+                "UntagResource",
+                "UpdateWorkflow"
+            ],
+            "ARNFormat": "arn:aws:airflow-serverless:${Region}:${Account}:${ResourceType}:${ResourcePath}",
+            "ARNRegex": "^arn:aws:airflow-serverless:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Amplify Admin": {
             "StringPrefix": "amplifybackend",
             "Actions": [
