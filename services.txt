@@ -305,6 +305,7 @@ Amazon EC2 Auto Scaling
 Amazon EC2 Image Builder
 Amazon EC2 Instance Connect
 Amazon EKS Auth
+Amazon EKS MCP Server
 Amazon EMR Serverless
 Amazon EMR on EKS (EMR Containers)
 Amazon ElastiCache
