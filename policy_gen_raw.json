@@ -14289,6 +14289,7 @@
                 "ListThreatEntitySets",
                 "ListThreatIntelSets",
                 "ListTrustedEntitySets",
+                "SendObjectMalwareScan",
                 "SendSecurityTelemetry",
                 "StartMalwareScan",
                 "StartMonitoringMembers",
