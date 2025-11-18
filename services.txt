@@ -182,6 +182,7 @@ AWS Payment Cryptography
 AWS Payments
 AWS Performance Insights
 AWS Price List
+AWS PricingPlanManager Service
 AWS Private CA Connector for Active Directory
 AWS Private CA Connector for SCEP
 AWS Private Certificate Authority

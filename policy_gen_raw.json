@@ -10066,6 +10066,7 @@
                 "DescribeAccountLimits",
                 "DescribeChangeSet",
                 "DescribeChangeSetHooks",
+                "DescribeEvents",
                 "DescribeGeneratedTemplate",
                 "DescribeOrganizationsAccess",
                 "DescribePublisher",
@@ -18481,6 +18482,22 @@
             ],
             "ARNFormat": "arn:aws:mapcredits:::${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:mapcredits:::.+",
+            "HasResource": true
+        },
+        "AWS PricingPlanManager Service": {
+            "StringPrefix": "pricingplanmanager",
+            "Actions": [
+                "AssociateResourcesToSubscription",
+                "CancelSubscription",
+                "CancelSubscriptionChange",
+                "CreateSubscription",
+                "DisassociateResourcesFromSubscription",
+                "GetSubscription",
+                "ListSubscriptions",
+                "UpdateSubscription"
+            ],
+            "ARNFormat": "arn:aws:pricingplanmanager:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:pricingplanmanager:.+:.+:.+",
             "HasResource": true
         },
         "AWS AppFabric": {
