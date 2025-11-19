@@ -19327,6 +19327,7 @@
             "StringPrefix": "quicksight",
             "Actions": [
                 "AccountConfigurations",
+                "AllowVendedLogDeliveryForResource",
                 "BatchCreateTopicReviewedAnswer",
                 "BatchDeleteTopicReviewedAnswer",
                 "CancelIngestion",
