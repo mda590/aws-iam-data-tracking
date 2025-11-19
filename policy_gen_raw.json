@@ -11450,6 +11450,8 @@
         "AWS Signin": {
             "StringPrefix": "signin",
             "Actions": [
+                "AuthorizeOAuth2Access",
+                "CreateOAuth2Token",
                 "CreateTrustedIdentityPropagationApplicationForConsole",
                 "ListTrustedIdentityPropagationApplicationsForConsole"
             ],
@@ -11466,6 +11468,7 @@
                 "CreateLogDelivery",
                 "CreateLogGroup",
                 "CreateLogStream",
+                "CreateScheduledQuery",
                 "DeleteAccountPolicy",
                 "DeleteDataProtectionPolicy",
                 "DeleteDelivery",
@@ -11483,6 +11486,7 @@
                 "DeleteQueryDefinition",
                 "DeleteResourcePolicy",
                 "DeleteRetentionPolicy",
+                "DeleteScheduledQuery",
                 "DeleteSubscriptionFilter",
                 "DeleteTransformer",
                 "DescribeAccountPolicies",
@@ -11515,6 +11519,8 @@
                 "GetLogGroupFields",
                 "GetLogRecord",
                 "GetQueryResults",
+                "GetScheduledQuery",
+                "GetScheduledQueryHistory",
                 "GetTransformer",
                 "Link",
                 "ListAnomalies",
@@ -11525,6 +11531,7 @@
                 "ListLogGroups",
                 "ListLogGroupsForEntity",
                 "ListLogGroupsForQuery",
+                "ListScheduledQueries",
                 "ListTagsForResource",
                 "ListTagsLogGroup",
                 "PutAccountPolicy",
@@ -11557,7 +11564,8 @@
                 "UpdateAnomaly",
                 "UpdateDeliveryConfiguration",
                 "UpdateLogAnomalyDetector",
-                "UpdateLogDelivery"
+                "UpdateLogDelivery",
+                "UpdateScheduledQuery"
             ],
             "ARNFormat": "arn:aws:logs:${Region}:${Account}:.+",
             "ARNRegex": "^arn:aws:logs:.+",
@@ -25280,6 +25288,7 @@
                 "bedrock-agentcore:InboundJwtClaim/iss",
                 "bedrock-agentcore:InboundJwtClaim/scope",
                 "bedrock-agentcore:InboundJwtClaim/sub",
+                "bedrock-agentcore:KmsKeyArn",
                 "bedrock-agentcore:actorId",
                 "bedrock-agentcore:namespace",
                 "bedrock-agentcore:sessionId",
