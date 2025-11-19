@@ -176,7 +176,7 @@ AWS Organizations
 AWS Outposts
 AWS Panorama
 AWS Parallel Computing Service
-AWS Partner Central Selling
+AWS Partner Central
 AWS Partner central account management
 AWS Payment Cryptography
 AWS Payments
