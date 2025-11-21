@@ -21781,6 +21781,7 @@
                 "DescribeNotificationConfiguration",
                 "DescribeSignalingChannel",
                 "DescribeStream",
+                "DescribeStreamStorageConfiguration",
                 "GetClip",
                 "GetDASHStreamingSessionURL",
                 "GetDataEndpoint",
@@ -21810,7 +21811,8 @@
                 "UpdateMediaStorageConfiguration",
                 "UpdateNotificationConfiguration",
                 "UpdateSignalingChannel",
-                "UpdateStream"
+                "UpdateStream",
+                "UpdateStreamStorageConfiguration"
             ],
             "ARNFormat": "arn:aws:kinesisvideo:${Region}:${Account}:${ResourceType}/${ResourceName}/${CreationTime}",
             "ARNRegex": "^arn:aws:kinesisvideo:.+",
