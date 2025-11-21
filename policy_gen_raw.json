@@ -1595,7 +1595,11 @@
             "ARNFormat": "arn:aws:identitystore::${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:identitystore:.+",
             "conditionKeys": [
+                "identitystore:GroupExternalIdIssuers",
                 "identitystore:IdentityStoreArn",
+                "identitystore:PrimaryRegion",
+                "identitystore:ReservedUserId",
+                "identitystore:UserExternalIdIssuers",
                 "identitystore:UserId"
             ],
             "HasResource": true
