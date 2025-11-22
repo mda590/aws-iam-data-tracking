@@ -197,7 +197,6 @@ AWS Resource Explorer
 AWS Resource Groups
 AWS RoboMaker
 AWS SQL Workbench
-AWS SageMaker Unified Studio MCP is a managed MCP solution for AWS data processing services like EMR, Glue, Athena
 AWS Savings Plans
 AWS Secrets Manager
 AWS Security Hub
@@ -420,6 +419,7 @@ Amazon SES
 Amazon SNS
 Amazon SQS
 Amazon SageMaker
+Amazon SageMaker Unified Studio MCP
 Amazon SageMaker data science assistant
 Amazon SageMaker geospatial capabilities
 Amazon SageMaker with MLflow

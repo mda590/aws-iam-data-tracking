@@ -15671,7 +15671,7 @@
             ],
             "HasResource": false
         },
-        "AWS SageMaker Unified Studio MCP is a managed MCP solution for AWS data processing services like EMR, Glue, Athena": {
+        "Amazon SageMaker Unified Studio MCP": {
             "StringPrefix": "sagemaker-unified-studio-mcp",
             "Actions": [
                 "CallPrivilegedTool",
