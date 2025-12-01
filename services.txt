@@ -144,6 +144,7 @@ AWS Launch Wizard
 AWS License Manager
 AWS License Manager Linux Subscriptions Manager
 AWS License Manager User Subscriptions
+AWS MCP Server
 AWS MWAA Serverless
 AWS Mainframe Modernization Application Testing
 AWS Mainframe Modernization Service
