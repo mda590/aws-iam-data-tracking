@@ -196,6 +196,7 @@ AWS Resource Access Manager (RAM)
 AWS Resource Explorer
 AWS Resource Groups
 AWS RoboMaker
+AWS Route53 Global Resolver
 AWS SQL Workbench
 AWS Savings Plans
 AWS Secrets Manager
