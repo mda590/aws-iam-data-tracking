@@ -7151,6 +7151,7 @@
                 "GetCellRunResult",
                 "GetConnection",
                 "GetConversation",
+                "GetDataExportConfiguration",
                 "GetDataProduct",
                 "GetDataSource",
                 "GetDataSourceRun",
@@ -7233,6 +7234,7 @@
                 "PostTimeSeriesDataPoints",
                 "ProvisionDomain",
                 "PutCellRunResult",
+                "PutDataExportConfiguration",
                 "PutDomainSharingPolicy",
                 "PutEnvironmentBlueprintConfiguration",
                 "RefreshToken",
@@ -20637,10 +20639,15 @@
             "StringPrefix": "opensearch",
             "Actions": [
                 "ApplicationAccessAll",
+                "CancelAutoOptimizeJob",
                 "CancelDirectQuery",
+                "DeleteAutoOptimizeJob",
+                "GetAutoOptimizeJob",
                 "GetDirectQuery",
                 "GetDirectQueryResult",
-                "StartDirectQuery"
+                "ListAutoOptimizeJobs",
+                "StartDirectQuery",
+                "SubmitAutoOptimizeJob"
             ],
             "ARNFormat": "arn:aws:opensearch:${Region}:${Account}:${Resource}",
             "ARNRegex": "^arn:aws:opensearch:.+",
