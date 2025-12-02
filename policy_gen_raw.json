@@ -5214,6 +5214,41 @@
             ],
             "HasResource": true
         },
+        "AWS Transform Custom": {
+            "StringPrefix": "transform-custom",
+            "Actions": [
+                "CompleteTransformationPackageUpload",
+                "ConverseStream",
+                "CreateCampaign",
+                "CreateTransformationPackageUrl",
+                "DeleteCampaign",
+                "DeleteKnowledgeItem",
+                "DeleteTransformationPackage",
+                "ExecuteTransformation",
+                "GetCampaign",
+                "GetKnowledgeItem",
+                "GetTransformationPackageUrl",
+                "ListCampaignRepositories",
+                "ListCampaigns",
+                "ListKnowledgeItems",
+                "ListTagsForResource",
+                "ListTransformationPackageMetadata",
+                "TagResource",
+                "UntagResource",
+                "UpdateCampaign",
+                "UpdateCampaignRepositoryStatus",
+                "UpdateKnowledgeItemConfiguration",
+                "UpdateKnowledgeItemStatus"
+            ],
+            "ARNFormat": "arn:aws:transform-custom:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:transform-custom:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon CloudFront KeyValueStore": {
             "StringPrefix": "cloudfront-keyvaluestore",
             "Actions": [
@@ -12541,15 +12576,23 @@
             "Actions": [
                 "AssociateConnectorResource",
                 "CreateProfile",
+                "DeleteAgentRuntimeConfiguration",
                 "DeleteConnector",
                 "DeleteProfile",
+                "GetAccountSettings",
+                "GetAgent",
+                "GetAgentRuntimeConfiguration",
                 "GetConnector",
+                "ListAgents",
                 "ListConnectors",
                 "ListProfiles",
                 "ListTagsForResource",
+                "PutAgentRuntimeConfiguration",
                 "RejectConnector",
                 "TagResource",
                 "UntagResource",
+                "UpdateAccountSettings",
+                "UpdateAgentAccess",
                 "UpdateProfile"
             ],
             "ARNFormat": "arn:aws:transform:${Region}:${Account}:${ResourceType}/${ResourceId}",
