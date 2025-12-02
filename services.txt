@@ -75,6 +75,7 @@ AWS Database Migration Service
 AWS Deadline Cloud
 AWS DeepComposer
 AWS DeepRacer
+AWS DevOps Agent Service
 AWS Device Farm
 AWS Diagnostic tools
 AWS Direct Connect
@@ -201,6 +202,7 @@ AWS Route53 Global Resolver
 AWS SQL Workbench
 AWS Savings Plans
 AWS Secrets Manager
+AWS Security Agent
 AWS Security Hub
 AWS Security Incident Response
 AWS Security Token Service
