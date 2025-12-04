@@ -266,6 +266,7 @@ Amazon Athena
 Amazon Aurora DSQL
 Amazon Bedrock
 Amazon Bedrock Agentcore
+Amazon Bedrock Powered by AWS Mantle
 Amazon Braket
 Amazon Chime
 Amazon Cloud Directory

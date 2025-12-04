@@ -6925,6 +6925,26 @@
             ],
             "HasResource": true
         },
+        "Amazon Bedrock Powered by AWS Mantle": {
+            "StringPrefix": "bedrock-mantle",
+            "Actions": [
+                "CallWithBearerToken",
+                "CancelInference",
+                "CreateInference",
+                "DeleteInference",
+                "GetInference",
+                "GetModel",
+                "ListModels"
+            ],
+            "ARNFormat": "arn:aws:bedrock-mantle:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:bedrock-mantle:.+",
+            "conditionKeys": [
+                "bedrock-mantle:BearerTokenType",
+                "bedrock-mantle:Model",
+                "bedrock-mantle:ServiceTier"
+            ],
+            "HasResource": true
+        },
         "Amazon AppStream 2.0": {
             "StringPrefix": "appstream",
             "Actions": [
