@@ -34,6 +34,7 @@ aws:SourceIp
 aws:SourceOrgID
 aws:SourceOrgPaths
 aws:SourceVpc
+aws:SourceVpcArn
 aws:SourceVpce
 aws:TagKeys
 aws:TokenIssueTime
