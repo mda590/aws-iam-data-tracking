@@ -8,6 +8,7 @@ aws:Ec2InstanceSourcePrivateIPv4
 aws:Ec2InstanceSourceVpc
 aws:EpochTime
 aws:FederatedProvider
+aws:IsMcpServiceAction
 aws:MultiFactorAuthAge
 aws:MultiFactorAuthPresent
 aws:PrincipalAccount
