@@ -2958,6 +2958,7 @@
                 "ListCostAllocationTagBackfillHistory",
                 "ListCostAllocationTags",
                 "ListCostCategoryDefinitions",
+                "ListCostCategoryResourceAssociations",
                 "ListSavingsPlansPurchaseRecommendationGeneration",
                 "ListTagsForResource",
                 "ProvideAnomalyFeedback",
@@ -5482,7 +5483,9 @@
             "Actions": [
                 "AllowMultiRegion"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:ec2:.+",
+            "HasResource": true
         },
         "Amazon DynamoDB": {
             "StringPrefix": "dynamodb",
@@ -9880,6 +9883,7 @@
                 "DeleteCustomModelDeployment",
                 "DeleteDataAutomationProject",
                 "DeleteDataSource",
+                "DeleteEnforcedGuardrailConfiguration",
                 "DeleteFlow",
                 "DeleteFlowAlias",
                 "DeleteFlowVersion",
@@ -9982,6 +9986,7 @@
                 "ListCustomModels",
                 "ListDataAutomationProjects",
                 "ListDataSources",
+                "ListEnforcedGuardrailsConfiguration",
                 "ListEvaluationJobs",
                 "ListFlowAliases",
                 "ListFlowExecutionEvents",
@@ -10012,6 +10017,7 @@
                 "OptimizePrompt",
                 "PrepareAgent",
                 "PrepareFlow",
+                "PutEnforcedGuardrailConfiguration",
                 "PutFoundationModelEntitlement",
                 "PutInvocationStep",
                 "PutModelInvocationLoggingConfiguration",
@@ -16007,6 +16013,42 @@
             ],
             "HasResource": false
         },
+        "AWS Compute Optimizer Automation": {
+            "StringPrefix": "aco-automation",
+            "Actions": [
+                "AssociateAccounts",
+                "CreateAutomationRule",
+                "DeleteAutomationRule",
+                "DisassociateAccounts",
+                "GetAutomationEvent",
+                "GetAutomationRule",
+                "GetEnrollmentConfiguration",
+                "ListAccounts",
+                "ListAutomationEventSteps",
+                "ListAutomationEventSummaries",
+                "ListAutomationEvents",
+                "ListAutomationRulePreview",
+                "ListAutomationRulePreviewSummaries",
+                "ListAutomationRules",
+                "ListRecommendedActionSummaries",
+                "ListRecommendedActions",
+                "ListTagsForResource",
+                "RollbackAutomationEvent",
+                "StartAutomationEvent",
+                "TagResource",
+                "UntagResource",
+                "UpdateAutomationRule",
+                "UpdateEnrollmentConfiguration"
+            ],
+            "ARNFormat": "arn:aws:compute-optimizer::${Account}:automation-rule/${RuleId}",
+            "ARNRegex": "^arn:aws:compute-optimizer:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon SageMaker Unified Studio MCP": {
             "StringPrefix": "sagemaker-unified-studio-mcp",
             "Actions": [
@@ -16229,6 +16271,30 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
+            "HasResource": true
+        },
+        "AWS service to manage AI agents for UI workflows": {
+            "StringPrefix": "nova-act",
+            "Actions": [
+                "CreateAct",
+                "CreateSession",
+                "CreateWorkflowDefinition",
+                "CreateWorkflowRun",
+                "DeleteWorkflowDefinition",
+                "DeleteWorkflowRun",
+                "GetWorkflowDefinition",
+                "GetWorkflowRun",
+                "InvokeActStep",
+                "ListActs",
+                "ListModels",
+                "ListSessions",
+                "ListWorkflowDefinitions",
+                "ListWorkflowRuns",
+                "UpdateAct",
+                "UpdateWorkflowRun"
+            ],
+            "ARNFormat": "arn:aws:nova-act:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:nova-act:.+:.+:.+",
             "HasResource": true
         },
         "Amazon Cloud Directory": {

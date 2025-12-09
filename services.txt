@@ -58,6 +58,7 @@ AWS CodeStar
 AWS CodeStar Connections
 AWS CodeStar Notifications
 AWS Compute Optimizer
+AWS Compute Optimizer Automation
 AWS Config
 AWS Connector Service
 AWS Console Mobile App
@@ -251,6 +252,7 @@ AWS WorkSpaces Managed Instances
 AWS X-Ray
 AWS rePost Private
 AWS service providing managed private networks
+AWS service to manage AI agents for UI workflows
 Alexa for Business
 Amazon AI Operations
 Amazon API Gateway
