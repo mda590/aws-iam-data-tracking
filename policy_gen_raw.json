@@ -26946,6 +26946,7 @@
                 "GetAccountInformation",
                 "GetAlternateContact",
                 "GetContactInformation",
+                "GetGovCloudAccountInformation",
                 "GetPrimaryEmail",
                 "GetRegionOptStatus",
                 "ListRegions",
