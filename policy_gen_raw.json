@@ -21095,6 +21095,7 @@
                 "GetTermForReport",
                 "ListAgreements",
                 "ListCustomerAgreements",
+                "ListReportVersions",
                 "ListReports",
                 "PutAccountSettings",
                 "TerminateAgreement"
