@@ -6079,7 +6079,12 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "cognito-identity-auth:AccountId",
+                "cognito-identity-auth:IdentityPoolArn",
+                "cognito-identity-unauth:AccountId",
+                "cognito-identity-unauth:IdentityPoolArn",
+                "cognito-identity:IdentityPoolArn"
             ],
             "HasResource": true
         },
@@ -8008,13 +8013,12 @@
             "StringPrefix": "network-security-director",
             "Actions": [
                 "GetFinding",
-                "GetNetworkSecurityScan",
                 "GetResource",
+                "ListAccountSummaries",
                 "ListFindings",
                 "ListInsights",
                 "ListRemediations",
                 "ListResources",
-                "StartNetworkSecurityScan",
                 "UpdateFinding"
             ],
             "ARNFormat": "arn:${Partition}:network-security-director:${Region}:${Account}:${ResourceType}",
@@ -8589,6 +8593,7 @@
                 "CancelContact",
                 "CreateConfig",
                 "CreateDataflowEndpointGroup",
+                "CreateDataflowEndpointGroupV2",
                 "CreateEphemeris",
                 "CreateMissionProfile",
                 "DeleteConfig",
