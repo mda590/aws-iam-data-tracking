@@ -20020,6 +20020,7 @@
                 "GetFlowMetadata",
                 "GetFlowPermissions",
                 "GetGroupMapping",
+                "GetIdentityContext",
                 "GetSessionEmbedUrl",
                 "ListActionConnectors",
                 "ListAgents",
