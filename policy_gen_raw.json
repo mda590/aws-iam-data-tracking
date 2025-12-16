@@ -5218,7 +5218,7 @@
             ],
             "HasResource": true
         },
-        "AWS Transform Custom": {
+        "AWS Transform custom": {
             "StringPrefix": "transform-custom",
             "Actions": [
                 "CompleteTransformationPackageUpload",
@@ -14018,6 +14018,7 @@
                 "ssm:AutoApprove",
                 "ssm:DocumentCategories",
                 "ssm:DocumentType",
+                "ssm:DocumentVersion",
                 "ssm:InventoryTypeName",
                 "ssm:Overwrite",
                 "ssm:Policies",
@@ -15885,6 +15886,7 @@
                 "sagemaker:ServerlessMaxConcurrency",
                 "sagemaker:ServerlessMemorySize",
                 "sagemaker:SpaceSharingType",
+                "sagemaker:StudioLifecycleConfigArns",
                 "sagemaker:TaggingAction",
                 "sagemaker:TargetModel",
                 "sagemaker:UserProfileName",
@@ -26386,6 +26388,7 @@
                 "GetAWSDefaultServiceQuota",
                 "GetAssociationForServiceQuotaTemplate",
                 "GetAutoManagementConfiguration",
+                "GetQuotaUtilizationReport",
                 "GetRequestedServiceQuotaChange",
                 "GetServiceQuota",
                 "GetServiceQuotaIncreaseRequestFromTemplate",
@@ -26399,6 +26402,7 @@
                 "PutServiceQuotaIncreaseRequestIntoTemplate",
                 "RequestServiceQuotaIncrease",
                 "StartAutoManagement",
+                "StartQuotaUtilizationReport",
                 "StopAutoManagement",
                 "TagResource",
                 "UntagResource",

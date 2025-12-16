@@ -237,7 +237,7 @@ AWS Telco Network Builder
 AWS Tiros
 AWS Transfer Family
 AWS Transform
-AWS Transform Custom
+AWS Transform custom
 AWS Trusted Advisor
 AWS User Notifications
 AWS User Notifications Contacts
