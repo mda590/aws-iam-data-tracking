@@ -13879,11 +13879,14 @@ partnercentral:UpdateEngagementContext
 partnercentral:UpdateOpportunity
 partnercentral:UpdateProgramManagementAccount
 partnercentral:UpdateRelationship
+payment-cryptography:AddKeyReplicationRegions
 payment-cryptography:CreateAlias
 payment-cryptography:CreateKey
 payment-cryptography:DecryptData
 payment-cryptography:DeleteAlias
 payment-cryptography:DeleteKey
+payment-cryptography:DisableDefaultKeyReplicationRegions
+payment-cryptography:EnableDefaultKeyReplicationRegions
 payment-cryptography:EncryptData
 payment-cryptography:ExportKey
 payment-cryptography:GenerateCardValidationData
@@ -13891,6 +13894,8 @@ payment-cryptography:GenerateMac
 payment-cryptography:GenerateMacEmvPinChange
 payment-cryptography:GeneratePinData
 payment-cryptography:GetAlias
+payment-cryptography:GetCertificateSigningRequest
+payment-cryptography:GetDefaultKeyReplicationRegions
 payment-cryptography:GetKey
 payment-cryptography:GetParametersForExport
 payment-cryptography:GetParametersForImport
@@ -13900,10 +13905,12 @@ payment-cryptography:ListAliases
 payment-cryptography:ListKeys
 payment-cryptography:ListTagsForResource
 payment-cryptography:ReEncryptData
+payment-cryptography:RemoveKeyReplicationRegions
 payment-cryptography:RestoreKey
 payment-cryptography:StartKeyUsage
 payment-cryptography:StopKeyUsage
 payment-cryptography:TagResource
+payment-cryptography:TranslateKeyMaterial
 payment-cryptography:TranslatePinData
 payment-cryptography:UntagResource
 payment-cryptography:UpdateAlias
