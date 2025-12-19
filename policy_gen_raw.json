@@ -2665,6 +2665,7 @@
                 "GetDeliverabilityTestReport",
                 "GetDomainDeliverabilityCampaign",
                 "GetDomainStatisticsReport",
+                "GetEmailAddressInsights",
                 "GetEmailIdentity",
                 "GetEmailIdentityPolicies",
                 "GetEmailTemplate",
@@ -16282,7 +16283,7 @@
             ],
             "HasResource": true
         },
-        "AWS service to manage AI agents for UI workflows": {
+        "Amazon Nova Act": {
             "StringPrefix": "nova-act",
             "Actions": [
                 "CreateAct",
@@ -24060,6 +24061,7 @@
                 "ListPlans",
                 "ListPlansInRegion",
                 "ListRoute53HealthChecks",
+                "ListRoute53HealthChecksInRegion",
                 "ListTagsForResource",
                 "PutResourcePolicy",
                 "StartPlanExecution",

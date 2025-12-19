@@ -252,7 +252,6 @@ AWS WorkSpaces Managed Instances
 AWS X-Ray
 AWS rePost Private
 AWS service providing managed private networks
-AWS service to manage AI agents for UI workflows
 Alexa for Business
 Amazon AI Operations
 Amazon API Gateway
@@ -382,6 +381,7 @@ Amazon Monitron
 Amazon Neptune
 Amazon Neptune Analytics
 Amazon Nimble Studio
+Amazon Nova Act
 Amazon One Enterprise
 Amazon OpenSearch
 Amazon OpenSearch Ingestion
