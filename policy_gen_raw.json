@@ -19785,8 +19785,7 @@
             "ARNFormat": "arn:aws:sagemaker:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:sagemaker:.+",
             "conditionKeys": [
-                "aws:ResourceTag/${TagKey}",
-                "sagemaker:ResourceTag/${TagKey}"
+                "aws:ResourceTag/${TagKey}"
             ],
             "HasResource": true
         },
