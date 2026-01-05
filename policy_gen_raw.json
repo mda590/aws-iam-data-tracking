@@ -3758,6 +3758,7 @@
                 "rds:PubliclyAccessible",
                 "rds:StorageEncrypted",
                 "rds:StorageSize",
+                "rds:TagsFromRequest",
                 "rds:TenantDatabaseName",
                 "rds:Vpc",
                 "rds:cluster-pg-tag/${TagKey}",
