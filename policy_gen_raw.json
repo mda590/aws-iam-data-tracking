@@ -8916,6 +8916,7 @@
                 "CreateCloudExadataInfrastructure",
                 "CreateCloudVmCluster",
                 "CreateDbNode",
+                "CreateGrantShare",
                 "CreateOdbNetwork",
                 "CreateOdbPeeringConnection",
                 "CreateOutboundIntegration",
@@ -8923,6 +8924,7 @@
                 "DeleteCloudExadataInfrastructure",
                 "DeleteCloudVmCluster",
                 "DeleteDbNode",
+                "DeleteGrantShare",
                 "DeleteOdbNetwork",
                 "DeleteOdbPeeringConnection",
                 "DeleteResourcePolicy",
@@ -8956,6 +8958,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateCloudExadataInfrastructure",
+                "UpdateGrantShare",
                 "UpdateOdbNetwork",
                 "UpdateOdbPeeringConnection",
                 "UpdateOutboundIntegration"
