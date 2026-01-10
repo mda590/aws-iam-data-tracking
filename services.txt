@@ -310,6 +310,7 @@ Amazon EC2
 Amazon EC2 Auto Scaling
 Amazon EC2 Image Builder
 Amazon EC2 Instance Connect
+Amazon ECS MCP Service
 Amazon EKS Auth
 Amazon EKS MCP Server
 Amazon EMR Serverless
