@@ -6007,6 +6007,7 @@
                 "GetTransitGatewayRegistrations",
                 "GetTransitGatewayRouteTableAttachment",
                 "GetVpcAttachment",
+                "ListAttachmentRoutingPolicyAssociations",
                 "ListAttachments",
                 "ListConnectPeers",
                 "ListCoreNetworkPolicyVersions",
