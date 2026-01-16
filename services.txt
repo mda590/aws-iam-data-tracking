@@ -74,7 +74,6 @@ AWS Data Pipeline
 AWS DataSync
 AWS Database Migration Service
 AWS Deadline Cloud
-AWS DeepRacer
 AWS DevOps Agent Service
 AWS Device Farm
 AWS Diagnostic tools
