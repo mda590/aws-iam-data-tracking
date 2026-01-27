@@ -24115,8 +24115,8 @@
                 "UpdatePlanExecution",
                 "UpdatePlanExecutionStep"
             ],
-            "ARNFormat": "arn:aws:arc-region-switch:${Region}:${Account}:${ResourceType}",
-            "ARNRegex": "^arn:aws:arc-region-switch:.+:.+:.+",
+            "ARNFormat": "arn:aws:arc-region-switch::${Account}:${ResourceType}",
+            "ARNRegex": "^arn:aws:arc-region-switch::.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
