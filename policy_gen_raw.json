@@ -15378,6 +15378,7 @@
                 "UpdateBucketMetadataJournalTableConfiguration",
                 "UpdateJobPriority",
                 "UpdateJobStatus",
+                "UpdateObjectEncryption",
                 "UpdateStorageLensGroup"
             ],
             "ARNFormat": "arn:aws:s3:::${BucketName}/${KeyName}",
