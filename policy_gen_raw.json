@@ -5539,6 +5539,7 @@
                 "GetResourcePolicy",
                 "GetShardIterator",
                 "ImportTable",
+                "InjectError",
                 "ListBackups",
                 "ListContributorInsights",
                 "ListExports",
