@@ -1578,6 +1578,7 @@
         "AWS Identity Store": {
             "StringPrefix": "identitystore",
             "Actions": [
+                "AddRegion",
                 "CreateGroup",
                 "CreateGroupMembership",
                 "CreateIdentityStore",
@@ -1588,6 +1589,7 @@
                 "DeleteUser",
                 "DescribeGroup",
                 "DescribeGroupMembership",
+                "DescribeRegion",
                 "DescribeUser",
                 "GetGroupId",
                 "GetGroupMembershipId",
@@ -1596,7 +1598,9 @@
                 "ListGroupMemberships",
                 "ListGroupMembershipsForMember",
                 "ListGroups",
+                "ListRegions",
                 "ListUsers",
+                "RemoveRegion",
                 "ReserveUser",
                 "UpdateGroup",
                 "UpdateIdentityStore",
@@ -12808,6 +12812,7 @@
                 "BatchGetAgentSpaces",
                 "BatchGetArtifactMetadata",
                 "BatchGetFindings",
+                "BatchGetPentestJobContentMetadata",
                 "BatchGetPentestJobTasks",
                 "BatchGetPentestJobs",
                 "BatchGetPentests",
@@ -14058,6 +14063,7 @@
         "AWS IAM Identity Center": {
             "StringPrefix": "sso",
             "Actions": [
+                "AddRegion",
                 "AssociateDirectory",
                 "AssociateProfile",
                 "AttachCustomerManagedPolicyReferenceToPermissionSet",
@@ -14099,6 +14105,7 @@
                 "DescribeInstanceAccessControlAttributeConfiguration",
                 "DescribePermissionSet",
                 "DescribePermissionSetProvisioningStatus",
+                "DescribeRegion",
                 "DescribeRegisteredRegions",
                 "DescribeTrustedTokenIssuer",
                 "DetachCustomerManagedPolicyReferenceFromPermissionSet",
@@ -14147,6 +14154,7 @@
                 "ListPermissionSetsProvisionedToAccount",
                 "ListProfileAssociations",
                 "ListProfiles",
+                "ListRegions",
                 "ListTagsForResource",
                 "ListTrustedTokenIssuers",
                 "ProvisionPermissionSet",
@@ -14159,6 +14167,7 @@
                 "PutMfaDeviceManagementForDirectory",
                 "PutPermissionsBoundaryToPermissionSet",
                 "PutPermissionsPolicy",
+                "RemoveRegion",
                 "SearchGroups",
                 "SearchUsers",
                 "StartSSO",
@@ -26160,8 +26169,10 @@
                 "bedrock-agentcore:InboundJwtClaim/sub",
                 "bedrock-agentcore:actorId",
                 "bedrock-agentcore:namespace",
+                "bedrock-agentcore:securityGroups",
                 "bedrock-agentcore:sessionId",
                 "bedrock-agentcore:strategyId",
+                "bedrock-agentcore:subnets",
                 "bedrock-agentcore:userid"
             ],
             "HasResource": true
