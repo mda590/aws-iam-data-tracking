@@ -5504,6 +5504,7 @@
         "Amazon DynamoDB": {
             "StringPrefix": "dynamodb",
             "Actions": [
+                "AssociateTableReplica",
                 "BatchGetItem",
                 "BatchWriteItem",
                 "ConditionCheckItem",
@@ -5560,6 +5561,8 @@
                 "PutItem",
                 "PutResourcePolicy",
                 "Query",
+                "ReadDataForReplication",
+                "ReplicateSettings",
                 "RestoreTableFromAwsBackup",
                 "RestoreTableFromBackup",
                 "RestoreTableToPointInTime",
@@ -5577,7 +5580,8 @@
                 "UpdateKinesisStreamingDestination",
                 "UpdateTable",
                 "UpdateTableReplicaAutoScaling",
-                "UpdateTimeToLive"
+                "UpdateTimeToLive",
+                "WriteDataForReplication"
             ],
             "ARNFormat": "arn:aws:dynamodb:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:dynamodb:.+:.+",
