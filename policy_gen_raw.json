@@ -9146,11 +9146,13 @@
                 "CreateClusterV2",
                 "CreateConfiguration",
                 "CreateReplicator",
+                "CreateTopic",
                 "CreateVpcConnection",
                 "DeleteCluster",
                 "DeleteClusterPolicy",
                 "DeleteConfiguration",
                 "DeleteReplicator",
+                "DeleteTopic",
                 "DeleteVpcConnection",
                 "DescribeCluster",
                 "DescribeClusterOperation",
@@ -9195,7 +9197,8 @@
                 "UpdateRebalancing",
                 "UpdateReplicationInfo",
                 "UpdateSecurity",
-                "UpdateStorage"
+                "UpdateStorage",
+                "UpdateTopic"
             ],
             "ARNFormat": "arn:aws:kafka:${Region}:${Account}:${ResourceType}/${ResourceName}/${Uuid}",
             "ARNRegex": "^arn:aws:kafka:.+",
