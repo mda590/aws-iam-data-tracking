@@ -11622,7 +11622,9 @@
                 "CreateTrustedIdentityPropagationApplicationForConsole",
                 "ListTrustedIdentityPropagationApplicationsForConsole"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:signin:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:signin:.+",
+            "HasResource": true
         },
         "Amazon CloudWatch Logs": {
             "StringPrefix": "logs",
