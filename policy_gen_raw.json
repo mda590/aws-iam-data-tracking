@@ -26525,6 +26525,16 @@
             ],
             "HasResource": true
         },
+        "Amazon Inspector2 Telemetry Channel": {
+            "StringPrefix": "inspector2-telemetry",
+            "Actions": [
+                "NotifyHeartbeat",
+                "SendTelemetry",
+                "StartSession",
+                "StopSession"
+            ],
+            "HasResource": false
+        },
         "AWS License Manager Linux Subscriptions Manager": {
             "StringPrefix": "license-manager-linux-subscriptions",
             "Actions": [

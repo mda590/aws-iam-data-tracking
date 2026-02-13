@@ -341,6 +341,7 @@ Amazon GuardDuty
 Amazon Honeycode
 Amazon Inspector
 Amazon Inspector2
+Amazon Inspector2 Telemetry Channel
 Amazon InspectorScan
 Amazon Interactive Video Service
 Amazon Interactive Video Service Chat
