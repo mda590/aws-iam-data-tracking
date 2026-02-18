@@ -6872,17 +6872,27 @@
             "StringPrefix": "bedrock-mantle",
             "Actions": [
                 "CallWithBearerToken",
+                "CancelFineTuningJob",
                 "CancelInference",
+                "CreateFile",
+                "CreateFineTuningJob",
                 "CreateInference",
+                "DeleteFile",
                 "DeleteInference",
+                "GetFile",
+                "GetFineTuningJob",
                 "GetInference",
                 "GetModel",
+                "ListFiles",
+                "ListFineTuningJobs",
                 "ListModels"
             ],
             "ARNFormat": "arn:aws:bedrock-mantle:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:bedrock-mantle:.+",
             "conditionKeys": [
                 "bedrock-mantle:BearerTokenType",
+                "bedrock-mantle:Files",
+                "bedrock-mantle:FineTuningJob",
                 "bedrock-mantle:Model",
                 "bedrock-mantle:ServiceTier"
             ],
