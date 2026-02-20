@@ -11641,6 +11641,7 @@
             "Actions": [
                 "AssociateKmsKey",
                 "AssociateSourceToS3TableIntegration",
+                "CallWithBearerToken",
                 "CancelExportTask",
                 "CancelImportTask",
                 "CreateDelivery",
@@ -11726,6 +11727,7 @@
                 "ListTagsLogGroup",
                 "ProcessWithPipeline",
                 "PutAccountPolicy",
+                "PutBearerTokenAuthentication",
                 "PutDataProtectionPolicy",
                 "PutDeliveryDestination",
                 "PutDeliveryDestinationPolicy",
