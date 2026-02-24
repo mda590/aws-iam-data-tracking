@@ -59,6 +59,7 @@
     "conditionKeys": [
         "aws:AssumedRoot",
         "aws:CalledVia",
+        "aws:CalledViaAWSMCP",
         "aws:CalledViaFirst",
         "aws:CalledViaLast",
         "aws:ChatbotSourceArn",
@@ -99,6 +100,7 @@
         "aws:TagKeys",
         "aws:TokenIssueTime",
         "aws:UserAgent",
+        "aws:ViaAWSMCPService",
         "aws:ViaAWSService",
         "aws:VpcSourceIp",
         "aws:VpceAccount",

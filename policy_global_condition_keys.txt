@@ -1,5 +1,6 @@
 aws:AssumedRoot
 aws:CalledVia
+aws:CalledViaAWSMCP
 aws:CalledViaFirst
 aws:CalledViaLast
 aws:ChatbotSourceArn
@@ -40,6 +41,7 @@ aws:SourceVpce
 aws:TagKeys
 aws:TokenIssueTime
 aws:UserAgent
+aws:ViaAWSMCPService
 aws:ViaAWSService
 aws:VpcSourceIp
 aws:VpceAccount
