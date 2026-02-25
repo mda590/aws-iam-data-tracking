@@ -6060,6 +6060,31 @@
             ],
             "HasResource": true
         },
+        "AWS Elemental Inference": {
+            "StringPrefix": "elemental-inference",
+            "Actions": [
+                "AssociateFeed",
+                "CreateFeed",
+                "DeleteFeed",
+                "DisassociateFeed",
+                "GetFeed",
+                "GetMetadata",
+                "ListFeeds",
+                "ListTagsForResource",
+                "PutMedia",
+                "TagResource",
+                "UntagResource",
+                "UpdateFeed"
+            ],
+            "ARNFormat": "arn:aws:elemental-inference:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:elemental-inference:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "AWS Clean Rooms": {
             "StringPrefix": "cleanrooms",
             "Actions": [
@@ -25982,6 +26007,7 @@
                 "GetCapabilities",
                 "GetExportedFile",
                 "GetHistoryByResourceId",
+                "InquirePreAuthClaim",
                 "ListFHIRDatastores",
                 "ListFHIRExportJobs",
                 "ListFHIRImportJobs",
@@ -25993,6 +26019,7 @@
                 "MemberRemove",
                 "PatchResource",
                 "ProcessBundle",
+                "QuestionnairePackage",
                 "ReadResource",
                 "RetrieveAttributionStatus",
                 "SearchEverything",
@@ -26003,6 +26030,7 @@
                 "StartFHIRExportJobWithGet",
                 "StartFHIRExportJobWithPost",
                 "StartFHIRImportJob",
+                "SubmitPreAuthClaim",
                 "TagResource",
                 "UntagResource",
                 "UpdateResource",

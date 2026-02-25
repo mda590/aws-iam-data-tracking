@@ -86,6 +86,7 @@ AWS Elastic Load Balancing
 AWS Elastic Load Balancing V2
 AWS Elemental Appliances and Software
 AWS Elemental Appliances and Software Activation Service
+AWS Elemental Inference
 AWS Elemental MediaConnect
 AWS Elemental MediaConvert
 AWS Elemental MediaLive
