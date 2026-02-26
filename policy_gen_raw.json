@@ -7348,6 +7348,7 @@
                 "GetRegexPatternSet",
                 "GetRuleGroup",
                 "GetSampledRequests",
+                "GetTopPathStatisticsByTraffic",
                 "GetWebACL",
                 "GetWebACLForResource",
                 "ListAPIKeys",
