@@ -297,6 +297,7 @@ Amazon Comprehend Medical
 Amazon Connect
 Amazon Connect Cases
 Amazon Connect Customer Profiles
+Amazon Connect Health
 Amazon Connect Outbound Campaigns
 Amazon Connect Voice ID
 Amazon Data Lifecycle Manager
