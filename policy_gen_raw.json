@@ -783,6 +783,7 @@
                 "ListResourceSharePermissions",
                 "ListResourceTypes",
                 "ListResources",
+                "ListSourceAssociations",
                 "PromotePermissionCreatedFromPolicy",
                 "PromoteResourceShareCreatedFromPolicy",
                 "RejectResourceShareInvitation",
@@ -807,6 +808,7 @@
                 "ram:ResourceArn",
                 "ram:ResourceShareName",
                 "ram:ResourceTag/${TagKey}",
+                "ram:RetainSharingOnAccountLeaveOrganization",
                 "ram:ShareOwnerAccountId"
             ],
             "HasResource": true
