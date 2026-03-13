@@ -1263,9 +1263,12 @@
                 "DeleteDomain",
                 "DomainMetadata",
                 "GetAttributes",
+                "GetExport",
                 "ListDomains",
+                "ListExports",
                 "PutAttributes",
-                "Select"
+                "Select",
+                "StartDomainExport"
             ],
             "ARNFormat": "arn:aws:sdb:${Region}:${Account}:domain/${DomainName}",
             "ARNRegex": "^arn:aws:sdb:.+",
