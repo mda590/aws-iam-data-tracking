@@ -10880,7 +10880,6 @@
                 "DescribeCluster",
                 "DescribeControlPanel",
                 "DescribeRoutingControl",
-                "DescribeRoutingControlByName",
                 "DescribeSafetyRule",
                 "GetResourcePolicy",
                 "ListAssociatedRoute53HealthChecks",
