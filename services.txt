@@ -123,6 +123,7 @@ AWS Identity Sync
 AWS Identity and Access Management (IAM)
 AWS Identity and Access Management Roles Anywhere
 AWS Import Export Disk Service
+AWS Interconnect
 AWS Invoicing Service
 AWS IoT
 AWS IoT Analytics

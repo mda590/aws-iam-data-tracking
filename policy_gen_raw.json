@@ -8072,6 +8072,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "vpc-lattice:AuthType",
+                "vpc-lattice:CreateAction",
                 "vpc-lattice:DomainName",
                 "vpc-lattice:PrivateDnsPreference",
                 "vpc-lattice:PrivateDnsSpecifiedDomains",
@@ -13234,6 +13235,32 @@
                 "UpdateAssessmentTarget"
             ],
             "HasResource": false
+        },
+        "AWS Interconnect": {
+            "StringPrefix": "interconnect",
+            "Actions": [
+                "AcceptConnectionProposal",
+                "CreateConnection",
+                "DeleteConnection",
+                "DescribeConnectionProposal",
+                "GetConnection",
+                "GetEnvironment",
+                "ListAttachPoints",
+                "ListConnections",
+                "ListEnvironments",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource",
+                "UpdateConnection"
+            ],
+            "ARNFormat": "arn:aws:interconnect:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:interconnect:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
         },
         "AWS CodeStar": {
             "StringPrefix": "codestar",
