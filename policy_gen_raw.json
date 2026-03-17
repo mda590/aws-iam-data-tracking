@@ -5696,6 +5696,7 @@
                 "GetCompatibleElasticsearchVersions",
                 "GetCompatibleVersions",
                 "GetDataSource",
+                "GetDefaultApplicationSetting",
                 "GetDirectQueryDataSource",
                 "GetDomainMaintenanceStatus",
                 "GetIndex",
@@ -5721,6 +5722,7 @@
                 "ListVpcEndpointsForDomain",
                 "PurchaseReservedElasticsearchInstanceOffering",
                 "PurchaseReservedInstanceOffering",
+                "PutDefaultApplicationSetting",
                 "RejectInboundConnection",
                 "RejectInboundCrossClusterSearchConnection",
                 "RemoveTags",
@@ -16123,12 +16125,15 @@
             ],
             "HasResource": true
         },
-        "AWS Service for managing AWS Console user experience capabilities.": {
+        "AWS User Experience Customization": {
             "StringPrefix": "uxc",
             "Actions": [
                 "DeleteAccountColor",
                 "GetAccountColor",
-                "PutAccountColor"
+                "GetAccountCustomizations",
+                "ListServices",
+                "PutAccountColor",
+                "UpdateAccountCustomizations"
             ],
             "ARNFormat": "arn:${Partition}:uxc:${Region}:${Account}:${ResourceType}",
             "ARNRegex": "^arn:${Partition}:uxc:.+:.+:.+",
@@ -24811,6 +24816,7 @@
                 "ecs:enable-service-connect",
                 "ecs:enable-vpc-lattice",
                 "ecs:fargate-ephemeral-storage-kms-key",
+                "ecs:instance-metadata-tags-propagation",
                 "ecs:namespace",
                 "ecs:privileged",
                 "ecs:propagate-tags",
@@ -26314,6 +26320,7 @@
                 "GetWorkloadAccessTokenForUserId",
                 "GetWorkloadIdentity",
                 "InvokeAgentRuntime",
+                "InvokeAgentRuntimeCommand",
                 "InvokeAgentRuntimeForUser",
                 "InvokeAgentRuntimeWithWebSocketStream",
                 "InvokeAgentRuntimeWithWebSocketStreamForUser",
