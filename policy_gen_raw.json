@@ -12630,6 +12630,7 @@
             "Actions": [
                 "AcceptAdministratorInvitation",
                 "AcceptInvitation",
+                "AllowVendedLogDeliveryForResource",
                 "BatchDeleteAutomationRules",
                 "BatchDisableStandards",
                 "BatchEnableStandards",
