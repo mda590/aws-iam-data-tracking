@@ -25733,7 +25733,9 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "medical-imaging:SeriesInstanceUID",
+                "medical-imaging:StudyInstanceUID"
             ],
             "HasResource": true
         },
