@@ -13576,13 +13576,15 @@
             "Actions": [
                 "AccessLegacyPartnerCentral",
                 "AccessMarketingCentral",
+                "AccessProServeTools",
                 "AssociatePartnerAccount",
                 "AssociatePartnerUser",
                 "DisassociatePartnerUser"
             ],
             "conditionKeys": [
                 "partnercentral-account-management:LegacyPartnerCentralRole",
-                "partnercentral-account-management:MarketingCentralRole"
+                "partnercentral-account-management:MarketingCentralRole",
+                "partnercentral-account-management:ProServeRole"
             ],
             "HasResource": false
         },
@@ -24287,6 +24289,7 @@
                 "GetComputeAuthToken",
                 "GetGameSessionLogUrl",
                 "GetInstanceAccess",
+                "GetPlayerConnectionDetails",
                 "ListAliases",
                 "ListBuilds",
                 "ListCompute",
@@ -24551,17 +24554,21 @@
                 "CreateAgentSpace",
                 "CreateBacklogTask",
                 "CreateChat",
+                "CreateKnowledgeItem",
                 "DeleteAgentSpace",
+                "DeleteKnowledgeItem",
                 "DeregisterService",
                 "DescribeSupportLevel",
                 "DisableOperatorApp",
                 "DisassociateService",
+                "DiscoverTopology",
                 "EnableOperatorApp",
                 "EndChatForCase",
                 "GetAccountUsage",
                 "GetAgentSpace",
                 "GetAssociation",
                 "GetBacklogTask",
+                "GetKnowledgeItem",
                 "GetOperatorApp",
                 "GetRecommendation",
                 "GetService",
@@ -24573,6 +24580,8 @@
                 "ListExecutions",
                 "ListGoals",
                 "ListJournalRecords",
+                "ListKnowledgeItemVersions",
+                "ListKnowledgeItems",
                 "ListPendingMessages",
                 "ListRecommendations",
                 "ListServices",
@@ -24587,6 +24596,7 @@
                 "UpdateAssociation",
                 "UpdateBacklogTask",
                 "UpdateGoal",
+                "UpdateKnowledgeItem",
                 "UpdateOperatorAppIdpConfig",
                 "UpdateRecommendation",
                 "ValidateAwsAssociations"
