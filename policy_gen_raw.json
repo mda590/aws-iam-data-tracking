@@ -14374,7 +14374,8 @@
                 "aws:TagKeys",
                 "identitycenter:ApplicationArn",
                 "identitycenter:InstanceArn",
-                "sso:ApplicationAccount"
+                "sso:ApplicationAccount",
+                "sso:PrimaryRegion"
             ],
             "HasResource": true
         },
@@ -24547,6 +24548,7 @@
                 "CreateBacklogTask",
                 "CreateChat",
                 "CreateKnowledgeItem",
+                "CreateOneTimeLoginSession",
                 "DeleteAgentSpace",
                 "DeleteKnowledgeItem",
                 "DeregisterService",
