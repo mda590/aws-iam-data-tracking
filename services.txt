@@ -458,6 +458,7 @@ Amazon WorkSpaces Thin Client
 AmazonMediaImport
 Apache Kafka APIs for Amazon MSK clusters
 Application Discovery Arsenal
+Claude Platform on AWS
 Database Query Metadata Service
 Multi-party approval
 Network Flow Monitor
