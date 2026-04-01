@@ -26115,6 +26115,7 @@
                 "GetBucketPolicy",
                 "GetEncryptionConfiguration",
                 "GetLifecycleConfiguration",
+                "GetMetricsConfiguration",
                 "ListAccessPointsForDirectoryBuckets",
                 "ListAllMyDirectoryBuckets",
                 "ListTagsForResource",
@@ -26123,6 +26124,7 @@
                 "PutBucketPolicy",
                 "PutEncryptionConfiguration",
                 "PutLifecycleConfiguration",
+                "PutMetricsConfiguration",
                 "TagResource",
                 "UntagResource"
             ],
