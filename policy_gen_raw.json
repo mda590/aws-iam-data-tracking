@@ -11791,6 +11791,7 @@
                 "CreateLogDelivery",
                 "CreateLogGroup",
                 "CreateLogStream",
+                "CreateLookupTable",
                 "CreateScheduledQuery",
                 "DeleteAccountPolicy",
                 "DeleteDataProtectionPolicy",
@@ -11805,6 +11806,7 @@
                 "DeleteLogDelivery",
                 "DeleteLogGroup",
                 "DeleteLogStream",
+                "DeleteLookupTable",
                 "DeleteMetricFilter",
                 "DeletePipelineRule",
                 "DeleteQueryDefinition",
@@ -11826,6 +11828,7 @@
                 "DescribeIndexPolicies",
                 "DescribeLogGroups",
                 "DescribeLogStreams",
+                "DescribeLookupTables",
                 "DescribeMetricFilters",
                 "DescribeQueries",
                 "DescribeQueryDefinitions",
@@ -11846,6 +11849,7 @@
                 "GetLogFields",
                 "GetLogGroupFields",
                 "GetLogRecord",
+                "GetLookupTable",
                 "GetQueryResults",
                 "GetScheduledQuery",
                 "GetScheduledQueryHistory",
@@ -11900,6 +11904,7 @@
                 "UpdateDeliveryConfiguration",
                 "UpdateLogAnomalyDetector",
                 "UpdateLogDelivery",
+                "UpdateLookupTable",
                 "UpdateScheduledQuery"
             ],
             "ARNFormat": "arn:aws:logs:${Region}:${Account}:.+",
@@ -12092,7 +12097,9 @@
         "AWS Sustainability": {
             "StringPrefix": "sustainability",
             "Actions": [
-                "GetCarbonFootprintSummary"
+                "GetCarbonFootprintSummary",
+                "GetEstimatedCarbonEmissions",
+                "GetEstimatedCarbonEmissionsDimensionValues"
             ],
             "ARNFormat": "arn:${Partition}:sustainability:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:sustainability:.+:.+:.+",
@@ -20247,6 +20254,7 @@
                 "DescribeAnalysisPermissions",
                 "DescribeAssetBundleExportJob",
                 "DescribeAssetBundleImportJob",
+                "DescribeAutomationJob",
                 "DescribeBrand",
                 "DescribeBrandAssignment",
                 "DescribeBrandPublishedVersion",
@@ -20371,6 +20379,7 @@
                 "SetGroupMapping",
                 "StartAssetBundleExportJob",
                 "StartAssetBundleImportJob",
+                "StartAutomationJob",
                 "StartDashboardSnapshotJob",
                 "StartDashboardSnapshotJobSchedule",
                 "Subscribe",
