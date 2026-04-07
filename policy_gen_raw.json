@@ -630,6 +630,45 @@
             "ARNRegex": "^arn:aws:controlcatalog:::.+",
             "HasResource": true
         },
+        "Amazon S3 Files": {
+            "StringPrefix": "s3files",
+            "Actions": [
+                "ClientMount",
+                "ClientRootAccess",
+                "ClientWrite",
+                "CreateAccessPoint",
+                "CreateFileSystem",
+                "CreateMountTarget",
+                "DeleteAccessPoint",
+                "DeleteFileSystem",
+                "DeleteFileSystemPolicy",
+                "DeleteMountTarget",
+                "GetAccessPoint",
+                "GetFileSystem",
+                "GetFileSystemPolicy",
+                "GetMountTarget",
+                "GetSynchronizationConfiguration",
+                "ListAccessPoints",
+                "ListFileSystems",
+                "ListMountTargets",
+                "ListTagsForResource",
+                "PutFileSystemPolicy",
+                "PutSynchronizationConfiguration",
+                "TagResource",
+                "UntagResource",
+                "UpdateMountTarget"
+            ],
+            "ARNFormat": "arn:aws:s3files:${Region}:${Account}:${ResourceType}/${ResourcePath}",
+            "ARNRegex": "^arn:aws:s3files:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys",
+                "s3files:AccessPointArn",
+                "s3files:CreateAction"
+            ],
+            "HasResource": true
+        },
         "AWS Audit Manager": {
             "StringPrefix": "auditmanager",
             "Actions": [

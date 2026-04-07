@@ -421,6 +421,7 @@ Amazon Route 53 Recovery Readiness
 Amazon Route 53 Resolver
 Amazon S3
 Amazon S3 Express
+Amazon S3 Files
 Amazon S3 Glacier
 Amazon S3 Object Lambda
 Amazon S3 Tables
