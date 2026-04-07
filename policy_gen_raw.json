@@ -12898,6 +12898,7 @@
                 "GetAgent",
                 "GetAgentRuntimeConfiguration",
                 "GetConnector",
+                "GetWebAppUrl",
                 "ListAgents",
                 "ListConnectors",
                 "ListProfiles",
