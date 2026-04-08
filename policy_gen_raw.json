@@ -13974,6 +13974,7 @@
                 "ListTriggers",
                 "ListUsageProfiles",
                 "ListWorkflows",
+                "ManagedConnector",
                 "ModifyIntegration",
                 "NotifyEvent",
                 "PassConnection",
