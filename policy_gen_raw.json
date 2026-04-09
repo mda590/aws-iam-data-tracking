@@ -1505,9 +1505,20 @@
         "AWS Marketplace Discovery": {
             "StringPrefix": "aws-marketplace",
             "Actions": [
-                "ListPrivateListings"
+                "GetListing",
+                "GetOffer",
+                "GetOfferSet",
+                "GetOfferTerms",
+                "GetProduct",
+                "ListFulfillmentOptions",
+                "ListPrivateListings",
+                "ListPurchaseOptions",
+                "SearchFacets",
+                "SearchListings"
             ],
-            "HasResource": false
+            "ARNFormat": "arn:aws:aws-marketplace:::catalog/${CatalogName}/${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:aws-marketplace:.+",
+            "HasResource": true
         },
         "AWS Marketplace Reporting": {
             "StringPrefix": "aws-marketplace",
@@ -18803,11 +18814,14 @@
                 "DisassociateIpGroups",
                 "DisassociateWorkspaceApplication",
                 "GetAccountLink",
+                "GetTroubleshootingRecommendation",
                 "ImportClientBranding",
                 "ImportCustomWorkspaceImage",
                 "ImportWorkspaceImage",
+                "InvokeTroubleshootingInvestigation",
                 "ListAccountLinks",
                 "ListAvailableManagementCidrRanges",
+                "ListTroubleshootingRecommendations",
                 "MigrateWorkspace",
                 "ModifyAccount",
                 "ModifyCertificateBasedAuthProperties",
