@@ -10754,9 +10754,13 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "observabilityadmin:CentralizationBackupRegion",
+                "observabilityadmin:CentralizationDestinationAccount",
                 "observabilityadmin:CentralizationDestinationRegion",
+                "observabilityadmin:CentralizationRuleName",
+                "observabilityadmin:CentralizationSourceId",
                 "observabilityadmin:CentralizationSourceRegions",
-                "observabilityadmin:SourceType"
+                "observabilityadmin:SourceType",
+                "observabilityadmin:TargetRegions"
             ],
             "HasResource": true
         },
