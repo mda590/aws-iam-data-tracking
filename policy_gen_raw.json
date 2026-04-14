@@ -9495,6 +9495,7 @@
                 "GetMetricStatistics",
                 "GetMetricStream",
                 "GetMetricWidgetImage",
+                "GetOTelEnrichment",
                 "GetService",
                 "GetServiceData",
                 "GetServiceLevelObjective",
@@ -9521,7 +9522,9 @@
                 "PutMetricStream",
                 "SetAlarmState",
                 "StartMetricStreams",
+                "StartOTelEnrichment",
                 "StopMetricStreams",
+                "StopOTelEnrichment",
                 "TagResource",
                 "UntagResource",
                 "UpdateServiceLevelObjective"
