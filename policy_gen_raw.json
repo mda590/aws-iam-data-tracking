@@ -12323,6 +12323,11 @@
             ],
             "ARNFormat": "arn:aws:personalize:${Region}:${Account}:${Resourcename}/${ResourceId}",
             "ARNRegex": "^arn:aws:personalize:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "AWS End User Messaging Social": {
