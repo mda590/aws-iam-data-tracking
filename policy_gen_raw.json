@@ -20663,6 +20663,7 @@
                 "ListTagsForResource",
                 "ListTemplates",
                 "PutCaseEventConfiguration",
+                "SearchAllRelatedItems",
                 "SearchCases",
                 "SearchRelatedItems",
                 "TagResource",
