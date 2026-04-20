@@ -7294,6 +7294,7 @@
                 "BatchGetCellRun",
                 "BatchPutAttributesMetadata",
                 "BatchPutLinkedTypes",
+                "CancelMessage",
                 "CancelMetadataGenerationRun",
                 "CancelSubscription",
                 "CreateAccountPool",
@@ -20686,6 +20687,7 @@
                 "UpdateCaseRule",
                 "UpdateField",
                 "UpdateLayout",
+                "UpdateRelatedItem",
                 "UpdateTemplate"
             ],
             "ARNFormat": "arn:aws:cases:${Region}:${Account}:domain/${DomainId}",
@@ -20694,6 +20696,8 @@
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
+                "cases:CreatedBy",
+                "cases:RelatedItemType",
                 "connect:UserArn"
             ],
             "HasResource": true
@@ -26258,6 +26262,7 @@
                 "GetAccessPointScope",
                 "GetBucketPolicy",
                 "GetEncryptionConfiguration",
+                "GetInventoryConfiguration",
                 "GetLifecycleConfiguration",
                 "GetMetricsConfiguration",
                 "ListAccessPointsForDirectoryBuckets",
@@ -26267,6 +26272,7 @@
                 "PutAccessPointScope",
                 "PutBucketPolicy",
                 "PutEncryptionConfiguration",
+                "PutInventoryConfiguration",
                 "PutLifecycleConfiguration",
                 "PutMetricsConfiguration",
                 "TagResource",
@@ -26284,6 +26290,7 @@
                 "s3express:BucketTag/${TagKey}",
                 "s3express:DataAccessPointAccount",
                 "s3express:DataAccessPointArn",
+                "s3express:InventoryAccessibleOptionalFields",
                 "s3express:LocationName",
                 "s3express:Permissions",
                 "s3express:ResourceAccount",
