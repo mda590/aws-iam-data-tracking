@@ -24521,6 +24521,7 @@
                 "DescribeCompute",
                 "DescribeContainerFleet",
                 "DescribeContainerGroupDefinition",
+                "DescribeContainerGroupPortMappings",
                 "DescribeEC2InstanceLimits",
                 "DescribeFleetAttributes",
                 "DescribeFleetCapacity",
