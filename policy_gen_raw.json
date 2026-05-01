@@ -9504,6 +9504,7 @@
             "Actions": [
                 "BatchGetServiceLevelIndicatorReport",
                 "BatchGetServiceLevelObjectiveBudgetReport",
+                "CallWithBearerToken",
                 "CreateServiceLevelObjective",
                 "DeleteAlarmMuteRule",
                 "DeleteAlarms",
