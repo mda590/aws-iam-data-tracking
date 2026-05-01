@@ -453,6 +453,7 @@ Amazon WorkLink
 Amazon WorkMail
 Amazon WorkMail Message Flow
 Amazon WorkSpaces
+Amazon WorkSpaces AgentAccess MCP Server
 Amazon WorkSpaces Application Manager
 Amazon WorkSpaces Secure Browser
 Amazon WorkSpaces Thin Client
