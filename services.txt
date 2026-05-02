@@ -277,6 +277,7 @@ Amazon CloudSearch
 Amazon CloudWatch
 Amazon CloudWatch Application Insights
 Amazon CloudWatch Application Signals
+Amazon CloudWatch Application Signals MCP Server
 Amazon CloudWatch Evidently
 Amazon CloudWatch Internet Monitor
 Amazon CloudWatch Logs
