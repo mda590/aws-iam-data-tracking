@@ -18437,15 +18437,6 @@
             ],
             "HasResource": true
         },
-        "AWS MCP Server": {
-            "StringPrefix": "aws-mcp",
-            "Actions": [
-                "CallReadOnlyTool",
-                "CallReadWriteTool",
-                "InvokeMcp"
-            ],
-            "HasResource": false
-        },
         "AWS Diagnostic tools": {
             "StringPrefix": "ts",
             "Actions": [
@@ -21633,6 +21624,19 @@
                 "ec2:SourceInstanceARN",
                 "ssm:SourceInstanceARN"
             ],
+            "HasResource": false
+        },
+        "Amazon Bio Discovery": {
+            "StringPrefix": "researchstudio",
+            "Actions": [
+                "AssignPrincipal",
+                "CreateApplication",
+                "DeleteApplication",
+                "DeletePrincipal",
+                "GetApplication",
+                "ListApplications"
+            ],
+            "ARNRegex": "^arn:${Partition}:researchstudio:.+:.+:.+",
             "HasResource": false
         },
         "AWS Billing": {
@@ -26004,8 +26008,10 @@
                 "CreateAccessPreview",
                 "CreateAnalyzer",
                 "CreateArchiveRule",
+                "CreateServiceLinkedAnalyzer",
                 "DeleteAnalyzer",
                 "DeleteArchiveRule",
+                "DeleteServiceLinkedAnalyzer",
                 "GenerateFindingRecommendation",
                 "GetAccessPreview",
                 "GetAnalyzedResource",

@@ -146,7 +146,6 @@ AWS Launch Wizard
 AWS License Manager
 AWS License Manager Linux Subscriptions Manager
 AWS License Manager User Subscriptions
-AWS MCP Server
 AWS MWAA Serverless
 AWS Mainframe Modernization Application Testing
 AWS Mainframe Modernization Service
@@ -268,6 +267,7 @@ Amazon Aurora DSQL
 Amazon Bedrock
 Amazon Bedrock Agentcore
 Amazon Bedrock Powered by AWS Mantle
+Amazon Bio Discovery
 Amazon Braket
 Amazon Chime
 Amazon Cloud Directory
