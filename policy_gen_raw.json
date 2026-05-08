@@ -26814,7 +26814,6 @@
                 "UpdatePaymentConnector",
                 "UpdatePaymentCredentialProvider",
                 "UpdatePaymentManager",
-                "UpdatePaymentSession",
                 "UpdatePolicy",
                 "UpdatePolicyEngine",
                 "UpdateRegistry",
