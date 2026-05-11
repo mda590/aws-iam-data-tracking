@@ -1770,6 +1770,7 @@
             "ARNRegex": "^arn:aws:aws-external-anthropic:.+",
             "conditionKeys": [
                 "aws-external-anthropic:BearerTokenType",
+                "aws-external-anthropic:CalledViaConsole",
                 "aws-external-anthropic:Capability",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
