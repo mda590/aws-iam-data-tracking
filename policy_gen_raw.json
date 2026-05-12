@@ -12160,7 +12160,9 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "logs:DeliveryDestinationResourceArn",
-                "logs:LogGeneratingResourceArns"
+                "logs:LogGeneratingResourceArns",
+                "logs:data_source_name",
+                "logs:data_source_type"
             ],
             "HasResource": true
         },
