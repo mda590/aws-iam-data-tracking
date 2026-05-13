@@ -9212,6 +9212,7 @@
             "StringPrefix": "odb",
             "Actions": [
                 "AcceptMarketplaceRegistration",
+                "AssociateIamRoleToResource",
                 "CreateCloudAutonomousVmCluster",
                 "CreateCloudExadataInfrastructure",
                 "CreateCloudVmCluster",
@@ -9228,6 +9229,7 @@
                 "DeleteOdbNetwork",
                 "DeleteOdbPeeringConnection",
                 "DeleteResourcePolicy",
+                "DisassociateIamRoleFromResource",
                 "GetCloudAutonomousVmCluster",
                 "GetCloudExadataInfrastructure",
                 "GetCloudExadataInfrastructureUnallocatedResources",
@@ -21697,6 +21699,7 @@
                 "GetBillingView",
                 "GetBillingViewData",
                 "GetContractInformation",
+                "GetCreditAllocationHistory",
                 "GetCredits",
                 "GetIAMAccessPreference",
                 "GetResourcePolicy",
@@ -27217,6 +27220,7 @@
             "Actions": [
                 "NotifyHeartbeat",
                 "SendTelemetry",
+                "SendTelemetryEvent",
                 "StartSession",
                 "StopSession"
             ],
