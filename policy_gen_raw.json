@@ -25126,6 +25126,7 @@
         "Amazon Elastic Container Service": {
             "StringPrefix": "ecs",
             "Actions": [
+                "ContinueServiceDeployment",
                 "CreateCapacityProvider",
                 "CreateCluster",
                 "CreateDaemon",
@@ -25229,6 +25230,7 @@
                 "ecs:enable-service-connect",
                 "ecs:enable-vpc-lattice",
                 "ecs:fargate-ephemeral-storage-kms-key",
+                "ecs:gateway",
                 "ecs:instance-metadata-tags-propagation",
                 "ecs:namespace",
                 "ecs:privileged",
