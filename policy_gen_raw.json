@@ -26056,6 +26056,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "transfer:RequestConnectorProtocol",
+                "transfer:RequestSecurityPolicyName",
                 "transfer:RequestServerDomain",
                 "transfer:RequestServerEndpointType",
                 "transfer:RequestServerProtocols"
