@@ -13464,6 +13464,7 @@
                 "DeleteEnvironmentConnector",
                 "DeleteEnvironmentHost",
                 "DisassociateEipFromVlan",
+                "GetDepotUrl",
                 "GetEnvironment",
                 "GetVersions",
                 "ListEnvironmentConnectors",
