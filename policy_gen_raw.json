@@ -8052,6 +8052,7 @@
                 "GetBackupVaultNotifications",
                 "GetBackupVaultSharingPolicy",
                 "GetLegalHold",
+                "GetPITRMalwareScanResults",
                 "GetRecoveryPointIndexDetails",
                 "GetRecoveryPointRestoreMetadata",
                 "GetRestoreJobMetadata",
