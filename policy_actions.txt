@@ -16563,6 +16563,7 @@ route53resolver:ListFirewallDomainLists
 route53resolver:ListFirewallDomains
 route53resolver:ListFirewallRuleGroupAssociations
 route53resolver:ListFirewallRuleGroups
+route53resolver:ListFirewallRuleTypes
 route53resolver:ListFirewallRules
 route53resolver:ListOutpostResolvers
 route53resolver:ListResolverConfigs
@@ -18319,6 +18320,7 @@ ses:PutEmailIdentityMailFromAttributes
 ses:PutEmailIdentityMailFromAttributes
 ses:PutIdentityPolicy
 ses:PutSuppressedDestination
+ses:PutTenantSuppressionAttributes
 ses:RegisterMemberToAddressList
 ses:ReorderReceiptRuleSet
 ses:ReplicateEmailIdentityDkimSigningKey
