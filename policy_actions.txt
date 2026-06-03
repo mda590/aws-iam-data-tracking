@@ -19887,6 +19887,7 @@ transform-custom:UpdateCampaign
 transform-custom:UpdateCampaignRepositoryStatus
 transform-custom:UpdateKnowledgeItemConfiguration
 transform-custom:UpdateKnowledgeItemStatus
+transform:AccessTransformProfile
 transform:AssociateConnectorResource
 transform:CreateProfile
 transform:DeleteAgentRuntimeConfiguration

@@ -13115,6 +13115,7 @@
         "AWS Transform": {
             "StringPrefix": "transform",
             "Actions": [
+                "AccessTransformProfile",
                 "AssociateConnectorResource",
                 "CreateProfile",
                 "DeleteAgentRuntimeConfiguration",
@@ -13141,6 +13142,7 @@
             "ARNRegex": "^arn:aws:transform:.+:.+:.+",
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
             ],
             "HasResource": true
