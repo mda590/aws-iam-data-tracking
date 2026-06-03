@@ -101,6 +101,7 @@ AWS End User Messaging SMS and Voice V2
 AWS End User Messaging Social
 AWS Entity Resolution
 AWS Fault Injection Service
+AWS FinOps Agent
 AWS Firewall Manager
 AWS Free Tier
 AWS Global Accelerator
