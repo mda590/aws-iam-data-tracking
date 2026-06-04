@@ -15215,6 +15215,7 @@ qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
 quicksight:BatchCreateTopicReviewedAnswer
+quicksight:BatchDeleteKnowledgeBase
 quicksight:BatchDeleteTopicReviewedAnswer
 quicksight:BatchGetPreferences
 quicksight:BatchUpdatePreferences
@@ -15240,6 +15241,7 @@ quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
 quicksight:CreateIngestion
 quicksight:CreateNamespace
+quicksight:CreateOAuthClientApplication
 quicksight:CreateReader
 quicksight:CreateRefreshSchedule
 quicksight:CreateRoleMembership
@@ -15275,7 +15277,9 @@ quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteIdentityPropagationConfig
+quicksight:DeleteKnowledgeBase
 quicksight:DeleteNamespace
+quicksight:DeleteOAuthClientApplication
 quicksight:DeleteRefreshSchedule
 quicksight:DeleteRoleCustomPermission
 quicksight:DeleteRoleMembership
@@ -15331,7 +15335,10 @@ quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
+quicksight:DescribeKnowledgeBase
+quicksight:DescribeKnowledgeBasePermissions
 quicksight:DescribeNamespace
+quicksight:DescribeOAuthClientApplication
 quicksight:DescribeQPersonalizationConfiguration
 quicksight:DescribeQuickIndexCapacity
 quicksight:DescribeQuickSightQSearchConfiguration
@@ -15388,7 +15395,9 @@ quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIdentityPropagationConfigs
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
+quicksight:ListKnowledgeBases
 quicksight:ListNamespaces
+quicksight:ListOAuthClientApplications
 quicksight:ListRefreshSchedules
 quicksight:ListRoleMemberships
 quicksight:ListSelfUpgrades
@@ -15406,6 +15415,7 @@ quicksight:ListTopicReviewedAnswers
 quicksight:ListTopics
 quicksight:ListUserGroups
 quicksight:ListUsers
+quicksight:ListUsersIndexCapacity
 quicksight:ListVPCConnections
 quicksight:PassDataSet
 quicksight:PassDataSource
@@ -15427,6 +15437,7 @@ quicksight:SearchDirectoryGroups
 quicksight:SearchFlows
 quicksight:SearchFolders
 quicksight:SearchGroups
+quicksight:SearchKnowledgeBases
 quicksight:SearchSpaces
 quicksight:SearchTopics
 quicksight:SearchUsers
@@ -15477,6 +15488,8 @@ quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
+quicksight:UpdateKnowledgeBasePermissions
+quicksight:UpdateOAuthClientApplication
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateQPersonalizationConfiguration
 quicksight:UpdateQuickIndexCapacity
@@ -17767,6 +17780,8 @@ security-ir:UpdateResolverType
 securityagent:AddArtifact
 securityagent:BatchDeleteCodeReviews
 securityagent:BatchDeletePentests
+securityagent:BatchDeleteThreatModels
+securityagent:BatchDeleteThreats
 securityagent:BatchGetAgentSpaces
 securityagent:BatchGetArtifactMetadata
 securityagent:BatchGetCodeReviewJobTasks
@@ -17778,6 +17793,10 @@ securityagent:BatchGetPentestJobTasks
 securityagent:BatchGetPentestJobs
 securityagent:BatchGetPentests
 securityagent:BatchGetTargetDomains
+securityagent:BatchGetThreatModelJobTasks
+securityagent:BatchGetThreatModelJobs
+securityagent:BatchGetThreatModels
+securityagent:BatchGetThreats
 securityagent:CreateAgentSpace
 securityagent:CreateApplication
 securityagent:CreateCodeReview
@@ -17788,6 +17807,8 @@ securityagent:CreateOneTimeLoginSession
 securityagent:CreatePentest
 securityagent:CreateSecurityRequirement
 securityagent:CreateTargetDomain
+securityagent:CreateThreat
+securityagent:CreateThreatModel
 securityagent:DeleteAgentSpace
 securityagent:DeleteApplication
 securityagent:DeleteArtifact
@@ -17824,12 +17845,18 @@ securityagent:ListResourcesFromIntegration
 securityagent:ListSecurityRequirements
 securityagent:ListTagsForResource
 securityagent:ListTargetDomains
+securityagent:ListThreatModelJobTasks
+securityagent:ListThreatModelJobs
+securityagent:ListThreatModels
+securityagent:ListThreats
 securityagent:PutDesignReviewFeedback
 securityagent:StartCodeRemediation
 securityagent:StartCodeReviewJob
 securityagent:StartPentestJob
+securityagent:StartThreatModelJob
 securityagent:StopCodeReviewJob
 securityagent:StopPentestJob
+securityagent:StopThreatModelJob
 securityagent:TagResource
 securityagent:ToggleManagedSecurityRequirement
 securityagent:UntagResource
@@ -17841,6 +17868,8 @@ securityagent:UpdateIntegratedResources
 securityagent:UpdatePentest
 securityagent:UpdateSecurityRequirement
 securityagent:UpdateTargetDomain
+securityagent:UpdateThreat
+securityagent:UpdateThreatModel
 securityagent:VerifyTargetDomain
 securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
