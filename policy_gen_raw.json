@@ -27037,6 +27037,7 @@
                 "GetWorkloadIdentity",
                 "InvokeAgentRuntime",
                 "InvokeAgentRuntimeCommand",
+                "InvokeAgentRuntimeCommandShell",
                 "InvokeAgentRuntimeForUser",
                 "InvokeAgentRuntimeWithWebSocketStream",
                 "InvokeAgentRuntimeWithWebSocketStreamForUser",
