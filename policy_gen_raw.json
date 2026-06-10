@@ -110,6 +110,21 @@
         "aws:username"
     ],
     "serviceMap": {
+        "AWS reInvent event pass amount charge to customer AWS account": {
+            "StringPrefix": "eventsbilltoaws",
+            "Actions": [
+                "approve",
+                "info"
+            ],
+            "ARNFormat": "arn:aws:eventsbilltoaws:${Region}:${Account}:${RelativeId}",
+            "ARNRegex": "^arn:aws:eventsbilltoaws:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon AI Operations": {
             "StringPrefix": "aiops",
             "Actions": [

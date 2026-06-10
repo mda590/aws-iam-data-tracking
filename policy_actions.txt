@@ -8169,6 +8169,8 @@ events:UpdateArchive
 events:UpdateConnection
 events:UpdateEndpoint
 events:UpdateEventBus
+eventsbilltoaws:approve
+eventsbilltoaws:info
 evidently:BatchEvaluateFeature
 evidently:CreateExperiment
 evidently:CreateFeature
