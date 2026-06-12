@@ -26926,6 +26926,7 @@
                 "SubmitPreAuthClaim",
                 "TagResource",
                 "UntagResource",
+                "UpdateFHIRDatastore",
                 "UpdateResource",
                 "ValidateResource",
                 "VersionReadResource"
