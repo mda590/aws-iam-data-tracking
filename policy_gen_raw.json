@@ -9798,6 +9798,7 @@
                 "GenerateQueryResultsSummary",
                 "GetAlarmMuteRule",
                 "GetDashboard",
+                "GetDataset",
                 "GetInsightRuleReport",
                 "GetMetricData",
                 "GetMetricStatistics",
@@ -9824,6 +9825,7 @@
                 "PutCompositeAlarm",
                 "PutDashboard",
                 "PutInsightRule",
+                "PutLogAlarm",
                 "PutManagedInsightRules",
                 "PutMetricAlarm",
                 "PutMetricData",
@@ -12227,6 +12229,8 @@
         "Amazon WorkSpaces AgentAccess MCP Server": {
             "StringPrefix": "agentaccess-mcp",
             "Actions": [
+                "CallForwardedTool",
+                "CheckConnectionStatus",
                 "DoubleClick",
                 "GetScreenshot",
                 "HoldKey",
@@ -12540,6 +12544,7 @@
                 "DescribeBrokerInstanceOptions",
                 "DescribeConfiguration",
                 "DescribeConfigurationRevision",
+                "DescribeSharedResources",
                 "DescribeUser",
                 "ListBrokers",
                 "ListConfigurationRevisions",
