@@ -735,17 +735,23 @@ application-autoscaling:TagResource
 application-autoscaling:UntagResource
 application-signals-mcp:CallReadOnlyTool
 application-signals-mcp:InvokeMcp
+application-signals:BatchDeleteInstrumentationConfigurations
 application-signals:BatchGetServiceLevelObjectiveBudgetReport
 application-signals:BatchUpdateExclusionWindows
+application-signals:CreateInstrumentationConfiguration
 application-signals:CreateServiceLevelObjective
 application-signals:DeleteGroupingConfiguration
+application-signals:DeleteInstrumentationConfiguration
 application-signals:DeleteServiceLevelObjective
+application-signals:GetInstrumentationConfiguration
+application-signals:GetInstrumentationConfigurationStatus
 application-signals:GetService
 application-signals:GetServiceLevelObjective
 application-signals:Link
 application-signals:ListAuditFindings
 application-signals:ListEntityEvents
 application-signals:ListGroupingAttributeDefinitions
+application-signals:ListInstrumentationConfigurations
 application-signals:ListObservedEntities
 application-signals:ListServiceDependencies
 application-signals:ListServiceDependents
@@ -756,6 +762,7 @@ application-signals:ListServiceStates
 application-signals:ListServices
 application-signals:ListTagsForResource
 application-signals:PutGroupingConfiguration
+application-signals:ReportInstrumentationConfigurationStatus
 application-signals:StartDiscovery
 application-signals:TagResource
 application-signals:UntagResource
@@ -12189,6 +12196,7 @@ logs:DeleteResourcePolicy
 logs:DeleteRetentionPolicy
 logs:DeleteScheduledQuery
 logs:DeleteSubscriptionFilter
+logs:DeleteSyslogConfiguration
 logs:DeleteTransformer
 logs:DescribeAccountPolicies
 logs:DescribeConfigurationTemplates
@@ -12242,6 +12250,7 @@ logs:ListLogGroupsForEntity
 logs:ListLogGroupsForQuery
 logs:ListScheduledQueries
 logs:ListSourcesForS3TableIntegration
+logs:ListSyslogConfigurations
 logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:ProcessWithPipeline
@@ -12263,6 +12272,7 @@ logs:PutQueryDefinition
 logs:PutResourcePolicy
 logs:PutRetentionPolicy
 logs:PutSubscriptionFilter
+logs:PutSyslogConfiguration
 logs:PutTransformer
 logs:StartLiveTail
 logs:StartQuery
