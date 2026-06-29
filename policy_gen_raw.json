@@ -22193,25 +22193,36 @@
             "Actions": [
                 "AcceptAgreement",
                 "AcceptNdaForAgreement",
+                "CreateComplianceInquiry",
+                "ExportComplianceInquiry",
                 "GetAccountSettings",
                 "GetAgreement",
+                "GetComplianceInquiryMetadata",
                 "GetCustomerAgreement",
                 "GetNdaForAgreement",
                 "GetReport",
                 "GetReportMetadata",
                 "GetTermForReport",
                 "ListAgreements",
+                "ListComplianceInquiries",
+                "ListComplianceInquiryQueries",
                 "ListCustomerAgreements",
                 "ListReportVersions",
                 "ListReports",
+                "ListTagsForResource",
                 "PutAccountSettings",
-                "TerminateAgreement"
+                "TagResource",
+                "TerminateAgreement",
+                "UntagResource"
             ],
             "ARNFormat": "arn:aws:artifact:::${Resource}",
             "ARNRegex": "^arn:aws:artifact::.+",
             "conditionKeys": [
                 "artifact:ReportCategory",
-                "artifact:ReportSeries"
+                "artifact:ReportSeries",
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
             ],
             "HasResource": true
         },
