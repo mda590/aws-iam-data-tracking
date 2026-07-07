@@ -11452,6 +11452,31 @@
             ],
             "HasResource": true
         },
+        "AWS Support Authorization": {
+            "StringPrefix": "supportauthz",
+            "Actions": [
+                "CreateSupportPermit",
+                "DeleteSupportPermit",
+                "GetAction",
+                "GetSupportPermit",
+                "ListActions",
+                "ListSupportPermitRequests",
+                "ListSupportPermits",
+                "ListTagsForResource",
+                "RegisterKey",
+                "RejectSupportPermitRequest",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:supportauthz:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:supportauthz:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Timestream": {
             "StringPrefix": "timestream",
             "Actions": [
@@ -11868,6 +11893,7 @@
                 "GetGroup",
                 "GetIdentityProviderByIdentifier",
                 "GetLogDeliveryConfiguration",
+                "GetProvisionedLimit",
                 "GetSigningCertificate",
                 "GetTokensFromRefreshToken",
                 "GetUICustomization",
@@ -11910,6 +11936,7 @@
                 "UpdateGroup",
                 "UpdateIdentityProvider",
                 "UpdateManagedLoginBranding",
+                "UpdateProvisionedLimit",
                 "UpdateResourceServer",
                 "UpdateTerms",
                 "UpdateUserAttributes",
