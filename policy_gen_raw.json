@@ -12360,20 +12360,28 @@
                 "Authenticate",
                 "AuthorizeOAuth2Access",
                 "CreateAccount",
+                "CreateOAuth2PublicClient",
                 "CreateOAuth2Token",
                 "CreateTrustedIdentityPropagationApplicationForConsole",
                 "DeleteConsoleAuthorizationConfiguration",
                 "DeleteResourcePermissionStatement",
                 "GetConsoleAuthorizationConfiguration",
                 "GetResourcePolicy",
+                "IntrospectOAuth2Token",
                 "ListResourcePermissionStatements",
                 "ListTrustedIdentityPropagationApplicationsForConsole",
                 "PutConsoleAuthorizationConfiguration",
-                "PutResourcePermissionStatement"
+                "PutResourcePermissionStatement",
+                "RevokeOAuth2Token"
             ],
             "ARNFormat": "arn:aws:signin:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:signin:.+",
             "conditionKeys": [
+                "signin:OAuthClientAuthentication",
+                "signin:OAuthClientId",
+                "signin:OAuthGrantType",
+                "signin:OAuthRedirectUri",
+                "signin:OAuthTokenType",
                 "signin:PrincipalArn"
             ],
             "HasResource": true
