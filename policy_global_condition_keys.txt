@@ -29,6 +29,7 @@ aws:ResourceOrgID
 aws:ResourceOrgPaths
 aws:ResourceTag/${TagKey}
 aws:SecureTransport
+aws:SignInSessionArn
 aws:SourceAccount
 aws:SourceArn
 aws:SourceIdentity
