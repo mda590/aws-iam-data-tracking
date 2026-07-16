@@ -12728,7 +12728,9 @@
             "Actions": [
                 "GetCarbonFootprintSummary",
                 "GetEstimatedCarbonEmissions",
-                "GetEstimatedCarbonEmissionsDimensionValues"
+                "GetEstimatedCarbonEmissionsDimensionValues",
+                "GetEstimatedWaterAllocation",
+                "GetEstimatedWaterAllocationDimensionValues"
             ],
             "ARNFormat": "arn:${Partition}:sustainability:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:${Partition}:sustainability:.+:.+:.+",
