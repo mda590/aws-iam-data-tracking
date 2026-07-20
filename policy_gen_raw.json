@@ -8202,11 +8202,13 @@
                 "ListTagsForResource",
                 "PutInvoiceEmailDeliveryPreferences",
                 "PutProcurementPortalPreference",
+                "SendProcurementPortalValidation",
                 "StartInvoiceCorrection",
                 "TagResource",
                 "UntagResource",
                 "UpdateInvoiceUnit",
-                "UpdateProcurementPortalPreferenceStatus"
+                "UpdateProcurementPortalPreferenceStatus",
+                "VerifyProcurementPortalValidation"
             ],
             "ARNFormat": "arn:aws:invoicing::${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:invoicing::.+:.+",
@@ -22749,11 +22751,19 @@
         "AWS Support Plans": {
             "StringPrefix": "supportplans",
             "Actions": [
+                "AcceptSupportAgreement",
+                "CancelSupportAgreement",
+                "CreateSupportAgreement",
                 "CreateSupportPlanSchedule",
+                "GetSupportAgreement",
                 "GetSupportPlan",
                 "GetSupportPlanUpdateStatus",
+                "ListSupportAgreementRevisions",
+                "ListSupportAgreements",
                 "ListSupportPlanModifiers",
-                "StartSupportPlanUpdate"
+                "RejectSupportAgreement",
+                "StartSupportPlanUpdate",
+                "UpdateSupportAgreement"
             ],
             "ARNFormat": "^arn:${Partition}:supportplans::${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:${Partition}:supportplans::.+:.+",
