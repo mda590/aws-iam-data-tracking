@@ -12724,6 +12724,11 @@
             "ARNFormat": "arn:aws:airflow:${Region}:${Account}:${ResourceType}/${ResourceName}",
             "ARNRegex": "^arn:aws:airflow:.+:.+:.+",
             "conditionKeys": [
+                "airflow:DagAccessEntity",
+                "airflow:ResourceAction",
+                "airflow:ResourceId",
+                "airflow:ResourceType",
+                "airflow:TeamName",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
