@@ -2703,6 +2703,7 @@
                 "SearchQuickConnects",
                 "SearchResourceTags",
                 "SearchRoutingProfiles",
+                "SearchRules",
                 "SearchSecurityProfiles",
                 "SearchUserHierarchyGroups",
                 "SearchUsers",
@@ -20399,7 +20400,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "gameliftstreams:RoleArn"
             ],
             "HasResource": true
         },
