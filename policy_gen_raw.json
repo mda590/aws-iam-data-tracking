@@ -28743,6 +28743,7 @@
                 "GetContactInformation",
                 "GetGovCloudAccountInformation",
                 "GetPrimaryEmail",
+                "GetPrimaryEmailUpdateStatus",
                 "GetRegionOptStatus",
                 "ListRegions",
                 "PutAccountName",
