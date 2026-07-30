@@ -20347,6 +20347,7 @@
         "AWS PricingPlanManager Service": {
             "StringPrefix": "pricingplanmanager",
             "Actions": [
+                "ApprovePaidSubscription",
                 "AssociateResourcesToSubscription",
                 "CancelSubscription",
                 "CancelSubscriptionChange",
