@@ -4305,6 +4305,17 @@
             ],
             "HasResource": true
         },
+        "Amazon Bedrock Web Search": {
+            "StringPrefix": "bedrock-websearch",
+            "Actions": [
+                "ExternalWebAccess",
+                "InvokeFetch",
+                "InvokeSearch"
+            ],
+            "ARNFormat": "arn:aws:bedrock-websearch:${Region}:${Account}:${ResourceType}/${ResourceName}",
+            "ARNRegex": "^arn:aws:bedrock-websearch:.+",
+            "HasResource": true
+        },
         "AWS Certificate Manager": {
             "StringPrefix": "acm",
             "Actions": [
@@ -21433,6 +21444,7 @@
                 "ListVPCConnections",
                 "PassDataSet",
                 "PassDataSource",
+                "PassTopic",
                 "PredictQAResults",
                 "PutDataSetRefreshProperties",
                 "QuickSuiteUsageMetrics",

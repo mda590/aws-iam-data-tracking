@@ -270,6 +270,7 @@ Amazon Aurora DSQL
 Amazon Bedrock
 Amazon Bedrock Agentcore
 Amazon Bedrock Powered by AWS Mantle
+Amazon Bedrock Web Search
 Amazon Bio Discovery
 Amazon Braket
 Amazon Chime
