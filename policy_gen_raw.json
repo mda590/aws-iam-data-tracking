@@ -6147,6 +6147,7 @@
                 "GetDirectQueryDataSource",
                 "GetDomainMaintenanceStatus",
                 "GetIndex",
+                "GetMigration",
                 "GetPackageVersionHistory",
                 "GetUpgradeHistory",
                 "GetUpgradeStatus",
@@ -6163,6 +6164,7 @@
                 "ListElasticsearchVersions",
                 "ListInsights",
                 "ListInstanceTypeDetails",
+                "ListMigrations",
                 "ListPackagesForDomain",
                 "ListScheduledActions",
                 "ListTags",
@@ -6182,6 +6184,7 @@
                 "RollbackServiceSoftwareUpdate",
                 "StartDomainMaintenance",
                 "StartElasticsearchServiceSoftwareUpdate",
+                "StartMigration",
                 "StartServiceSoftwareUpdate",
                 "UpdateApplication",
                 "UpdateDataSource",
@@ -22585,14 +22588,18 @@
         "Amazon Timestream InfluxDB": {
             "StringPrefix": "timestream-influxdb",
             "Actions": [
+                "CreateDbBackup",
                 "CreateDbCluster",
                 "CreateDbInstance",
                 "CreateDbParameterGroup",
+                "DeleteDbBackup",
                 "DeleteDbCluster",
                 "DeleteDbInstance",
+                "GetDbBackup",
                 "GetDbCluster",
                 "GetDbInstance",
                 "GetDbParameterGroup",
+                "ListDbBackups",
                 "ListDbClusters",
                 "ListDbInstances",
                 "ListDbInstancesForCluster",
@@ -22600,6 +22607,7 @@
                 "ListTagsForResource",
                 "RebootDbCluster",
                 "RebootDbInstance",
+                "RestoreFromDbBackup",
                 "TagResource",
                 "UntagResource",
                 "UpdateDbCluster",
@@ -22610,7 +22618,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "timestream-influxdb:RestoreMode"
             ],
             "HasResource": true
         },
