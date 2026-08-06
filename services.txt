@@ -1,6 +1,7 @@
 AWS Account Management
 AWS Action Recommendations
 AWS Activate
+AWS Agent Registry
 AWS Amplify
 AWS Amplify Admin
 AWS Amplify UI Builder
