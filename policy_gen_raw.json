@@ -7667,6 +7667,7 @@
                 "BatchGetCellRun",
                 "BatchPutAttributesMetadata",
                 "BatchPutLinkedTypes",
+                "BatchUpdateNotifications",
                 "CancelMessage",
                 "CancelMetadataGenerationRun",
                 "CancelSubscription",
