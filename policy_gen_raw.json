@@ -17778,6 +17778,30 @@
             ],
             "HasResource": true
         },
+        "Account access manager": {
+            "StringPrefix": "account-access",
+            "Actions": [
+                "CreateApplication",
+                "CreateEntitlement",
+                "DeleteApplication",
+                "DeleteEntitlement",
+                "GetApplication",
+                "GetEntitlement",
+                "ListApplications",
+                "ListEntitlements",
+                "ListTagsForResource",
+                "TagResource",
+                "UntagResource"
+            ],
+            "ARNFormat": "arn:aws:account-access:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:account-access:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Athena": {
             "StringPrefix": "athena",
             "Actions": [
