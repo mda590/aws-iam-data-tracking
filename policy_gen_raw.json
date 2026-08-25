@@ -6836,6 +6836,8 @@
                 "CreateUploadUrls",
                 "GetCustomerVerificationDetails",
                 "GetCustomerVerificationEligibility",
+                "GetInheritanceConfig",
+                "PutInheritanceConfig",
                 "UpdateCustomerVerificationDetails"
             ],
             "HasResource": false
