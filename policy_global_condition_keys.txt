@@ -44,6 +44,7 @@ aws:TokenIssueTime
 aws:UserAgent
 aws:ViaAWSMCPService
 aws:ViaAWSService
+aws:ViaCustomerDomain
 aws:VpcSourceIp
 aws:VpceAccount
 aws:VpceOrgID
