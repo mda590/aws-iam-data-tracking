@@ -10143,6 +10143,7 @@
                 "autoscaling:OperatorPrincipal",
                 "autoscaling:ResourceTag/${TagKey}",
                 "autoscaling:SpotPrice",
+                "autoscaling:TargetCapacityTypes",
                 "autoscaling:TargetGroupARNs",
                 "autoscaling:TrafficSourceIdentifiers",
                 "autoscaling:VPCZoneIdentifiers",
