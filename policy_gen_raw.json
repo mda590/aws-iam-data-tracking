@@ -15608,6 +15608,7 @@
                 "ListNetworkMigrationDeployedStacks",
                 "ListNetworkMigrationDeployedStacksDeletions",
                 "ListNetworkMigrationDeployments",
+                "ListNetworkMigrationExecutionArtifacts",
                 "ListNetworkMigrationExecutions",
                 "ListNetworkMigrationMapperSegmentConstructs",
                 "ListNetworkMigrationMapperSegments",
