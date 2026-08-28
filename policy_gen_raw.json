@@ -7498,6 +7498,7 @@
                 "CallWithBearerToken",
                 "CancelFineTuningJob",
                 "CancelInference",
+                "CountTokens",
                 "CreateCustomizedModel",
                 "CreateFile",
                 "CreateFineTuningJob",
