@@ -20680,6 +20680,7 @@
             "Actions": [
                 "AddAttachmentsToSet",
                 "AddCommunicationToCase",
+                "AddRelatedItemToCase",
                 "CreateCase",
                 "DescribeAttachment",
                 "DescribeCaseAttributes",
@@ -20689,6 +20690,7 @@
                 "DescribeCommunications",
                 "DescribeCreateCaseOptions",
                 "DescribeIssueTypes",
+                "DescribeRelatedItems",
                 "DescribeServices",
                 "DescribeSeverityLevels",
                 "DescribeSupportLevel",
@@ -20697,6 +20699,8 @@
                 "DescribeTrustedAdvisorCheckResult",
                 "DescribeTrustedAdvisorCheckSummaries",
                 "DescribeTrustedAdvisorChecks",
+                "DisconnectLiveContactForCase",
+                "DownloadAttachment",
                 "GetInteraction",
                 "InitiateCallForCase",
                 "InitiateChatForCase",
@@ -20711,7 +20715,8 @@
                 "SearchForCases",
                 "StartInteraction",
                 "UpdateCaseSeverity",
-                "UpdateInteraction"
+                "UpdateInteraction",
+                "UploadAttachment"
             ],
             "HasResource": false
         },
