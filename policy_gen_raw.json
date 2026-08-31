@@ -10243,6 +10243,7 @@
             "ARNRegex": "^arn:aws:agent-registry:.+:.+:.+",
             "conditionKeys": [
                 "agent-registry:RecordCreatorAccount",
+                "agent-registry:RecordSourceAccount",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
