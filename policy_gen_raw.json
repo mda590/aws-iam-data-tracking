@@ -14112,6 +14112,7 @@
                 "DeleteEnvironmentConnector",
                 "DeleteEnvironmentHost",
                 "DisassociateEipFromVlan",
+                "GetAccountSettings",
                 "GetDepotUrl",
                 "GetEnvironment",
                 "GetVersions",
@@ -14121,6 +14122,7 @@
                 "ListEnvironments",
                 "ListTagsForResource",
                 "ListVmEntitlements",
+                "PutAccountSettings",
                 "TagResource",
                 "UntagResource",
                 "UpdateEnvironmentConnector"
