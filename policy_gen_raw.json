@@ -2668,6 +2668,7 @@
                 "ListDataTables",
                 "ListDefaultVocabularies",
                 "ListEntitySecurityProfiles",
+                "ListEvaluationFormAIVersions",
                 "ListEvaluationFormVersions",
                 "ListEvaluationForms",
                 "ListExtractionDefinitions",
