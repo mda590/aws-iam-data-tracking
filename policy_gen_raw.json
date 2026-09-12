@@ -26159,6 +26159,8 @@
             "ARNFormat": "arn:aws:aidevops:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:aidevops:.+:.+:.+",
             "conditionKeys": [
+                "aidevops:SourceAgentSpaceArn",
+                "aidevops:TargetAgentSpaceArn",
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys"
