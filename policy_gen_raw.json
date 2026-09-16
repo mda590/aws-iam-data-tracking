@@ -23926,6 +23926,7 @@
         "AWS User Notifications": {
             "StringPrefix": "notifications",
             "Actions": [
+                "AccessSensitiveEvents",
                 "AssociateChannel",
                 "AssociateManagedNotificationAccountContact",
                 "AssociateManagedNotificationAdditionalChannel",
@@ -23963,9 +23964,11 @@
                 "ListTagsForResource",
                 "PutFeatureOptInStatus",
                 "RegisterNotificationHub",
+                "SubscribeSensitiveEvents",
                 "TagResource",
                 "UntagResource",
                 "UpdateEventRule",
+                "UpdateManagedNotificationChannelAssociation",
                 "UpdateNotificationConfiguration"
             ],
             "ARNFormat": "arn:aws:notifications::${Account}:${ResourceType}/${ResourceId}",
