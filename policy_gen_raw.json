@@ -28354,12 +28354,18 @@
         "AWS User Subscriptions": {
             "StringPrefix": "user-subscriptions",
             "Actions": [
+                "CancelPurchaseSession",
+                "ConfirmPurchaseSession",
                 "CreateClaim",
                 "CreateClaimAddOn",
+                "CreatePurchaseSession",
+                "CreateUpdatePlanPreview",
                 "DeleteAutoTopUpRule",
                 "DeleteClaim",
                 "GetAutoTopUpRule",
+                "GetCurrentPlanDetails",
                 "GetEffectiveUsageLimit",
+                "GetPurchaseSession",
                 "GetUsageLimitHistory",
                 "ListApplicationClaims",
                 "ListClaimAddOns",
