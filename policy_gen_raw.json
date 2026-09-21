@@ -5980,6 +5980,7 @@
                 "DisassociateAccounts",
                 "DisassociatePricingRules",
                 "GetBillingGroupCostReport",
+                "GetBillingTransferPreference",
                 "ListAccountAssociations",
                 "ListBillingGroupCostReports",
                 "ListBillingGroups",
@@ -5994,6 +5995,7 @@
                 "TagResource",
                 "UntagResource",
                 "UpdateBillingGroup",
+                "UpdateBillingTransferPreference",
                 "UpdateCustomLineItem",
                 "UpdatePricingPlan",
                 "UpdatePricingRule"
@@ -6003,7 +6005,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "billingconductor:PricingPlanArn"
             ],
             "HasResource": true
         },
