@@ -8048,7 +8048,9 @@
                 "UpdateManagedRuleSetVersionExpiryDate",
                 "UpdateRegexPatternSet",
                 "UpdateRuleGroup",
-                "UpdateWebACL"
+                "UpdateWebACL",
+                "ValidateNetworkSecurityManagerRuleConfiguration",
+                "ValidateNetworkSecurityManagerWebACLConfiguration"
             ],
             "ARNFormat": "arn:aws:wafv2:${Region}:${Account}:${Scope}/${ResourceType}/${ResourceName}/${ResourceId}",
             "ARNRegex": "^arn:aws:wafv2:.+:.+:.+/.+/.+/.+",
