@@ -174,6 +174,7 @@ AWS Migration Hub Strategy Recommendations
 AWS Network Firewall
 AWS Network Manager
 AWS Network Manager Chat
+AWS Network Security Manager
 AWS OpsWorks
 AWS OpsWorks Configuration Management
 AWS Organizations
