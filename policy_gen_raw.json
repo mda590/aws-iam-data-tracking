@@ -25506,6 +25506,7 @@
                 "ReleaseIpamPoolAllocation",
                 "ReplaceIamInstanceProfileAssociation",
                 "ReplaceImageCriteriaInAllowedImagesSettings",
+                "ReplaceImageInstanceTypeSpecification",
                 "ReplaceNetworkAclAssociation",
                 "ReplaceNetworkAclEntry",
                 "ReplaceRoute",
@@ -25556,6 +25557,7 @@
                 "UpdateInterruptibleCapacityReservationAllocation",
                 "UpdateSecurityGroupRuleDescriptionsEgress",
                 "UpdateSecurityGroupRuleDescriptionsIngress",
+                "ValidateSecurityGroupQuotasForInterface",
                 "WithdrawByoipCidr"
             ],
             "ARNFormat": "arn:aws:ec2:${Region}:${Account}:${ResourceType}/${ResourcePath}",
@@ -25577,6 +25579,7 @@
                 "ec2:AutoPlacement",
                 "ec2:AvailabilityZone",
                 "ec2:AvailabilityZoneId",
+                "ec2:BootModeOverride",
                 "ec2:CapacityReservationFleet",
                 "ec2:ClientRootCertificateChainArn",
                 "ec2:CloudwatchLogGroupArn",
