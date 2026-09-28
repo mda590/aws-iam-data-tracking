@@ -26114,6 +26114,7 @@
                 "ListPlansInRegion",
                 "ListRoute53HealthChecks",
                 "ListRoute53HealthChecksInRegion",
+                "ListServiceQuotaWarnings",
                 "ListTagsForResource",
                 "PutResourcePolicy",
                 "StartPlanExecution",
@@ -28851,6 +28852,15 @@
                 "servicequotas:service"
             ],
             "HasResource": true
+        },
+        "AWS Startups": {
+            "StringPrefix": "startups",
+            "Actions": [
+                "GetSpendSummary"
+            ],
+            "ARNFormat": "arn:${Partition}:startups:${Region}:${Account}:${ResourceType}",
+            "ARNRegex": "^arn:${Partition}:startups:.+:.+:.+",
+            "HasResource": false
         },
         "AWS RoboMaker": {
             "StringPrefix": "robomaker",
