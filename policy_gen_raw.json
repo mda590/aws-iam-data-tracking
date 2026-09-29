@@ -13182,6 +13182,7 @@
             "StringPrefix": "social-messaging",
             "Actions": [
                 "AssociateWhatsAppBusinessAccount",
+                "CreateWhatsAppDataset",
                 "CreateWhatsAppFlow",
                 "CreateWhatsAppMessageTemplate",
                 "CreateWhatsAppMessageTemplateFromLibrary",
@@ -13193,6 +13194,7 @@
                 "DisassociateWhatsAppBusinessAccount",
                 "GetLinkedWhatsAppBusinessAccount",
                 "GetLinkedWhatsAppBusinessAccountPhoneNumber",
+                "GetWhatsAppBusinessPublicKey",
                 "GetWhatsAppCallPermission",
                 "GetWhatsAppFlow",
                 "GetWhatsAppFlowPreview",
@@ -13207,7 +13209,9 @@
                 "PostWhatsAppMessageMedia",
                 "PublishWhatsAppFlow",
                 "PutWhatsAppBusinessAccountEventDestinations",
+                "PutWhatsAppBusinessPublicKey",
                 "SendWhatsAppCallEvent",
+                "SendWhatsAppConversionEvent",
                 "SendWhatsAppMessage",
                 "TagResource",
                 "UntagResource",
@@ -14345,7 +14349,8 @@
             "conditionKeys": [
                 "aws:RequestTag/${TagKey}",
                 "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys"
+                "aws:TagKeys",
+                "interconnect:RemoteAccount"
             ],
             "HasResource": true
         },
