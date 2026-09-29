@@ -131,7 +131,6 @@ AWS IoT
 AWS IoT Analytics
 AWS IoT Core Device Advisor
 AWS IoT Device Tester
-AWS IoT Events
 AWS IoT Fleet Hub for Device Management
 AWS IoT FleetWise
 AWS IoT Greengrass
