@@ -13474,11 +13474,13 @@
                 "ListTagsForResource",
                 "ListVectorBuckets",
                 "ListVectors",
+                "PutVectorBucketDefaultIndexMode",
                 "PutVectorBucketPolicy",
                 "PutVectors",
                 "QueryVectors",
                 "TagResource",
-                "UntagResource"
+                "UntagResource",
+                "UpdateIndexMode"
             ],
             "ARNFormat": "arn:aws:s3vectors:${Region}:${Account}:${ResourceType}",
             "ARNRegex": "^arn:aws:s3vectors:.+:.+:.+",
@@ -29312,7 +29314,9 @@
                 "PutAccountName",
                 "PutAlternateContact",
                 "PutContactInformation",
-                "StartPrimaryEmailUpdate"
+                "SendPhoneNumberVerification",
+                "StartPrimaryEmailUpdate",
+                "VerifyPhoneNumber"
             ],
             "ARNFormat": "arn:aws:account::${Account}:account",
             "ARNRegex": "^arn:aws:account::.+:account",
