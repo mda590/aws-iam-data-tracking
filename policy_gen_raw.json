@@ -7965,6 +7965,7 @@
                 "DescribeAllManagedProducts",
                 "DescribeManagedProductsByVendor",
                 "DescribeManagedRuleGroup",
+                "DescribeTopContributorsByEvent",
                 "DisassociateFirewallManager",
                 "DisassociateWebACL",
                 "GenerateMobileSdkReleaseUrl",
