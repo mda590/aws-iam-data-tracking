@@ -98,6 +98,7 @@ AWS Elemental MediaStore
 AWS Elemental MediaTailor
 AWS Elemental Support Cases
 AWS Elemental Support Content
+AWS End User Messaging
 AWS End User Messaging SMS and Voice V2
 AWS End User Messaging Social
 AWS Entity Resolution

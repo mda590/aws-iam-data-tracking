@@ -22124,6 +22124,46 @@
             "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
             "HasResource": false
         },
+        "AWS End User Messaging": {
+            "StringPrefix": "end-user-messaging",
+            "Actions": [
+                "CreateBrandProfile",
+                "CreateBrandProfileAttributes",
+                "CreateBrandProfileFromRegistration",
+                "CreateNotifyCodeConfiguration",
+                "CreateRegistrationsFromBrandProfile",
+                "DeleteBrandProfile",
+                "DeleteBrandProfileAttribute",
+                "DeleteNotifyCodeConfiguration",
+                "GetBrandProfile",
+                "GetBrandProfileAttribute",
+                "GetJob",
+                "GetNotifyCodeConfiguration",
+                "ListBrandProfileAttributes",
+                "ListBrandProfiles",
+                "ListJobs",
+                "ListNotifyCodeConfigurations",
+                "ListRegistrationsFromBrandProfile",
+                "ListTagsForResource",
+                "SendNotifyCodeVerification",
+                "TagResource",
+                "UntagResource",
+                "UpdateBrandProfile",
+                "UpdateBrandProfileAttribute",
+                "UpdateBrandProfileFromRegistration",
+                "UpdateNotifyCodeConfiguration",
+                "UpdateRegistrationsFromBrandProfile",
+                "ValidateNotifyCodeVerification"
+            ],
+            "ARNFormat": "arn:aws:end-user-messaging:${Region}:${Account}:${ResourceType}/${ResourceId}",
+            "ARNRegex": "^arn:aws:end-user-messaging:.+:.+:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
+            "HasResource": true
+        },
         "Amazon Kendra": {
             "StringPrefix": "kendra",
             "Actions": [
