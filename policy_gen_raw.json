@@ -10107,6 +10107,7 @@
                 "StopOTelEnrichment",
                 "StopTelemetryQuery",
                 "StopTelemetryQuerySession",
+                "SubmitAlarmFeedback",
                 "SubmitFeedback",
                 "TagResource",
                 "UntagResource",
