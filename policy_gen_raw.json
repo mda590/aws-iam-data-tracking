@@ -2360,6 +2360,7 @@
                 "ListJobs",
                 "ListLicenseEndpoints",
                 "ListLimits",
+                "ListMemberships",
                 "ListMeteredProducts",
                 "ListMonitors",
                 "ListQueueEnvironments",
@@ -29396,6 +29397,7 @@
                 "PutAccountName",
                 "PutAlternateContact",
                 "PutContactInformation",
+                "ReopenAccount",
                 "SendPhoneNumberVerification",
                 "StartPrimaryEmailUpdate",
                 "VerifyPhoneNumber"
