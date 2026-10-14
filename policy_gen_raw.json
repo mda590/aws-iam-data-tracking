@@ -18417,6 +18417,7 @@
                 "EnableDomainTransferLock",
                 "GetContactReachabilityStatus",
                 "GetDomainDetail",
+                "GetDomainPrices",
                 "GetDomainSuggestions",
                 "GetOperationDetail",
                 "ListDomains",
