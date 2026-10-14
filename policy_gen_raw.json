@@ -10156,6 +10156,7 @@
                 "aws:ResourceTag/${TagKey}",
                 "aws:TagKeys",
                 "cloudwatch:AlarmActions",
+                "cloudwatch:AlarmTagsPropagationEnabled",
                 "cloudwatch:HasAccessGrant",
                 "cloudwatch:ResourceArn",
                 "cloudwatch:namespace",
