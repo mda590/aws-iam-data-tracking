@@ -27440,6 +27440,7 @@
                 "DescribeWebApp",
                 "DescribeWebAppCustomization",
                 "DescribeWorkflow",
+                "ExportHostKey",
                 "ImportCertificate",
                 "ImportHostKey",
                 "ImportSshPublicKey",
