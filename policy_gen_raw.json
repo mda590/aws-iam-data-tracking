@@ -2024,6 +2024,7 @@
             "StringPrefix": "route53resolver",
             "Actions": [
                 "AssociateFirewallRuleGroup",
+                "AssociateFirewallRuleGroupWithService",
                 "AssociateResolverEndpointIpAddress",
                 "AssociateResolverQueryLogConfig",
                 "AssociateResolverRule",
