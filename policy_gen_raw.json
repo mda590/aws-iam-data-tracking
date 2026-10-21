@@ -1810,7 +1810,8 @@
                 "identitystore:PrimaryRegion",
                 "identitystore:ReservedUserId",
                 "identitystore:UserExternalIdIssuers",
-                "identitystore:UserId"
+                "identitystore:UserId",
+                "identitystore:VpceAccessRequired"
             ],
             "HasResource": true
         },
@@ -6029,6 +6030,7 @@
                 "DescribeTableReplicaAutoScaling",
                 "DescribeTimeToLive",
                 "DisableKinesisStreamingDestination",
+                "DisassociateTableReplica",
                 "EnableKinesisStreamingDestination",
                 "ExportTableToPointInTime",
                 "GetAbacStatus",
