@@ -65,6 +65,7 @@ AWS Config
 AWS Connector Service
 AWS Console Mobile App
 AWS Consolidated Billing
+AWS Continuum
 AWS Control Catalog
 AWS Control Tower
 AWS Cost Explorer Service
