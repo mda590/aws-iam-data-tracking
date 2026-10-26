@@ -14416,42 +14416,6 @@
             ],
             "HasResource": true
         },
-        "AWS CodeStar": {
-            "StringPrefix": "codestar",
-            "Actions": [
-                "AssociateTeamMember",
-                "CreateProject",
-                "CreateUserProfile",
-                "DeleteExtendedAccess",
-                "DeleteProject",
-                "DeleteUserProfile",
-                "DescribeProject",
-                "DescribeUserProfile",
-                "DisassociateTeamMember",
-                "GetExtendedAccess",
-                "ListProjects",
-                "ListResources",
-                "ListTagsForProject",
-                "ListTeamMembers",
-                "ListUserProfiles",
-                "PutExtendedAccess",
-                "TagProject",
-                "UntagProject",
-                "UpdateProject",
-                "UpdateTeamMember",
-                "UpdateUserProfile",
-                "VerifyServiceRole"
-            ],
-            "ARNFormat": "arn:aws:codestar:${Region}:${Account}:project/${ResourceId}",
-            "ARNRegex": "^arn:aws:codestar:.+:[0-9]+:project/.+",
-            "conditionKeys": [
-                "aws:RequestTag/${TagKey}",
-                "aws:ResourceTag/${TagKey}",
-                "aws:TagKeys",
-                "iam:ResourceTag/${TagKey}"
-            ],
-            "HasResource": true
-        },
         "AWS CodeArtifact": {
             "StringPrefix": "codeartifact",
             "Actions": [

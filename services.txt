@@ -56,7 +56,6 @@ AWS CodeConnections
 AWS CodeDeploy
 AWS CodeDeploy secure host commands service
 AWS CodePipeline
-AWS CodeStar
 AWS CodeStar Connections
 AWS CodeStar Notifications
 AWS Compute Optimizer
