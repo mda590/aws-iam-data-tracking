@@ -4445,6 +4445,7 @@
             "Actions": [
                 "BatchGetTraceSummaryById",
                 "BatchGetTraces",
+                "CallWithBearerToken",
                 "CancelTraceRetrieval",
                 "CreateGroup",
                 "CreateSamplingRule",
