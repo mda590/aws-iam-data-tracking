@@ -9736,6 +9736,7 @@
                 "UpdateAutonomousDatabaseBackup",
                 "UpdateCloudExadataInfrastructure",
                 "UpdateExadbVmCluster",
+                "UpdateExascaleCloudExadataInfrastructure",
                 "UpdateExascaleDbStorageVault",
                 "UpdateGrantShare",
                 "UpdateOdbNetwork",
@@ -28655,6 +28656,9 @@
                 "ListCustomPlugins",
                 "ListTagsForResource",
                 "ListWorkerConfigurations",
+                "PauseConnector",
+                "RestartConnector",
+                "ResumeConnector",
                 "TagResource",
                 "UntagResource",
                 "UpdateConnector"
