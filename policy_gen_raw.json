@@ -9867,6 +9867,7 @@
                 "ListProfiles",
                 "ListTagsForResource",
                 "TagResource",
+                "TestOtelConnection",
                 "UntagResource",
                 "UpdateCustomization",
                 "UpdateProfile"
@@ -12286,6 +12287,7 @@
                 "DescribeResourceServer",
                 "DescribeRiskConfiguration",
                 "DescribeTerms",
+                "DescribeTermsByClient",
                 "DescribeUserImportJob",
                 "DescribeUserPool",
                 "DescribeUserPoolClient",
@@ -12294,6 +12296,7 @@
                 "ForgetDevice",
                 "ForgotPassword",
                 "GetCSVHeader",
+                "GetClientToken",
                 "GetDevice",
                 "GetGroup",
                 "GetIdentityProviderByIdentifier",
@@ -13119,6 +13122,7 @@
         "Amazon Managed Workflows for Apache Airflow": {
             "StringPrefix": "airflow",
             "Actions": [
+                "AccessAirflowResource",
                 "CreateCliToken",
                 "CreateEnvironment",
                 "CreateWebLoginToken",
