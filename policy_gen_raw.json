@@ -21175,13 +21175,21 @@
                 "GetSpeechSynthesisTask",
                 "ListLexicons",
                 "ListSpeechSynthesisTasks",
+                "ListTagsForResource",
                 "PutLexicon",
                 "StartSpeechSynthesisStream",
                 "StartSpeechSynthesisTask",
-                "SynthesizeSpeech"
+                "SynthesizeSpeech",
+                "TagResource",
+                "UntagResource"
             ],
             "ARNFormat": "arn:aws:polly:${Region}:${Account}:lexicon/${RelativeId}",
             "ARNRegex": "^arn:aws:polly:${Region}:.+",
+            "conditionKeys": [
+                "aws:RequestTag/${TagKey}",
+                "aws:ResourceTag/${TagKey}",
+                "aws:TagKeys"
+            ],
             "HasResource": true
         },
         "Amazon Aurora DSQL": {
