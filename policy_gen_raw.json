@@ -12766,6 +12766,7 @@
             "Actions": [
                 "CallForwardedTool",
                 "CheckConnectionStatus",
+                "CloseSession",
                 "DoubleClick",
                 "GetScreenshot",
                 "GetSessionInfo",
@@ -22068,6 +22069,7 @@
                 "DescribeQuickIndexCapacity",
                 "DescribeQuickSightQSearchConfiguration",
                 "DescribeRefreshSchedule",
+                "DescribeResourcePermissions",
                 "DescribeRoleCustomPermission",
                 "DescribeSelfUpgradeConfiguration",
                 "DescribeSpace",
