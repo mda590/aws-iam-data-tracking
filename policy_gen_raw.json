@@ -1616,7 +1616,8 @@
         "AWS Marketplace Seller Reporting": {
             "StringPrefix": "aws-marketplace",
             "Actions": [
-                "GetSellerDashboard"
+                "GetSellerDashboard",
+                "GetSellerReportingData"
             ],
             "ARNFormat": "arn:aws:aws-marketplace::${Account}:${Catalog}/${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:aws-marketplace:.+",
@@ -6252,6 +6253,7 @@
                 "StartServiceSoftwareUpdate",
                 "SwitchoverReplication",
                 "UpdateApplication",
+                "UpdateClone",
                 "UpdateDataSource",
                 "UpdateDirectQueryDataSource",
                 "UpdateDomainConfig",
@@ -12779,6 +12781,7 @@
                 "CheckConnectionStatus",
                 "CloseSession",
                 "DoubleClick",
+                "ExecuteSequence",
                 "GetScreenshot",
                 "GetSessionInfo",
                 "HoldKey",
@@ -12795,7 +12798,8 @@
                 "Scroll",
                 "ToggleAppSwitcher",
                 "TripleClick",
-                "TypeText"
+                "TypeText",
+                "Wait"
             ],
             "ARNFormat": "arn:${Partition}:agentaccess-mcp:${Region}:${Account}:*",
             "ARNRegex": "^arn:${Partition}:agentaccess-mcp:.",
@@ -12810,6 +12814,7 @@
                 "Authenticate",
                 "AuthorizeOAuth2Access",
                 "CreateAccount",
+                "CreateBearerToken",
                 "CreateOAuth2PublicClient",
                 "CreateOAuth2Token",
                 "CreateTrustedIdentityPropagationApplicationForConsole",
@@ -13917,6 +13922,7 @@
                 "UpdateOrganizationConfiguration",
                 "UpdateSecurityControl",
                 "UpdateSecurityHubConfiguration",
+                "UpdateSecurityHubV2",
                 "UpdateStandardsControl"
             ],
             "ARNFormat": "arn:aws:securityhub:${Region}:${Account}:.+",
@@ -23214,6 +23220,7 @@
                 "PutProfilePolicy",
                 "TagResource",
                 "UntagResource",
+                "UpdateProfileAssociation",
                 "UpdateProfileResourceAssociation"
             ],
             "ARNFormat": "arn:aws:route53profiles:${Region}:${Account}:${ResourceType}/${ResourceId}",
@@ -26705,14 +26712,18 @@
                 "GetBacklogTask",
                 "GetCatalogCapability",
                 "GetChat",
+                "GetKnowledgeGraph",
                 "GetKnowledgeItem",
                 "GetOperatorApp",
+                "GetPlan",
                 "GetRecommendation",
                 "GetService",
                 "GetTrigger",
                 "InitiateChatForCase",
                 "ListAccessTokens",
+                "ListAgentSpaceMetrics",
                 "ListAgentSpaces",
+                "ListAssetChanges",
                 "ListAssetFiles",
                 "ListAssetTypes",
                 "ListAssetVersions",
@@ -26741,6 +26752,7 @@
                 "SearchAssets",
                 "SearchServiceAccessibleResource",
                 "SendMessage",
+                "StopPlan",
                 "TagResource",
                 "UntagResource",
                 "UpdateAgentSpace",
@@ -26761,6 +26773,7 @@
             "ARNFormat": "arn:aws:aidevops:${Region}:${Account}:${ResourceType}/${ResourcePath}",
             "ARNRegex": "^arn:aws:aidevops:.+:.+:.+",
             "conditionKeys": [
+                "aidevops:ApprovalTarget",
                 "aidevops:ServiceType",
                 "aidevops:SourceAgentSpaceArn",
                 "aidevops:TargetAgentSpaceArn",
