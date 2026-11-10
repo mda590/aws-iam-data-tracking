@@ -10161,6 +10161,7 @@
                 "GetSpace",
                 "GetSpaceCredentials",
                 "GetSpaceCredentialsForOrganization",
+                "GetSpaceDataAccess",
                 "GetTelemetryQueryResults",
                 "GetTopologyDiscoveryStatus",
                 "GetTopologyMap",
@@ -13469,6 +13470,7 @@
             "Actions": [
                 "AbortMultipartReadSetUpload",
                 "AcceptShare",
+                "AuthorizeRunProcessing",
                 "BatchDeleteReadSet",
                 "CancelAnnotationImportJob",
                 "CancelRun",
@@ -26352,6 +26354,7 @@
             "StringPrefix": "gamelift",
             "Actions": [
                 "AcceptMatch",
+                "AllowVendedLogDeliveryForResource",
                 "ClaimGameServer",
                 "CreateAlias",
                 "CreateBuild",
