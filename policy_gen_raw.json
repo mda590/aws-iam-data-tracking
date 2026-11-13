@@ -9692,6 +9692,7 @@
             "Actions": [
                 "AcceptMarketplaceRegistration",
                 "AssociateIamRoleToResource",
+                "AssociateVirtualMachinesToCloudVmCluster",
                 "AssociateVirtualMachinesToExadbVmCluster",
                 "CreateAutonomousDatabase",
                 "CreateAutonomousDatabaseBackup",
@@ -9719,6 +9720,7 @@
                 "DeleteOdbPeeringConnection",
                 "DeleteResourcePolicy",
                 "DisassociateIamRoleFromResource",
+                "DisassociateVirtualMachinesFromCloudVmCluster",
                 "DisassociateVirtualMachinesFromExadbVmCluster",
                 "FailoverAutonomousDatabase",
                 "GetAutonomousDatabase",
@@ -9773,7 +9775,10 @@
                 "UntagResource",
                 "UpdateAutonomousDatabase",
                 "UpdateAutonomousDatabaseBackup",
+                "UpdateCloudAutonomousVmCluster",
                 "UpdateCloudExadataInfrastructure",
+                "UpdateCloudExadataInfrastructureStorageCapacity",
+                "UpdateCloudVmCluster",
                 "UpdateExadbVmCluster",
                 "UpdateExascaleCloudExadataInfrastructure",
                 "UpdateExascaleDbStorageVault",
@@ -11361,7 +11366,9 @@
                 "RecordHandlerProgress",
                 "RegisterPublisher",
                 "RegisterType",
+                "RemoveAlias",
                 "RollbackStack",
+                "SetAlias",
                 "SetStackPolicy",
                 "SetTypeConfiguration",
                 "SetTypeDefaultVersion",
@@ -12809,6 +12816,7 @@
                 "CloseSession",
                 "DoubleClick",
                 "ExecuteSequence",
+                "GetCurrentUser",
                 "GetScreenshot",
                 "GetSessionInfo",
                 "HoldKey",
@@ -12823,6 +12831,7 @@
                 "MovePointer",
                 "RightClick",
                 "Scroll",
+                "SwitchUser",
                 "ToggleAppSwitcher",
                 "TripleClick",
                 "TypeText",
@@ -12831,6 +12840,8 @@
             "ARNFormat": "arn:${Partition}:agentaccess-mcp:${Region}:${Account}:*",
             "ARNRegex": "^arn:${Partition}:agentaccess-mcp:.",
             "conditionKeys": [
+                "agentaccess-mcp:ImageBuilderArn",
+                "agentaccess-mcp:LocalUser",
                 "agentaccess-mcp:StackArn"
             ],
             "HasResource": false
@@ -15580,7 +15591,8 @@
                 "identitycenter:ApplicationArn",
                 "identitycenter:InstanceArn",
                 "sso:ApplicationAccount",
-                "sso:PrimaryRegion"
+                "sso:PrimaryRegion",
+                "sso:VpceAccessRequired"
             ],
             "HasResource": true
         },
@@ -16144,6 +16156,7 @@
                 "ListFilters",
                 "ListFindings",
                 "ListIPSets",
+                "ListInvestigationRecords",
                 "ListInvestigations",
                 "ListInvitations",
                 "ListMalwareProtectionPlans",
