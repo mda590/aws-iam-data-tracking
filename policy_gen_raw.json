@@ -14282,6 +14282,7 @@
                 "ListThreatModels",
                 "ListThreats",
                 "PutDesignReviewFeedback",
+                "ResumePentestJob",
                 "StartCodeRemediation",
                 "StartCodeReviewJob",
                 "StartPentestJob",
