@@ -1,3 +1,5 @@
+AWS API Portal
+AWS Abuse Signal API
 AWS Account Management
 AWS Action Recommendations
 AWS Activate
@@ -34,6 +36,7 @@ AWS Billing And Cost Management Recommended Actions
 AWS Billing Conductor
 AWS Billing Console
 AWS Billing and Cost Management Dashboards
+AWS Billing and Cost Management Data Hub
 AWS Budget Service
 AWS BugBust
 AWS Certificate Manager
@@ -82,6 +85,7 @@ AWS Diagnostic tools
 AWS Direct Connect
 AWS Directory Service
 AWS Directory Service Data
+AWS Edge Analytics Platform
 AWS Elastic Beanstalk
 AWS Elastic Disaster Recovery
 AWS Elastic Load Balancing
@@ -202,7 +206,7 @@ AWS Resource Access Manager (RAM)
 AWS Resource Explorer
 AWS Resource Groups
 AWS RoboMaker
-AWS Route53 Global Resolver
+AWS Route 53 Global Resolver
 AWS SQL Workbench
 AWS Savings Plans
 AWS Secrets Manager
@@ -398,6 +402,7 @@ Amazon Nova Act
 Amazon One Enterprise
 Amazon OpenSearch
 Amazon OpenSearch Ingestion
+Amazon OpenSearch Memory
 Amazon OpenSearch Serverless
 Amazon OpenSearch Service
 Amazon Personalize
