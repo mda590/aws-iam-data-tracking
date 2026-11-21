@@ -260,6 +260,7 @@ AWS WAF V2
 AWS Well-Architected Tool
 AWS Wickr
 AWS WorkSpaces Managed Instances
+AWS Workload Telemetry Service
 AWS X-Ray
 AWS reInvent event pass amount charge to customer AWS account
 AWS rePost Private
