@@ -13331,6 +13331,7 @@
             "ARNFormat": "arn:aws:signin:${Region}:${Account}:${ResourceType}/${ResourceId}",
             "ARNRegex": "^arn:aws:signin:.+",
             "conditionKeys": [
+                "signin:MaxSigninSessionDuration",
                 "signin:OAuthClientAuthentication",
                 "signin:OAuthClientId",
                 "signin:OAuthGrantType",
